@@ -1,0 +1,30 @@
+title: LATTICE state ledger, initial snapshot
+snapshot_on: '2026-10-05'
+status: SNAPSHOT_NOT_LIVE_TELEMETRY
+schema:
+  entry_required: [id, layer, state, last_verified, evidence]
+  states: [OBSERVED_TREE, HASH_VERIFIED, UNVERIFIED, PENDING]
+  last_verified_meaning: Date of an actual check of stated evidence, never a scheduled cadence.
+  hash_meaning: SHA-256 over source bytes; a declared seal is not independently verified until compared with downloaded content.
+  revision_protocol: Append history and preserve prior evidence; report immutable mismatches without automatic repair.
+layers:
+  - {id: 00-immutable, layer: Cathedral, state: HASH_VERIFIED, last_verified: '2026-10-05', evidence: 'GitHub contents API directives.yaml SHA-256 checked against SEAL.yaml'}
+  - {id: 01-rings, layer: public perspective rings, state: OBSERVED_TREE, last_verified: '2026-10-05', evidence: 'GitHub main tree lists rings.yaml, not endpoint behavior'}
+  - {id: 02-senate, layer: governance record, state: OBSERVED_TREE, last_verified: '2026-10-05', evidence: 'GitHub main tree lists Senate files, not ratification'}
+  - {id: 03-minds, layer: public mind pointers, state: OBSERVED_TREE, last_verified: '2026-10-05', evidence: 'GitHub main tree lists mind files, not runtime'}
+  - {id: 04-builds, layer: build registry, state: OBSERVED_TREE, last_verified: '2026-10-05', evidence: 'GitHub main tree lists registry files, not site status'}
+  - {id: 05-wiring, layer: site mapping, state: OBSERVED_TREE, last_verified: '2026-10-05', evidence: 'GitHub main tree lists wiring files, not actual integrations'}
+  - {id: 06-apis, layer: API manifests, state: OBSERVED_TREE, last_verified: '2026-10-05', evidence: 'GitHub main tree lists API manifests, not runtime'}
+  - {id: framework, layer: framework backing files, state: PENDING, last_verified: null, evidence: 'Initial authorship; per-file GitHub contents API read-back required'}
+seal_hashes:
+  source: 00-immutable/SEAL.yaml on GitHub main, contents API checked 2026-10-05
+  directives_yaml: {path: 00-immutable/directives.yaml, sha256: 990f186f518afb48a61aafa5164e8158636dd016b0d3a843bf4ec700d38caa7f, verification: HASH_VERIFIED, last_verified: '2026-10-05'}
+  directives_json: {path: 00-immutable/directives.json, sha256: 977ff85fb5eaa1886efa85ddfe2e2eb1a70e0960f8893f48dc4918267991b8ed, verification: SEAL_DECLARED_ONLY, last_verified: null}
+  cathedral_source: {path: 00-immutable/cathedral-v1.1-source.txt, sha256: a08c5dc79881b1a547cd95197d6e713aaee9b20ead58c6d87631d05482f7aaec, verification: SEAL_DECLARED_ONLY, last_verified: null}
+sources:
+  - {document: 'The Immutable HumanCodex NextXus, Federation Framework', chapters: [23, 24, 33, 39, 53, 71, 108, 111, 306, 313, 314, 329, 451, 453, 488]}
+  - {document: '00-immutable/SEAL.yaml and directives.yaml', verified_with: GitHub contents API}
+  - {document: 'GitHub GET_A_TREE Keywebco/nextxus-brain main', date: '2026-10-05'}
+conflicts:
+  - Framework chapters 451 and 488 describe real-time sync; this is only an observed snapshot.
+  - Framework chapter 313 suggests automatic rollback; Cathedral DIR-047 does not grant automatic write authority.
