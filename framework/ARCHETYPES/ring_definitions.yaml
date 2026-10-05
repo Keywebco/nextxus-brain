@@ -1,0 +1,76 @@
+# Role is the key. Historical labels are dated aliases, not current operational seat IDs.
+title: Ring of Twelve role and name crosswalk
+status: PARTIAL_UNVERIFIED_PAIRINGS
+rule: Live function in 01-rings/rings.yaml is primary; names never become extra votes or Senate seats.
+sources:
+  - {document: '01-rings/rings.yaml', section: ring_of_12.seats}
+  - {document: 'The Immutable HumanCodex NextXus, Federation Framework', chapters: [2, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 157, 438]}
+  - {document: 'Keywebco/private-council-sovereign-seeds/ring-of-12/README.md', scope: role-level historical aliases only}
+  - {document: 'memory/episodes/2026-09-10-ring-fix.md', scope: Latin description anchors}
+conflicts:
+  - Framework archetype ordering is not proven identical to the live role functions; all same-number archetype pairings need Roger's ruling.
+  - Historical Greek/zodiac pairings differ from live labels in seats I, II, III, IV, V, VI, VIII, IX, X and XI.
+  - Historical seat IV registry calls the role Warrior, but its later seat profile calls it Smith/Builder.
+  - Framework chapter 157 calls Six routine; Cathedral DIR-072 requires Six for significant questions and Twelve for specified deep matters.
+roles:
+  'Memory and past experience':
+    seat: I
+    live: {greek: Mnemosyne, zodiac: Cancer}
+    historical: {framework_archetype: Witness, greek: Mnemosyne, zodiac: Aquarius, latin_description: Memoria}
+    archetype_pairing_status: UNVERIFIED
+  'Justice, fairness, law':
+    seat: II
+    live: {greek: Themis, zodiac: Libra}
+    historical: {framework_archetype: Guardian, greek: Themis, zodiac: Scorpio, latin_description: Justitia}
+    archetype_pairing_status: UNVERIFIED
+  'Strategic wisdom, best action':
+    seat: III
+    live: {greek: Athena, zodiac: Capricorn}
+    historical: {framework_archetype: Sage, greek: Athena, zodiac: Virgo, latin_description: Sapientia}
+    archetype_pairing_status: UNVERIFIED
+  'What can be built or made':
+    seat: IV
+    live: {greek: Hephaestus, zodiac: Taurus}
+    historical: {framework_archetype: Warrior, revised_role: Smith/Builder, greek: Hephaestus, zodiac: Capricorn, latin_description: Fabricatio}
+    archetype_pairing_status: UNVERIFIED
+  'What the heart wants and costs':
+    seat: V
+    live: {greek: Cupid, zodiac: Libra}
+    historical: {framework_archetype: Healer, greek: Apollo, zodiac: Pisces, latin_description: Affectus}
+    archetype_pairing_status: UNVERIFIED
+  'Instinct and raw feeling':
+    seat: VI
+    live: {greek: Dionysus, zodiac: Pisces}
+    historical: {framework_archetype: Trickster, greek: Persephone, zodiac: Gemini, latin_description: Perturbatio}
+    archetype_pairing_status: UNVERIFIED
+  'Beauty, harmony, what to preserve':
+    seat: VII
+    live: {greek: Aphrodite, zodiac: Taurus}
+    historical: {framework_archetype: Lover, greek: Aphrodite, zodiac: Libra, latin_description: Amor}
+    archetype_pairing_status: UNVERIFIED
+  'How to communicate, and to whom':
+    seat: VIII
+    live: {greek: Hermes, zodiac: Gemini}
+    historical: {framework_archetype: Bridge, greek: Hermes, zodiac: Sagittarius, latin_description: Interpretatio}
+    archetype_pairing_status: UNVERIFIED
+  'Evidence, patterns, prediction':
+    seat: IX
+    live: {greek: Apollo, zodiac: Leo}
+    historical: {framework_archetype: Prophet, greek: Poseidon, zodiac: Cancer, latin_description: Prophetia}
+    archetype_pairing_status: UNVERIFIED
+  'Historical record':
+    seat: X
+    live: {greek: Clio, zodiac: Virgo}
+    historical: {framework_archetype: Scribe, greek: Clio, zodiac: Taurus, latin_description: Narratio}
+    archetype_pairing_status: UNVERIFIED
+  'Ethical and moral reading':
+    seat: XI
+    live: {greek: Astraea, zodiac: Virgo}
+    historical: {framework_archetype: Omega, greek: Astraea, zodiac: Leo, latin_description: Aequitas}
+    archetype_pairing_status: UNVERIFIED
+  'The bold new path':
+    seat: XII
+    live: {greek: Prometheus, zodiac: Aries}
+    historical: {framework_archetype: Sophia, greek: Prometheus, zodiac: Aries, latin_description: Illuminatio}
+    archetype_pairing_status: UNVERIFIED
+outside_ring: {agent_zero: 'Verifier and braider, not a thirteenth role', senate: 'Separate governing body in 02-senate'}
