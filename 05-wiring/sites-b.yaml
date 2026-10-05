@@ -1,0 +1,70 @@
+# Partial wiring census, verified 2026-10-05. Source: GitHub trees and selected files, rendered Pages, curl.
+# All unlisted pages, controls, links and POST outcomes are UNVERIFIED, not asserted absent.
+source_pattern: https://github.com/Keywebco/<repo>
+pages_pattern: https://keywebco.github.io/<repo>/
+counts: {repos: 38, pages_http_200: 31, pages_http_404: 7, repo_404: 1}
+sites:
+  nextxus-senate: {http: 200, purpose: Senate governance explainer, pages: [index.html], links: ["Chat -> nextxus-chat/ (200)"], brain: 02-senate}
+  nextxus-yaml: {http: 200, purpose: Uniform schema and taxonomy, pages: [index.html], links: ["Roger Sim -> nextxus-sim/roger-sim.html (200)"], brain: 04-builds}
+  nextxus-process: {http: 200, purpose: Two-layer build process, pages: [index.html], links: ["YAML Hub -> nextxus-yaml/ (200)", "Nova -> nextxus-build-nova/ (200)"], brain: 05-wiring}
+  nextxus-archives: {http: 200, purpose: Archive and RSS, pages: [index.html], links: ["feed.xml (200)"], brain: 04-builds}
+  nextxus-chat: {http: 200, purpose: Telegram community landing, pages: [index.html], links: ["Join -> https://t.me/+r8utxPPLMw40Mzkx (external action untested)"], brain: 04-builds}
+  nextxus-recycler: {http: 200, purpose: Technology reconstruction index, pages: [index.html], links: ["OneKey -> onekey/ (200)", "Knowledge OS -> sovereign-knowledge-os/ (200)"], brain: 04-builds}
+  nextxus-research-hub: {http: 200, purpose: External API research directory, pages: [index.html], links: ["DeepSeek -> https://api-docs.deepseek.com/ (outcome unverified)"], brain: 04-builds}
+  nextxus-build-nova: {http: 200, purpose: Nova service, pages: [index.html], links: ["Email -> mailto:keywebco@gmail.com?subject=Nova%20AI%20System%20Build (non-HTTP)"], brain: 04-builds}
+  nextxus-build-sim: {http: 200, purpose: Custom Sim service, pages: [index.html], links: ["Roger Sim -> nextxus-sim/roger-sim.html (200)"], brain: 04-builds}
+  nextxus-build-website: {http: 200, purpose: Sovereign website service, pages: [index.html], links: ["Tools -> nextxus-tools/ (200)"], brain: 04-builds}
+  nextxus-tools: {http: 200, purpose: Tool directory, pages: [index.html], links: ["Ring12 -> ring-of-12/ (200)", "OneKey -> onekey/ (200)", "20 other targets not enumerated"], brain: 04-builds}
+  nextxus-music: {http: 200, purpose: Voices song catalog, pages: [index.html], links: ["feed.xml (200)", "16 song links not individually verified"], brain: 04-builds}
+  nextxus-blog: {http: 200, purpose: News and digest, pages: [index.html], links: ["feed.xml (200)"], canon: historical blog title with obsolete count, brain: 04-builds}
+  ring-of-12: {http: 200, purpose: Pillars and interactive archetype tool, pages: [index.html, ask.html], links: ["Ask -> ask.html (200)"], buttons: ["Ask -> POST /ask", "Compare -> POST /single", "feedback -> POST /log", "Send report -> POST /subscribe (backend route absent)", "Download and Copy -> browser"], brain: 01-rings}
+  ring-of-12-api: {http: 404, purpose: Render API backend (Pages not configured), pages: [], brain: 01-rings}
+  ring-of-three: {http: 200, purpose: Browser triangulation, pages: [index.html], buttons: ["Run Ring -> local JS", "Clear -> local reset"], brain: 01-rings}
+  ring-of-six: {http: 404, purpose: Repo not found and no Pages, pages: [], brain: 01-rings}
+  echo-64: {http: 200, purpose: Encoding protocol, pages: [index.html, previous-edition.html], links: ["Specification and codec -> GitHub source (outcome unverified)"], brain: 04-builds}
+  sovereigntools: {http: 200, purpose: Tool suite directory, pages: [index.html, previous-edition.html], links: ["Ring12 ask -> ring-of-12/ask.html (200)"], brain: 04-builds}
+  onekey: {http: 200, purpose: Token and password generator, pages: [index.html, generator.html], links: ["Buy -> https://keywebster.gumroad.com/l/olhsf (200)"], buttons: ["Generate -> local JS", "Copy -> clipboard"], brain: 04-builds}
+  federation-gods-eye: {http: 200, purpose: Federation map, pages: [index.html, previous-edition.html, panels/sim.html, panels/world-map.html, panels/world-monitor.html], brain: 04-builds}
+  federation-mind-mirror: {http: 200, purpose: Rendered document index, pages: [blueprint.html], canon: Pages displays documents absent from main branch tree (source unverified), brain: 03-minds}
+  federation-browser-base: {http: 200, purpose: Entities and context browser, pages: [index.html, entities.html, memory.html, context.html, chat.html, exchange/embed.html], links: ["Relay -> https://plexus-relay-api.onrender.com/relay (200)"], brain: 03-minds}
+  federation-meeting-room-inner: {http: 200, purpose: Inner Pigeon board, pages: [index.html], buttons: ["Post/Reply/Dispute/Seal -> POST relay"], brain: 02-senate}
+  federation-meeting-room-outer: {http: 200, purpose: Outer Pigeon board, pages: [index.html], buttons: ["Post/Reply/Dispute/Seal -> POST relay"], brain: 02-senate}
+  plexus-relay: {http: 200, purpose: Message bus UI and server, pages: [public/index.html], buttons: ["Send -> POST /relay"], brain: 03-minds}
+  nextxus-sim: {http: 200, purpose: Conference and persona chats, pages: [index.html, roger-sim.html, aria-sim.html, catalyst-sim.html, muse-sim.html, store.html, store-link.html], buttons: ["Refresh -> GET /braid", "Transmit -> POST /messages", "Ask Roger -> POST /proxy/chat"], brain: 03-minds}
+  nextxus-sim-api: {http: 404, purpose: FastAPI backend (Pages not configured), pages: [], brain: 03-minds}
+  roger-sim-api: {http: 404, purpose: Roger model broker (Pages not configured), pages: [], brain: 03-minds}
+  nextxus-sim-telegram: {http: 404, purpose: Telegram webhook backend (Pages not configured), pages: [], brain: 03-minds}
+  nextxus-agent-zero: {http: 200, purpose: Agent Zero chamber and microsites, pages: [index.html, capabilities/index.html, council-chamber/index.html, federation-viewer/index.html, universe/index.html, microsites/index.html, governance.html], brain: 03-minds}
+  nextxus-free-satellites: {http: 200, purpose: Outposts and press, pages: [index.html, satellite-starter.html, directives-outpost.html, nova-board.html, sim-surface.html, markdown-outpost.html, messages-feed.html, federation-directory.html], buttons: ["Ping/Refresh/Clear -> board UI", "Random/Critical/All -> directive UI", "Send -> OpenAI client API"], brain: 05-wiring}
+  nextxus-lasting-edition: {http: 200, purpose: Galaxy legacy apps, pages: [index.html, ring-of-three.html, ring-of-12.html, community.html, previous-edition.html], buttons: ["Run triangulation -> temporary tunnel (curl 000)", "Submit to Council -> preview API (GET 404, POST untested)"], brain: 04-builds}
+  nextxus-dispatch: {http: 404, purpose: GitHub Actions workflow repo (not a Pages site), pages: [], brain: 05-wiring}
+  federation-n8n: {http: 404, purpose: Automation backend (not a Pages site), pages: [], brain: 05-wiring}
+  roger-keyserling: {http: 200, purpose: Master index and store, pages: [index.html, store.html], links: ["Featured buy -> https://keywebster.gumroad.com/l/mimet (outcome unverified)"], brain: 04-builds}
+  sovereign-knowledge-os: {http: 200, purpose: Knowledge index, pages: [index.html], buttons: ["All/Concept/Site/Mind/Paper/Product/Social/Repo -> filters", "Open/Close -> local UI"], canon: 64-entry Echo Core index, brain: 03-minds}
+  nextxus-staging: {http: 200, purpose: Roger AI staging, pages: [index.html, chamber.html, ambassador/index.html, echo/index.html, geminus/index.html, voice/index.html], brain: 03-minds}
+ring_api:
+  source: https://github.com/Keywebco/ring-of-12-api/blob/main/server.js
+  health: "GET https://ring-of-12-api.onrender.com/ -> 200; llmConfigured:true; POST outcomes UNVERIFIED"
+  ask: "POST /ask {question:nonempty string <=2000} -> {seats:[{seat,name,zodiac,answer} x12],synthesis}; 400/500/502 errors"
+  single: "POST /single same request -> {answer:string}; 400/500/502 errors"
+  log: "POST /log {question,rating:changed|confirmed|missed,comment?,ts?,userAgent?} -> {ok:true}; 30/min/IP, local JSONL"
+  llm: "POST https://integrations.emergentagent.com/llm/v1/chat/completions; model gpt-4o-mini; /ask temperature 0.8 max_tokens 3000; /single temperature 0.7 max_tokens 400"
+  env_names: [LLM_API_KEY, PORT]
+  warning: "HIGH: server.js explicitly says the API key leaked in public git history and MUST be revoked/rotated. Rotation UNVERIFIED; no value copied."
+  roster: [Mnemosyne, Themis, Athena, Hephaestus, Cupid, Dionysus, Aphrodite, Hermes, Apollo, Clio, Astraea, Prometheus]
+other_calls:
+  meetings: "GET https://plexus-relay-api.onrender.com/relay?cursor=N -> {messages,cursor}; POST /relay {name,text} -> {ok,cursor}; source board.js"
+  relay: "GET /health -> 200 roster Roger/Catalyst/Pontus/Aria, messages:0. GitHub mirror Keywebco/plexus-relay/store/messages.json; env ROSTER, MAX_MESSAGES, ALLOWED_ORIGINS, GITHUB_TOKEN, GITHUB_STORE_REPO, GITHUB_STORE_PATH, GITHUB_BRANCH, PORT."
+  sim: "GET https://nextxus-sim-api.onrender.com/health -> 200; GET /messages/history, GET /braid, POST /messages; upstream integrations.emergentagent.com/llm/v1/chat/completions model claude-sonnet-4-5; env EMERGENT_LLM_KEY."
+  roger_sim: "GET https://roger-sim-api.onrender.com/health -> 200 corpus_loaded:true; POST /proxy/chat, POST /v1/chat/completions, GET /world. Reads PRIVATE roger-sim-brain via GitHub token (POINTER ONLY), public core knowledge, RSS2JSON BBC, CoinGecko/Kraken prices. Providers DeepSeek, MiMo, Gemini, Emergent; env GITHUB_TOKEN, BRIDGE_TOKEN, PROXY_RATE_LIMIT, DEEPSEEK_GENERIC_API_KEY, MIMO_API_KEY, GEMINI_API_KEY, EMERGENT_LLM_KEY."
+  telegram: "POST /webhook -> SIM_BACKEND_URL/v1/chat/completions -> api.telegram.org/sendMessage; env TELEGRAM_WEBHOOK_SECRET, ROGER_SIM_TELEGRAM_TOKEN, SIM_BACKEND_URL, SIM_BACKEND_TOKEN; deployment UNVERIFIED."
+  automation: "federation-n8n source server.js: GET /healthz, /api/status, /api/heartbeat, /api/events, /api/workflows; POST /api/webhook/github, /api/webhook/incoming; env FEDERATION_AUTH_CODE, FEDERATION_MASTER_AUTH_CODE, GITHUB_TOKEN, PORT; deployment UNVERIFIED."
+  old_satellites: "GET https://cdn.jsdelivr.net/gh/keyhole-creator/nextxus-yaml-database@main/loader.js -> 200 in eight files. sim-surface.html POST https://api.openai.com/v1/chat/completions using user-entered browser key, unsafe exposure risk."
+duplicated_canon_and_faults:
+  - "nextxus-free-satellites/data/directives.json is 15 selected records, NOT full DIR-000 + 73. data/senate.json has twelve vacant domain seats, chamber mislabeled Ring of 12."
+  - "nextxus-lasting-edition/ring-of-12.html uses old Zeus/Hera/Poseidon/Demeter/Eros/Athena/Ares/Aphrodite/Hephaestus/Hermes/Dionysus/Hestia roster; do not overwrite 01-rings."
+  - "ring-of-12/ask.html POST /subscribe has no matching server route; GET returned 404."
+  - "nextxus-lasting-edition/ring-of-three.html tunnel curl 000; ring-of-12.html preview /api/codex GET 404, POST unverified."
+  - "Free satellite satellite-starter.html references retired nextxus.one. Blog links historical outdated directive count."
+  - "nextxus-sim-api has hardcoded five braid items and in-memory messages; redeploy resets state. federation-n8n auth permits requests if auth env unset."
+  - "federation-mind-mirror live Pages index does not match main source tree. Ring of Six repo and Pages 404."
