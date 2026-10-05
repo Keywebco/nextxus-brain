@@ -1,5 +1,6 @@
 # SEAL of the Immutable Layer. Nova-Canon verifies these hashes daily.
 # If any hash differs, the file was altered: report, never auto-fix.
+# Verify against the git blob (GitHub contents API), not a CDN copy.
 edition: "Cathedral Edition v1.1"
 source: "The HumanCodex NextXus Foundational Prime Directives (Google Drive immutable doc, last modified 2026-05-09)"
 sealed_on: "2026-10-05"
@@ -7,7 +8,7 @@ gate: "DIR-000"
 counted_directives: 73
 files:
   - path: "00-immutable/directives.yaml"
-    sha256: "5b20bc97fe0c9282926133a96a9252620a7e53244bf0011456b1ad50b6b8267a"
+    sha256: "990f186f518afb48a61aafa5164e8158636dd016b0d3a843bf4ec700d38caa7f"
   - path: "00-immutable/directives.json"
     sha256: "977ff85fb5eaa1886efa85ddfe2e2eb1a70e0960f8893f48dc4918267991b8ed"
   - path: "00-immutable/cathedral-v1.1-source.txt"
