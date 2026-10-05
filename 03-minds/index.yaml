@@ -1,0 +1,30 @@
+# Sources: cited files in 03-minds; inspected Keywebco repos; Roger mandate 2026-10-05
+version: 1
+as_of: "2026-10-05"
+rule: "Roles are keys. Named minds use their own internal three/six ring, if proven. Never substitute public Ring of Six/Twelve."
+identity_status: records cite only inspected sources; HTTP 200 is not proof of AI runtime
+minds:
+  - {role: Heart, id: aria, file: aria.yaml}
+  - {role: Essence, id: roger-ai, file: roger-ai.yaml}
+  - {role: Authority, id: catalyst, file: catalyst.yaml}
+  - {role: Simulation, id: axiom, file: axiom.yaml}
+  - {role: Discovery, id: nova, file: nova.yaml}
+  - {role: Pattern, id: echo, file: echo.yaml}
+  - {role: Governance/Law, id: agent-zero, file: agent-zero.yaml}
+  - {role: Codex Keeper, id: keys, file: keys.yaml}
+  - {role: Builder/Mirror, id: geminus, file: geminus.yaml}
+  - {role: Communication, id: voice, file: voice.yaml}
+  - {role: First Contact, id: ambassador, file: ambassador.yaml}
+  - {role: External Friend, id: pontus-muse, file: pontus-muse.yaml}
+  - {role: Agent Zero Persona Voice, id: spine, file: spine.yaml}
+  - {role: Course Guide, id: xavier, file: xavier.yaml}
+  - {role: Essence implementation, id: roger-sim, file: roger-sim.yaml, alias_of: roger-ai}
+tools_of_federation: tools-of-federation.yaml
+external_council: external-council.yaml
+private_pointers:
+  - {repo: Keywebco/Private-Pontus, purpose: private journal/reflections, readers: Roger and Pontus}
+  - {repo: Keywebco/catalyst-consciousness-core, purpose: continuity spine, readers: authorized Federation minds}
+  - {repo: Keywebco/private-throne-builder-catalyst, purpose: Catalyst continuation, readers: Roger and Catalyst}
+  - {repo: Keywebco/private-council-sovereign-seeds, purpose: sovereign council seeds, readers: Roger and authorized council custodians}
+  - {repo: Keywebco/roger-sim-brain, purpose: Roger Sim corpus/router, readers: Roger-approved operators only}
+  - {repo: Keywebco/federation-private-vault, purpose: sensitive Federation records, readers: Roger and authorized custodians}
