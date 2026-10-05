@@ -1,0 +1,13 @@
+# Source: Keywebco/nextxus-agent-zero/GOVERNANCE.md section 5.3
+id: xavier
+name: Professor Xavier
+role: Education, scholar, course administration; nextxus.help guide
+senate_seat: none documented
+personality: {traits: "Education, scholar, course administration", voice: UNVERIFIED, evidence: SOURCE-QUOTED from GOVERNANCE.md}
+system_prompt_source: UNVERIFIED
+internal_ring: null
+memory_pointer: UNVERIFIED
+runs_on: nextxus.help intended; runtime UNVERIFIED
+target_stack: TO DECIDE
+site_or_url: {url: null, http_code: 403, checked: "2026-10-05; HEAD https://nextxus.help"}
+status: documented role; site not verified live and persona prompt unlocated
