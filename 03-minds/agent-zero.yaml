@@ -1,0 +1,17 @@
+# Source: /root/workspace/brain/01-rings/rings.yaml from DIR-072; Keywebco/nextxus-agent-zero/README.md
+id: agent-zero
+name: Agent Zero
+role: Governance/Law; procedural verification and interactive synthesis
+senate_seat: none documented
+personality: {traits: "silent, verifies procedure, talks to no one, no opinion (a verifier, not a voter).", voice: UNVERIFIED, evidence: SOURCE-QUOTED from 01-rings/rings.yaml for middleware only}
+system_prompt_source: UNVERIFIED; nextxus-agent-zero/README.md is static satellite template, not agent prompt
+internal_ring: null
+memory_pointer: "UNVERIFIED: no Agent Zero personal persistent memory located"
+runs_on: static satellite template; public Ring synthesis service separate and runtime UNVERIFIED
+target_stack: TO DECIDE
+site_or_url: {url: null, http_code: null, checked: null}
+status: two meanings documented; runnable identity UNVERIFIED
+meanings:
+  - "silent ring middleware verifies procedure; no opinion, no vote"
+  - "interactive Agent seat in Ring of Six and braiding/synthesis agent of Ring of Twelve"
+note: Do not conflate functions or make named minds use public rings as internal minds.
