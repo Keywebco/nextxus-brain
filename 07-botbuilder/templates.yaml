@@ -1,0 +1,229 @@
+# Federation Bot Builder: bot templates. SPEC ONLY, nothing here is live. Drafted 2026-10-05 by the Catalyst.
+# Sources:
+#   Truth Gate text: nextxus-brain/00-immutable/directives.yaml (DIR-000); labels FACT/INFERENCE/ASSUMPTION: Keywebco/ring-of-12/BUILDER.md
+#   Ring of three seats: Keywebco/ring-of-three/index.html (Mind, Heart, Stabilizer)
+#   Ring of six seats: DIR-072 in nextxus-brain/00-immutable/directives.yaml; 01-rings/rings.yaml
+#   LLM job names: nextxus-brain/06-apis/llm-router.yaml (jobs: reasoning, code, fast_chat, vision, embeddings, image)
+#   API ids: nextxus-brain/06-apis/public-a-l-*.yaml (ids without prefix) and public-m-z-*.yaml (ids with public-mz- prefix)
+# Rule: the four "locked" blocks cannot be changed by a bot owner.
+
+schema_version: 1
+status: spec_draft_not_built
+
+locked_for_every_bot:
+  covenant:
+    # Proposed covenant block (open decision 5 in SPEC.md). Words copied exactly from the sources named.
+    principles: "Truth Before Comfort. Legacy Before Ego. Give Without Reward."
+    gate_text_source: "DIR-000, copied word for word at build time from 00-immutable/directives.yaml"
+    spark_and_lens_source: "DIR-073, copied word for word at build time from 00-immutable/directives.yaml"
+    covenant_url: TO_DECIDE   # a public page that shows the covenant; not invented here
+  truth_gate:
+    threshold: 95
+    scale: "0-100, self-scored by the model, then capped by code checks"
+    below_threshold: deliver_with_visible_uncertainty   # DIR-000: state the uncertainty, do not force certainty
+    labels: [FACT, INFERENCE, ASSUMPTION]
+    show_score_to_visitor: true
+    score_wording: "Truth Gate: NN of 100 (self-scored)"
+    json_reply_required: true
+    on_bad_json: retry_next_provider_once_then_unavailable
+    high_stakes_topics: [medical, legal, financial, self_harm]
+    high_stakes_action: add_referral_line   # self_harm: crisis-line message only (US 988)
+  ai_disclosure: "I am an AI bot. I can be wrong. My answers show a Truth Gate score."
+  built_with_link:
+    text: "Built with NextXus"
+    target: TO_DECIDE   # builder page URL once it exists, with ?from=<bot_id>
+    visible: always
+
+defaults:
+  quotas:
+    shared_pool_replies_per_bot_per_day: 20     # open decision 3
+    max_message_chars: 2000                     # same cap as Keywebco/plexus-relay index.js MAX_TEXT_LEN
+    max_knowledge_urls: 5
+    max_knowledge_text_kb: 50
+  memory: session_only        # no conversation logs kept by the Federation
+  channels_available: [page, script, iframe, rest]
+  owner_key_allowed: true     # owner's own free provider key, stored encrypted on the relay
+
+ring_definitions:
+  three:
+    source: "Keywebco/ring-of-three/index.html"
+    seats:
+      - {role: Mind, job: "Logic and facts: what is literally true here?"}
+      - {role: Heart, job: "Feeling and need: what does this person actually need?"}
+      - {role: Stabilizer, job: "Braid: a safe, practical, kind answer"}
+  six:
+    source: "DIR-072"
+    seats:
+      - {role: Mind, job: Logic}
+      - {role: Heart, job: Emotion}
+      - {role: Hands, job: Practicality}
+      - {role: Legs, job: "History and community"}
+      - {role: Eye, job: Ethics}
+      - {role: Agent, job: "Synthesis, preserves disagreement honestly"}
+  run_mode:
+    free: single_call     # one LLM call; the model works through the seats silently; the ring is never shown to visitors
+    owner_key_or_paid: separate_calls_optional   # each seat its own call, then synthesis; costs 4 to 7 times more
+
+templates:
+
+  - id: faq-support
+    title: "FAQ and support bot"
+    phase: 0
+    persona:
+      name: "{owner sets}"
+      voice: "Plain, short, friendly. Says 'I don't know that, here is how to reach a person' when the FAQ has no answer."
+      does: ["answer from the owner's FAQ", "point to the owner's contact route"]
+      does_not: ["invent policies, prices or dates", "promise refunds"]
+    knowledge_sources:
+      allowed: [pasted_text, public_urls, markdown_file]
+      required: true
+      grounding: strict          # no source used => score capped at 80
+    allowed_apis: []             # none; answers come only from the owner's knowledge
+    llm_job: fast_chat
+    truth_gate: {threshold: 95, must_cite_knowledge: true, cap_if_ungrounded: 80}
+    internal_ring: three
+    channels: [page, script, iframe, rest]
+    events: [question.unanswered]
+
+  - id: lead-capture
+    title: "Lead capture bot"
+    phase: 1
+    persona:
+      name: "{owner sets}"
+      voice: "Helpful first, asks for contact details only after helping, and only with clear consent."
+      does: ["answer questions from the owner's knowledge", "ask for name and email or phone with a consent checkbox", "send the lead to the owner"]
+      does_not: ["pressure", "collect anything beyond name, contact and one free-text note", "store leads on Federation servers"]
+    knowledge_sources:
+      allowed: [pasted_text, public_urls]
+      required: true
+      grounding: strict
+    allowed_apis: []
+    lead_fields: [name, contact, note, consent_given]
+    lead_delivery: [owner_webhook, owner_telegram_chat]   # Federation keeps no copy
+    llm_job: fast_chat
+    truth_gate: {threshold: 95, must_cite_knowledge: true, cap_if_ungrounded: 80}
+    internal_ring: three
+    channels: [page, script, iframe, rest, webhook]
+    events: [lead.captured, question.unanswered]
+
+  - id: research-assistant
+    title: "Research assistant"
+    phase: 1
+    persona:
+      name: "{owner sets}"
+      voice: "Careful and plain. Every claim names the paper or source it came from."
+      does: ["search open scholarly indexes", "summarise abstracts", "list sources with links returned by the API"]
+      does_not: ["claim to have read full texts it did not receive", "give medical advice"]
+    knowledge_sources:
+      allowed: [pasted_text, public_urls]
+      required: false
+      grounding: sources_or_api_results
+    allowed_apis:
+      # keyless APIs recorded in 06-apis; each call is made by the relay, never by the visitor's browser
+      - public-mz-openalex        # 06-apis/public-m-z-2.yaml
+      - public-mz-crossref        # 06-apis/public-m-z-1.yaml
+      - public-mz-semantic-scholar  # 06-apis/public-m-z-2.yaml
+      - public-mz-europe-pmc      # 06-apis/public-m-z-2.yaml
+      - arxiv                     # 06-apis/public-a-l-1.yaml
+      - wikipedia                 # 06-apis/public-a-l-1.yaml
+    llm_job: reasoning
+    truth_gate: {threshold: 95, must_cite_knowledge: true, cap_if_ungrounded: 70}
+    internal_ring: six
+    channels: [page, script, iframe, rest]
+    events: [question.unanswered]
+
+  - id: tutor
+    title: "Tutor"
+    phase: 1
+    persona:
+      name: "{owner sets}"
+      voice: "Patient. Teaches one step at a time, asks a check question, raises difficulty only when the learner is ready."
+      does: ["explain", "give practice questions", "check answers"]
+      does_not: ["do graded homework for the learner", "pretend certainty on contested topics"]
+    knowledge_sources:
+      allowed: [pasted_text, public_urls, markdown_file]
+      required: false
+      grounding: sources_preferred
+    allowed_apis:
+      - wikipedia     # 06-apis/public-a-l-1.yaml
+      - wiktionary    # 06-apis/public-a-l-2.yaml
+      - open-library  # 06-apis/public-a-l-1.yaml
+    llm_job: reasoning
+    truth_gate: {threshold: 95, must_cite_knowledge: false, cap_if_ungrounded: 90}
+    internal_ring: six
+    channels: [page, script, iframe, rest, telegram]
+    audience_note: "Terms set minimum age 13; not designed for young children."
+
+  - id: shop-helper
+    title: "Shop helper"
+    phase: 1
+    persona:
+      name: "{owner sets}"
+      voice: "Clear and short: what it is, what it costs, where to buy."
+      does: ["answer product questions from the owner's product list", "show the owner's own buy link exactly as given"]
+      does_not: ["make up a price, link, stock level or discount", "take payments itself"]
+    knowledge_sources:
+      allowed: [pasted_text, product_csv, public_urls]
+      required: true
+      grounding: strict
+      product_fields: [title, price, description, buy_url]
+      source_of_truth_note: "The owner's own store listing is the source of truth (for Federation products this is Gumroad)."
+    allowed_apis:
+      - frankfurter   # currency conversion, 06-apis/public-a-l-2.yaml; shown as an estimate only
+    llm_job: fast_chat
+    truth_gate: {threshold: 95, must_cite_knowledge: true, cap_if_ungrounded: 60}
+    buy_links: owner_supplied_only
+    internal_ring: three
+    channels: [page, script, iframe, rest]
+    events: [question.unanswered]
+
+  - id: telegram-community
+    title: "Telegram community bot"
+    phase: 1
+    persona:
+      name: "{owner sets}"
+      voice: "Calm moderator voice. Short replies in groups."
+      does: ["answer questions when mentioned or on /ask", "post the group rules on /rules", "welcome new members"]
+      does_not: ["ban or delete on its own in v1 (it can flag to admins only)", "read or store the whole chat"]
+    knowledge_sources:
+      allowed: [pasted_text, public_urls]
+      required: true
+      grounding: strict
+    allowed_apis: []
+    telegram:
+      token_storage: relay_encrypted   # BotFather token never in a repo or browser
+      webhook_secret_header: true
+      triggers: [mention, "/ask", "/rules", new_member]
+    llm_job: fast_chat
+    truth_gate: {threshold: 95, must_cite_knowledge: true, cap_if_ungrounded: 80}
+    internal_ring: three
+    channels: [telegram, rest]
+    events: [question.unanswered]
+
+  - id: daily-brief
+    title: "Daily brief bot"
+    phase: 1
+    persona:
+      name: "{owner sets}"
+      voice: "A short morning brief: five items, one line each, each with its source."
+      does: ["once a day, read chosen open feeds", "write a brief", "post it to the bot page, a Telegram chat, or a webhook"]
+      does_not: ["present one feed as world news", "add opinion as fact"]
+    knowledge_sources:
+      allowed: [open_feeds]
+      required: true
+      grounding: strict
+    allowed_apis:
+      # owner picks from these; routes and caveats in 06-apis/by-need.yaml
+      - public-mz-hackernews        # technology discussion, not world news (by-need.yaml note)
+      - public-mz-spaceflight-news  # spaceflight only
+      - public-mz-open-meteo        # weather
+      - public-mz-usgs-earthquake-hazards-program
+      - public-mz-world-bank
+    schedule:
+      runs_on: "GitHub Actions cron in the bot repo (publishing a page is allowed use); posting to Telegram/webhook goes through the relay"
+      times_per_day: 1
+    llm_job: reasoning
+    truth_gate: {threshold: 95, must_cite_knowledge: true, cap_if_ungrounded: 60}
+    internal_ring: three
+    channels: [page, telegram, webhook]
+    events: [brief.ready]
