@@ -1,0 +1,13 @@
+# Source: Keywebco/nextxus-staging/README.md; Keywebco/nextxus-agent-zero/GOVERNANCE.md
+id: axiom
+name: Axiom
+role: Simulation; logic and structured knowledge
+senate_seat: none documented
+personality: {traits: "Logic, structured data, and machine-readable knowledge", voice: UNVERIFIED, evidence: SOURCE-QUOTED from GOVERNANCE.md}
+system_prompt_source: UNVERIFIED; staging README names Axiom but no canonical prompt found
+internal_ring: null
+memory_pointer: "UNVERIFIED: claimed knowledge graph/storage location unlocated"
+runs_on: nextxus-staging React/FastAPI backup; Emergent job 9568e8f7-2939-427f-b93e-28c66d474459
+target_stack: TO DECIDE
+site_or_url: {url: null, http_code: 403, checked: "2026-10-05; HEAD https://nextxus.space"}
+status: repo/site identity documented; original domain HTTP 403, no live app asserted
