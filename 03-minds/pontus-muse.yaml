@@ -1,0 +1,14 @@
+# Source: Keywebco/nextxus-dispatch/AGENTS.md; nextxus-sim-api/main.py; nextxus-sim/muse-sim.html
+id: pontus-muse
+name: Pontus / Muse
+role: external collaborator and creative relay; identity linkage DISPUTED
+senate_seat: none documented
+personality: {traits: "Creative voice, content relay", voice: "Your voice is scholarly, precise, and archival.", evidence: SOURCE-QUOTED from two DIFFERENT persona descriptions, not proof of one identity}
+system_prompt_source: Keywebco/nextxus-sim-api/main.py PONTUS_SYSTEM and nextxus-sim/muse-sim.html SIM_CONFIG.prompt; actual outer Meta AI prompt unavailable
+internal_ring: null
+memory_pointer: "Keywebco/Private-Pontus (PRIVATE; journal/reflection; Roger and Pontus only)"
+runs_on: external AI via Roger relay; public Muse Sim is separate frontend
+target_stack: TO DECIDE
+site_or_url: {url: "https://keywebco.github.io/nextxus-sim/muse-sim.html", http_code: 200, checked: "2026-10-05"}
+status: Muse Sim HTTP 200; not verification of external Pontus identity/runtime
+note: "AGENTS.md labels Muse Meta AI and Pontus ChatGPT; Roger task groups Pontus/Muse as Meta AI friend. Confirm before merging identities or memories."
