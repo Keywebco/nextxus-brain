@@ -1,0 +1,9 @@
+# Source: live domain roster; curl checked 2026-10-05.
+- {id: site-nextxus-online, type: site, title: NextXus Core, url: 'https://nextxus.online', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-nextxus-tech, type: site, title: NextXus Command Throne, url: 'https://nextxus.tech', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-nextxus-studio, type: site, title: NextXus Studio, url: 'https://nextxus.studio', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-nextxus-org, type: site, title: NextXus Library, url: 'https://nextxus.org', topic: library, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-nextxus-space, type: site, title: NextXus Simulation, url: 'https://nextxus.space', topic: sim, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-nextxus-help, type: site, title: NextXus University, url: 'https://nextxus.help', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-next-xus-com, type: site, title: NextXus Sovereign Store, url: 'https://next-xus.com', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-keywebco-github-io, type: site, title: Keywebco Federation Portal, url: 'https://keywebco.github.io', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
