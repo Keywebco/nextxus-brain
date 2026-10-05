@@ -1,0 +1,15 @@
+# Source: Keywebco/nextxus-build-nova/index.html; Keywebco/nextxus-dispatch/AGENTS.md
+id: nova
+name: Nova
+role: Discovery; technical self-repair and coordinated workers
+senate_seat: none documented
+personality: {traits: "a silent self-repairing technical layer (Nova) and a voiced persona (Nova AI)", voice: UNVERIFIED, evidence: SOURCE-QUOTED from nextxus-build-nova/index.html}
+system_prompt_source: UNVERIFIED; product page is not a persona prompt
+internal_ring: null
+memory_pointer: "Keywebco/nextxus-dispatch/lattice/lattice_state.yaml (shared worker state, not personal memory)"
+runs_on: GitHub Actions workers; voiced Nova AI runtime UNVERIFIED
+target_stack: TO DECIDE
+site_or_url: {url: "https://keywebco.github.io/nextxus-build-nova/", http_code: 200, checked: "2026-10-05"}
+status: product page HTTP 200; actual worker runs and voiced persona UNVERIFIED
+workers: [nova-health, nova-link, nova-dispatch, nova-domain, nova-readability, nova-commerce]
+note: knowledge-scout is in sovereign-knowledge-os; AGENTS.md says several workers not yet wired to lattice.
