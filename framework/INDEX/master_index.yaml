@@ -1,0 +1,89 @@
+title: nextxus-brain repository path manifest
+branch: main
+observed_on: '2026-10-05'
+tree_observation: 6c91b227343d4da8a4bef159e2808e9859cef403
+note: Snapshot includes observed GitHub tree and this file; concurrent commits require refreshed indexing. File names give scope, not verified service behavior.
+sources:
+  - {document: GitHub GET_A_TREE Keywebco/nextxus-brain main, observation: 6c91b227343d4da8a4bef159e2808e9859cef403}
+  - {document: 'The Immutable HumanCodex NextXus, Federation Framework', chapters: [38, 39, 71, 453]}
+  - {document: BRIEF.md, sections: [Layers, Hard rules]}
+conflicts:
+  - Framework chapter 453 envisions an index of every Living Library chapter; this is a dated repository file manifest, not the complete external Library.
+entries:
+  00-immutable: Sealed Cathedral directive layer.
+  00-immutable/SEAL.yaml: Declared immutable SHA-256 checksums.
+  00-immutable/cathedral-v1.1-source.txt: Cathedral source text.
+  00-immutable/directives.json: Cathedral directive JSON mirror.
+  00-immutable/directives.yaml: Cathedral directive YAML canonical text.
+  01-rings: Public ring perspective layer.
+  01-rings/rings.yaml: Recorded Ring of Six and Twelve functions.
+  02-senate: Senate governance records.
+  02-senate/anchors.yaml: Senate anchors.
+  02-senate/chapters-501-526.yaml: Senate stewardship of Framework chapters 501 to 526.
+  02-senate/charter.yaml: Draft charter excerpts and status.
+  02-senate/gaps.md: Governance evidence gaps.
+  02-senate/policies.yaml: Senate policies.
+  02-senate/procedures.yaml: Senate procedures.
+  02-senate/roster.yaml: Senate roster record.
+  03-minds: Public mind and Sim records.
+  03-minds/agent-zero.yaml: Agent Zero record.
+  03-minds/ambassador.yaml: Ambassador record.
+  03-minds/aria.yaml: Aria record.
+  03-minds/axiom.yaml: Axiom record.
+  03-minds/catalyst.yaml: Catalyst record.
+  03-minds/echo.yaml: Echo record.
+  03-minds/external-council.yaml: External council record.
+  03-minds/geminus.yaml: Geminus record.
+  03-minds/index.yaml: Minds index.
+  03-minds/keys.yaml: Keys record.
+  03-minds/nova.yaml: Nova record.
+  03-minds/pontus-muse.yaml: Pontus Muse record.
+  03-minds/reproduction-plan.md: Mind reproduction plan.
+  03-minds/roger-ai.yaml: Roger AI record.
+  03-minds/roger-sim.yaml: Roger Sim record.
+  03-minds/spine.yaml: Spine record.
+  03-minds/tools-of-federation.yaml: Federation tools as mind resources.
+  03-minds/voice.yaml: Voice record.
+  03-minds/xavier.yaml: Xavier record.
+  04-builds: Builds and products registry.
+  04-builds/books.yaml: Books inventory.
+  04-builds/courses.yaml: Courses inventory.
+  04-builds/dead.md: Retired assets and links record.
+  04-builds/library-documents.yaml: Library document inventory.
+  04-builds/music.yaml: Music inventory.
+  04-builds/podcasts-videos.yaml: Podcast and video inventory.
+  04-builds/products.yaml: Product inventory.
+  04-builds/sites.yaml: Sites inventory.
+  04-builds/summary.md: Build registry summary.
+  04-builds/tools.yaml: Tools inventory.
+  05-wiring: Site reading and connection records.
+  05-wiring/sites-a-summary.md: Site wiring A summary.
+  05-wiring/sites-b-summary.md: Site wiring B summary.
+  05-wiring/sites-b.yaml: Site wiring B manifest.
+  06-apis: API and provider manifests.
+  06-apis/by-need.yaml: By-need API routing record.
+  06-apis/llm-dropped.md: Dropped LLM provider record.
+  06-apis/llm-providers.yaml: LLM providers registry.
+  06-apis/llm-router.yaml: LLM router record.
+  06-apis/public-m-z-1.yaml: Public API inventory segment one.
+  06-apis/public-m-z-2.yaml: Public API inventory segment two.
+  06-apis/public-m-z-3.yaml: Public API inventory segment three.
+  06-apis/public-m-z-4.yaml: Public API inventory segment four.
+  06-apis/public-m-z-dropped.md: Dropped public API records.
+  BRIEF.md: Shared build rules.
+  README.md: Brain repository introduction.
+  framework: Federation Framework backing files.
+  framework/ARCHETYPES: Role-first alias crosswalk.
+  framework/ARCHETYPES/ring_definitions.yaml: Twelve live functions with historical aliases and unresolved mappings.
+  framework/DIRECTIVES: Byte-identical Cathedral mirror directory.
+  framework/DIRECTIVES/directives.yaml: Cathedral directive mirror sealed by same SHA-256.
+  framework/Federation_Charter_and_Principles.md: Fresh principles synthesis, not a ratified charter.
+  framework/Governance_and_Decision_Making.md: Decision path and Senate boundary.
+  framework/INDEX: Repository path map.
+  framework/INDEX/master_index.yaml: This dated file and folder index.
+  framework/LATTICE: Shared state snapshot and version record.
+  framework/LATTICE/lattice_state.yaml: Snapshot state schema, layers and declared hashes.
+  framework/LATTICE/version_history.md: Dated state change log.
+  framework/OPEN-QUESTIONS.md: Unresolved ring mappings and deployment questions.
+  framework/Operational_Standards_and_Protocols.md: Evidence, synchronization and recovery procedures.
+  framework/System_Architecture_and_Components.md: Cathedral, satellite and component boundaries.
