@@ -1,0 +1,13 @@
+# Source: Keywebco/nextxus-sim/roger-sim.html; Keywebco/roger-sim-api/server.js
+id: roger-sim
+name: Roger Sim
+role: conversational implementation of Roger AI Essence; not a separate person
+senate_seat: none documented
+personality: {traits: "An Architect's Mind", voice: UNVERIFIED, evidence: SOURCE-QUOTED from HTML title}
+system_prompt_source: Keywebco/roger-sim-brain PRIVATE; server.js loads it, not copied
+internal_ring: null
+memory_pointer: "Keywebco/roger-sim-brain (PRIVATE; corpus and provider router; Roger-approved readers only)"
+runs_on: GitHub Pages frontend and Render API configured; API runtime UNVERIFIED
+target_stack: DeepSeek/MiMo configured with fallback in server.js; runtime UNVERIFIED
+site_or_url: {url: "https://keywebco.github.io/nextxus-sim/roger-sim.html", http_code: 200, checked: "2026-10-05"}
+status: frontend HTTP 200; Render API HEAD timed out; fidelity and memory UNVERIFIED
