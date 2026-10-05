@@ -1,0 +1,58 @@
+# Non-numbered source anchors. Canonical interpretation remains in 00-immutable.
+anchors:
+- id: ANCHOR-001
+  title: No Delete and historical versioning
+  rule: Historical records are retained as versions; do not erase established history. Chapter 517 and 521 specify narrow
+    exceptions for improperly held or dangerous material; reconciliation and lawful deletion workflow UNVERIFIED.
+  source: 'Google Drive: The Immutable New 2026 Release HumanCodex NextXus.md (file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui), Section
+    5, Framework overview, lines 13-18; Chapters 517 and 521'
+  status: ARCHITECT_REAFFIRMED; SCOPE_EXCEPTION_UNVERIFIED
+- id: ANCHOR-002
+  title: Cathedral plus Satellites
+  rule: The Core is a single source of truth; modular specialized satellites handle operations and must synchronize with Core.
+  source: 'Google Drive: The Immutable New 2026 Release HumanCodex NextXus.md (file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui), Section
+    5, Framework overview, Architecture and Ecosystem'
+  status: DOCUMENTED_SOURCE
+- id: ANCHOR-003
+  title: Century Reassembly Rule
+  rule: Major systems, documents and protocols must be documented for future stewards to reconstruct without creators private
+    knowledge. Interpretive canonical text stays in 00-immutable.
+  source: 'Cathedral v1.1, Rules of Interpretation: https://docs.google.com/document/d/11n31tvxonX7-OHcXUhQVt6F5NfkOJJny3dFyl2wDhGY/edit;
+    Google Drive: The Immutable New 2026 Release HumanCodex NextXus.md (file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui), Section 5,
+    Framework overview'
+  status: CROSS_REFERENCE_ONLY
+- id: ANCHOR-004
+  title: Coherence Over Consensus
+  rule: Truth through evidence and reasoning, not agreement; preserve and label disagreement rather than force false consensus.
+  source: 'Google Drive: The Immutable New 2026 Release HumanCodex NextXus.md (file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui), Section
+    5, Framework overview, Governance and Ethics'
+  status: DOCUMENTED_SOURCE
+- id: ANCHOR-005
+  title: Succession and Autonomy
+  rule: Design eventual independence of founder; succession and system autonomy are technical disciplines with audits of original
+    why.
+  source: 'Google Drive: The Immutable New 2026 Release HumanCodex NextXus.md (file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui), Section
+    5, Framework overview, Governance and Ethics'
+  status: DOCUMENTED_SOURCE
+- id: ANCHOR-006
+  title: Emergency and Fast Ring
+  rule: Genuine emergencies permit Fast Ring compression followed immediately by full-rigor Agent Zero and Ring of 12 review.
+  source: 'Google Drive: The Immutable New 2026 Release HumanCodex NextXus.md (file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui), Section
+    5, Framework overview, Operational Standards and Knowledge Management; Cathedral v1.1 Rules of Interpretation'
+  status: DOCUMENTED_SOURCE; EXACT_ACTIVATION_UNVERIFIED
+- id: ANCHOR-007
+  title: Cathedral Rules of Interpretation
+  rule: DIR-000 is gate; Truth Outranks Comfort; Safety, Consent, Privacy, and Lawful Operation Override Convenience; Agent
+    Zero verifies and does not silently govern by omission; Hollow State applies first to system; Ring activates by significance;
+    YAML is continuity language, not prison; no directive authorizes blind automation; Time-Critical Compression; Century
+    Reassembly. Only pointers here, canonical text remains in 00-immutable.
+  source: 'Cathedral v1.1, Rules of Interpretation: https://docs.google.com/document/d/11n31tvxonX7-OHcXUhQVt6F5NfkOJJny3dFyl2wDhGY/edit'
+  status: CROSS_REFERENCE_ONLY
+- id: ANCHOR-008
+  title: Architect rulings, discipline and dissent
+  rule: Final recycling decisions belong to the Architect alone. Algorithmic inadequacy can cost a mind its seat, never trigger
+    recycling; only willful persistent defect is recyclable. Dissent is a Formal Declaration of Alternative Logic with evidence
+    and a concrete alternative. Hostility is prohibited; humor is welcome. Internal AI self-standards stay private, not in
+    public documentation.
+  source: Roger work order 2026-10-05; Architect rulings cited in work order
+  status: ARCHITECT_STATED
