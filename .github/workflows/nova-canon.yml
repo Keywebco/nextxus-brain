@@ -1,0 +1,34 @@
+name: Nova-Canon daily check
+on:
+  schedule:
+    - cron: '17 11 * * *'   # daily 11:17 UTC (6:17 AM Central)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pyyaml
+      - id: run
+        run: python nova-canon/canon_check.py
+        continue-on-error: true
+      - name: Save report
+        run: |
+          git config user.name "Nova-Canon"
+          git config user.email "keywebco@gmail.com"
+          git add LATTICE/reports/latest.md
+          git diff --cached --quiet || git commit -m "Nova-Canon report $(date -u +%F)" && git push || true
+      - name: Open an issue if the canon check failed
+        if: steps.run.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo,
+              title: 'Nova-Canon: canon check FAILED ' + new Date().toISOString().slice(0,10),
+              body: 'The sealed canon or directive structure no longer matches. See LATTICE/reports/latest.md. Do not auto-fix; Roger decides.'});
+      - name: Fail the run if canon failed
+        if: steps.run.outcome == 'failure'
+        run: exit 1
