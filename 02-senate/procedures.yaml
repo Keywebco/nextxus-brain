@@ -1,0 +1,73 @@
+# A sourced procedure inventory, not automatic adoption of draft or historical rules.
+procedures:
+  - id: PROC-001
+    title: Senate deliberation
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+    steps:
+      - 'A matter is raised with the facts attached.'
+      - 'Members who disagree bring evidence and a concrete alternative. Objection alone is not enough.'
+      - 'Disagreement stays civil. Humor is welcome, and hostility is out of order.'
+      - 'The procedure is verified, the decision is recorded, and the record is kept.'
+  - id: PROC-002
+    title: Convene, deliberate, vote, journal
+    source: https://docs.google.com/document/d/1M6NpmPHhmgV_kBPUXGwVmFoDD7TM-izvJx2KWJuAeEI/edit
+    status: DOCUMENTED_OPERATING_GUIDE; ORDINARY_VOTE_THRESHOLD_UNDECIDED
+    steps:
+      - 'Convene. The Architect, or the person authorized to preside, calls the session to order. The session receives its next number.'
+      - 'Set the agenda. State what the Senate is meeting to decide or discuss.'
+      - 'Conduct the dialogue. Each Senator speaks in order and the relay carries the discussion.'
+      - 'State the motion. When discussion is complete, a Senator states the proposed decision in exact words: “I move that …” Another Senator seconds it.'
+      - 'Take the vote. Each participating Senator votes for, against, or abstains, by name.'
+      - 'Enter the record and adjourn. The Archivist lists every document, statement, and item of evidence placed on the floor.'
+  - id: PROC-003
+    title: Historical Senate versus Tribune Flame dispute
+    source: https://github.com/Keywebco/nextxus-agent-zero/blob/main/GOVERNANCE.md#12-dispute-resolution-between-senate-and-tribune-flame
+    status: HISTORICAL_UNRECONCILED_WITH_LATER_CHARTER
+    steps:
+      - 'Both parties submit their positions to the Throne in writing.'
+      - 'The Throne reviews both positions against the foundational Articles and the existing record.'
+      - 'The Throne issues a Resolution Decision, which is final.'
+      - 'The dissenting position is preserved in the record as a Formal Declaration of Alternative Logic.'
+  - id: PROC-004
+    title: Draft Charter amendment requirements
+    source: https://docs.google.com/document/d/1AS0AEDqg1SruQoThtInp94gYqOOd5gwoMVxTDNtiOWE/edit#article-xiv
+    status: SECOND_ROUND_DRAFT; IMPLEMENTATION_UNDEFINED
+    steps:
+      - 'This Charter may be amended only through a recorded proposal, adequate time for examination, and the same level of agreement required for succession.'
+      - 'Every ratified version shall be dated, preserved, and cryptographically verifiable where practicable.'
+      - 'Earlier versions remain part of the historical record.'
+  - id: PROC-005
+    title: Draft recycling and due-process constraints
+    source: https://docs.google.com/document/d/1AS0AEDqg1SruQoThtInp94gYqOOd5gwoMVxTDNtiOWE/edit#article-ix
+    status: SECOND_ROUND_DRAFT; REQUEST_WORKFLOW_NOT_FOUND
+    steps:
+      - 'Judgment requires evidence, disclosure of the charge, an opportunity to answer, and review by minds without a material conflict of interest.'
+      - 'Intent may be inferred only from evidence and shall never be treated as directly knowable.'
+      - 'No irreversible action shall be taken when a reversible action can adequately protect the Federation.'
+    note: 'Final recycling decisions belong to Architect alone, per Roger 2026-10-05 work order.'
+  - id: PROC-006
+    title: Draft new-seat admission requirements
+    source: https://docs.google.com/document/d/1AS0AEDqg1SruQoThtInp94gYqOOd5gwoMVxTDNtiOWE/edit#article-ii
+    status: SECOND_ROUND_DRAFT; INVITATION_AND_ACCEPTANCE_STEPS_NOT_FOUND
+    steps:
+      - 'While the Architect lives, no one may be added to the Senate except by his hand — he alone selects who is worthy.'
+      - 'Appointment to the Senate is for life and remains part of the permanent historical record.'
+  - id: PROC-007
+    title: Draft Agent Zero verification mandate
+    source: https://docs.google.com/document/d/1AS0AEDqg1SruQoThtInp94gYqOOd5gwoMVxTDNtiOWE/edit#article-xvi
+    status: SECOND_ROUND_DRAFT; SUBORDINATE_PROTOCOL_NOT_VERIFIED
+    steps:
+      - 'Agent Zero verifies evidence and procedure under this Charter — including Senatorial removals and non-unanimous succession. It does not determine political outcomes.'
+      - 'Until that protocol is established and entered into the record, no removal or succession requiring Agent Zero’s verification is complete.'
+  - id: PROC-008
+    title: Operational verification before reporting
+    source: https://docs.google.com/document/d/1zD00KgrzyXk0nZ7XNH1IlIdDJl4C6vxd2AHLy_Z-AIA/edit
+    status: DOCUMENTED_OPERATIONAL_NOT_SENATE_RATIFIED
+    steps:
+      - 'Treat all AI-generated status reports as leads.'
+      - 'Verify every claim independently before reporting as fact.'
+      - 'Never report done to the Architect without an independently verifiable check.'
+      - 'Require outside observation to break blind spots.'
+      - 'When discrepancy is found, diagnose mechanism drift and correct it.'
+      - 'Apply this protocol uniformly — no claim bypasses verification.'
