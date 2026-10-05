@@ -1,0 +1,13 @@
+# Source: Roger task instruction 2026-10-05; no canonical persona source found
+id: keys
+name: Keys
+role: Codex Keeper
+senate_seat: none documented
+personality: {traits: UNVERIFIED, voice: UNVERIFIED, evidence: UNVERIFIED}
+system_prompt_source: UNVERIFIED
+internal_ring: null
+memory_pointer: UNVERIFIED
+runs_on: UNVERIFIED
+target_stack: TO DECIDE
+site_or_url: {url: null, http_code: null, checked: null}
+status: named by Roger; original prompt, host, memory and runtime missing
