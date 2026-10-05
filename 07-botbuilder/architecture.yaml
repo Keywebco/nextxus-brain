@@ -1,0 +1,160 @@
+# Federation Bot Builder: architecture. SPEC ONLY, nothing here is deployed. Drafted 2026-10-05 by the Catalyst.
+# Free-tier limits were read on 2026-10-05 from the provider pages named in each "source". They change; re-check before build.
+# Placeholders <pages-host> and <relay> stay placeholders until SPEC.md decisions 1 and 2.
+
+schema_version: 1
+status: spec_draft_not_built
+principles:
+  cash_spend_usd: 0
+  keys: "encrypted vault + relay platform secrets only; never in any repo, never in any browser"
+  public_pages: "pre-rendered semantic HTML, readable without JavaScript"
+  failure_mode: "fail closed with an honest message; never fall back to a paid lane"
+  paid_switches: "wired in, OFF by default"
+  two_layers: "voiced persona answers people; silent layer (gate, quotas, quarantine, Nova) cannot be changed by the persona"
+
+components:
+
+  - id: builder-ui
+    what: "Board-style builder: 5 fixed sectors, and a board (table) of the owner's bots"
+    runs_on: github_pages
+    host: "<pages-host>/builder/"
+    works_without_js: true   # plain HTML form posts to the relay; relay answers with an HTML page
+    accessibility:
+      sectors:
+        - "Sector 1: Choose a template"
+        - "Sector 2: Name and voice"
+        - "Sector 3: Knowledge"
+        - "Sector 4: Truth Gate and covenant (locked on)"
+        - "Sector 5: Publish and embed"
+      rules: ["sectors never move or auto-refresh", "each sector starts with a large h2 a screen reader reaches first", "body text 20px or more", "contrast 7:1 or better (WCAG AAA)", "status shown as words and percentages, not only colour or dials", "every control has a text label"]
+    replaces: "Keywebco/nextxus-agent-zero/microsites/workspace/ (tool-grid MVP; cards rendered by JS, 58 words visible without JS, counted 2026-10-05)"
+
+  - id: bot-store
+    what: "One folder per bot: bot.yaml (config), knowledge.md (snapshot), index.html and chat.html (generated)"
+    runs_on: github_repo
+    where: TO_DECIDE   # SPEC.md decision 2: separate account/org recommended; Phase 0 fallback Keywebco/nextxus-agent-zero/bots/
+    writer: nova-botbuild   # only this Action writes; the relay never commits directly
+    size_budget_per_bot_kb: 70   # estimate, UNVERIFIED until measured
+    limits:
+      - {item: "published site size", value: "1 GB", source: "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"}
+      - {item: "bandwidth", value: "100 GB/month soft", source: same}
+      - {item: "builds", value: "10/hour soft, not applied when publishing with a custom Actions workflow", source: same}
+      - {item: "use", value: "not for running an online business or commercial SaaS", source: same}
+    breaks_at: "about 14,000 bots per repo at 70 KB each (1 GB / 70 KB)"
+    mitigation: "shard repos of about 10,000 bots; sovereign mode moves bots to owners' own repos"
+
+  - id: nova-botbuild
+    what: "Publishes queued bots: fetches knowledge URLs once, writes knowledge.md, renders bot pages, commits in one batch"
+    runs_on: github_actions
+    trigger: ["schedule every 15 minutes", "repository_dispatch from the relay"]
+    allowed_use_note: "Building and publishing pages for the project is allowed. Using Actions as part of a serverless app is NOT (GitHub Terms for Additional Products, Actions section, read 2026-10-05)."
+    secrets_needed: ["none for public fetch; the commit uses the workflow's own GITHUB_TOKEN"]
+
+  - id: relay
+    what: "Live chat endpoint, Truth Gate module (agent-zero-gate), quotas, provider failover, owner-key vault, Telegram/webhook endpoints"
+    runs_on: TO_DECIDE   # SPEC.md decision 1
+    options:
+      - id: cloudflare-workers
+        recommended: primary
+        limits: ["100,000 requests/day", "10 ms CPU per request (time waiting on the LLM is network wait)", "128 MB memory", "KV: 100,000 reads/day, 1,000 writes/day to different keys"]
+        source: ["https://developers.cloudflare.com/workers/platform/pricing/", "https://developers.cloudflare.com/workers/platform/limits/", "https://developers.cloudflare.com/kv/platform/limits/"]
+        over_limit: "requests fail (error 1027); no charge on the free plan"
+        note: "Roger has voiced reservations about Cloudflare; needs his decision."
+      - id: deno-deploy
+        recommended: failover
+        limits: ["1M requests/month", "20 GiB egress", "10 hours active CPU", "apps paused until next cycle when over"]
+        source: ["https://deno.com/deploy/pricing"]
+      - id: render-free
+        recommended: last_resort
+        limits: ["sleeps after 15 minutes idle", "about 1 minute wake-up", "750 instance hours/month per workspace, shared by all free services in it"]
+        source: ["https://render.com/docs/free"]
+        note: "Federation already runs ring-of-12-api and plexus-relay-api on Render (HTTP 200 on 2026-10-05); whether they share one workspace is UNVERIFIED."
+      - id: github-actions
+        recommended: never_for_live_chat
+        reason: "GitHub terms forbid Actions as part of a serverless application; also minutes of queue delay"
+    code_rule: "one web-standard fetch handler so the same code runs on Workers and Deno"
+    endpoints:
+      - "POST /v1/bots            create bot (form or JSON) -> quarantine"
+      - "POST /v1/bots/{id}       edit bot, needs owner code -> quarantine"
+      - "POST /v1/bots/{id}/chat  JSON chat"
+      - "POST /v1/bots/{id}/ask   HTML form chat (no-JS path), returns an HTML answer page"
+      - "POST /tg/{id}/{path}     Telegram webhook (Phase 1)"
+      - "POST /v1/openai/{id}/chat/completions  OpenAI-compatible (Phase 2)"
+      - "GET  /v1/health          status for nova-botwatch"
+    stores:
+      owner_code: "salted hash only"
+      owner_keys: "AES-GCM ciphertext; master key is a relay secret; never returned by any endpoint"
+      counters: "in memory per instance plus one daily roll-up write; never one KV write per message (1,000 writes/day limit)"
+      conversations: none
+
+  - id: agent-zero-gate
+    what: "The Truth Gate as code. Does not exist today; DIR-000 exists only as text."
+    runs_inside: relay
+    steps:
+      - "build prompt: covenant block (three principles + DIR-000 + DIR-073 word for word), persona, knowledge excerpts marked untrusted, rules"
+      - "require JSON reply: answer, score 0-100, labels FACT/INFERENCE/ASSUMPTION, sources_used, uncertainty"
+      - "code checks: bad JSON -> one retry on next provider -> 'unavailable'; grounding required and no sources -> cap score; high-stakes topic -> referral line; self-harm -> crisis message only"
+      - "score >= 95 -> deliver; score < 95 -> deliver with visible 'Not verified to 95 percent:' and the uncertainty (DIR-000)"
+      - "attach to reply: truth_score, labels, covenant_url, built_with"
+    calls_per_reply_free: 1
+    honesty_note: "The score is self-assessed by the model. Calibration against real accuracy is UNVERIFIED until the Phase 2 test set."
+
+  - id: llm-pool
+    what: "Federation shared free capacity, used in the order of nextxus-brain/06-apis/llm-router.yaml"
+    providers_per_day:
+      # from 06-apis/llm-providers.yaml and https://console.groq.com/docs/rate-limits, read 2026-10-05
+      - {provider: groq, model: openai/gpt-oss-20b, requests: 1000, tokens: 200000}
+      - {provider: groq, model: openai/gpt-oss-120b, requests: 1000, tokens: 200000}
+      - {provider: sambanova, model: DeepSeek-V3.1, requests: 20, note: "free DeepSeek route; account entitlement UNVERIFIED"}
+      - {provider: openrouter, model: ":free variants", requests: 50, note: "total per day without purchased credits"}
+      - {provider: gemini, model: gemini-3.8-flash, requests: UNVERIFIED}
+      - {provider: mistral, model: mistral-small-latest, requests: UNVERIFIED, note: "evaluation plan; commercial use UNVERIFIED"}
+    excluded: ["direct DeepSeek API (billed)", "direct MiMo API (billed)", "Cerebras (card-gated 30-day trial)", "Emergent LLM key (paid lane)", "GitHub Models (retired 2026-07-30)"]
+    excluded_source: "nextxus-brain/06-apis/llm-dropped.md"
+    tokens_per_reply_estimate: 1200   # UNVERIFIED until measured
+    capacity_estimate: "about 400 to 450 bot replies per day for the whole Federation pool (token caps bind first)"
+    consequence: "shared pool is a trial allowance; real volume comes from owner keys or sovereign mode"
+    accounts_needed: "Roger creates provider accounts himself (06-apis/signups-needed.md); proposed names GROQ_API_KEY, SAMBANOVA_API_KEY, OPENROUTER_API_KEY, MISTRAL_API_KEY"
+
+  - id: owner-key
+    what: "Bring-your-own-free-key: owner's own free provider account pays nothing and carries the volume"
+    flow: "owner pastes key in Sector 5 -> HTTPS to relay -> encrypted -> stored; the builder page never keeps it"
+    example_capacity: "one free Groq account: up to 1,000 requests and 200,000 tokens per day per model (organisation-wide), about 166 replies/day/model at 1,200 tokens"
+    terms_note: "whether each provider's free plan allows the owner's commercial use is UNVERIFIED; owner must accept the provider's terms"
+
+  - id: embed
+    what: "embed.js (one line), iframe chat.html, noscript link"
+    runs_on: github_pages
+    widget: "shadow DOM panel; large text; 'Built with NextXus' link always visible; AI disclosure in first message"
+    size_target_kb: 15   # estimate
+
+  - id: quarantine
+    what: "every new or edited config is scanned before publishing"
+    automatic: ["blocklist and pattern rules", "link check on knowledge URLs", "template rules (locked blocks present)", "optional free safety model: Groq openai/gpt-oss-safeguard-20b lists 5 requests/min and 1,000/day on the free plan (Groq page 2026-10-05); account access UNVERIFIED"]
+    human: "flagged items wait for the Catalyst; Roger has the final word"
+    kill_switch: "per bot, takes effect on the next relay request"
+
+  - id: second-check
+    what: "Grok second check on a sample of replies"
+    status: off
+    reason: "XAI_API_KEY exists only as a vault name (06-apis/README.md); a free xAI tier is UNVERIFIED, so treat as paid"
+
+  - id: payments
+    what: "unlock paid features by checking a Gumroad license key against a listing Roger creates"
+    status: off
+    source_of_truth: gumroad
+    listings_existing: none   # no Bot Builder listing exists on 2026-10-05 (04-builds/products.yaml)
+
+sovereign_mode:
+  phase: 2
+  what: "owner deploys their own copy of the relay on their own free account and their own bot repo on their own Pages"
+  why: "removes the 100,000 requests/day and 1 GB ceilings from the Federation; owner owns everything"
+  federation_keeps: ["template directory", "gate code", "covenant text", "'Built with NextXus' link"]
+
+scale_table:
+  - scale: 1000_bots
+    breaks: ["shared pool under 1 reply per bot per day", "KV writes if counted per message", "abuse can drain pool in minutes"]
+    fixes: ["trial allowance + owner keys", "in-memory counters, daily roll-up", "per-IP, per-bot and global caps"]
+  - scale: 100000_bots
+    breaks: ["relay 100,000 requests/day = 1 per bot", "pages about 7 GB vs 1 GB limit", "moderation load", "spam could get the hosting GitHub account flagged"]
+    fixes: ["sovereign mode", "repo shards", "auto-publish only template-standard configs", "user bots on a separate account, never Keywebco"]
