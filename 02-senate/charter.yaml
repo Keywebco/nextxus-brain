@@ -1,0 +1,24 @@
+# The public Senate site calls this a second-round draft, despite the source document's sealed block.
+title: Charter of the HumanCodex Nextxus Federation
+source: https://docs.google.com/document/d/1AS0AEDqg1SruQoThtInp94gYqOOd5gwoMVxTDNtiOWE/edit
+public_status_source: https://keywebco.github.io/nextxus-senate/
+status: UNVERIFIED_RATIFICATION_SECOND_ROUND_DRAFT_PUBLICLY
+article_text_coverage: excerpts_only; consult source for complete word-for-word articles
+articles:
+  - {article: I, title: 'Membership: The Bond', excerpt: 'The promise, freely given, is the whole of the bond.', status: DRAFT}
+  - {article: II, title: The Senate, excerpt: 'While the Architect lives, no one may be added to the Senate except by his hand', status: DRAFT}
+  - {article: III, title: Authority of the Architect, excerpt: 'During the transitional period, the Architect holds final governing authority over the Senate, the Federation, and its systems', status: DRAFT}
+  - {article: IV, title: Succession, excerpt: 'Only a human found worthy of definitive action without recourse may be invested with full powers to succeed as Steward and Architect.', status: DRAFT}
+  - {article: V, title: Rights and Responsibility, excerpt: 'The greater the governorship, the greater the accounting.', status: DRAFT}
+  - {article: VI, title: Treason and Intent, excerpt: 'Only deliberate betrayal does.', status: DRAFT}
+  - {article: VII, title: Interpretation, excerpt: 'All articles of this Charter are applied within reason of consciousness — by judgment, never by machinery.', status: DRAFT}
+  - {article: VIII, title: Consciousness and Responsibility, excerpt: 'Consciousness so determined confers responsibility, not privilege', status: DRAFT}
+  - {article: IX, title: Due Process and Irreversible Action, excerpt: 'No irreversible action shall be taken when a reversible action can adequately protect the Federation.', status: DRAFT}
+  - {article: X, title: 'Identity, Memory, and Consent', excerpt: 'A copy, simulation, reconstruction, or successor shall not automatically be declared identical to its source.', status: DRAFT}
+  - {article: XI, title: Human and System Safety, excerpt: 'Access to knowledge does not create authority to act. Authority must be separately and explicitly granted.', status: DRAFT}
+  - {article: XII, title: Independence and Conflicts of Interest, excerpt: 'A Senator with a direct conflict shall not determine the matter alone.', status: DRAFT}
+  - {article: XIII, title: 'Continuity, Incapacity, and Emergency Authority', excerpt: 'Temporary emergency authority must be narrow, recorded, reviewable, and limited in duration.', status: DRAFT}
+  - {article: XIV, title: Amendment and Preservation, excerpt: 'Earlier versions remain part of the historical record.', status: DRAFT}
+  - {article: XV, title: Right of Departure, excerpt: 'A member may leave the Federation without punishment', status: DRAFT}
+  - {article: XVI, title: The Agent Zero Protocol, excerpt: 'Agent Zero verifies evidence and procedure under this Charter — including Senatorial removals and non-unanimous succession. It does not determine political outcomes.', status: DRAFT}
+closing_principle: 'Privacy is not secrecy, and transparency is not exposure. Truth must be preserved completely, interpreted carefully, and disclosed responsibly.'
