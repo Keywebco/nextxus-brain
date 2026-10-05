@@ -1,0 +1,53 @@
+# M-Z only. api_ids are keyless feeds verified HTTP 200 JSON 2026-10-05. needs_key_ids are docs-only and must not be called yet. A-L agent files were absent at composition.
+verified_on: '2026-10-05'
+routes:
+  current news:
+    api_ids: [public-mz-spaceflight-news, public-mz-hackernews]
+    needs_key_ids: []
+    note: Spaceflight-specific or technology discussions; neither is broad corroborated world news.
+  place/building/structure info:
+    api_ids: [public-mz-overpass-api, public-mz-nominatim, public-mz-wikipedia, public-mz-openstreetmap-osm-api]
+    needs_key_ids: []
+    note: Query mapped features near coordinates then corroborate; newly built structures may not yet be mapped.
+  weather:
+    api_ids: [public-mz-open-meteo, public-mz-aviationweather, public-mz-nasa-power, public-mz-ipma, public-mz-wttr-in, public-mz-noaa-tides-currents]
+    needs_key_ids: [public-mz-openweathermap]
+  space:
+    api_ids: [public-mz-launch-library-2, public-mz-spaceflight-news]
+    needs_key_ids: [public-mz-nasa-apod]
+  earthquakes/disasters:
+    api_ids: [public-mz-usgs-earthquake-hazards-program, public-mz-usgs-volcano-hazards, public-mz-usgs-water-services]
+    needs_key_ids: []
+  aircraft/ship tracking:
+    api_ids: [public-mz-opensky-network]
+    needs_key_ids: []
+    note: Aircraft only; no ship AIS source verified.
+  scientific papers:
+    api_ids: [public-mz-openalex, public-mz-crossref, public-mz-semantic-scholar, public-mz-europe-pmc, public-mz-datacite]
+    needs_key_ids: []
+  patents:
+    api_ids: []
+    needs_key_ids: []
+    note: No verified provider; PatentsView legacy retired and new key issuance suspended.
+  population/economy:
+    api_ids: [public-mz-world-bank, public-mz-un-sdg-api]
+    needs_key_ids: []
+  laws/government data:
+    api_ids: [public-mz-eu-open-data, public-mz-un-sdg-api]
+    needs_key_ids: []
+    note: Dataset catalogs/indicators, not a validated laws database.
+  health data:
+    api_ids: [public-mz-europe-pmc, public-mz-mygene-info, public-mz-gbif]
+    needs_key_ids: []
+    note: Literature and research, not medical advice or live public-health surveillance.
+  translations/dictionaries:
+    api_ids: []
+    needs_key_ids: []
+    note: Await verified A-L dictionaries.
+  images:
+    api_ids: [public-mz-wikimedia-commons]
+    needs_key_ids: [public-mz-nasa-apod]
+    note: Verify license on each image before use.
+  maps/geocoding:
+    api_ids: [public-mz-nominatim, public-mz-overpass-api, public-mz-open-meteo-geocoding, public-mz-openstreetmap-osm-api]
+    needs_key_ids: []
