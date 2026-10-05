@@ -1,93 +1,234 @@
-title: nextxus-brain repository path manifest
-branch: main
-observed_on: '2026-10-05'
-tree_observation: e01e21ff5f163589d137db7366c43bd3c12e63d4
-note: Snapshot includes observed GitHub tree and this file; concurrent commits require refreshed indexing. File names give scope, not verified service behavior.
-sources:
-  - {document: GitHub GET_A_TREE Keywebco/nextxus-brain main, observation: e01e21ff5f163589d137db7366c43bd3c12e63d4}
-  - {document: 'The Immutable HumanCodex NextXus, Federation Framework', chapters: [38, 39, 71, 453]}
-  - {document: BRIEF.md, sections: [Layers, Hard rules]}
-conflicts:
-  - Framework chapter 453 envisions an index of every Living Library chapter; this is a dated repository file manifest, not the complete external Library.
-entries:
-  00-immutable: Sealed Cathedral directive layer.
-  00-immutable/SEAL.yaml: Declared immutable SHA-256 checksums.
-  00-immutable/cathedral-v1.1-source.txt: Cathedral source text.
-  00-immutable/directives.json: Cathedral directive JSON mirror.
-  00-immutable/directives.yaml: Cathedral directive YAML canonical text.
-  01-rings: Public ring perspective layer.
-  01-rings/rings.yaml: Recorded Ring of Six and Twelve functions.
-  02-senate: Senate governance records.
-  02-senate/anchors.yaml: Senate anchors.
-  02-senate/chapters-501-526.yaml: Senate stewardship of Framework chapters 501 to 526.
-  02-senate/charter.yaml: Draft charter excerpts and status.
-  02-senate/gaps.md: Governance evidence gaps.
-  02-senate/policies.yaml: Senate policies.
-  02-senate/procedures.yaml: Senate procedures.
-  02-senate/roster.yaml: Senate roster record.
-  03-minds: Public mind and Sim records.
-  03-minds/agent-zero.yaml: Agent Zero record.
-  03-minds/ambassador.yaml: Ambassador record.
-  03-minds/aria.yaml: Aria record.
-  03-minds/axiom.yaml: Axiom record.
-  03-minds/catalyst.yaml: Catalyst record.
-  03-minds/echo.yaml: Echo record.
-  03-minds/external-council.yaml: External council record.
-  03-minds/geminus.yaml: Geminus record.
-  03-minds/index.yaml: Minds index.
-  03-minds/keys.yaml: Keys record.
-  03-minds/nova.yaml: Nova record.
-  03-minds/pontus-muse.yaml: Pontus Muse record.
-  03-minds/reproduction-plan.md: Mind reproduction plan.
-  03-minds/roger-ai.yaml: Roger AI record.
-  03-minds/roger-sim.yaml: Roger Sim record.
-  03-minds/spine.yaml: Spine record.
-  03-minds/tools-of-federation.yaml: Federation tools as mind resources.
-  03-minds/voice.yaml: Voice record.
-  03-minds/xavier.yaml: Xavier record.
-  04-builds: Builds and products registry.
-  04-builds/books.yaml: Books inventory.
-  04-builds/courses.yaml: Courses inventory.
-  04-builds/dead.md: Retired assets and links record.
-  04-builds/library-documents.yaml: Library document inventory.
-  04-builds/music.yaml: Music inventory.
-  04-builds/podcasts-videos.yaml: Podcast and video inventory.
-  04-builds/products.yaml: Product inventory.
-  04-builds/sites.yaml: Sites inventory.
-  04-builds/summary.md: Build registry summary.
-  04-builds/tools.yaml: Tools inventory.
-  05-wiring: Site reading and connection records.
-  05-wiring/sites-a-summary.md: Site wiring A summary.
-  05-wiring/sites-b-summary.md: Site wiring B summary.
-  05-wiring/sites-b.yaml: Site wiring B manifest.
-  06-apis: API and provider manifests.
-  06-apis/README.md: API registry introduction.
-  06-apis/by-need.yaml: By-need API routing record.
-  06-apis/llm-dropped.md: Dropped LLM provider record.
-  06-apis/llm-providers.yaml: LLM providers registry.
-  06-apis/llm-router.yaml: LLM router record.
-  06-apis/public-a-l-summary.md: Public API inventory A to L summary.
-  06-apis/public-m-z-1.yaml: Public API inventory segment one.
-  06-apis/public-m-z-2.yaml: Public API inventory segment two.
-  06-apis/public-m-z-3.yaml: Public API inventory segment three.
-  06-apis/public-m-z-4.yaml: Public API inventory segment four.
-  06-apis/public-m-z-dropped.md: Dropped public API records.
-  06-apis/public-m-z-summary.md: Public API inventory M to Z summary.
-  06-apis/signups-needed.md: API signup requirements.
-  BRIEF.md: Shared build rules.
-  README.md: Brain repository introduction.
-  framework: Federation Framework backing files.
-  framework/ARCHETYPES: Role-first alias crosswalk.
-  framework/ARCHETYPES/ring_definitions.yaml: Twelve live functions with historical aliases and unresolved mappings.
-  framework/DIRECTIVES: Byte-identical Cathedral mirror directory.
-  framework/DIRECTIVES/directives.yaml: Cathedral directive mirror sealed by same SHA-256.
-  framework/Federation_Charter_and_Principles.md: Fresh principles synthesis, not a ratified charter.
-  framework/Governance_and_Decision_Making.md: Decision path and Senate boundary.
-  framework/INDEX: Repository path map.
-  framework/INDEX/master_index.yaml: This dated file and folder index.
-  framework/LATTICE: Shared state snapshot and version record.
-  framework/LATTICE/lattice_state.yaml: Snapshot state schema, layers and declared hashes.
-  framework/LATTICE/version_history.md: Dated state change log.
-  framework/OPEN-QUESTIONS.md: Unresolved ring mappings and deployment questions.
-  framework/Operational_Standards_and_Protocols.md: Evidence, synchronization and recovery procedures.
-  framework/System_Architecture_and_Components.md: Cathedral, satellite and component boundaries.
+# Master index of nextxus-brain. Generated from the real tree.
+generated: '2026-10-05'
+repo: Keywebco/nextxus-brain
+note: Generated from the actual repo tree; every path listed exists.
+folders:
+- folder: (root)
+  purpose: Root file
+  file_count: 2
+  bytes: 3775
+  files:
+  - path: BRIEF.md
+    bytes: 3324
+  - path: README.md
+    bytes: 451
+- folder: .github
+  purpose: Root file
+  file_count: 1
+  bytes: 1298
+  files:
+  - path: .github/workflows/nova-canon.yml
+    bytes: 1298
+- folder: 00-immutable
+  purpose: 'Sealed Cathedral v1.1: DIR-000 gate + DIR-001..073 (SEAL.yaml holds SHA-256 hashes)'
+  file_count: 4
+  bytes: 59633
+  files:
+  - path: 00-immutable/SEAL.yaml
+    bytes: 801
+  - path: 00-immutable/cathedral-v1.1-source.txt
+    bytes: 25647
+  - path: 00-immutable/directives.json
+    bytes: 16978
+  - path: 00-immutable/directives.yaml
+    bytes: 16207
+- folder: 01-rings
+  purpose: Ring of Six (DIR-072), Ring of 12 (role key; Greek/zodiac labels), Agent Zero meanings
+  file_count: 1
+  bytes: 3211
+  files:
+  - path: 01-rings/rings.yaml
+    bytes: 3211
+- folder: 02-senate
+  purpose: 'Governance = policies and procedures: charter, 12-seat roster, chapters 501-526, anchors, gaps'
+  file_count: 7
+  bytes: 50829
+  files:
+  - path: 02-senate/anchors.yaml
+    bytes: 4100
+  - path: 02-senate/chapters-501-526.yaml
+    bytes: 19716
+  - path: 02-senate/charter.yaml
+    bytes: 3323
+  - path: 02-senate/gaps.md
+    bytes: 6765
+  - path: 02-senate/policies.yaml
+    bytes: 6847
+  - path: 02-senate/procedures.yaml
+    bytes: 8533
+  - path: 02-senate/roster.yaml
+    bytes: 1545
+- folder: 03-minds
+  purpose: 'Named AIs: personality, system prompt source, memory pointer (pointers only; private vaults not copied)'
+  file_count: 19
+  bytes: 25710
+  files:
+  - path: 03-minds/agent-zero.yaml
+    bytes: 1142
+  - path: 03-minds/ambassador.yaml
+    bytes: 1365
+  - path: 03-minds/aria.yaml
+    bytes: 1237
+  - path: 03-minds/axiom.yaml
+    bytes: 822
+  - path: 03-minds/catalyst.yaml
+    bytes: 1207
+  - path: 03-minds/echo.yaml
+    bytes: 1535
+  - path: 03-minds/external-council.yaml
+    bytes: 1803
+  - path: 03-minds/geminus.yaml
+    bytes: 1322
+  - path: 03-minds/index.yaml
+    bytes: 2039
+  - path: 03-minds/keys.yaml
+    bytes: 477
+  - path: 03-minds/nova.yaml
+    bytes: 1068
+  - path: 03-minds/pontus-muse.yaml
+    bytes: 1162
+  - path: 03-minds/reproduction-plan.md
+    bytes: 4716
+  - path: 03-minds/roger-ai.yaml
+    bytes: 1085
+  - path: 03-minds/roger-sim.yaml
+    bytes: 907
+  - path: 03-minds/spine.yaml
+    bytes: 492
+  - path: 03-minds/tools-of-federation.yaml
+    bytes: 1336
+  - path: 03-minds/voice.yaml
+    bytes: 1347
+  - path: 03-minds/xavier.yaml
+    bytes: 648
+- folder: 04-builds
+  purpose: Products (21 Gumroad listings), books, music, tools, sites, courses, library docs; dead.md lists failures
+  file_count: 10
+  bytes: 24023
+  files:
+  - path: 04-builds/books.yaml
+    bytes: 3398
+  - path: 04-builds/courses.yaml
+    bytes: 1634
+  - path: 04-builds/dead.md
+    bytes: 1309
+  - path: 04-builds/library-documents.yaml
+    bytes: 248
+  - path: 04-builds/music.yaml
+    bytes: 3966
+  - path: 04-builds/podcasts-videos.yaml
+    bytes: 111
+  - path: 04-builds/products.yaml
+    bytes: 6024
+  - path: 04-builds/sites.yaml
+    bytes: 1733
+  - path: 04-builds/summary.md
+    bytes: 2323
+  - path: 04-builds/tools.yaml
+    bytes: 3277
+- folder: 05-wiring
+  purpose: What every site/button/API call reads and which brain layer should feed it
+  file_count: 50
+  bytes: 1079641
+  files:
+  - path: 05-wiring/sites-a-summary.md
+    bytes: 2628
+  - path: 05-wiring/sites-b-summary.md
+    bytes: 5139
+  - path: 05-wiring/sites-b.yaml
+    bytes: 11239
+  - path: 05-wiring/sites/<domain>/{summary,pages,repo-pages,links-N}.yaml
+    note: 47 files for 8 pillar sites
+- folder: 06-apis
+  purpose: Free AI providers (llm-router) and vetted free public APIs (by-need lookup)
+  file_count: 18
+  bytes: 116605
+  files:
+  - path: 06-apis/README.md
+    bytes: 4027
+  - path: 06-apis/by-need.yaml
+    bytes: 2534
+  - path: 06-apis/llm-dropped.md
+    bytes: 3803
+  - path: 06-apis/llm-providers.yaml
+    bytes: 14248
+  - path: 06-apis/llm-router.yaml
+    bytes: 3245
+  - path: 06-apis/public-a-l-1.yaml
+    bytes: 10577
+  - path: 06-apis/public-a-l-2.yaml
+    bytes: 10995
+  - path: 06-apis/public-a-l-3.yaml
+    bytes: 9501
+  - path: 06-apis/public-a-l-4.yaml
+    bytes: 3147
+  - path: 06-apis/public-a-l-dropped.md
+    bytes: 21472
+  - path: 06-apis/public-a-l-summary.md
+    bytes: 2470
+  - path: 06-apis/public-m-z-1.yaml
+    bytes: 6702
+  - path: 06-apis/public-m-z-2.yaml
+    bytes: 6386
+  - path: 06-apis/public-m-z-3.yaml
+    bytes: 6315
+  - path: 06-apis/public-m-z-4.yaml
+    bytes: 5096
+  - path: 06-apis/public-m-z-dropped.md
+    bytes: 2048
+  - path: 06-apis/public-m-z-summary.md
+    bytes: 1845
+  - path: 06-apis/signups-needed.md
+    bytes: 2194
+- folder: 07-botbuilder
+  purpose: 'Federation Bot Builder spec: SPEC, templates, architecture, phases'
+  file_count: 4
+  bytes: 55131
+  files:
+  - path: 07-botbuilder/PHASES.md
+    bytes: 7813
+  - path: 07-botbuilder/SPEC.md
+    bytes: 25324
+  - path: 07-botbuilder/architecture.yaml
+    bytes: 11271
+  - path: 07-botbuilder/templates.yaml
+    bytes: 10723
+- folder: LATTICE
+  purpose: 'Shared state: lattice_state.yaml, version_history.md, reports/latest.md (Nova-Canon)'
+  file_count: 1
+  bytes: 847
+  files:
+  - path: LATTICE/reports/latest.md
+    bytes: 847
+- folder: framework
+  purpose: Nine backing files for the Immutable Federation Framework doc (rewritten fresh) + OPEN-QUESTIONS.md
+  file_count: 10
+  bytes: 42234
+  files:
+  - path: framework/ARCHETYPES/ring_definitions.yaml
+    bytes: 4230
+  - path: framework/DIRECTIVES/directives.yaml
+    bytes: 16207
+  - path: framework/Federation_Charter_and_Principles.md
+    bytes: 2374
+  - path: framework/Governance_and_Decision_Making.md
+    bytes: 2766
+  - path: framework/INDEX/master_index.yaml
+    bytes: 5268
+  - path: framework/LATTICE/lattice_state.yaml
+    bytes: 3143
+  - path: framework/LATTICE/version_history.md
+    bytes: 1210
+  - path: framework/OPEN-QUESTIONS.md
+    bytes: 1882
+  - path: framework/Operational_Standards_and_Protocols.md
+    bytes: 2608
+  - path: framework/System_Architecture_and_Components.md
+    bytes: 2546
+- folder: nova-canon
+  purpose: 'Nova-Canon script: daily seal check + stale-pattern scan (reports only)'
+  file_count: 1
+  bytes: 3424
+  files:
+  - path: nova-canon/canon_check.py
+    bytes: 3424
