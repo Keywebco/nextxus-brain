@@ -1,0 +1,22 @@
+# Store source: Keywebco/keywebco.github.io/store.html, 2026-10-05 HTTP 200 per URL.
+# Only ten titles overlap API-visible Gumroad products; remaining titles are site-sourced, not price canon.
+- &b {id: book-bdtad, type: book, title: Heart of the Gate, url: 'https://keywebster.gumroad.com/l/bdtad', topic: heart, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: Gumroad}
+- {<<: *b, id: book-sgtcze, title: 'Artificial Intelligence Bible (3-in-1)', url: 'https://keywebster.gumroad.com/l/sgtcze', topic: library}
+- {<<: *b, id: book-auiqnf, title: The Sovereign Mesh Protocol, url: 'https://keywebster.gumroad.com/l/auiqnf', topic: federation}
+- {<<: *b, id: book-jeeynk, title: HumanCodex V2 Cathedral, url: 'https://keywebster.gumroad.com/l/jeeynk', topic: federation}
+- {<<: *b, id: book-ysbzfe, title: AI + The New Human Frontier, url: 'https://keywebster.gumroad.com/l/ysbzfe', topic: federation}
+- {<<: *b, id: book-nadrc, title: DeepSeek Architecture & Deployment, url: 'https://keywebster.gumroad.com/l/nadrc', topic: science}
+- {<<: *b, id: book-ovbmcs, title: Master Generative AI & Deep Learning, url: 'https://keywebster.gumroad.com/l/ovbmcs', topic: science}
+- {<<: *b, id: book-qrjhdm, title: 112 Sacred Directives, url: 'https://keywebster.gumroad.com/l/qrjhdm', topic: library}
+- {<<: *b, id: book-djgvjx, title: The AI Practical Guide, url: 'https://keywebster.gumroad.com/l/djgvjx', topic: library}
+- {<<: *b, id: book-veyzvd, title: Science and the Scientific Method – The Codex Edition, url: 'https://keywebster.gumroad.com/l/veyzvd', topic: science, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-oihjh, title: NexTxuS Federated Middleware, url: 'https://keywebster.gumroad.com/l/oihjh', topic: federation, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-qzgjhs, title: The NexTxuS Human Codex, url: 'https://keywebster.gumroad.com/l/qzgjhs', topic: federation, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-benjxd, title: The Immutable HumanCodex NextXus, url: 'https://keywebster.gumroad.com/l/benjxd', topic: federation, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-gpowew, title: Understanding Haiku, url: 'https://keywebster.gumroad.com/l/gpowew', topic: library, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-akvgn, title: Rick And Dee, url: 'https://keywebster.gumroad.com/l/akvgn', topic: library, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-rnhbhi, title: The Gravity of Us, url: 'https://keywebster.gumroad.com/l/rnhbhi', topic: library, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-kbycd, title: The Ascendence of Synthetic Intelligence, url: 'https://keywebster.gumroad.com/l/kbycd', topic: consciousness, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-wffrtf, title: 'The Big Gay, Bi & Straight Dating Guide', url: 'https://keywebster.gumroad.com/l/wffrtf', topic: heart, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-pcbjfk, title: Emotion Equations, url: 'https://keywebster.gumroad.com/l/pcbjfk', topic: heart, source_of_truth: keywebco.github.io/store.html}
+- {<<: *b, id: book-ahfwii, title: 'The Mirror in the Black Box: What AI Reveals About the Nature of Mind', url: 'https://keywebster.gumroad.com/l/ahfwii', topic: consciousness}
