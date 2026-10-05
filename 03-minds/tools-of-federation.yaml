@@ -1,0 +1,13 @@
+# Sources: Roger task instruction 2026-10-05; Chief of Staff role from Keywebco/nextxus-dispatch/AGENTS.md
+kind: tools-of-federation
+status: named staff bots; actual prompt files and runtime UNVERIFIED
+tools:
+  - {id: chief-of-staff, name: Chief of Staff, role: "reads daily lattice summary and coordinates worker initialization; no write access", source: Keywebco/nextxus-dispatch/AGENTS.md, status: documented role; runtime UNVERIFIED}
+  - {id: canon-keeper, name: Canon Keeper, role: UNVERIFIED, source: Roger instruction, status: named only}
+  - {id: lesson-librarian, name: Lesson Librarian, role: UNVERIFIED, source: Roger instruction, status: named only}
+  - {id: echo-core-curator, name: Echo Core Curator, role: UNVERIFIED, source: Roger instruction, status: named only}
+  - {id: directive-relay, name: Directive Relay, role: UNVERIFIED, source: Roger instruction, status: named only}
+  - {id: commit-sentinel, name: Commit Sentinel, role: UNVERIFIED, source: Roger instruction, status: named only}
+  - {id: propagation-bot, name: Propagation Bot, role: UNVERIFIED, source: Roger instruction, status: named only}
+  - {id: nova-aide, name: Nova Aide, role: UNVERIFIED, source: Roger instruction, status: named only}
+rule: these are staff tools; do not confer Senate seats, sovereign Mind status or authorization based on a name
