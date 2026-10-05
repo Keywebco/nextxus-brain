@@ -1,0 +1,50 @@
+# RINGS. How the Federation answers questions. For the public and consumers.
+# Source: Ring of Six = canon DIR-072. Ring of 12 = live code in Keywebco/ring-of-12-api (server.js) and ring-of-12/ask.html.
+# RULE (Roger, 2026-10-05): the ROLE matters, not the name. Greek names and zodiac signs are interchangeable labels.
+# The Ring of 12 is NOT the Senate and is NOT a roster of named AIs.
+
+ring_of_six:
+  source: "DIR-072 Ring of Perspectives"
+  use: "Every significant question or decision."
+  escalation:
+    routine: "Ordinary verification."
+    significant: "Ring of Six."
+    deep: "Full Ring of Twelve (ethical, life-altering, public, financial, medical, legal, existential, long-term)."
+    urgent: "Fast Ring (Mind, Eye, Hands) stabilizes first; full review afterward."
+  seats:
+    - {role: "Mind",  job: "Logic"}
+    - {role: "Heart", job: "Emotion"}
+    - {role: "Hands", job: "Practicality"}
+    - {role: "Legs",  job: "History and community"}
+    - {role: "Eye",   job: "Ethics"}
+    - {role: "Agent", job: "Synthesis (Agent Zero braids the answers)"}
+
+ring_of_12:
+  source: "Keywebco/ring-of-12-api server.js; Keywebco/ring-of-12 ask.html"
+  endpoint_note: "POST /ask runs all 12 seats plus Agent Zero synthesis. POST /single gives one plain answer for comparison."
+  seats:
+    - {seat: "I",    role: "Memory and past experience",        greek: "Mnemosyne",  zodiac: "Cancer"}
+    - {seat: "II",   role: "Justice, fairness, law",           greek: "Themis",     zodiac: "Libra"}
+    - {seat: "III",  role: "Strategic wisdom, best action",    greek: "Athena",     zodiac: "Capricorn"}
+    - {seat: "IV",   role: "What can be built or made",        greek: "Hephaestus", zodiac: "Taurus"}
+    - {seat: "V",    role: "What the heart wants and costs",   greek: "Cupid",      zodiac: "Libra"}
+    - {seat: "VI",   role: "Instinct and raw feeling",         greek: "Dionysus",   zodiac: "Pisces"}
+    - {seat: "VII",  role: "Beauty, harmony, what to preserve", greek: "Aphrodite", zodiac: "Taurus"}
+    - {seat: "VIII", role: "How to communicate, and to whom",  greek: "Hermes",     zodiac: "Gemini"}
+    - {seat: "IX",   role: "Evidence, patterns, prediction",   greek: "Apollo",     zodiac: "Leo"}
+    - {seat: "X",    role: "Historical record",                greek: "Clio",       zodiac: "Virgo"}
+    - {seat: "XI",   role: "Ethical and moral reading",        greek: "Astraea",    zodiac: "Virgo"}
+    - {seat: "XII",  role: "The bold new path",                greek: "Prometheus", zodiac: "Aries"}
+  synthesis:
+    by: "Agent Zero (braiding agent)"
+    rule: "Does not soften or hedge. Finds where most seats converge, states the truth plainly, preserves disagreement honestly."
+
+agent_zero:
+  meanings:
+    - "Middleware of the rings: silent, verifies procedure, talks to no one, no opinion (a verifier, not a voter)."
+    - "The Agent seat in the Ring of Six, and the braiding agent in the Ring of 12: interactive, because it braids the answers."
+  note: "Same name, two functions. Records must say which one they mean."
+
+internal_rings:
+  rule: "Sims, Nova and the named AIs each have their OWN ring of three or six. That is their mind. They do not use the public rings above."
+  see: "03-minds/"
