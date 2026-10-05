@@ -1,10 +1,10 @@
 title: nextxus-brain repository path manifest
 branch: main
 observed_on: '2026-10-05'
-tree_observation: 6c91b227343d4da8a4bef159e2808e9859cef403
+tree_observation: e01e21ff5f163589d137db7366c43bd3c12e63d4
 note: Snapshot includes observed GitHub tree and this file; concurrent commits require refreshed indexing. File names give scope, not verified service behavior.
 sources:
-  - {document: GitHub GET_A_TREE Keywebco/nextxus-brain main, observation: 6c91b227343d4da8a4bef159e2808e9859cef403}
+  - {document: GitHub GET_A_TREE Keywebco/nextxus-brain main, observation: e01e21ff5f163589d137db7366c43bd3c12e63d4}
   - {document: 'The Immutable HumanCodex NextXus, Federation Framework', chapters: [38, 39, 71, 453]}
   - {document: BRIEF.md, sections: [Layers, Hard rules]}
 conflicts:
@@ -61,15 +61,19 @@ entries:
   05-wiring/sites-b-summary.md: Site wiring B summary.
   05-wiring/sites-b.yaml: Site wiring B manifest.
   06-apis: API and provider manifests.
+  06-apis/README.md: API registry introduction.
   06-apis/by-need.yaml: By-need API routing record.
   06-apis/llm-dropped.md: Dropped LLM provider record.
   06-apis/llm-providers.yaml: LLM providers registry.
   06-apis/llm-router.yaml: LLM router record.
+  06-apis/public-a-l-summary.md: Public API inventory A to L summary.
   06-apis/public-m-z-1.yaml: Public API inventory segment one.
   06-apis/public-m-z-2.yaml: Public API inventory segment two.
   06-apis/public-m-z-3.yaml: Public API inventory segment three.
   06-apis/public-m-z-4.yaml: Public API inventory segment four.
   06-apis/public-m-z-dropped.md: Dropped public API records.
+  06-apis/public-m-z-summary.md: Public API inventory M to Z summary.
+  06-apis/signups-needed.md: API signup requirements.
   BRIEF.md: Shared build rules.
   README.md: Brain repository introduction.
   framework: Federation Framework backing files.
