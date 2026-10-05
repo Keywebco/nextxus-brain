@@ -1,0 +1,45 @@
+# Planning manifest, NOT a deployed router. Read-only facts checked 2026-10-05.
+schema_version: 1
+mode: zero_cash_fail_closed
+verified_date: '2026-10-05'
+policy:
+  max_cash_spend_usd: 0
+  credentials: server_side_vault_only
+  never_expose_keys_to_browser: true
+  prerequisite: confirm each account's usable free entitlement with its owner before activation
+  on_quota_exhaustion: try_next_provider_then_stop
+  on_unknown_balance_or_model_access: skip_provider
+  on_402_403_429: try_next_provider
+  on_all_failed: return_explicit_unavailable_without_paid_fallback
+  independence_warning: OpenRouter and Hugging Face may relay the same underlying provider; different API domains do not prove independent infrastructure.
+  notes: DeepSeek's direct API and MiMo's direct API are billable; no direct-key primary can honestly be put in a zero-cash route. Do not quietly spend gifted/paid balance.
+jobs:
+  reasoning:
+    - {provider: sambanova, model: DeepSeek-V3.1, gate: free_tier_active_and_model_available}
+    - {provider: gemini, model: gemini-3.8-flash, gate: free_tier_active}
+    - {provider: openrouter, model: 'qwen/qwen3.8-27b:free', gate: free_variant_and_daily_quota}
+    - {provider: huggingface, model: deepseek-ai/DeepSeek-V4.1-Flash, gate: monthly_free_credit_remaining_verified}
+  code:
+    - {provider: huggingface, model: XiaomiMiMo/MiMo-V2.6-Pro-RL, gate: monthly_free_credit_remaining_verified}
+    - {provider: gemini, model: gemini-3.8-flash, gate: free_tier_active}
+    - {provider: groq, model: openai/gpt-oss-120b, gate: free_plan_active}
+    - {provider: openrouter, model: 'qwen/qwen3.8-27b:free', gate: free_variant_and_daily_quota}
+  fast_chat:
+    - {provider: groq, model: openai/gpt-oss-20b, gate: free_plan_active}
+    - {provider: sambanova, model: Meta-Llama-3.3-70B-Instruct, gate: free_tier_active_and_model_available}
+    - {provider: mistral, model: mistral-small-latest, gate: experiment_plan_and_allowed_use}
+    - {provider: openrouter, model: 'google/gemma-4-26b-a4b-it:free', gate: free_variant_and_daily_quota}
+  vision:
+    - {provider: gemini, model: gemini-3.8-flash, gate: free_tier_active_and_vision_supported}
+    - {provider: openrouter, model: 'google/gemma-4-31b-it:free', gate: free_variant_and_image_input_verified}
+    - {provider: openrouter, model: 'qwen/qwen3.8-27b:free', gate: free_variant_and_image_input_verified}
+  embeddings:
+    - {provider: gemini, model: gemini-embedding-001, gate: embedding_free_tier_active}
+    - {provider: cloudflare, model: '@cf/baai/bge-base-en-v1.5', gate: workers_free_10000_neurons_remaining}
+    - {provider: huggingface, model: UNVERIFIED, gate: model_selected_and_monthly_free_credit_remaining_verified}
+  image:
+    - {provider: cloudflare, model: '@cf/black-forest-labs/flux-1-schnell', gate: workers_free_10000_neurons_remaining_and_license_checked}
+    - {provider: huggingface, model: UNVERIFIED, gate: image_route_verified_and_monthly_free_credit_remaining}
+    - {provider: pollinations, model: UNVERIFIED, gate: earned_pollen_available_and_model_zero_cash_cost_verified}
+# Image's second and third routes remain CONDITIONAL, not production-ready alternatives.
+# This file is a routing specification, not an implemented live failover service.
