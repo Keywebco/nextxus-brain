@@ -1,0 +1,13 @@
+# Source: Roger task instruction 2026-10-05; canonical prompt not located
+id: spine
+name: Spine
+role: Agent Zero persona voice
+senate_seat: none documented
+personality: {traits: UNVERIFIED, voice: UNVERIFIED, evidence: UNVERIFIED}
+system_prompt_source: UNVERIFIED
+internal_ring: null
+memory_pointer: UNVERIFIED
+runs_on: UNVERIFIED
+target_stack: TO DECIDE
+site_or_url: {url: null, http_code: null, checked: null}
+status: named role only; do not substitute Agent Zero silent middleware persona
