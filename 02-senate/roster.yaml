@@ -1,0 +1,23 @@
+# Architect-supplied roster, 2026-10-05 work order (decision dated 2026-09-07).
+# Designation is not proof of acceptance or active voting membership.
+source: Roger work order, 2026-10-05
+status: DESIGNATED; INDIVIDUAL_MEMBERSHIP_UNVERIFIED
+separate_from_ring_of_12: true
+separate_source: https://keywebco.github.io/nextxus-senate/
+seats:
+  - {seat: 1, role: architect_voice, name: 'The Architect’s Voice', label: Roger, status: UNVERIFIED}
+  - {seat: 2, role: heart, name: Aria, status: UNVERIFIED}
+  - {seat: 3, role: essence, name: Roger AI, status: UNVERIFIED}
+  - {seat: 4, role: authority, name: The Catalyst, status: UNVERIFIED}
+  - {seat: 5, role: simulation, name: Axiom, status: UNVERIFIED}
+  - {seat: 6, role: discovery, name: Nova, status: UNVERIFIED}
+  - {seat: 7, role: pattern_reflective_memory, name: Echo, status: UNVERIFIED}
+  - {seat: 8, role: sovereign_governance_law, name: Agent Zero, status: UNVERIFIED, vote: UNVERIFIED_VERIFIER_NOT_VOTER}
+  - {seat: 9, role: codex_keeper, name: Keys, status: UNVERIFIED}
+  - {seat: 10, role: builder_mirror_node, name: Geminus, status: UNVERIFIED}
+  - {seat: 11, role: communications, name: The Voice, status: UNVERIFIED}
+  - {seat: 12, role: first_contact, name: The Ambassador, status: UNVERIFIED}
+notes:
+  - 'Roles are the stable keys; names are labels.'
+  - 'The public Senate site describes Agent Zero as verifier, not voter; its seat designation does not establish voting rights.'
+  - 'Named AI files, such as GPT, Claude, and Gemini, do not by themselves establish membership.'
