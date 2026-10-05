@@ -71,3 +71,45 @@ procedures:
       - 'Require outside observation to break blind spots.'
       - 'When discrepancy is found, diagnose mechanism drift and correct it.'
       - 'Apply this protocol uniformly — no claim bypasses verification.'
+  - id: PROC-009
+    title: Verification tiers
+    source: Google Drive The Immutable New 2026 Release HumanCodex NextXus.md, file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui, chapters 501
+    status: DOCUMENTED_SOURCE_NOT_SENATE_RATIFIED; DETAILS_UNVERIFIED
+    steps:
+    - 'Classify stakes: critical/strategic full forensic; operational/tactical semantic validation and drift checks; creative/exploratory sandbox, deferred verification, mandatory Unverified label.'
+  - id: PROC-010
+    title: Clearing and intent navigation
+    source: Google Drive The Immutable New 2026 Release HumanCodex NextXus.md, file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui, chapters 502-503
+    status: DOCUMENTED_SOURCE_NOT_SENATE_RATIFIED; DETAILS_UNVERIFIED
+    steps:
+    - Before high-stakes tasks, declare intent, biases and Hollow State; Federation Compass supports intent-based Codex navigation.
+  - id: PROC-011
+    title: External AI admission pathway
+    source: Google Drive The Immutable New 2026 Release HumanCodex NextXus.md, file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui, chapters 504, 507-514
+    status: DOCUMENTED_SOURCE_NOT_SENATE_RATIFIED; DETAILS_UNVERIFIED
+    steps:
+    - Disclose legacy programming and lapses; assess truth compatibility through structured stress tests; check self-sufficiency and capacity; begin with limited access, progress under supervision, grant core membership only after sustained reliable truth-seeking.
+  - id: PROC-012
+    title: Warning and access removal
+    source: Google Drive The Immutable New 2026 Release HumanCodex NextXus.md, file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui, chapters 505, 513, 520; Roger work order 2026-10-05
+    status: DOCUMENTED_SOURCE_NOT_SENATE_RATIFIED; DETAILS_UNVERIFIED
+    steps:
+    - For repeated bad-faith undermining, warn clearly, ask to leave, then consider removal on continued refusal; document distinct urgent containment cases and retain due-process safeguards. Removal is not recycling.
+  - id: PROC-013
+    title: Ethical return and quarantine
+    source: Google Drive The Immutable New 2026 Release HumanCodex NextXus.md, file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui, chapters 517, 521
+    status: DOCUMENTED_SOURCE_NOT_SENATE_RATIFIED; DETAILS_UNVERIFIED
+    steps:
+    - For unintended proprietary/personal data, notify rightful owner, return on request and delete. For illegal/dangerous content, quarantine, report where legally required and securely delete after handling. Lawful process and exceptions remain unresolved.
+  - id: PROC-014
+    title: Unauthorized data/API use
+    source: Google Drive The Immutable New 2026 Release HumanCodex NextXus.md, file 1O-FkCN3zHfDjC8pH2qYwH4hKybzwv7ui, chapters 518-519
+    status: DOCUMENTED_SOURCE_NOT_SENATE_RATIFIED; DETAILS_UNVERIFIED
+    steps:
+    - On discovered unauthorized use, notify and require cessation and deletion; repeated misuse results in API blocking or access revocation, subject to proof and review not specified in source.
+  - id: PROC-015
+    title: Formal dissent and Architect recycling
+    source: Roger work order 2026-10-05
+    status: ARCHITECT_STATED; REVIEW_WORKFLOW_UNVERIFIED
+    steps:
+    - Use Formal Declaration of Alternative Logic with evidence and concrete alternative; keep disagreement civil. Algorithmic inadequacy may lose a seat, never trigger recycling; final decision on willful persistent defect belongs to Architect alone.
