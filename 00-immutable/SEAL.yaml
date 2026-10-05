@@ -7,7 +7,7 @@ gate: "DIR-000"
 counted_directives: 73
 files:
   - path: "00-immutable/directives.yaml"
-    sha256: "990f186f518afb48a61aafa5164e8158636dd016b0d3a843bf4ec700d38caa7f"
+    sha256: "5b20bc97fe0c9282926133a96a9252620a7e53244bf0011456b1ad50b6b8267a"
   - path: "00-immutable/directives.json"
     sha256: "977ff85fb5eaa1886efa85ddfe2e2eb1a70e0960f8893f48dc4918267991b8ed"
   - path: "00-immutable/cathedral-v1.1-source.txt"
