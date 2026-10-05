@@ -1,0 +1,25 @@
+# Source: Keywebco/nextxus-tools/index.html and public Keywebco repos; each URL curl 200 on 2026-10-05.
+- &t {id: tool-ring-of-12, type: tool, title: Ring of 12, url: 'https://keywebco.github.io/ring-of-12/', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: nextxus-tools/index.html}
+- {<<: *t, id: tool-ring-of-12-throne, title: Ring of 12 on the Throne, url: 'https://nextxus.tech/sims/ring-of-12.html'}
+- {<<: *t, id: tool-truth-gate, title: Truth Gate Core, url: 'https://keywebco.github.io/nextxus-truth-gate-core/', topic: truth}
+- {<<: *t, id: tool-roger-sim, title: Roger Sim AI, url: 'https://keywebco.github.io/nextxus-sim/roger-sim.html', topic: sim}
+- {<<: *t, id: tool-browser, title: Federation Browser Base, url: 'https://keywebco.github.io/federation-browser-base/'}
+- {<<: *t, id: tool-knowledge-os, title: Sovereign Knowledge OS, url: 'https://keywebco.github.io/sovereign-knowledge-os/'}
+- {<<: *t, id: tool-mind-mirror, title: Federation Mind Mirror, url: 'https://keywebco.github.io/federation-mind-mirror/'}
+- {<<: *t, id: tool-gods-eye, title: God's-Eye View, url: 'https://keywebco.github.io/federation-gods-eye/'}
+- {<<: *t, id: tool-plexus, title: Plexus Relay, url: 'https://keywebco.github.io/plexus-relay/'}
+- {<<: *t, id: tool-onekey, title: OneKey, url: 'https://keywebco.github.io/onekey/'}
+- {<<: *t, id: tool-meeting-outer, title: Meeting Room (Outer), url: 'https://keywebco.github.io/federation-meeting-room-outer/'}
+- {<<: *t, id: tool-meeting-inner, title: Meeting Room (Inner), url: 'https://keywebco.github.io/federation-meeting-room-inner/'}
+- {<<: *t, id: tool-emmy, title: Emmy Board, url: 'https://keywebco.github.io/nextxus-emmy-board/'}
+- {<<: *t, id: tool-nova, title: Nova Board, url: 'https://keywebco.github.io/nextxus-free-satellites/nova-board.html'}
+- {<<: *t, id: tool-messages, title: Messages Feed, url: 'https://keywebco.github.io/nextxus-free-satellites/messages-feed.html'}
+- {<<: *t, id: tool-agent-zero, title: Agent Zero, url: 'https://keywebco.github.io/nextxus-agent-zero/', topic: agent-zero}
+- {<<: *t, id: tool-satellite-starter, title: Satellite Starter, url: 'https://keywebco.github.io/nextxus-free-satellites/satellite-starter.html'}
+- {<<: *t, id: tool-markdown, title: Markdown Outpost, url: 'https://keywebco.github.io/nextxus-free-satellites/markdown-outpost.html'}
+- {<<: *t, id: tool-directives, title: Directives Outpost, url: 'https://keywebco.github.io/nextxus-free-satellites/directives-outpost.html'}
+- {<<: *t, id: tool-directory, title: Federation Directory, url: 'https://keywebco.github.io/nextxus-free-satellites/federation-directory.html'}
+- {<<: *t, id: tool-echo-64, title: Echo 64, url: 'https://github.com/Keywebco/echo-64', source_of_truth: Keywebco/echo-64}
+- {<<: *t, id: tool-sovereigntools, title: Sovereign Tools, url: 'https://keywebco.github.io/sovereigntools/', source_of_truth: Keywebco/sovereigntools}
+- {<<: *t, id: tool-ring-three, title: Ring of Three, url: 'https://keywebco.github.io/ring-of-three/', source_of_truth: Keywebco/ring-of-three}
+- {<<: *t, id: tool-research-hub, title: Research and API Hub, url: 'https://keywebco.github.io/nextxus-research-hub/', topic: science, source_of_truth: Keywebco/nextxus-research-hub}
