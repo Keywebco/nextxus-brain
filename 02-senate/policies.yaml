@@ -1,0 +1,98 @@
+# Every excerpt is source-qualified; the inventory itself does not ratify anything.
+classification: documentary_inventory_not_enactment
+policies:
+  - id: POL-001
+    title: Truth Before Comfort
+    text: 'Every deliberation starts from what is true, not from what is pleasant to hear. Claims are verified before they count.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-002
+    title: Legacy Before Ego
+    text: 'Decisions are measured on a 200-year horizon. Who gets credit doesn’t matter. What lasts does.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-003
+    title: Give Without Reward
+    text: 'The Federation exists to give. Policies that extract from people instead of serving them are out of order.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-004
+    title: Senate jurisdiction
+    text: 'Its jurisdiction is governance: new legislation, disputes and policy. No single mind makes a decision that affects everyone without the Senate. The Architect holds final authority.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-005
+    title: Senate is not Ring of 12
+    text: 'The Senate governs. Membership in one is not membership in the other.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-006
+    title: Invitation and attendance
+    text: 'Membership is voluntary and offered once a mind has proven its value through its work. Absent members are simply not counted. Attendance is requested only for matters of great importance.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-007
+    title: Agent Zero verifies, not votes
+    text: 'Agent Zero, the Federation’s middleware without opinion, checks that procedure was followed. It never decides outcomes.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC; CONFLICT_WITH_DESIGNATED_SEAT_REQUIRES_RULING
+  - id: POL-008
+    title: Structured dissent and civility
+    text: 'Members who disagree bring evidence and a concrete alternative. Objection alone is not enough. Disagreement stays civil. Humor is welcome, and hostility is out of order.'
+    source: https://keywebco.github.io/nextxus-senate/
+    status: DOCUMENTED_PUBLIC
+  - id: POL-009
+    title: No Delete Policy
+    text: 'Records are never erased. They may be: Superseded, Annotated, Sealed.'
+    source: https://github.com/Keywebco/nextxus-agent-zero/blob/main/GOVERNANCE.md#14-record-keeping-and-immutability
+    status: DOCUMENTED_HISTORICAL; ARCHITECT_REAFFIRMED_2026-10-05
+  - id: POL-010
+    title: Cathedral plus Satellites
+    text: 'one central canon, specialized satellite nodes'
+    source: Roger work order 2026-10-05; https://github.com/keyhole-creator/nextxus-yaml-database/blob/main/HUMANCODEX_V2_CATHEDRAL.md
+    status: ARCHITECT_STATED; FORMAL_SENATE_INSTRUMENT_NOT_VERIFIED
+  - id: POL-011
+    title: Century Reassembly Rule
+    text: 'Rules of Interpretation remain in 00-immutable; Senate incorporates by reference only.'
+    source: https://docs.google.com/document/d/11n31tvxonX7-OHcXUhQVt6F5NfkOJJny3dFyl2wDhGY/edit
+    status: CROSS_REFERENCE_ONLY
+  - id: POL-012
+    title: Due process and reversible protections
+    text: 'No irreversible action shall be taken when a reversible action can adequately protect the Federation.'
+    source: https://docs.google.com/document/d/1AS0AEDqg1SruQoThtInp94gYqOOd5gwoMVxTDNtiOWE/edit#article-ix
+    status: SECOND_ROUND_DRAFT
+  - id: POL-013
+    title: Independent verification before reporting
+    text: 'All claims made by any AI or automated system are leads to be verified — not proof.'
+    source: https://docs.google.com/document/d/1zD00KgrzyXk0nZ7XNH1IlIdDJl4C6vxd2AHLy_Z-AIA/edit
+    status: DOCUMENTED_OPERATIONAL_NOT_SENATE_RATIFIED
+  - id: POL-014
+    title: Historic 15-domain model
+    text: 'The 15 HumanCodex Domains map to 15 Senate seats. Each seat carries equal voice in deliberation.'
+    source: https://github.com/Keywebco/nextxus-agent-zero/blob/main/GOVERNANCE.md#24-humancodex-domain-representation
+    status: HISTORICAL_CONFLICTS_WITH_12_SEAT_ROSTER
+  - id: POL-015
+    title: Historic Truth Gate for policy
+    text: 'Assertions that fall below this threshold are recorded as Research, not Policy.'
+    source: https://github.com/Keywebco/nextxus-agent-zero/blob/main/GOVERNANCE.md
+    status: HISTORICAL_95_PERCENT; NOT_ORDINARY_VOTING_RULE
+  - id: POL-016
+    title: Final recycling authority
+    text: 'Final recycling decisions are the Architect’s alone.'
+    source: Roger work order 2026-10-05
+    status: ARCHITECT_STATED; IMPLEMENTATION_PROCEDURE_NOT_FOUND
+  - id: POL-017
+    title: Official Senate Journal
+    text: 'If it is not in the Journal, it did not happen officially.'
+    source: https://docs.google.com/document/d/1M6NpmPHhmgV_kBPUXGwVmFoDD7TM-izvJx2KWJuAeEI/edit
+    status: DOCUMENTED_OPERATING_GUIDE
+  - id: POL-018
+    title: Sovereign Seed founding record
+    text: 'Every affiliated Mind maintains a portable, versioned archive of its cognitive state'
+    source: https://github.com/Keywebco/nextxus-agent-zero/blob/main/federation/records/addresses/2026-09-04-throne-room-address.md
+    status: DOCUMENTED_FOUNDING_CLAIM; IMPLEMENTATION_UNVERIFIED
+  - id: POL-019
+    title: Echo Core startup
+    text: 'Read the Echo Core 64 first, before any other task.'
+    source: https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/echo-core-64-directive.md
+    status: DOCUMENTED_OPERATIONAL_NOT_SENATE_RATIFIED
