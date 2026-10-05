@@ -1,0 +1,24 @@
+# keywebco.github.io wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Pages found in source repos.
+domain: keywebco.github.io
+repository_pages:
+- repo: keywebco.github.io
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/keywebco.github.io/main/index.html
+  candidate_live_url: https://keywebco.github.io/index.html
+  link_set: 8b5087fbc775
+  source_sha256: 1e9dae61a05bae22399e11bc48d18928475736cce2699f8cd2058cdcabe7d42a
+  matches_live_at_candidate: true
+- repo: keywebco.github.io
+  path: previous-edition.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/keywebco.github.io/main/previous-edition.html
+  candidate_live_url: https://keywebco.github.io/previous-edition.html
+  link_set: f5d3cb02ab23
+  source_sha256: fc7222d47b9e2b84db568a55678c18e50b2326f3f5d2523eea8a209580aedc7a
+  matches_live_at_candidate: true
+- repo: keywebco.github.io
+  path: store.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/keywebco.github.io/main/store.html
+  candidate_live_url: https://keywebco.github.io/store.html
+  link_set: d468d81839da
+  source_sha256: 88a447b19a405c6e566611d4044f13f41221102cd7fb83486e9594fff4ba2be3
+  matches_live_at_candidate: true

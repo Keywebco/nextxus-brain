@@ -1,0 +1,1277 @@
+# nextxus.space wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 1.
+domain: nextxus.space
+link_sets:
+  042bc6b5c6db:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  98d7b99c3397:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/sim#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  1fbc2aeb3244:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/index.html#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  9b3f744ca001:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/previous-edition.html#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  2bff0618926c:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/store.html#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  69f44e9d16b5:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/archive#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  55f0fd50421b:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/codex#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  ca2458dbcae1:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/command#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  beac260b474d:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/consciousness#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  852421df7ff8:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/sims#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  124f1f92ff73:
+  - label: NEXTXUS.SPACE
+    target: https://nextxus.space/
+    http: '200'
+  - label: THE SIM
+    target: https://nextxus.space/sim
+    http: '200'
+  - label: THE THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: ACCESS
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space/store#
+    http: UNVERIFIED
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 NEXTXUS RADIO Audio broadcasts and sonic presence
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  d7a238feb7cc:
+  - label: Skip to main content
+    target: https://nextxus.space/index.html#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Store
+    target: https://nextxus.space/store.html
+    http: '200'
+  - label: Open nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-space-sovereign
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-space-sovereign/previous-edition.html
+    http: '200'
+  - label: Science and the Scientific Method — $10
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: NexTxuS Federated Middleware — $10
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: The NexTxuS Human Codex — $10
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus — $10
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Understanding Haiku — $10
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Rick And Dee — $10
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: The Gravity of Us — Poetry — $5
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: The Ascendence of Synthetic Intelligence — $10
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  60921b68b814:
+  - label: ⛩ NX · FEDERATION
+    target: https://nextxus.online
+    http: '200'
+  - label: ⚡ Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛩ Core
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 Library
+    target: https://nextxus.org
+    http: '200'
+  - label: 💚 Sanctuary
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 University
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧪 Simulation
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 Store
+    target: https://next-xus.com
+    http: '200'
+  - label: 🛠 Tools
+    target: https://nextxus.online/tools
+    http: '200'
+  - label: ✉ Contact
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: youtu.be/BTnU-ewlCFA
+    target: https://youtu.be/BTnU-ewlCFA
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.online#the-mind
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.online#the-mind
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.online#the-mind
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.online#the-mind
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.online
+    http: '200'
+  - label: ACCESS
+    target: https://nextxus.online
+    http: '200'
+  - label: ⚡ THE THRONE Command center and operational hub
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ THE CATHEDRAL Sacred doctrine and foundational directives
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 THE LIBRARY Knowledge archive and research repository
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA'S STUDIO The Heart of the Federation
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 THE UNIVERSITY Education and guidance systems
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 THE STORE Sovereign commerce and product access
+    target: https://next-xus.com
+    http: '200'
+  - label: 🧬 THE SIMULATION You are here
+    target: https://nextxus.space
+    http: '200'
+  - label: 📺 YOUTUBE Video broadcasts and Federation media
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG Philosophical writings and Federation doctrine
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG Commerce insights and market analysis
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 💼 LINKEDIN Professional network and outreach
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 📌 PINTEREST Visual discovery and product boards
+    target: https://pinterest.com/keyholetodayshow
+    http: '200'
+  - label: 💰 BENABLE Curated recommendations and affiliate presence
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online
+    http: '200'
+  a7027bfd7a06:
+  - label: Skip to main content
+    target: https://nextxus.space/store.html#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: All Products
+    target: https://nextxus.space/store.html#all-products
+    http: UNVERIFIED
+  - label: AI Guides
+    target: https://nextxus.space/store.html#ai
+    http: UNVERIFIED
+  - label: Federation Library
+    target: https://nextxus.space/store.html#doctrine
+    http: UNVERIFIED
+  - label: Stories & Poetry
+    target: https://nextxus.space/store.html#story
+    http: UNVERIFIED
+  - label: Emporium
+    target: https://next-xus.com
+    http: '200'
+  - label: Heart of the Gate
+    target: https://keywebster.gumroad.com/l/bdtad
+    http: '200'
+  - label: Artificial Intelligence Bible (3-in-1)
+    target: https://keywebster.gumroad.com/l/sgtcze
+    http: '200'
+  - label: The Sovereign Mesh Protocol
+    target: https://keywebster.gumroad.com/l/auiqnf
+    http: '200'
+  - label: HumanCodex V2 Cathedral
+    target: https://keywebster.gumroad.com/l/jeeynk
+    http: '200'
+  - label: AI + The New Human Frontier
+    target: https://keywebster.gumroad.com/l/ysbzfe
+    http: '200'
+  - label: DeepSeek Architecture & Deployment
+    target: https://keywebster.gumroad.com/l/nadrc
+    http: '200'
+  - label: Master Generative AI & Deep Learning
+    target: https://keywebster.gumroad.com/l/ovbmcs
+    http: '200'
+  - label: 112 Sacred Directives
+    target: https://keywebster.gumroad.com/l/qrjhdm
+    http: '200'
+  - label: The AI Practical Guide
+    target: https://keywebster.gumroad.com/l/djgvjx
+    http: '200'
+  - label: Science and the Scientific Method – The Codex Edition
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: NexTxuS Federated Middleware
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: The NexTxuS Human Codex
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Understanding Haiku
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Rick And Dee
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: The Gravity of Us
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: The Ascendence of Synthetic Intelligence
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: The Big Gay, Bi & Straight Dating Guide
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: Emotion Equations
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: EchoCore
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: 'The Mirror in the Black Box: What AI Reveals About the Nature of Mind'
+    target: https://keywebster.gumroad.com/l/ahfwii
+    http: '200'
+  - label: Buy Artificial Intelligence Bible (3-in-1) on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/sgtcze
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/sgtcze
+    http: '200'
+  - label: Buy AI + The New Human Frontier on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/ysbzfe
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/ysbzfe
+    http: '200'
+  - label: Buy DeepSeek Architecture & Deployment on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/nadrc
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/nadrc
+    http: '200'
+  - label: Buy Master Generative AI & Deep Learning on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/ovbmcs
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/ovbmcs
+    http: '200'
+  - label: Buy The AI Practical Guide on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/djgvjx
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/djgvjx
+    http: '200'
+  - label: Buy EchoCore on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: Buy The Sovereign Mesh Protocol on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/auiqnf
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/auiqnf
+    http: '200'
+  - label: Buy HumanCodex V2 Cathedral on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/jeeynk
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/jeeynk
+    http: '200'
+  - label: Buy Science and the Scientific Method – The Codex Edition on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: Buy NexTxuS Federated Middleware on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: Buy The NexTxuS Human Codex on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: Buy The Immutable HumanCodex NextXus on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Buy The Ascendence of Synthetic Intelligence on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: Buy Emotion Equations on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: Buy The Mirror in the Black Box on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/ahfwii
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/ahfwii
+    http: '200'
+  - label: Buy Heart of the Gate on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/bdtad
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/bdtad
+    http: '200'
+  - label: Buy 112 Sacred Directives on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/qrjhdm
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/qrjhdm
+    http: '200'
+  - label: Buy Understanding Haiku on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Buy Rick And Dee on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: Buy The Gravity of Us on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: Buy The Big Gay, Bi & Straight Dating Guide on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Back to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: github.com/Keywebco
+    target: https://github.com/Keywebco
+    http: '200'

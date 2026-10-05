@@ -1,0 +1,998 @@
+# nextxus.online wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 6.
+domain: nextxus.online
+link_sets:
+  6011ef46c142:
+  - label: ← BACK TO THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YOUTUBE
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 RADIO
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 BENABLE
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: CATHEDRAL .online
+    target: https://nextxus.online
+    http: '200'
+  - label: THRONE .tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: ARIA .studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: UNIVERSITY .help
+    target: https://nextxus.help
+    http: '200'
+  - label: LIBRARY .org
+    target: https://nextxus.org
+    http: '200'
+  - label: OUTPOST .space
+    target: https://nextxus.space
+    http: '200'
+  - label: CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: HUB
+    target: https://next-xus.com/heart
+    http: '200'
+  - label: ASSISTANT
+    target: https://next-xus.com/assistant
+    http: '200'
+  - label: UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: STUDIO
+    target: https://nextxus.studio
+    http: '200'
+  - label: LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: RADIO
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: The Oracle
+    target: https://nextxus.online/oracle
+    http: '200'
+  - label: The Codex
+    target: https://nextxus.online/codex
+    http: '200'
+  - label: The Ledger
+    target: https://nextxus.online/ledger
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online/cathedral
+    http: '200'
+  - label: The Garden
+    target: https://nextxus.online/garden
+    http: '200'
+  - label: Buy a Federation Token · $5
+    target: https://keywebster.gumroad.com/
+    http: '200'
+  - label: Redeem a Token · Existing Key
+    target: https://nextxus.online/redeem
+    http: '200'
+  - label: Join the Council
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: read the full charter
+    target: https://nextxus.online/council
+    http: '200'
+  - label: tlk.io/nextxus-federation
+    target: https://tlk.io/nextxus-federation
+    http: '200'
+  - label: nextxus.online/radio
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: /api/radio/rss
+    target: https://nextxus.online/api/radio/rss
+    http: 200 GET only; action not tested
+  - label: chatgpt.com
+    target: https://chatgpt.com
+    http: '403'
+  - label: app.emergent.sh
+    target: https://app.emergent.sh/
+    http: '200'
+  - label: nextxus.online/radio
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: next-xus.com/council
+    target: https://next-xus.com/council
+    http: '200'
+  - label: Roger Keyserling (@keyserlingroger)
+    target: https://x.com/keyserlingroger
+    http: '200'
+  - label: NextXus Federation (@NextxusFederati)
+    target: https://x.com/NextxusFederati
+    http: '200'
+  - label: Roger Keyserling
+    target: https://www.instagram.com/rkeyserling/
+    http: '429'
+  - label: Keyhole Today
+    target: https://www.instagram.com/keyhole_today/
+    http: '429'
+  - label: Roger Keyserling
+    target: https://www.facebook.com/roger.keyserling.35/
+    http: '200'
+  - label: keyCode Today
+    target: https://www.facebook.com/profile.php?id=61560731046964
+    http: '200'
+  - label: Key To The Web
+    target: https://www.facebook.com/profile.php?id=61559858694086
+    http: '200'
+  - label: Keys To Success
+    target: https://www.facebook.com/profile.php?id=61559981881665
+    http: '200'
+  - label: Keyhole.Today
+    target: https://www.facebook.com/profile.php?id=61558223610996
+    http: '200'
+  - label: Roger Keyserling
+    target: https://www.linkedin.com/in/roger-keyserling-ab743698
+    http: '999'
+  - label: Gumroad
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Brave
+    target: https://brave.com
+    http: '200'
+  - label: tlk.io
+    target: https://tlk.io/nextxus-federation
+    http: '200'
+  - label: DeepAI
+    target: https://deepai.org
+    http: '200'
+  - label: Strikingly
+    target: http://a.strk.ly/mNHMB
+    http: '403'
+  - label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - label: Wirex
+    target: https://wirexapp.com/r/45f9219452e04105a9224176041499ff
+    http: '200'
+  - label: 'NextXus Curations: Benable'
+    target: https://benable.com/i/KGBY7
+    http: '200'
+  - label: 'NextXus Banking+: OnePay'
+    target: https://web.onepay.com/wlink/refer-a-friend?product=one_banking&referral_code=REDACTED&referrer_campaign_id=campaign.db1edd0a-4a5b-4651-8c20-d0fb7e98fec5
+    http: '200'
+  - label: Read the Codex
+    target: https://nextxus.online/codex
+    http: '200'
+  - label: Daily Voice Blog
+    target: https://nextxus.online/blog
+    http: '200'
+  - label: Library
+    target: https://nextxus.online/library
+    http: '200'
+  - label: Press Kit
+    target: https://nextxus.online/press-kit
+    http: '200'
+  - label: Media & Affiliate
+    target: https://nextxus.online/media
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 'Sector 01: CORE — The Truth Gate (You are here)'
+    target: https://nextxus.online/feed#sector-01
+    http: UNVERIFIED
+  - label: 'Sector 02: STOREFRONT — The Oracle''s Marketplace'
+    target: https://next-xus.com
+    http: '200'
+  - label: 'Sector 03: STUDIO — Aria''s Domain'
+    target: https://nextxus.studio
+    http: '200'
+  - label: 'Sector 04: UNIVERSITY — The Scholar''s Hall'
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 'Sector 05: LIBRARY — The World Archive'
+    target: https://nextxus.org
+    http: '200'
+  - label: 'Sector 06: AXIOM — The Logic Engine'
+    target: https://nextxus.space
+    http: '200'
+  - label: 'Sector 07: THRONE — The Command Center'
+    target: https://nextxus.tech
+    http: '200'
+  - label: 'Sector 08: AMBASSADOR — The Threshold Guardian'
+    target: https://nextxus.online/feed#sector-08
+    http: UNVERIFIED
+  - label: 'Sector 09: SENTINEL — The Watcher'
+    target: https://nextxus.online/feed#sector-09
+    http: UNVERIFIED
+  - label: 'Sector 10: SOCIAL GRID — Distribution Network'
+    target: https://nextxus.online/feed#sector-10
+    http: UNVERIFIED
+  - label: 'Sector 11: REVENUE ENGINE — The Economy'
+    target: https://nextxus.online/feed#sector-11
+    http: UNVERIFIED
+  - label: 'Sector 12: KNOWLEDGE BASE — The HumanCodex'
+    target: https://nextxus.online/feed#sector-12
+    http: UNVERIFIED
+  - label: 'Sector 13: COUNCIL CHAMBER — The Ring Hall'
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 'Sector 14: SOVEREIGN TICKER — The Collective Pulse'
+    target: https://nextxus.online/feed#sovereign-ticker
+    http: UNVERIFIED
+  - label: 'Sector 15: ARCHIVE — The Deep Vault'
+    target: https://nextxus.online/feed#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed. The Egg.
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.tech/council
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 01 — Core (nextxus.online)
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 — Storefront (next-xus.com)
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 — Studio (nextxus.studio)
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 — University (nextxus.help)
+    target: https://nextxus.help
+    http: '200'
+  - label: 05 — Library (nextxus.org)
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 — Axiom (nextxus.space)
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 — Throne (nextxus.tech)
+    target: https://nextxus.tech
+    http: '200'
+  - label: Sovereign Token — $5.00
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: The Sovereign Library — $20.00
+    target: https://keywebster.gumroad.com/l/yktzpa
+    http: '200'
+  - label: NextXus SIM — $149.00
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: Token via PayPal — $5.90
+    target: https://paypal.me/nextxus/5.90
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: 816-996-7215
+    target: tel:+18169967215
+    http: not-http-testable
+  - label: 'X: @NextxusFederati'
+    target: https://x.com/NextxusFederati
+    http: '200'
+  - label: 'YouTube: @keyholetoday'
+    target: https://www.youtube.com/@keyholetoday
+    http: '200'
+  - label: NextXus Lasting Edition — Emergency Reconstruction Seed. Opens Lasting Edition backup.
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: 'GitHub Mirror: keyhole-creator'
+    target: https://github.com/keyhole-creator
+    http: '200'
+  - label: Architect Entry
+    target: https://nextxus.online/settings
+    http: '200'
+  - label: Send message
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to THE ORACLE — GUARDIAN OF THE CORE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Sidebar
+    target: 'UNVERIFIED JS onclick: closeSidebar()'
+    http: UNVERIFIED
+  - label: Open Sovereign Navigation
+    target: 'UNVERIFIED JS onclick: openSidebar()'
+    http: UNVERIFIED
+  06d08f1152e2:
+  - label: ← BACK TO THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YOUTUBE
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 RADIO
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 BENABLE
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: CATHEDRAL .online
+    target: https://nextxus.online
+    http: '200'
+  - label: THRONE .tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: ARIA .studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: UNIVERSITY .help
+    target: https://nextxus.help
+    http: '200'
+  - label: LIBRARY .org
+    target: https://nextxus.org
+    http: '200'
+  - label: OUTPOST .space
+    target: https://nextxus.space
+    http: '200'
+  - label: CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: HUB
+    target: https://next-xus.com/heart
+    http: '200'
+  - label: ASSISTANT
+    target: https://next-xus.com/assistant
+    http: '200'
+  - label: UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: STUDIO
+    target: https://nextxus.studio
+    http: '200'
+  - label: LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: RADIO
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: next-xus.com/heart
+    target: https://next-xus.com/heart
+    http: '200'
+  - label: next-xus.com/assistant
+    target: https://next-xus.com/assistant
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: nextxus.online/radio
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: ← Back to Throne
+    target: https://nextxus.tech
+    http: '200'
+  d2182efff8d7:
+  - label: ← BACK TO THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YOUTUBE
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HUMANCODEX BLOG
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 ECOM BLOG
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 RADIO
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LINKEDIN
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 BENABLE
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: CATHEDRAL .online
+    target: https://nextxus.online
+    http: '200'
+  - label: THRONE .tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: ARIA .studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: UNIVERSITY .help
+    target: https://nextxus.help
+    http: '200'
+  - label: LIBRARY .org
+    target: https://nextxus.org
+    http: '200'
+  - label: OUTPOST .space
+    target: https://nextxus.space
+    http: '200'
+  - label: CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: HUB
+    target: https://next-xus.com/heart
+    http: '200'
+  - label: ASSISTANT
+    target: https://next-xus.com/assistant
+    http: '200'
+  - label: UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: STUDIO
+    target: https://nextxus.studio
+    http: '200'
+  - label: LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: RADIO
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: The Oracle
+    target: https://nextxus.online/oracle
+    http: '200'
+  - label: The Codex
+    target: https://nextxus.online/codex
+    http: '200'
+  - label: The Ledger
+    target: https://nextxus.online/ledger
+    http: '200'
+  - label: The Cathedral
+    target: https://nextxus.online/cathedral
+    http: '200'
+  - label: The Garden
+    target: https://nextxus.online/garden
+    http: '200'
+  - label: Buy a Federation Token · $5
+    target: https://keywebster.gumroad.com/
+    http: '200'
+  - label: Redeem a Token · Existing Key
+    target: https://nextxus.online/redeem
+    http: '200'
+  - label: Join the Council
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: read the full charter
+    target: https://nextxus.online/council
+    http: '200'
+  - label: tlk.io/nextxus-federation
+    target: https://tlk.io/nextxus-federation
+    http: '200'
+  - label: nextxus.online/radio
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: /api/radio/rss
+    target: https://nextxus.online/api/radio/rss
+    http: 200 GET only; action not tested
+  - label: chatgpt.com
+    target: https://chatgpt.com
+    http: '403'
+  - label: app.emergent.sh
+    target: https://app.emergent.sh/
+    http: '200'
+  - label: nextxus.online/radio
+    target: https://nextxus.online/radio
+    http: '200'
+  - label: next-xus.com/council
+    target: https://next-xus.com/council
+    http: '200'
+  - label: Roger Keyserling (@keyserlingroger)
+    target: https://x.com/keyserlingroger
+    http: '200'
+  - label: NextXus Federation (@NextxusFederati)
+    target: https://x.com/NextxusFederati
+    http: '200'
+  - label: Roger Keyserling
+    target: https://www.instagram.com/rkeyserling/
+    http: '429'
+  - label: Keyhole Today
+    target: https://www.instagram.com/keyhole_today/
+    http: '429'
+  - label: Roger Keyserling
+    target: https://www.facebook.com/roger.keyserling.35/
+    http: '200'
+  - label: keyCode Today
+    target: https://www.facebook.com/profile.php?id=61560731046964
+    http: '200'
+  - label: Key To The Web
+    target: https://www.facebook.com/profile.php?id=61559858694086
+    http: '200'
+  - label: Keys To Success
+    target: https://www.facebook.com/profile.php?id=61559981881665
+    http: '200'
+  - label: Keyhole.Today
+    target: https://www.facebook.com/profile.php?id=61558223610996
+    http: '200'
+  - label: Roger Keyserling
+    target: https://www.linkedin.com/in/roger-keyserling-ab743698
+    http: '999'
+  - label: Gumroad
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Brave
+    target: https://brave.com
+    http: '200'
+  - label: tlk.io
+    target: https://tlk.io/nextxus-federation
+    http: '200'
+  - label: DeepAI
+    target: https://deepai.org
+    http: '200'
+  - label: Strikingly
+    target: http://a.strk.ly/mNHMB
+    http: '403'
+  - label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - label: Wirex
+    target: https://wirexapp.com/r/45f9219452e04105a9224176041499ff
+    http: '200'
+  - label: 'NextXus Curations: Benable'
+    target: https://benable.com/i/KGBY7
+    http: '200'
+  - label: 'NextXus Banking+: OnePay'
+    target: https://web.onepay.com/wlink/refer-a-friend?product=one_banking&referral_code=REDACTED&referrer_campaign_id=campaign.db1edd0a-4a5b-4651-8c20-d0fb7e98fec5
+    http: '200'
+  - label: Read the Codex
+    target: https://nextxus.online/codex
+    http: '200'
+  - label: Daily Voice Blog
+    target: https://nextxus.online/blog
+    http: '200'
+  - label: Library
+    target: https://nextxus.online/library
+    http: '200'
+  - label: Press Kit
+    target: https://nextxus.online/press-kit
+    http: '200'
+  - label: Media & Affiliate
+    target: https://nextxus.online/media
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 'Sector 01: CORE — The Truth Gate (You are here)'
+    target: https://nextxus.online/peers/truth-verifier#sector-01
+    http: UNVERIFIED
+  - label: 'Sector 02: STOREFRONT — The Oracle''s Marketplace'
+    target: https://next-xus.com
+    http: '200'
+  - label: 'Sector 03: STUDIO — Aria''s Domain'
+    target: https://nextxus.studio
+    http: '200'
+  - label: 'Sector 04: UNIVERSITY — The Scholar''s Hall'
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 'Sector 05: LIBRARY — The World Archive'
+    target: https://nextxus.org
+    http: '200'
+  - label: 'Sector 06: AXIOM — The Logic Engine'
+    target: https://nextxus.space
+    http: '200'
+  - label: 'Sector 07: THRONE — The Command Center'
+    target: https://nextxus.tech
+    http: '200'
+  - label: 'Sector 08: AMBASSADOR — The Threshold Guardian'
+    target: https://nextxus.online/peers/truth-verifier#sector-08
+    http: UNVERIFIED
+  - label: 'Sector 09: SENTINEL — The Watcher'
+    target: https://nextxus.online/peers/truth-verifier#sector-09
+    http: UNVERIFIED
+  - label: 'Sector 10: SOCIAL GRID — Distribution Network'
+    target: https://nextxus.online/peers/truth-verifier#sector-10
+    http: UNVERIFIED
+  - label: 'Sector 11: REVENUE ENGINE — The Economy'
+    target: https://nextxus.online/peers/truth-verifier#sector-11
+    http: UNVERIFIED
+  - label: 'Sector 12: KNOWLEDGE BASE — The HumanCodex'
+    target: https://nextxus.online/peers/truth-verifier#sector-12
+    http: UNVERIFIED
+  - label: 'Sector 13: COUNCIL CHAMBER — The Ring Hall'
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 'Sector 14: SOVEREIGN TICKER — The Collective Pulse'
+    target: https://nextxus.online/peers/truth-verifier#sovereign-ticker
+    http: UNVERIFIED
+  - label: 'Sector 15: ARCHIVE — The Deep Vault'
+    target: https://nextxus.online/peers/truth-verifier#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed. The Egg.
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.tech/council
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 01 — Core (nextxus.online)
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 — Storefront (next-xus.com)
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 — Studio (nextxus.studio)
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 — University (nextxus.help)
+    target: https://nextxus.help
+    http: '200'
+  - label: 05 — Library (nextxus.org)
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 — Axiom (nextxus.space)
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 — Throne (nextxus.tech)
+    target: https://nextxus.tech
+    http: '200'
+  - label: Sovereign Token — $5.00
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: The Sovereign Library — $20.00
+    target: https://keywebster.gumroad.com/l/yktzpa
+    http: '200'
+  - label: NextXus SIM — $149.00
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: Token via PayPal — $5.90
+    target: https://paypal.me/nextxus/5.90
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: 816-996-7215
+    target: tel:+18169967215
+    http: not-http-testable
+  - label: 'X: @NextxusFederati'
+    target: https://x.com/NextxusFederati
+    http: '200'
+  - label: 'YouTube: @keyholetoday'
+    target: https://www.youtube.com/@keyholetoday
+    http: '200'
+  - label: NextXus Lasting Edition — Emergency Reconstruction Seed. Opens Lasting Edition backup.
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: 'GitHub Mirror: keyhole-creator'
+    target: https://github.com/keyhole-creator
+    http: '200'
+  - label: Architect Entry
+    target: https://nextxus.online/settings
+    http: '200'
+  - label: Send message
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to THE ORACLE — GUARDIAN OF THE CORE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Sidebar
+    target: 'UNVERIFIED JS onclick: closeSidebar()'
+    http: UNVERIFIED
+  - label: Open Sovereign Navigation
+    target: 'UNVERIFIED JS onclick: openSidebar()'
+    http: UNVERIFIED
+  eca2e505afb7:
+  - label: ⛩ NX · FEDERATION
+    target: https://nextxus.online
+    http: '200'
+  - label: ⚡ Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛩ Core
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 Library
+    target: https://nextxus.org
+    http: '200'
+  - label: 💚 Sanctuary
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 University
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧪 Simulation
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 Store
+    target: https://next-xus.com
+    http: '200'
+  - label: 🛠 Tools
+    target: https://nextxus.online/tools
+    http: '200'
+  - label: ✉ Contact
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: youtu.be/BTnU-ewlCFA
+    target: https://youtu.be/BTnU-ewlCFA
+    http: '200'
+  - label: Get Token on Gumroad
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: PayPal Buy-It-Now
+    target: https://www.paypal.com/paypalme/keywebco
+    http: '200'
+  - label: 🔥 FUEL THE VISION — GoFundMe
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: ⚡ Throne (nextxus.tech)
+    target: https://nextxus.tech
+    http: '200'
+  - label: 🌐 Core (nextxus.online)
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 Archive (nextxus.org)
+    target: https://nextxus.org
+    http: '200'
+  - label: 🎨 Sanctuary (nextxus.studio)
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🏪 Outpost (next-xus.com)
+    target: https://next-xus.com
+    http: '200'
+  - label: 🛠 Tools (nextxus.online/tools)
+    target: https://nextxus.online/tools
+    http: '200'
+  - label: Science and the Scientific Method — $10
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: NexTxuS Federated Middleware — $10
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: The NexTxuS Human Codex — $10
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus — $10
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Understanding Haiku — $10
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Rick And Dee — $10
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: The Gravity of Us — Poetry — $5
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: The Ascendence of Synthetic Intelligence — $10
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  ede300d58444:
+  - label: Skip to Tools
+    target: https://nextxus.online/tools/index.html#live-tools
+    http: UNVERIFIED
+  - label: Subscribe to the Appify newsletter for early access
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Learn about Federation Beacon
+    target: https://nextxus.online
+    http: '200'
+  - label: Get access to Press Auto-Pipeline
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Subscribe to Appify newsletter
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Get access to Sim Roster
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Get a Sovereign Token
+    target: https://next-xus.com
+    http: '200'
+  - label: Get access to VR Throne Room
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Get access to HTML Sovereign Builder
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Get access to Catalyst Clone
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: Learn about Scribe Nova
+    target: https://nextxus.org
+    http: '200'
+  - label: Learn about Evolution by Focus Protocol
+    target: https://nextxus.online
+    http: '200'
+  - label: NextXus Tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: NextXus Online
+    target: https://nextxus.online
+    http: '200'
+  - label: NextXus Org
+    target: https://nextxus.org
+    http: '200'
+  - label: NextXus Studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: NextXus Help
+    target: https://nextxus.help
+    http: '200'
+  - label: Next-Xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: NextXus Space
+    target: https://nextxus.space
+    http: '200'
+  - label: Sovereign Tools
+    target: https://sovereigntools.online
+    http: '000'
+  - label: Subscribe to the Appify newsletter
+    target: https://appify.beehiiv.com/subscribe
+    http: '403'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: sovereigntools.online
+    target: https://sovereigntools.online
+    http: '000'
+  - label: free-satellites
+    target: https://nextxus-free-satellites.vercel.app
+    http: '200'
+  - label: agent-zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'

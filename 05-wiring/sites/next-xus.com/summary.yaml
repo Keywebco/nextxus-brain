@@ -1,0 +1,76 @@
+# next-xus.com wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: next-xus.com
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- next-xus-com-sovereign
+- nextxus-unified-storefront
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: false
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 8
+  repo_html_pages: 12
+  link_set_count: 20
+  link_instances_deduplicated_by_set: 812
+  http_outcomes_in_link_sets:
+    '200': 640
+    UNVERIFIED: 69
+    '403': 51
+    not-http-testable: 10
+    '429': 42
+  dead_link_set_entries: []
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 0
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 0
+  archival_source: null
+hardcoded_canon:
+- source: https://next-xus.com/static/js/main.8797df87.js
+  duplicated: directive count in text
+  observed:
+  - 73 Sacred Directives
+  - 73 directives
+  replacement_layer: 00-immutable
+- source: Keywebco/nextxus-unified-storefront/products.json
+  duplicated: product catalog; Gumroad canonical prices and buy URLs
+  replacement_layer: 04-builds catalog; Gumroad remains commerce source of truth
+data_dependencies:
+- url_or_pattern: https://next-xus.com/api/chat/stream
+  read_from:
+  - https://next-xus.com/static/js/main.8797df87.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://next-xus.com/api/codex/download
+  read_from:
+  - https://next-xus.com/static/js/main.8797df87.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://next-xus.com/api/federation/
+  read_from:
+  - https://next-xus.com/static/js/main.8797df87.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://next-xus.com/api/gemini
+  read_from:
+  - Keywebco/nextxus-unified-storefront/backend/gemini_endpoint.py
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://next-xus.com/api/redeem
+  read_from:
+  - Keywebco/nextxus-unified-storefront/index.html
+  - https://next-xus.com/
+  - https://next-xus.com/static/js/bundle.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://next-xus.com/api/static/video/orbot-tour.mp4
+  read_from:
+  - https://next-xus.com/
+  - https://next-xus.com/static/js/bundle.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only

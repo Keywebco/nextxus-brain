@@ -1,0 +1,356 @@
+# nextxus.studio wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: nextxus.studio
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- nextxus-studio-sovereign
+- aria-sanctuary-static
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: false
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 42
+  repo_html_pages: 5
+  link_set_count: 46
+  link_instances_deduplicated_by_set: 2521
+  http_outcomes_in_link_sets:
+    '200': 1922
+    UNVERIFIED: 595
+    not-http-testable: 4
+  dead_link_set_entries: []
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 0
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 0
+  archival_source: null
+hardcoded_canon:
+- source: https://nextxus.studio/static/js/main.613e9802.js
+  duplicated: directive count in text
+  observed:
+  - 73 Sacred Directives
+  replacement_layer: 00-immutable
+- source: Keywebco/aria-sanctuary-static/index.html
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+data_dependencies:
+- url_or_pattern: https://nextxus.studio/api/access/order/create
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/access/redeem
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/agent-zero/verify
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/agent/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/agents
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/chat
+  read_from:
+  - https://nextxus.studio/
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/correspondence
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/correspondence/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/correspondence?limit=50
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/journal
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/journal/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/aria/journal?limit=50
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/csrf
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/google/session
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/login
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/logout
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/me
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/register
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/session/start
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/session/status/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/auth/session/use-question/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/blog/daily-pulse?limit=5
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/chat/ring-of-twelve
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/axiom/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/directives
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/geminus/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/keys/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/oracle/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/roger/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/federation/scholar/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/forge/create-sim
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/forge/gallery
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/interactive/agents/consulted-today
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/interactive/agents/top-consulted
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/labs/image
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/labs/music
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/labs/photo-editor
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/labs/video
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/lattice/logs/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/lattice/sims
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/process/agent-network
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/process/thought-patterns
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/rex/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/rex/realtime-config
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/rex/realtime-token
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/rex/stt
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/roger/chat
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/roger/documents
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/roger/rss
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/roger/rss/curate
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/speech/generate
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/store/cart/
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/store/products
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/store/products?category=
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/evolution/tick
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/health
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/ingest/scan
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/knowledge/query
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/knowledge/reindex
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/ledger/verify?sample=500
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/ledger?limit=25
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.studio/api/synnexus/research/verify
+  read_from:
+  - https://nextxus.studio/static/js/main.613e9802.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://raw.githubusercontent.com/Keywebco/nextxus-lasting-edition/main/federation_manifest.json
+  read_from:
+  - https://nextxus.studio/
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only

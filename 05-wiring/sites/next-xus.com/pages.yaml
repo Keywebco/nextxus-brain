@@ -1,0 +1,43 @@
+# next-xus.com wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Live pages discovered.
+domain: next-xus.com
+pages:
+- url: https://next-xus.com/
+  http: '200'
+  link_set: bc08b2e8149a
+  discovery: home
+  body_sha256: ea886021cda670f60c0934cab32f9a46b64e7151ad27cf2f105dbe3fcc05c9df
+- url: https://next-xus.com/pricing
+  http: '200'
+  link_set: 97f693c754d4
+  discovery: home-link
+  body_sha256: a1bf7b8f1e7733bb0b1e30a152fbb80a6d62cdd862f39bc42c91a9d17d3f1581
+- url: https://next-xus.com/privacy
+  http: '200'
+  link_set: e6a43d3e2f3c
+  discovery: home-link
+  body_sha256: 7b676e38067ea59265ff0ff22ae6e017730143f1e47902863143ed7462448420
+- url: https://next-xus.com/terms
+  http: '200'
+  link_set: 31a0a7ca370d
+  discovery: home-link
+  body_sha256: e3c7d9e66ddaa8345539bcab2e2636f805f7901cad51e9c539ffa1d62d4cd1c5
+- url: https://next-xus.com/refund
+  http: '200'
+  link_set: 5108956a8868
+  discovery: home-link
+  body_sha256: 5f2c27956c02624698125922f16095ba89fe645abe8addb1d5938c4bc2677209
+- url: https://next-xus.com/pricelist.html
+  http: '200'
+  link_set: 16d381cf9d89
+  discovery: home-link
+  body_sha256: ea886021cda670f60c0934cab32f9a46b64e7151ad27cf2f105dbe3fcc05c9df
+- url: https://next-xus.com/advocate.html
+  http: '200'
+  link_set: a85141227efc
+  discovery: home-link
+  body_sha256: ea886021cda670f60c0934cab32f9a46b64e7151ad27cf2f105dbe3fcc05c9df
+- url: https://next-xus.com/index.html
+  http: '200'
+  link_set: d0bec9943b3a
+  discovery: repo-page
+  body_sha256: ea886021cda670f60c0934cab32f9a46b64e7151ad27cf2f105dbe3fcc05c9df

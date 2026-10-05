@@ -1,0 +1,97 @@
+# nextxus.tech wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: nextxus.tech
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- nextxus-tech-sovereign
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: false
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 30
+  repo_html_pages: 19
+  link_set_count: 22
+  link_instances_deduplicated_by_set: 613
+  http_outcomes_in_link_sets:
+    '200': 504
+    '403': 6
+    UNVERIFIED: 89
+    '404': 3
+    '000': 1
+    '999': 3
+    not-http-testable: 3
+    '429': 4
+  dead_link_set_entries:
+  - link_set: a759e65fb4a5
+    label: Rogers Echo
+    target: https://chatgpt.com/g/g-69082bdfbddc8191b85593b765fc81a6-rogers-echo
+    http: '404'
+  - link_set: 3e36013e3421
+    label: nextxus.net — The Network
+    target: https://nextxus.net
+    http: '000'
+  - link_set: 3e36013e3421
+    label: YouTube
+    target: https://www.youtube.com/@NextXusFederation
+    http: '404'
+  - link_set: 3890f73082e7
+    label: 🪙 Sovereign Token
+    target: https://keywebco.gumroad.com
+    http: '404'
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 8
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 32
+  archival_source: Keywebco/nextxus-tech-sovereign/docs/database.yaml
+hardcoded_canon:
+- source: Keywebco/nextxus-tech-sovereign/briefing.html
+  duplicated: directive count in text
+  observed:
+  - 73 Directives
+  replacement_layer: 00-immutable
+- source: Keywebco/nextxus-tech-sovereign/briefing.html
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+- source: Keywebco/nextxus-tech-sovereign/sims/ring-of-12.html
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+- source: Keywebco/nextxus-tech-sovereign/docs/database.yaml
+  duplicated: directive count in text
+  observed:
+  - 70 Directives
+  - 70 SACRED DIRECTIVES
+  - 70 Sacred Directives
+  - 73 directives
+  replacement_layer: 00-immutable
+- source: Keywebco/nextxus-tech-sovereign/docs/database.yaml
+  duplicated: archival instructions referencing retired YAML repo and Replit; NOT a proven active reader
+  replacement_layer: 00-immutable + 01-rings + 02-senate + 03-minds + 04-builds
+data_dependencies:
+- url_or_pattern: https://nextxus.tech/api/commons/
+  read_from:
+  - Keywebco/nextxus-tech-sovereign/static/commons.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.tech/api/dispatch
+  read_from:
+  - Keywebco/nextxus-tech-sovereign/command/index.html
+  - Keywebco/nextxus-tech-sovereign/senate/index.html
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.tech/api/dispatches
+  read_from:
+  - Keywebco/nextxus-tech-sovereign/command/index.html
+  - Keywebco/nextxus-tech-sovereign/senate/index.html
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.tech/api/gemini/chat
+  read_from:
+  - Keywebco/nextxus-tech-sovereign/static/federation-integrations.js
+  - https://nextxus.tech/static/federation-integrations.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only

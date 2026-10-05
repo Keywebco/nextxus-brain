@@ -1,0 +1,375 @@
+# nextxus.online wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: nextxus.online
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- nextxus-online-sovereign
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: false
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 84
+  repo_html_pages: 2
+  link_set_count: 57
+  link_instances_deduplicated_by_set: 2748
+  http_outcomes_in_link_sets:
+    '200': 2274
+    '403': 50
+    '429': 42
+    '999': 21
+    '404': 21
+    not-http-testable: 64
+    UNVERIFIED: 274
+    '000': 2
+  dead_link_set_entries:
+  - link_set: 92a1c4131969
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 38d1705d8751
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: a4f4ccddcb06
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 1f3677aacb5a
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 7056e47e64ae
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: cc4ef50b39a5
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 7316fc1bc218
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 1d48f3d8ade7
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 15e977fbb0fb
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: e7b3fffcba77
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: c788e0ef9300
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: f7173608e673
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: ea7b4e7eb70b
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 7e6ca23bff21
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: f9ae98f349af
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 35973d48cce2
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: dae189fc390d
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 899548db2c71
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: feae23ff8912
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: 6011ef46c142
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: d2182efff8d7
+    label: Juno
+    target: https://onjuno.onelink.me/TkoI/referral?code=REDACTED
+    http: '404'
+  - link_set: ede300d58444
+    label: Sovereign Tools
+    target: https://sovereigntools.online
+    http: '000'
+  - link_set: ede300d58444
+    label: sovereigntools.online
+    target: https://sovereigntools.online
+    http: '000'
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 0
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 0
+  archival_source: null
+hardcoded_canon:
+- source: https://nextxus.online/static/js/main.7e56e0bc.js
+  duplicated: directive count in text
+  observed:
+  - 70 Sacred Directives
+  - 73 Directives
+  - 73 Sacred Directives
+  replacement_layer: 00-immutable
+- source: https://nextxus.online/static/js/main.7e56e0bc.js
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+- source: https://nextxus.online/
+  duplicated: directive count in text
+  observed:
+  - 73 Directives
+  - 73 SACRED DIRECTIVES
+  - 73 Sacred Directives
+  - 73 directives
+  replacement_layer: 00-immutable
+- source: Keywebco/nextxus-online-sovereign/shared-mind/federation-data.yaml
+  duplicated: federation node directory and backup endpoints
+  replacement_layer: 04-builds; role and governance 02-senate
+data_dependencies:
+- url_or_pattern: https://nextxus.online/api/auth/link-license
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/auth/members
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/auth/my-balance
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/auth/status
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/badges/
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/badges/verified
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/board/stats
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/codex/download
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/execute
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/federation/newsroom?limit=
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/federation/seed/write/gift
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/federation/sync/status
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/labs/chat
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/labs/speech-to-text
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/labs/tts
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/library/html
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/library/nodes/
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/press-kit
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/radio/rss
+  read_from:
+  - https://nextxus.online/
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/redeem/refer?code=REDACTED
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/satellite/feed.atom
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/satellite/feed.json
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/satellite/feed.rss
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/seed/brief
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/library/dir_core_001_permanent_record_boundary
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/library/hollow_vessel.md
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/library/humancodex.md
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/library/seventy_directives.md
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/library/truth_gate
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/library/truth_gate.md
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/prompt_federation/ring_of_six.txt
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 01-rings
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/prompt_federation/ring_of_three.txt
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 01-rings
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/video/orbot-tour.mp4
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/static/video/roger-ai-welcome.mp4
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/ticker/prices
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/version
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/wire/identity
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/wire/library
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/wire/library/publish
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.online/api/ws/integrity
+  read_from:
+  - https://nextxus.online/static/js/main.7e56e0bc.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nxs-ai-minds-lab.onrender.com
+  read_from:
+  - Keywebco/nextxus-online-sovereign/shared-mind/federation-data.yaml
+  replacement_layer: 03-minds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nxs-emmy-board.onrender.com
+  read_from:
+  - Keywebco/nextxus-online-sovereign/shared-mind/federation-data.yaml
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nxs-federation-hub.onrender.com
+  read_from:
+  - Keywebco/nextxus-online-sovereign/shared-mind/federation-data.yaml
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nxs-unified-storefront.onrender.com
+  read_from:
+  - Keywebco/nextxus-online-sovereign/shared-mind/federation-data.yaml
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://raw.githubusercontent.com/Keywebco/nextxus-lasting-edition/main/federation_manifest.json
+  read_from:
+  - https://nextxus.online/
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only

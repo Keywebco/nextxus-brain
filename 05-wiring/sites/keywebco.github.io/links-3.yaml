@@ -1,0 +1,99 @@
+# keywebco.github.io wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 3.
+domain: keywebco.github.io
+link_sets:
+  e321e3ce344d:
+  - label: Skip to main content
+    target: https://keywebco.github.io/onekey/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Get Your Sovereign Token
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: Open the Password Generator
+    target: https://keywebco.github.io/onekey/generator.html
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/onekey
+    http: '200'
+  6cc3dff94607:
+  - label: Show or hide master secret
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Generate Password
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Copy to Clipboard
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  541d2d5d27c3:
+  - label: HumanCodex Federation
+    target: https://nextxus.online
+    http: '200'
+  - label: Ask the Ring
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Download Full Report
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Send my report
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Download Free Widget
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Copy embed code
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: 'Compare: single answer vs the Ring'
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Changed my view
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Confirmed my view
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Missed the mark
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Submit feedback
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Share your result
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Share your result
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED

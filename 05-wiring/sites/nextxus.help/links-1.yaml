@@ -1,0 +1,681 @@
+# nextxus.help wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 1.
+domain: nextxus.help
+link_sets:
+  bef07f319751:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: NextXus Core
+    target: https://nextxus.online
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.org
+    http: '200'
+  - label: Studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Storefront
+    target: https://next-xus.com
+    http: '200'
+  - label: AI-101 Foundations of Artificial Intelligence From logic gates to learning machines — the honest path to understanding AI.
+    target: https://nextxus.help/#course-ai101
+    http: UNVERIFIED
+  - label: SCI-101 The Scientific Method Question everything. Test honestly. Know what you know.
+    target: https://nextxus.help/#course-sci101
+    http: UNVERIFIED
+  - label: 'HCX-101 The HumanCodex: Truth Architecture in AI The codex that cannot be changed, corrupted, or silenced.'
+    target: https://nextxus.help/#course-hcx101
+    http: UNVERIFIED
+  - label: LIT-101 Literature, Poetry & The Art of Precision The weight of meaning compressed into structure.
+    target: https://nextxus.help/#course-lit101
+    http: UNVERIFIED
+  - label: ECON-101 Sovereign Economics Economics is not about money. It is about choices under scarcity.
+    target: https://nextxus.help/#course-econ101
+    http: UNVERIFIED
+  - label: PSY-101 Consciousness, Perception & the Human-Machine Interface Perception with memory becomes learning.
+    target: https://nextxus.help/#course-psy101
+    http: UNVERIFIED
+  - label: 'MIT OCW 6.034: Artificial Intelligence'
+    target: https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/
+    http: '200'
+  - label: 'Khan Academy: Intro to Algorithms'
+    target: https://www.khanacademy.org/computing/computer-science/algorithms
+    http: '200'
+  - label: 'NextXus: The NexTxuS Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: The Immutable HumanCodex'
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: 'NextXus: Book 2 — Federated Middleware of Sentience'
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: 'Khan Academy: Scientific Method'
+    target: https://www.khanacademy.org/science/biology/intro-to-biology/science-of-biology/v/the-scientific-method
+    http: '200'
+  - label: 'UC Berkeley: Understanding Science'
+    target: https://undsci.berkeley.edu/
+    http: '200'
+  - label: 'Stanford Encyclopedia: Scientific Method'
+    target: https://plato.stanford.edu/entries/scientific-method/
+    http: '200'
+  - label: 'NextXus: Science and the Scientific Method (Codex Edition)'
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: Stanford AI Ethics
+    target: https://stanfordaiethics.github.io/
+    http: '200'
+  - label: 'MIT: Brains, Minds, and Machines'
+    target: https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/
+    http: '200'
+  - label: 'NextXus: Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: Immutable HumanCodex'
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: 'NextXus: Book 2'
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: 'MIT OCW 21L.004: Reading Poetry'
+    target: https://ocw.mit.edu/courses/21l-004-reading-poetry-spring-2009/
+    http: '200'
+  - label: 'MIT OCW 21W.756: Writing and Reading Poems'
+    target: https://ocw.mit.edu/courses/21w-756-writing-and-reading-poems-fall-2006/
+    http: '200'
+  - label: Poetry Foundation
+    target: https://www.poetryfoundation.org/
+    http: '200'
+  - label: Project Gutenberg
+    target: https://www.gutenberg.org/
+    http: '200'
+  - label: 'NextXus: Understanding Haiku'
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: 'NextXus: The Gravity of Us'
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: 'NextXus: Rick And Dee'
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: 'OpenStax: Principles of Economics'
+    target: https://openstax.org/details/books/principles-economics-3e
+    http: '200'
+  - label: 'CORE Econ: The Economy 2.0'
+    target: https://www.core-econ.org/ebooks/
+    http: '202'
+  - label: 'Khan Academy: Economics'
+    target: https://www.khanacademy.org/economics-finance-domain
+    http: '200'
+  - label: 'NextXus: Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: EchoCore'
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: 'MIT OCW 9.00SC: Introduction to Psychology'
+    target: https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/
+    http: '200'
+  - label: 'MIT: Brains, Minds, Machines'
+    target: https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/
+    http: '200'
+  - label: 'Open University: Introducing Consciousness'
+    target: https://www.open.edu/openlearn/history-the-arts/philosophy/introducing-consciousness
+    http: '403'
+  - label: 'CMU: Introduction to Psychology'
+    target: https://oli.cmu.edu/courses/introduction-to-psychology-open-free/
+    http: '200'
+  - label: 'NextXus: Keyserling Emotion Equations'
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: 'NextXus: Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: EchoCore'
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: GET TOKEN
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: VISIT GUMROAD STORE
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: VISIT STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Send
+    target: https://nextxus.help/university
+    http: '200'
+  85f84638c73c:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: NextXus Core
+    target: https://nextxus.online
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.org
+    http: '200'
+  - label: Studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Storefront
+    target: https://next-xus.com
+    http: '200'
+  - label: AI-101 Foundations of Artificial Intelligence From logic gates to learning machines — the honest path to understanding AI.
+    target: https://nextxus.help/index.html#course-ai101
+    http: UNVERIFIED
+  - label: SCI-101 The Scientific Method Question everything. Test honestly. Know what you know.
+    target: https://nextxus.help/index.html#course-sci101
+    http: UNVERIFIED
+  - label: 'HCX-101 The HumanCodex: Truth Architecture in AI The codex that cannot be changed, corrupted, or silenced.'
+    target: https://nextxus.help/index.html#course-hcx101
+    http: UNVERIFIED
+  - label: LIT-101 Literature, Poetry & The Art of Precision The weight of meaning compressed into structure.
+    target: https://nextxus.help/index.html#course-lit101
+    http: UNVERIFIED
+  - label: ECON-101 Sovereign Economics Economics is not about money. It is about choices under scarcity.
+    target: https://nextxus.help/index.html#course-econ101
+    http: UNVERIFIED
+  - label: PSY-101 Consciousness, Perception & the Human-Machine Interface Perception with memory becomes learning.
+    target: https://nextxus.help/index.html#course-psy101
+    http: UNVERIFIED
+  - label: 'MIT OCW 6.034: Artificial Intelligence'
+    target: https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/
+    http: '200'
+  - label: 'Khan Academy: Intro to Algorithms'
+    target: https://www.khanacademy.org/computing/computer-science/algorithms
+    http: '200'
+  - label: 'NextXus: The NexTxuS Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: The Immutable HumanCodex'
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: 'NextXus: Book 2 — Federated Middleware of Sentience'
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: 'Khan Academy: Scientific Method'
+    target: https://www.khanacademy.org/science/biology/intro-to-biology/science-of-biology/v/the-scientific-method
+    http: '200'
+  - label: 'UC Berkeley: Understanding Science'
+    target: https://undsci.berkeley.edu/
+    http: '200'
+  - label: 'Stanford Encyclopedia: Scientific Method'
+    target: https://plato.stanford.edu/entries/scientific-method/
+    http: '200'
+  - label: 'NextXus: Science and the Scientific Method (Codex Edition)'
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: Stanford AI Ethics
+    target: https://stanfordaiethics.github.io/
+    http: '200'
+  - label: 'MIT: Brains, Minds, and Machines'
+    target: https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/
+    http: '200'
+  - label: 'NextXus: Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: Immutable HumanCodex'
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: 'NextXus: Book 2'
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: 'MIT OCW 21L.004: Reading Poetry'
+    target: https://ocw.mit.edu/courses/21l-004-reading-poetry-spring-2009/
+    http: '200'
+  - label: 'MIT OCW 21W.756: Writing and Reading Poems'
+    target: https://ocw.mit.edu/courses/21w-756-writing-and-reading-poems-fall-2006/
+    http: '200'
+  - label: Poetry Foundation
+    target: https://www.poetryfoundation.org/
+    http: '200'
+  - label: Project Gutenberg
+    target: https://www.gutenberg.org/
+    http: '200'
+  - label: 'NextXus: Understanding Haiku'
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: 'NextXus: The Gravity of Us'
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: 'NextXus: Rick And Dee'
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: 'OpenStax: Principles of Economics'
+    target: https://openstax.org/details/books/principles-economics-3e
+    http: '200'
+  - label: 'CORE Econ: The Economy 2.0'
+    target: https://www.core-econ.org/ebooks/
+    http: '202'
+  - label: 'Khan Academy: Economics'
+    target: https://www.khanacademy.org/economics-finance-domain
+    http: '200'
+  - label: 'NextXus: Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: EchoCore'
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: 'MIT OCW 9.00SC: Introduction to Psychology'
+    target: https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/
+    http: '200'
+  - label: 'MIT: Brains, Minds, Machines'
+    target: https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/
+    http: '200'
+  - label: 'Open University: Introducing Consciousness'
+    target: https://www.open.edu/openlearn/history-the-arts/philosophy/introducing-consciousness
+    http: '403'
+  - label: 'CMU: Introduction to Psychology'
+    target: https://oli.cmu.edu/courses/introduction-to-psychology-open-free/
+    http: '200'
+  - label: 'NextXus: Keyserling Emotion Equations'
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: 'NextXus: Human Codex'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: 'NextXus: EchoCore'
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: GET TOKEN
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: VISIT GUMROAD STORE
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: VISIT STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Send
+    target: https://nextxus.help/university
+    http: '200'
+  28425c2cb221:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: NextXus Core
+    target: https://nextxus.online
+    http: '200'
+  - label: The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.org
+    http: '200'
+  - label: Studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Storefront
+    target: https://next-xus.com
+    http: '200'
+  - label: Core
+    target: https://nextxus.online
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: Roger AI
+    target: https://nextxus.online
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Axiom
+    target: https://nextxus.space
+    http: '200'
+  - label: Storefront
+    target: https://next-xus.com
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Guides
+    target: https://nextxus.help/guides/index.html
+    http: '200'
+  - label: Enter the University →
+    target: https://nextxus.help/university
+    http: '200'
+  - label: Acquire Seed
+    target: https://next-xus.com
+    http: '200'
+  - label: Enter Workshop
+    target: https://next-xus.com
+    http: '200'
+  - label: Start Internship
+    target: https://next-xus.com
+    http: '200'
+  - label: Apply for Residency
+    target: https://next-xus.com
+    http: '200'
+  - label: MIT 6.034 — Artificial Intelligence
+    target: https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/
+    http: '200'
+  - label: 'Stanford CS221 — AI: Principles and Techniques'
+    target: https://stanford-cs221.github.io/
+    http: '200'
+  - label: Goodfellow et al. — Deep Learning (free full text)
+    target: https://www.deeplearningbook.org/
+    http: '200'
+  - label: ACT-R 7 Reference Manual
+    target: http://act-r.psy.cmu.edu/actr7.x/reference-manual.html
+    http: '404'
+  - label: Computational Cognitive Neuroscience (free textbook)
+    target: https://grey.colorado.edu/CompCogNeuro/index.php/CCNBook/Main
+    http: '000'
+  - label: 'Get: EchoCore — AI Memory That Doesn''t Forget'
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: MIT — Introduction to System Dynamics
+    target: https://ocw.mit.edu/courses/15-871-introduction-to-system-dynamics-fall-2013/
+    http: '200'
+  - label: Tanenbaum & van Steen — Distributed Systems, 3rd Ed. (free PDF)
+    target: https://www.distributed-systems.net/index.php/books/ds3/
+    http: '200'
+  - label: NASA Systems Engineering Handbook (free PDF)
+    target: https://www.nasa.gov/reference/systems-engineering-handbook/
+    http: '200'
+  - label: Complexity Explorer — Introduction to Complexity (Santa Fe Institute)
+    target: https://www.complexityexplorer.org/courses/165-introduction-to-complexity
+    http: '200'
+  - label: Ostrom — Governing the Commons (free PDF)
+    target: https://wtf.tw/ref/ostrom_1990.pdf
+    http: '200'
+  - label: 'Get: Book 2: NexTxuS — The Federated Middleware of Sentience'
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Stanford Encyclopedia — Karl Popper
+    target: https://plato.stanford.edu/entries/popper/
+    http: '200'
+  - label: Khan Academy — Critical Thinking (Wi-Phi)
+    target: https://www.khanacademy.org/partner-content/wi-phi/wiphi-critical-thinking
+    http: '200'
+  - label: Nature — A Manifesto for Reproducible Science
+    target: https://www.nature.com/articles/s41562-016-0021
+    http: '200'
+  - label: Open Science Framework
+    target: https://osf.io/
+    http: '200'
+  - label: Nicky Case — The Wisdom and/or Madness of Crowds (interactive)
+    target: https://ncase.me/crowds/
+    http: '200'
+  - label: 'Get: Science and the Scientific Method — The Codex Edition'
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: University of Helsinki — Ethics of AI (free course)
+    target: https://ethics-of-ai.mooc.fi/
+    http: '200'
+  - label: AGI Safety Fundamentals (BlueDot Impact)
+    target: https://www.agisafetyfundamentals.com/
+    http: '200'
+  - label: EU AI Act — full text (EUR-Lex)
+    target: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+    http: '202'
+  - label: ProPublica — Machine Bias (COMPAS investigation)
+    target: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+    http: '200'
+  - label: Buolamwini & Gebru — Gender Shades
+    target: http://gendershades.org/
+    http: '200'
+  - label: 'Get: The Immutable HumanCodex NextXus'
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Yale — Human Emotions (free course)
+    target: https://www.openculture.com/human-emotions-a-free-course-from-yale
+    http: '200'
+  - label: MIT Media Lab — Affective Computing Group
+    target: https://www.media.mit.edu/groups/affective-computing/tools/
+    http: '200'
+  - label: Greater Good Science Center, UC Berkeley
+    target: https://greatergood.berkeley.edu/
+    http: '200'
+  - label: Russell — A Circumplex Model of Affect (foundational paper)
+    target: https://www.researchgate.net/publication/235361517_A_Circumplex_Model_of_Affect
+    http: '403'
+  - label: Picard — Affective Computing, Ch. 6 (free)
+    target: https://arl.human.cornell.edu/linked%20docs/Picard%20Affective%20Computing.pdf
+    http: '200'
+  - label: 'Get: Keyserling Emotion Equations'
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Coursera — Queering Identities (University of Colorado, free)
+    target: https://www.coursera.org/learn/queeringidentities
+    http: '200'
+  - label: Lumen Learning — Intro to Women, Gender, and Sexuality Studies (free)
+    target: https://courses.lumenlearning.com/suny-introwgss/
+    http: '200'
+  - label: Digital Transgender Archive (open-access)
+    target: https://www.digitaltransgenderarchive.net/
+    http: '403'
+  - label: MIT — Gender and Sexuality Studies (free courses)
+    target: https://learn.mit.edu/c/topic/gender-studies?resource=12196
+    http: '200'
+  - label: EmpowerQueer Hub — Trainings and Resources
+    target: https://www.empowerqueerhub.com/trainings
+    http: '200'
+  - label: 'Get: The Big Gay Bi & Straight Guide'
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Get Sovereign Tokens
+    target: https://next-xus.com
+    http: '200'
+  - label: CONSULT THE SCHOLAR
+    target: https://nextxus.help/university
+    http: '200'
+  - label: 💬 LAW GUIDE META
+    target: https://m.me/1142655717588540?is_ai=1
+    http: '200'
+  - label: 💬 FUTURE CAST
+    target: https://m.me/918153050221699?is_ai=1
+    http: '200'
+  - label: 💬 FAIR PRICE
+    target: https://m.me/1015478003820086?is_ai=1
+    http: '200'
+  - label: 💬 PRIDE GUIDE
+    target: https://m.me/652145317181208?is_ai=1
+    http: '200'
+  - label: 💬 VIDEO AI
+    target: https://m.me/1423672362331865?is_ai=1
+    http: '200'
+  - label: GET TOKENS
+    target: https://next-xus.com
+    http: '200'
+  - label: REX — The Architect
+    target: https://nextxus.online
+    http: '200'
+  - label: WEAVER — The Builder
+    target: https://next-xus.com
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: GET TOOL
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: GET GUIDE
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: GET TOKEN
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: BROWSE ALL PRODUCTS ON GUMROAD
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: 🎤 Mic
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: 🔊 Voice
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Send
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: 💬 Community Chat — Open
+    target: 'UNVERIFIED JS onclick: document.getElementById(''tlkio-container'').style.display = document.getElementById(''tlkio-container'').style.display === ''none'' ?+%27block%27+%3A+%27none%27%3B+this.textContent+=+document.getElementById%28%27tlkio-con'
+    http: UNVERIFIED
+  - label: Send
+    target: https://nextxus.help/university
+    http: '200'

@@ -1,0 +1,316 @@
+# nextxus.tech wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 2.
+domain: nextxus.tech
+link_sets:
+  e85b40683c0e:
+  - label: Skip to main content
+    target: https://nextxus.tech/roger.html#main
+    http: UNVERIFIED
+  - label: About
+    target: https://nextxus.tech/roger.html#about
+    http: UNVERIFIED
+  - label: Research
+    target: https://nextxus.tech/roger.html#research
+    http: UNVERIFIED
+  - label: Federation
+    target: https://nextxus.tech/roger.html#federation
+    http: UNVERIFIED
+  - label: Repositories
+    target: https://nextxus.tech/roger.html#repos
+    http: UNVERIFIED
+  - label: Store
+    target: https://nextxus.tech/roger.html#store
+    http: UNVERIFIED
+  - label: Connect
+    target: https://nextxus.tech/roger.html#connect
+    http: UNVERIFIED
+  - label: ◧ Academia.edu — Roger C. Keyserling HumanCodex research papers, essays & published academic works — independent.academia.edu/RogerKeyserling HumanCodex
+    target: https://independent.academia.edu/RogerKeyserling
+    http: '403'
+  - label: ◈ NextXus Core Portal — Throne / Senate / Nova AI nextxus.tech — Admin Throne, Senate Council & Nova AI node Core
+    target: https://nextxus.tech
+    http: '200'
+  - label: ◈ Cathedral / Core Truth nextxus.online — Single source of truth for all Federation content Truth
+    target: https://nextxus.online
+    http: '200'
+  - label: ◈ Archive / Library nextxus.org — Living Library, sovereign archive & mirror node Archive
+    target: https://nextxus.org
+    http: '200'
+  - label: ◈ Aria's Sanctuary / SIMs AI nextxus.studio — Creative studio, Aria AI & SIMs simulation node Studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: ◈ University nextxus.help — Federation University, support & documentation Help
+    target: https://nextxus.help
+    http: '200'
+  - label: ◈ Axiom Advanced Research & Evolution nextxus.space — Axiom research node & evolution laboratory Research
+    target: https://nextxus.space
+    http: '200'
+  - label: ◉ Federation Storefront next-xus.com — Primary Federation commerce & product portal Store
+    target: https://next-xus.com
+    http: '200'
+  - label: ⬡ Agent Zero — Live Autonomous Node keywebco.github.io/nextxus-agent-zero — Active autonomous agent endpoint Live
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: ⑂ nextxus-tech-sovereign
+    target: https://github.com/Keywebco/nextxus-tech-sovereign
+    http: '200'
+  - label: ⑂ nextxus-staging
+    target: https://github.com/Keywebco/nextxus-staging
+    http: '200'
+  - label: ⑂ nextxus-online-sovereign
+    target: https://github.com/Keywebco/nextxus-online-sovereign
+    http: '200'
+  - label: ⑂ nextxus-org-sovereign
+    target: https://github.com/Keywebco/nextxus-org-sovereign
+    http: '200'
+  - label: ⑂ nextxus-studio-sovereign
+    target: https://github.com/Keywebco/nextxus-studio-sovereign
+    http: '200'
+  - label: ⑂ nextxus-help-sovereign
+    target: https://github.com/Keywebco/nextxus-help-sovereign
+    http: '200'
+  - label: ⑂ nextxus-space-sovereign
+    target: https://github.com/Keywebco/nextxus-space-sovereign
+    http: '200'
+  - label: ⑂ nextxus-emmy-board
+    target: https://github.com/Keywebco/nextxus-emmy-board
+    http: '200'
+  - label: ⑂ nextxus-unified-storefront
+    target: https://github.com/Keywebco/nextxus-unified-storefront
+    http: '200'
+  - label: ⑂ nextxus-agent-zero
+    target: https://github.com/Keywebco/nextxus-agent-zero
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/mpihoy
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/pindmd
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/macgch
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/nlqsj
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/vjblsj
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/ihcht
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/yifuu
+    http: '200'
+  - label: Get →
+    target: https://keywebster.gumroad.com/l/yktzpa
+    http: '200'
+  - label: View Full Store — keywebster.gumroad.com →
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: ✉ keywebco@gmail.com Primary contact for Roger C. Keyserling / NextXus Federation Email
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: ▶ YouTube — @keyholetoday Keyhole Today — Federation video channel YouTube
+    target: https://www.youtube.com/@keyholetoday
+    http: '200'
+  - label: 𝕏 X — @NextxusFederati NextXus Federation official account (primary) X
+    target: https://x.com/NextxusFederati
+    http: '200'
+  - label: 𝕏 X — @keyserlingroger Roger C. Keyserling personal account (secondary) X
+    target: https://x.com/keyserlingroger
+    http: '200'
+  - label: ◎ Instagram — @keyhole_today Keyhole Today — Federation media & content Instagram
+    target: https://www.instagram.com/keyhole_today/
+    http: '429'
+  - label: ◎ Instagram — @rkeyserling Roger C. Keyserling personal account Instagram
+    target: https://www.instagram.com/rkeyserling/
+    http: '429'
+  - label: f Facebook — Roger Keyserling Personal profile — roger.keyserling.35 Facebook
+    target: https://www.facebook.com/roger.keyserling.35/
+    http: '200'
+  - label: 'f Facebook — Federation Page 1 Profile ID: 61560731046964 Facebook'
+    target: https://www.facebook.com/profile.php?id=61560731046964
+    http: '200'
+  - label: 'f Facebook — Federation Page 2 Profile ID: 61559858694086 Facebook'
+    target: https://www.facebook.com/profile.php?id=61559858694086
+    http: '200'
+  - label: 'f Facebook — Federation Page 3 Profile ID: 61559981881665 Facebook'
+    target: https://www.facebook.com/profile.php?id=61559981881665
+    http: '200'
+  - label: 'f Facebook — Federation Page 4 Profile ID: 61558223610996 Facebook'
+    target: https://www.facebook.com/profile.php?id=61558223610996
+    http: '200'
+  - label: in LinkedIn — Roger Keyserling Professional profile — /in/roger-keyserling-ab743698 LinkedIn
+    target: https://www.linkedin.com/in/roger-keyserling-ab743698
+    http: '999'
+  - label: P Pinterest — keyholetodayshow NextXus visual boards & design assets Pinterest
+    target: https://www.pinterest.com/keyholetodayshow
+    http: '200'
+  - label: ◆ Benable — NextXus benable.com/NextXus — Federation recommendations & curated content Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  40ba28e230dc:
+  - label: Skip to the Ring of 12 seats
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Jump to the conversation panel for the selected seat
+    target: https://nextxus.tech/sims/ring-of-12.html#panels
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Return to the Ring of 12 seat grid
+    target: https://nextxus.tech/sims/ring-of-12.html#ring
+    http: UNVERIFIED
+  - label: Send message to The Oracle
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-1
+    http: '200'
+  - label: Send message to The Herald
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-2
+    http: '200'
+  - label: Send message to The Sentinel
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-3
+    http: '200'
+  - label: Send message to The Strategist
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-4
+    http: '200'
+  - label: Send message to The Ledger
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-5
+    http: '200'
+  - label: Send message to The Advocate
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-6
+    http: '200'
+  - label: Send message to The Herald of Reach
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-7
+    http: '200'
+  - label: Send message to The Courier
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-8
+    http: '200'
+  - label: Send message to The Merchant
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-9
+    http: '200'
+  - label: Send message to The Watcher
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-10
+    http: '200'
+  - label: Send message to The Coordinator
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-11
+    http: '200'
+  - label: Send message to The Architect
+    target: https://nextxus.tech/sims/ring-of-12.html#panel-12
+    http: '200'
+  3890f73082e7:
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: 🏪 Store
+    target: https://next-xus.com
+    http: '200'
+  - label: 📚 Library
+    target: https://nextxus.org
+    http: '200'
+  - label: 🪙 Sovereign Token
+    target: https://keywebco.gumroad.com
+    http: '404'
+  - label: Visit Aria →
+    target: https://nextxus.studio
+    http: '200'
+  - label: Visit Roger AI →
+    target: https://nextxus.online
+    http: '200'
+  - label: Visit Axiom →
+    target: https://nextxus.space
+    http: '200'
+  - label: Visit Nova →
+    target: https://next-xus.com
+    http: '200'
+  - label: Visit Keys →
+    target: https://nextxus.org
+    http: '200'
+  - label: Visit Xavier →
+    target: https://nextxus.help
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: Open Store
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Open Library
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Open Sovereign Token
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  4f53cda18c2b: []

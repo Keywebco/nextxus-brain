@@ -1,0 +1,17 @@
+# nextxus.online wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Pages found in source repos.
+domain: nextxus.online
+repository_pages:
+- repo: nextxus-online-sovereign
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-online-sovereign/main/index.html
+  candidate_live_url: https://nextxus.online/index.html
+  link_set: eca2e505afb7
+  source_sha256: 01277dacc2d832dc9a7b9f717fb6fbfa8d930cd0e9c394bc36c0b08d611caa81
+  matches_live_at_candidate: false
+- repo: nextxus-online-sovereign
+  path: tools/index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-online-sovereign/main/tools/index.html
+  candidate_live_url: https://nextxus.online/tools/index.html
+  link_set: ede300d58444
+  source_sha256: c84cf5e82d629439c7b1536a8e1ecfaef245bdff40d746b4acde68ce3f78c0d0
+  matches_live_at_candidate: false

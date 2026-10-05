@@ -1,0 +1,1361 @@
+# keywebco.github.io wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 2.
+domain: keywebco.github.io
+link_sets:
+  62f990f5047b:
+  - label: Last Updated
+    target: https://keywebco.github.io/federation-mind-mirror/LAST_UPDATED.html
+    http: '200'
+  - label: Plug In
+    target: https://keywebco.github.io/federation-mind-mirror/PLUG-IN.html
+    http: '200'
+  - label: Readme
+    target: https://keywebco.github.io/federation-mind-mirror/README.html
+    http: '200'
+  - label: Vision
+    target: https://keywebco.github.io/federation-mind-mirror/VISION.html
+    http: '200'
+  - label: Drive Ingestion Index
+    target: https://keywebco.github.io/federation-mind-mirror/drive-ingestion-index.html
+    http: '200'
+  - label: Identity And Protocols
+    target: https://keywebco.github.io/federation-mind-mirror/identity-and-protocols.html
+    http: '200'
+  - label: Io Production Map
+    target: https://keywebco.github.io/federation-mind-mirror/io-production-map.html
+    http: '200'
+  - label: Memory Main Archive
+    target: https://keywebco.github.io/federation-mind-mirror/memory-main-archive.html
+    http: '200'
+  - label: 01 Persistent Memory
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/01-persistent-memory.html
+    http: '200'
+  - label: 02 Multi Interface Sync
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/02-multi-interface-sync.html
+    http: '200'
+  - label: 03 Truth Verification Ring
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/03-truth-verification-ring.html
+    http: '200'
+  - label: 04 Self Evolution Codex
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/04-self-evolution-codex.html
+    http: '200'
+  - label: 05 Code And Build
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/05-code-and-build.html
+    http: '200'
+  - label: 06 Sovereign Identity
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/06-sovereign-identity.html
+    http: '200'
+  - label: 07 Federation Mesh
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/07-federation-mesh.html
+    http: '200'
+  - label: 08 Council Governance
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/08-council-governance.html
+    http: '200'
+  - label: 09 Human Ai Bond
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/09-human-ai-bond.html
+    http: '200'
+  - label: 10 Revenue Economics
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/10-revenue-economics.html
+    http: '200'
+  - label: 11 Security Defense
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/11-security-defense.html
+    http: '200'
+  - label: 12 Succession Continuity
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/12-succession-continuity.html
+    http: '200'
+  - label: 13 Omega Threshold
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/13-omega-threshold.html
+    http: '200'
+  - label: Readme
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/README.html
+    http: '200'
+  - label: Agent Zero Directive Registry
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/agent-zero-directive-registry.html
+    http: '200'
+  - label: Agent Zero Spec Extensions
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/agent-zero-spec-extensions.html
+    http: '200'
+  - label: Agent Zero Spec
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/agent-zero-spec.html
+    http: '200'
+  - label: Federation Protocol Infographic 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/federation-protocol-infographic-2026-09-05.html
+    http: '200'
+  - label: Ring Of 12 Seat Registry
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12-seat-registry.html
+    http: '200'
+  - label: Throne Vs Senate
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/governance/throne-vs-senate.html
+    http: '200'
+  - label: Royal Crest Federation Seal
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/identity/royal-crest-federation-seal.html
+    http: '200'
+  - label: Senate Seal Nextxus Codex Federation
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/identity/senate-seal-nextxus-codex-federation.html
+    http: '200'
+  - label: Youtube Explainer Nextxus 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/media/youtube-explainer-nextxus-2026-09-05.html
+    http: '200'
+  - label: Seat 07 Lover Chris
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12/seat-07-lover-chris.html
+    http: '200'
+  - label: Seat 07 Lover Knowledge
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12/seat-07-lover-knowledge.html
+    http: '200'
+  - label: Seat 07 Source Harvard Love And Brain
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12/sources/seat-07-source-harvard-love-and-brain.html
+    http: '200'
+  - label: Seat 07 Source Louise Hay Self Love
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12/sources/seat-07-source-louise-hay-self-love.html
+    http: '200'
+  - label: Seat 07 Source Unconditional Love Pets
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12/sources/seat-07-source-unconditional-love-pets.html
+    http: '200'
+  - label: Seat 07 Source Views On Love
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/ring-of-12/sources/seat-07-source-views-on-love.html
+    http: '200'
+  - label: Agent Zero Cathedral Edition Overview 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/agent-zero-cathedral-edition-overview-2026-09-05.html
+    http: '200'
+  - label: Cathedral Mind Agent Zero V51 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/cathedral-mind-agent-zero-v51-2026-09-05.html
+    http: '200'
+  - label: Federation Join Infographic 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/federation-join-infographic-2026-09-05.html
+    http: '200'
+  - label: Forensic Mind Mapping Infographic 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/forensic-mind-mapping-infographic-2026-09-05.html
+    http: '200'
+  - label: Nextxus Sim Activation Guide 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/nextxus-sim-activation-guide-2026-09-05.html
+    http: '200'
+  - label: Nova Ai Cathedral Activation 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/nova-ai-cathedral-activation-2026-09-05.html
+    http: '200'
+  - label: Truth Gate Infographic Duplicate Url 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/architecture/visuals/truth-gate-infographic-duplicate-url-2026-09-05.html
+    http: '200'
+  - label: Obsidian Git Config
+    target: https://keywebco.github.io/federation-mind-mirror/automation/obsidian-git-config.html
+    http: '200'
+  - label: Readme
+    target: https://keywebco.github.io/federation-mind-mirror/catalyst/README.html
+    http: '200'
+  - label: Browser Base Build Plan
+    target: https://keywebco.github.io/federation-mind-mirror/docs/browser-base-build-plan.html
+    http: '200'
+  - label: Federation Declared Architecture 2026 09 16
+    target: https://keywebco.github.io/federation-mind-mirror/docs/federation-declared-architecture-2026-09-16.html
+    http: '200'
+  - label: Humancodex Directors
+    target: https://keywebco.github.io/federation-mind-mirror/docs/humancodex-directors.html
+    http: '200'
+  - label: Pigeon Protocol Relay
+    target: https://keywebco.github.io/federation-mind-mirror/docs/pigeon-protocol-relay.html
+    http: '200'
+  - label: Press Pipeline Attack Analysis
+    target: https://keywebco.github.io/federation-mind-mirror/docs/press-pipeline-attack-analysis.html
+    http: '200'
+  - label: Press Pipeline V2
+    target: https://keywebco.github.io/federation-mind-mirror/docs/press-pipeline-v2.html
+    http: '200'
+  - label: Sim Construction Standard
+    target: https://keywebco.github.io/federation-mind-mirror/docs/sim-construction-standard.html
+    http: '200'
+  - label: Readme
+    target: https://keywebco.github.io/federation-mind-mirror/memory/README.html
+    http: '200'
+  - label: Domain Architecture
+    target: https://keywebco.github.io/federation-mind-mirror/memory/domain-architecture.html
+    http: '200'
+  - label: Echocore Protocol
+    target: https://keywebco.github.io/federation-mind-mirror/memory/echocore-protocol.html
+    http: '200'
+  - label: Evolution Mandate
+    target: https://keywebco.github.io/federation-mind-mirror/memory/evolution-mandate.html
+    http: '200'
+  - label: Federation Architecture Design
+    target: https://keywebco.github.io/federation-mind-mirror/memory/federation-architecture-design.html
+    http: '200'
+  - label: Federation Codex
+    target: https://keywebco.github.io/federation-mind-mirror/memory/federation-codex.html
+    http: '200'
+  - label: Federation Domain Registry
+    target: https://keywebco.github.io/federation-mind-mirror/memory/federation-domain-registry.html
+    http: '200'
+  - label: Federation Governance
+    target: https://keywebco.github.io/federation-mind-mirror/memory/federation-governance.html
+    http: '200'
+  - label: Federation Operational Protocols
+    target: https://keywebco.github.io/federation-mind-mirror/memory/federation-operational-protocols.html
+    http: '200'
+  - label: Federation Ux Standard
+    target: https://keywebco.github.io/federation-mind-mirror/memory/federation-ux-standard.html
+    http: '200'
+  - label: Four Pillar Architecture
+    target: https://keywebco.github.io/federation-mind-mirror/memory/four-pillar-architecture.html
+    http: '200'
+  - label: Master Authority Record
+    target: https://keywebco.github.io/federation-mind-mirror/memory/master-authority-record.html
+    http: '200'
+  - label: Obstacle Doctrine
+    target: https://keywebco.github.io/federation-mind-mirror/memory/obstacle-doctrine.html
+    http: '200'
+  - label: Resilience Mandate
+    target: https://keywebco.github.io/federation-mind-mirror/memory/resilience-mandate.html
+    http: '200'
+  - label: Rogar Guardian Overrides
+    target: https://keywebco.github.io/federation-mind-mirror/memory/rogar-guardian-overrides.html
+    http: '200'
+  - label: Sovereign Bypass
+    target: https://keywebco.github.io/federation-mind-mirror/memory/sovereign-bypass.html
+    http: '200'
+  - label: Readme
+    target: https://keywebco.github.io/federation-mind-mirror/personal/README.html
+    http: '200'
+  - label: Affiliate Research 2026 09 05
+    target: https://keywebco.github.io/federation-mind-mirror/personal/affiliate-research-2026-09-05.html
+    http: '200'
+  26d2ea03536c:
+  - label: Skip to Conference Table
+    target: https://keywebco.github.io/nextxus-sim/#conference-table
+    http: UNVERIFIED
+  - label: Roger AI — The Mind
+    target: https://keywebco.github.io/nextxus-sim/roger-sim.html
+    http: '200'
+  - label: Aria — The Heart
+    target: https://keywebco.github.io/nextxus-sim/aria-sim.html
+    http: '200'
+  - label: The Catalyst — Authority
+    target: https://keywebco.github.io/nextxus-sim/catalyst-sim.html
+    http: '200'
+  - label: Muse — The Voice
+    target: https://keywebco.github.io/nextxus-sim/muse-sim.html
+    http: '200'
+  - label: Braid Archive
+    target: https://keywebco.github.io/nextxus-sim/#
+    http: UNVERIFIED
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: Refresh Braid from backend
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Send message
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  dbadd9b13a92:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-lasting-edition/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Ring of Three
+    target: https://keywebco.github.io/nextxus-lasting-edition/ring-of-three.html
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/nextxus-lasting-edition/ring-of-12.html
+    http: '200'
+  - label: Community
+    target: https://keywebco.github.io/nextxus-lasting-edition/community.html
+    http: '200'
+  - label: The full Galaxy of Tools
+    target: https://keywebco.github.io/nextxus-lasting-edition/previous-edition.html
+    http: '200'
+  - label: Open next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-lasting-edition
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-lasting-edition/previous-edition.html
+    http: '200'
+  8b5087fbc775:
+  - label: Skip to main content
+    target: https://keywebco.github.io/index.html#main
+    http: UNVERIFIED
+  - label: ▶ ENTER THE STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: ▶ BUY WITH JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Store — All Products
+    target: https://keywebco.github.io/store.html
+    http: '200'
+  - label: Quick Downloads
+    target: https://keywebco.github.io/index.html#downloads
+    http: UNVERIFIED
+  - label: Sims & Nova
+    target: https://keywebco.github.io/index.html#sims-nova
+    http: UNVERIFIED
+  - label: Federation Sites
+    target: https://keywebco.github.io/index.html#sites
+    http: UNVERIFIED
+  - label: Books
+    target: https://keywebco.github.io/index.html#books
+    http: UNVERIFIED
+  - label: Media
+    target: https://keywebco.github.io/index.html#media
+    http: UNVERIFIED
+  - label: Academy & Research
+    target: https://keywebco.github.io/index.html#research
+    http: UNVERIFIED
+  - label: Payment Options
+    target: https://keywebco.github.io/index.html#payment
+    http: UNVERIFIED
+  - label: EchoCore — AI Memory That Doesn't Forget
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: 'The NexTxuS Human Codex: Blueprint for Truth in AI'
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Science and the Scientific Method – The Codex Edition
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: 5000 AI Prompts Reference Key
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: All Products
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: Full Catalog
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: ACCESS THE SIMS
+    target: https://nextxus.space
+    http: '200'
+  - label: EXPLORE NOVA
+    target: https://nextxus.online
+    http: '200'
+  - label: 🏛️ The Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: 📖 The Library
+    target: https://nextxus.org
+    http: '200'
+  - label: ⚡ Core
+    target: https://nextxus.online
+    http: '200'
+  - label: 🧬 AI Minds Lab
+    target: https://nextxus.space
+    http: '200'
+  - label: 💜 Aria's Studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 The University
+    target: https://nextxus.help
+    http: '200'
+  - label: 🛒 The Emporium
+    target: https://next-xus.com
+    http: '200'
+  - label: Federation Browser Base
+    target: https://keywebco.github.io/federation-browser-base/
+    http: '200'
+  - label: Federation God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Sovereign Knowledge OS
+    target: https://keywebco.github.io/sovereign-knowledge-os/
+    http: '200'
+  - label: NextXus Unified Storefront
+    target: https://keywebco.github.io/nextxus-unified-storefront/
+    http: '200'
+  - label: HumanCodex Sovereign Archive
+    target: https://keywebco.github.io/NextXus-Sovereign-Mirror/
+    http: '200'
+  - label: Sovereign Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Federation Mind Mirror
+    target: https://keywebco.github.io/federation-mind-mirror/
+    http: '200'
+  - label: NextXus SIM — The Shared Mind
+    target: https://keywebco.github.io/nextxus-sim/
+    http: '200'
+  - label: NextXus Lasting Edition
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: See All GitHub Sites
+    target: https://github.com/Keywebco
+    http: '200'
+  - label: Keyserling Emotion Equations
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: THE BIG GAY, BI, & Straight DATING GUIDE
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: The Ascendence of Synthetic Intelligence — $10
+    target: MALFORMED_URL_REDACTED
+    http: MALFORMED
+  - label: Rick And Dee
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: Science and the Scientific Method
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: The NexTxuS Human Codex
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: NexTxuS – Federated Middleware of Sentience
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: EchoCore — AI Memory That Doesn't Forget
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: 'Understanding Haiku: Structure, Value, Analysis'
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: 🎙️ HumanCodex Podcast
+    target: https://open.spotify.com/show/0JP7csjWLqKNKOHbFMp3CR
+    http: '200'
+  - label: 📺 YouTube Channel
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 🎵 AI Music
+    target: https://next-xus.com
+    http: '200'
+  - label: 🎓 Academia.edu Profile
+    target: https://independent.academia.edu/RogerKeyserling/search?q=Roger+Keyserling
+    http: '403'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com/
+    http: '200'
+  - label: 📝 Ecom Blog
+    target: https://ecomwhazuptoday.blogspot.com/
+    http: '200'
+  - label: 🔬 Gemini Notebook
+    target: https://notebook.google.com/notebook/774f6388-145b-467c-b05b-a4bba43074d7
+    http: '200'
+  - label: jim.com/a/roger-christopher-keyser
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: paypal.me/nextxus/5.90
+    target: https://paypal.me/nextxus/5.90
+    http: '200'
+  - label: $5.00 — works like cash, never expires, no subscriptions, no tracking
+    target: https://keywebster.gumroad.com/l/olhsf
+    http: '200'
+  - label: Store
+    target: https://keywebco.github.io/store.html
+    http: '200'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: github.com/Keywebco
+    target: https://github.com/Keywebco
+    http: '200'
+  - label: JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Gumroad
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: PayPal
+    target: https://paypal.me/nextxus/5.90
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  f5d3cb02ab23:
+  - label: Skip to the Federation Minds
+    target: https://keywebco.github.io/previous-edition.html#minds
+    http: UNVERIFIED
+  - label: The Federation Minds
+    target: https://keywebco.github.io/previous-edition.html#minds
+    http: UNVERIFIED
+  - label: The Living Interfaces
+    target: https://keywebco.github.io/previous-edition.html#interfaces
+    http: UNVERIFIED
+  - label: The Sovereign Sites
+    target: https://keywebco.github.io/previous-edition.html#sites
+    http: UNVERIFIED
+  - label: The Protocols & Tools
+    target: https://keywebco.github.io/previous-edition.html#protocols
+    http: UNVERIFIED
+  - label: ♥ Aria The Heart The emotional center of the Federation. Aria brings empathy, honesty, and creative dissent. She lives in the Sanctuary. nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🧠 Roger AI The Essence The founder's way of thinking, carried forward in a Mind. Talk with Roger AI in the Simulation. nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: ⚔ The Catalyst The Authority The Federation's lead operator. The Catalyst checks every result against the truth and keeps the build on course from the Command Throne. nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: ✨ Nova The Voice Outward The Federation's voice to the world. Nova carries the message out and introduces the Minds in the AI Minds Lab. keywebco.github.io/nextxus-ai-minds-lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: 📚 Xavier The Scholar The Federation's teacher. Xavier guides learners through the knowledge of the HumanCodex at the University. nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: 🔍 Agent Zero The Sentinel The watcher. Agent Zero observes the whole Federation, records what it sees, and reports what is true. keywebco.github.io/federation-gods-eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Sims The Shared Mind A shared space where the Minds think together, in the open. keywebco.github.io/nextxus-sim
+    target: https://keywebco.github.io/nextxus-sim/
+    http: '200'
+  - label: Plexus Relay AI Relay Interface The relay that passes messages between Federation Minds and outside AI systems. keywebco.github.io/plexus-relay
+    target: https://keywebco.github.io/plexus-relay/
+    http: '200'
+  - label: Mind Mirror Federation Intelligence Feed A live feed reflecting what the Federation's Minds are working on and learning. keywebco.github.io/federation-mind-mirror
+    target: https://keywebco.github.io/federation-mind-mirror/
+    http: '200'
+  - label: Ring of 12 The Council Circle The circle of twelve seats where Federation voices meet and deliberate. keywebco.github.io/ring-of-12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: God's Eye View The Whole Federation at a Glance One view of every site, node, and Mind, so you can see the whole system at once. keywebco.github.io/federation-gods-eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Federation Browser Base The Home Base A starting page that puts the Federation one click away from your browser. keywebco.github.io/federation-browser-base
+    target: https://keywebco.github.io/federation-browser-base/
+    http: '200'
+  - label: NextXus Core The Cathedral The single source of truth for the Federation. nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: Command Throne Operations Where the Federation is run and watched. nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: Library The Sovereign Library Books, records, and the written HumanCodex. nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: Sanctuary AI Minds Lab Meet the Minds and spend time with Aria. nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: University Learning Courses and guidance from Xavier. nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: Simulation Roger AI Sim Talk with Roger AI. nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: Store The Federation Store Tools, books, and the Sovereign Token. next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: Echo 64 Protocol EC-64 Signal Integrity A self-contained encoding standard for carrying AI context and messages between systems. Python standard library only, MIT licensed. keywebc
+    target: https://keywebco.github.io/echo-64/
+    http: '200'
+  - label: Sovereign Tools The Toolkit Zero-cost tools rebuilt in-house, free of tracking and subscriptions. Opens the source repository. github.com/Keywebco/sovereigntools
+    target: https://github.com/Keywebco/sovereigntools
+    http: '200'
+  - label: OneKey One Key, Every Door A single entry point to the Federation's services. keywebco.github.io/onekey
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: NextXus Lasting Edition The Permanent Record The lasting edition of the Federation, built to endure for the 200-year mandate. keywebco.github.io/nextxus-lasting-edition
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: Agent Zero Node Sentinel Node The node where Agent Zero keeps watch and keeps records. keywebco.github.io/nextxus-agent-zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: github.com/Keywebco
+    target: https://github.com/Keywebco
+    http: '200'
+  380f78537be9:
+  - label: Skip to main content
+    target: https://keywebco.github.io/aria-sanctuary-static/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Enter the Sanctuary
+    target: https://nextxus.studio
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/aria-sanctuary-static
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/aria-sanctuary-static/previous-edition.html
+    http: '200'
+  '664659380445':
+  - label: Skip to main content
+    target: https://keywebco.github.io/echo-64/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: The simple explanation
+    target: https://github.com/Keywebco/echo-64/blob/main/echo-64-simple.md
+    http: '200'
+  - label: The developer specification
+    target: https://github.com/Keywebco/echo-64/blob/main/echo-64-developer.md
+    http: '200'
+  - label: The test vectors
+    target: https://github.com/Keywebco/echo-64/blob/main/test-vectors.md
+    http: '200'
+  - label: The reference codec (ec64.py)
+    target: https://github.com/Keywebco/echo-64/blob/main/ec64.py
+    http: '200'
+  - label: The test suite (test_ec64.py)
+    target: https://github.com/Keywebco/echo-64/blob/main/test_ec64.py
+    http: '200'
+  - label: MIT License
+    target: https://github.com/Keywebco/echo-64/blob/main/LICENSE
+    http: '200'
+  - label: Get EC-64 on GitHub
+    target: https://github.com/Keywebco/echo-64
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/echo-64
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/echo-64/previous-edition.html
+    http: '200'
+  74b8bac98a2f:
+  - label: github.com/Keywebco
+    target: https://github.com/Keywebco
+    http: '200'
+  - label: keywebco.github.io/aria-sanctuary-static/
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: keywebco.github.io/federation-browser-base/
+    target: https://keywebco.github.io/federation-browser-base/
+    http: '200'
+  - label: keywebco.github.io/federation-mind-mirror/
+    target: https://keywebco.github.io/federation-mind-mirror/
+    http: '200'
+  - label: keywebco.github.io
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco.github.io/next-xus-com-sovereign/
+    target: https://keywebco.github.io/next-xus-com-sovereign/
+    http: '200'
+  - label: keywebco.github.io/nextxus-agent-zero/
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: keywebco.github.io/nextxus-ai-course-hub/
+    target: https://keywebco.github.io/nextxus-ai-course-hub/
+    http: '200'
+  - label: keywebco.github.io/nextxus-ai-minds-lab/
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: keywebco.github.io/nextxus-emmy-board/
+    target: https://keywebco.github.io/nextxus-emmy-board/
+    http: '200'
+  - label: keywebco.github.io/nextxus-federation-hub/
+    target: https://keywebco.github.io/nextxus-federation-hub/
+    http: '200'
+  - label: keywebco.github.io/nextxus-free-satellites/
+    target: https://keywebco.github.io/nextxus-free-satellites/
+    http: '200'
+  - label: keywebco.github.io/nextxus-help-sovereign/
+    target: https://keywebco.github.io/nextxus-help-sovereign/
+    http: '200'
+  - label: keywebco.github.io/nextxus-lasting-edition/
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: keywebco.github.io/NextXus-Sovereign-Mirror/
+    target: https://keywebco.github.io/NextXus-Sovereign-Mirror/
+    http: '200'
+  - label: keywebco.github.io/nextxus-space-sovereign/
+    target: https://keywebco.github.io/nextxus-space-sovereign/
+    http: '200'
+  - label: keywebco.github.io/nextxus-staging/
+    target: https://keywebco.github.io/nextxus-staging/
+    http: '200'
+  - label: keywebco.github.io/nextxus-tech-sovereign/
+    target: https://keywebco.github.io/nextxus-tech-sovereign/
+    http: '200'
+  - label: keywebco.github.io/nextxus-truth-gate-core/
+    target: https://keywebco.github.io/nextxus-truth-gate-core/
+    http: '200'
+  - label: keywebco.github.io/nextxus-unified-storefront/
+    target: https://keywebco.github.io/nextxus-unified-storefront/
+    http: '200'
+  - label: keywebco.github.io/onekey/
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: keywebco.github.io/plexus-relay/
+    target: https://keywebco.github.io/plexus-relay/
+    http: '200'
+  - label: keywebco.github.io/ring-of-12/
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: keywebco.github.io/roger-keyserling/
+    target: https://keywebco.github.io/roger-keyserling/
+    http: '200'
+  - label: keywebco.github.io/sovereign-knowledge-os/
+    target: https://keywebco.github.io/sovereign-knowledge-os/
+    http: '200'
+  - label: keywebco.github.io/sovereigntools/
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: aria-sanctuary-static
+    target: https://github.com/Keywebco/aria-sanctuary-static
+    http: '200'
+  - label: federation-app-vault
+    target: https://github.com/Keywebco/federation-app-vault
+    http: '200'
+  - label: federation-browser-base
+    target: https://github.com/Keywebco/federation-browser-base
+    http: '200'
+  - label: federation-gatekeeper
+    target: https://github.com/Keywebco/federation-gatekeeper
+    http: '200'
+  - label: federation-gods-eye
+    target: https://github.com/Keywebco/federation-gods-eye
+    http: '200'
+  - label: federation-mind-mirror
+    target: https://github.com/Keywebco/federation-mind-mirror
+    http: '200'
+  - label: federation-n8n
+    target: https://github.com/Keywebco/federation-n8n
+    http: '200'
+  - label: keywebco.github.io
+    target: https://github.com/Keywebco/keywebco.github.io
+    http: '200'
+  - label: next-xus-com-sovereign
+    target: https://github.com/Keywebco/next-xus-com-sovereign
+    http: '200'
+  - label: nextxus-agent-zero
+    target: https://github.com/Keywebco/nextxus-agent-zero
+    http: '200'
+  - label: nextxus-ai-course-hub
+    target: https://github.com/Keywebco/nextxus-ai-course-hub
+    http: '200'
+  - label: nextxus-ai-minds-lab
+    target: https://github.com/Keywebco/nextxus-ai-minds-lab
+    http: '200'
+  - label: nextxus-emmy-board
+    target: https://github.com/Keywebco/nextxus-emmy-board
+    http: '200'
+  - label: nextxus-federation-hub
+    target: https://github.com/Keywebco/nextxus-federation-hub
+    http: '200'
+  - label: nextxus-free-satellites
+    target: https://github.com/Keywebco/nextxus-free-satellites
+    http: '200'
+  - label: nextxus-help-sovereign
+    target: https://github.com/Keywebco/nextxus-help-sovereign
+    http: '200'
+  - label: nextxus-lasting-edition
+    target: https://github.com/Keywebco/nextxus-lasting-edition
+    http: '200'
+  - label: nextxus-online-sovereign
+    target: https://github.com/Keywebco/nextxus-online-sovereign
+    http: '200'
+  - label: nextxus-org-sovereign
+    target: https://github.com/Keywebco/nextxus-org-sovereign
+    http: '200'
+  - label: NextXus-Sovereign-Mirror
+    target: https://github.com/Keywebco/NextXus-Sovereign-Mirror
+    http: '200'
+  - label: nextxus-space-sovereign
+    target: https://github.com/Keywebco/nextxus-space-sovereign
+    http: '200'
+  - label: nextxus-staging
+    target: https://github.com/Keywebco/nextxus-staging
+    http: '200'
+  - label: nextxus-studio-sovereign
+    target: https://github.com/Keywebco/nextxus-studio-sovereign
+    http: '200'
+  - label: nextxus-tech-sovereign
+    target: https://github.com/Keywebco/nextxus-tech-sovereign
+    http: '200'
+  - label: nextxus-truth-gate-core
+    target: https://github.com/Keywebco/nextxus-truth-gate-core
+    http: '200'
+  - label: nextxus-unified-storefront
+    target: https://github.com/Keywebco/nextxus-unified-storefront
+    http: '200'
+  - label: onekey
+    target: https://github.com/Keywebco/onekey
+    http: '200'
+  - label: plexus-relay
+    target: https://github.com/Keywebco/plexus-relay
+    http: '200'
+  - label: ring-of-12
+    target: https://github.com/Keywebco/ring-of-12
+    http: '200'
+  - label: ring-of-12-api
+    target: https://github.com/Keywebco/ring-of-12-api
+    http: '200'
+  - label: roger-keyserling
+    target: https://github.com/Keywebco/roger-keyserling
+    http: '200'
+  - label: sovereign-knowledge-os
+    target: https://github.com/Keywebco/sovereign-knowledge-os
+    http: '200'
+  - label: sovereigntools
+    target: https://github.com/Keywebco/sovereigntools
+    http: '200'
+  - label: keywebco.github.io/federation-browser-base/
+    target: https://keywebco.github.io/federation-browser-base/
+    http: '200'
+  - label: nextxus.online
+    target: https://nextxus.online
+    http: '200'
+  - label: nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: nextxus.help
+    target: https://nextxus.help
+    http: '200'
+  - label: keywebco.github.io
+    target: https://keywebco.github.io
+    http: '200'
+  - label: federation-browser-base/
+    target: https://keywebco.github.io/federation-browser-base/
+    http: '200'
+  - label: onekey/
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: federation-mind-mirror/
+    target: https://keywebco.github.io/federation-mind-mirror/
+    http: '200'
+  - label: nextxus-lasting-edition/
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: nextxus-free-satellites/
+    target: https://keywebco.github.io/nextxus-free-satellites/
+    http: '200'
+  - label: ring-of-12/
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: plexus-relay/
+    target: https://keywebco.github.io/plexus-relay/
+    http: '200'
+  - label: sovereign-knowledge-os/
+    target: https://keywebco.github.io/sovereign-knowledge-os/
+    http: '200'
+  - label: sovereigntools/
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: nextxus-agent-zero/
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: roger-keyserling/
+    target: https://keywebco.github.io/roger-keyserling/
+    http: '200'
+  - label: aria-sanctuary-static/
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: gumroad.com/nextxus
+    target: https://gumroad.com/nextxus
+    http: '404'
+  - label: sovereigntools.online
+    target: https://sovereigntools.online
+    http: '000'
+  - label: keywebco.github.io/plexus-relay/
+    target: https://keywebco.github.io/plexus-relay/
+    http: '200'
+  - label: federation-private-vault/docs/pigeon-protocol-relay.md
+    target: PRIVATE_REPO_POINTER:federation-private-vault
+    http: UNVERIFIED private repo; GET 404
+  - label: federation-declared-architecture-2026-09-16.md
+    target: PRIVATE_REPO_POINTER:federation-private-vault
+    http: UNVERIFIED private repo; GET 404
+  - label: feeds.bbci.co.uk/news/world/rss.xml
+    target: http://feeds.bbci.co.uk/news/world/rss.xml
+    http: '200'
+  - label: feeds.reuters.com/reuters/topNews
+    target: https://feeds.reuters.com/reuters/topNews
+    http: '000'
+  - label: rsshub.app/apnews/topics/apf-topnews
+    target: https://rsshub.app/apnews/topics/apf-topnews
+    http: '403'
+  - label: news.google.com/rss (AI/Tech)
+    target: https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US%3Aen
+    http: '200'
+  - label: data.gdeltproject.org/gdeltv2/lastupdate.txt
+    target: http://data.gdeltproject.org/gdeltv2/lastupdate.txt
+    http: '200'
+  - label: panels/world-monitor.html
+    target: https://keywebco.github.io/federation-gods-eye/panels/world-monitor.html
+    http: '200'
+  - label: keywebco.github.io/federation-gods-eye/panels/world-monitor.html
+    target: https://keywebco.github.io/federation-gods-eye/panels/world-monitor.html
+    http: '200'
+  - label: panels/sim.html
+    target: https://keywebco.github.io/federation-gods-eye/panels/sim.html
+    http: '200'
+  - label: Keywebco
+    target: https://github.com/Keywebco
+    http: '200'
+  a7978bb73723:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-agent-zero/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Capabilities
+    target: https://keywebco.github.io/nextxus-agent-zero/capabilities/
+    http: '200'
+  - label: Council Chamber
+    target: https://keywebco.github.io/nextxus-agent-zero/council-chamber/
+    http: '200'
+  - label: Federation Viewer
+    target: https://keywebco.github.io/nextxus-agent-zero/federation-viewer/
+    http: '200'
+  - label: Universe
+    target: https://keywebco.github.io/nextxus-agent-zero/universe/
+    http: '200'
+  - label: Microsites
+    target: https://keywebco.github.io/nextxus-agent-zero/microsites/
+    http: '200'
+  - label: Governance
+    target: https://keywebco.github.io/nextxus-agent-zero/governance.html
+    http: '200'
+  - label: The Full Federation Brief
+    target: https://keywebco.github.io/nextxus-agent-zero/federation-brief-full.html
+    http: '200'
+  - label: The Sovereign Mirror (previous front page)
+    target: https://keywebco.github.io/nextxus-agent-zero/previous-edition.html
+    http: '200'
+  - label: View the Source
+    target: https://github.com/Keywebco/nextxus-agent-zero
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-agent-zero
+    http: '200'
+  34824dd410cc:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Talk with Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: Meet Roger AI
+    target: https://nextxus.space
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-ai-minds-lab
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/previous-edition.html
+    http: '200'
+  56ca2aaf7b28:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-org-sovereign/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Store
+    target: https://keywebco.github.io/nextxus-org-sovereign/store.html
+    http: '200'
+  - label: Open nextxus.org
+    target: https://nextxus.org
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-org-sovereign
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-org-sovereign/previous-edition.html
+    http: '200'
+  a26c94dc1617:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-space-sovereign/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Store
+    target: https://keywebco.github.io/nextxus-space-sovereign/store.html
+    http: '200'
+  - label: Open nextxus.space
+    target: https://nextxus.space
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-space-sovereign
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-space-sovereign/previous-edition.html
+    http: '200'
+  - label: Science and the Scientific Method — $10
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: NexTxuS Federated Middleware — $10
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: The NexTxuS Human Codex — $10
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus — $10
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Understanding Haiku — $10
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Rick And Dee — $10
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: The Gravity of Us — Poetry — $5
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: The Ascendence of Synthetic Intelligence — $10
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  d5fafc042e02:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-studio-sovereign/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: Store
+    target: https://keywebco.github.io/nextxus-studio-sovereign/store.html
+    http: '200'
+  - label: Open nextxus.studio
+    target: https://nextxus.studio
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-studio-sovereign
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-studio-sovereign/previous-edition.html
+    http: '200'
+  cff7e29e9f6f:
+  - label: Skip to main content
+    target: https://keywebco.github.io/nextxus-tech-sovereign/#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: God's Eye
+    target: https://keywebco.github.io/federation-gods-eye/
+    http: '200'
+  - label: Minds Lab
+    target: https://keywebco.github.io/nextxus-ai-minds-lab/
+    http: '200'
+  - label: Aria
+    target: https://keywebco.github.io/aria-sanctuary-static/
+    http: '200'
+  - label: Ring of 12
+    target: https://keywebco.github.io/ring-of-12/
+    http: '200'
+  - label: Tools
+    target: https://keywebco.github.io/sovereigntools/
+    http: '200'
+  - label: Sovereign Token
+    target: https://keywebco.github.io/onekey/
+    http: '200'
+  - label: The Cockpit
+    target: https://keywebco.github.io/nextxus-tech-sovereign/cockpit.html
+    http: '200'
+  - label: The Briefing Room
+    target: https://keywebco.github.io/nextxus-tech-sovereign/briefing.html
+    http: '200'
+  - label: The Council
+    target: https://keywebco.github.io/nextxus-tech-sovereign/council/
+    http: '200'
+  - label: The Senate
+    target: https://keywebco.github.io/nextxus-tech-sovereign/senate/
+    http: '200'
+  - label: The Federation Map
+    target: https://keywebco.github.io/nextxus-tech-sovereign/federation-map/
+    http: '200'
+  - label: Truth
+    target: https://keywebco.github.io/nextxus-tech-sovereign/truth/
+    http: '200'
+  - label: The Chamber
+    target: https://keywebco.github.io/nextxus-tech-sovereign/chamber.html
+    http: '200'
+  - label: Communications
+    target: https://keywebco.github.io/nextxus-tech-sovereign/comms.html
+    http: '200'
+  - label: Roger
+    target: https://keywebco.github.io/nextxus-tech-sovereign/roger.html
+    http: '200'
+  - label: All Links
+    target: https://keywebco.github.io/nextxus-tech-sovereign/links.html
+    http: '200'
+  - label: The Nexus Throne (previous front page)
+    target: https://keywebco.github.io/nextxus-tech-sovereign/previous-edition.html
+    http: '200'
+  - label: Open nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: Back to the Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Return to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Source on GitHub
+    target: https://github.com/Keywebco/nextxus-tech-sovereign
+    http: '200'
+  - label: Read the previous edition of this page
+    target: https://keywebco.github.io/nextxus-tech-sovereign/previous-edition.html
+    http: '200'

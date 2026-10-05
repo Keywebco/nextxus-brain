@@ -1,0 +1,24 @@
+# nextxus.space wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Pages found in source repos.
+domain: nextxus.space
+repository_pages:
+- repo: nextxus-space-sovereign
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-space-sovereign/main/index.html
+  candidate_live_url: https://nextxus.space/index.html
+  link_set: d7a238feb7cc
+  source_sha256: 73ed91d2d9e32416dde3359fb860a345c17b685badc99d5d7ead14db106a77e7
+  matches_live_at_candidate: false
+- repo: nextxus-space-sovereign
+  path: previous-edition.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-space-sovereign/main/previous-edition.html
+  candidate_live_url: https://nextxus.space/previous-edition.html
+  link_set: 60921b68b814
+  source_sha256: 3bd08c534993f5ed84246fb5618f969ca7275295539295f8eaf8534e782921cf
+  matches_live_at_candidate: false
+- repo: nextxus-space-sovereign
+  path: store.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-space-sovereign/main/store.html
+  candidate_live_url: https://nextxus.space/store.html
+  link_set: a7027bfd7a06
+  source_sha256: 88a447b19a405c6e566611d4044f13f41221102cd7fb83486e9594fff4ba2be3
+  matches_live_at_candidate: false

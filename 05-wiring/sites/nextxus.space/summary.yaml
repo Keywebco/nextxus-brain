@@ -1,0 +1,31 @@
+# nextxus.space wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: nextxus.space
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- nextxus-space-sovereign
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: false
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 11
+  repo_html_pages: 3
+  link_set_count: 14
+  link_instances_deduplicated_by_set: 420
+  http_outcomes_in_link_sets:
+    '200': 334
+    UNVERIFIED: 83
+    not-http-testable: 3
+  dead_link_set_entries: []
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 0
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 0
+  archival_source: null
+hardcoded_canon: []
+data_dependencies: []

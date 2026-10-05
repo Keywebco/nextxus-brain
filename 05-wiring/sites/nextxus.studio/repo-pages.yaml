@@ -1,0 +1,38 @@
+# nextxus.studio wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Pages found in source repos.
+domain: nextxus.studio
+repository_pages:
+- repo: nextxus-studio-sovereign
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-studio-sovereign/main/index.html
+  candidate_live_url: https://nextxus.studio/index.html
+  link_set: 8e7a69f447eb
+  source_sha256: a25ecc343237777ca34a71ab9fadf43db3af9bc7875dcd15a7eb0564e55f516f
+  matches_live_at_candidate: false
+- repo: nextxus-studio-sovereign
+  path: previous-edition.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-studio-sovereign/main/previous-edition.html
+  candidate_live_url: https://nextxus.studio/previous-edition.html
+  link_set: bf7b30fbd862
+  source_sha256: 33faefb570621db9165c3e835955151f9bc8abee16d8586bb513dab41f5e5de3
+  matches_live_at_candidate: false
+- repo: nextxus-studio-sovereign
+  path: store.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-studio-sovereign/main/store.html
+  candidate_live_url: https://nextxus.studio/store.html
+  link_set: 910773f7eb8e
+  source_sha256: 88a447b19a405c6e566611d4044f13f41221102cd7fb83486e9594fff4ba2be3
+  matches_live_at_candidate: false
+- repo: aria-sanctuary-static
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/aria-sanctuary-static/main/index.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 1cf0c84b5cd5
+  source_sha256: c3ab0d47567b9bc2933c77f25909070eacd8f9e1333295c20e3c45bb319149e7
+  matches_live_at_candidate: UNVERIFIED
+- repo: aria-sanctuary-static
+  path: previous-edition.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/aria-sanctuary-static/main/previous-edition.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: bf7b30fbd862
+  source_sha256: fbe6631d071578e8fd69f2ac13599e4b4c0a2be43709a7ccbcf61d13c7a8d278
+  matches_live_at_candidate: UNVERIFIED

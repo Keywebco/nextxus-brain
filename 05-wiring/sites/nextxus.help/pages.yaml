@@ -1,0 +1,13 @@
+# nextxus.help wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Live pages discovered.
+domain: nextxus.help
+pages:
+- url: https://nextxus.help/
+  http: '200'
+  link_set: bef07f319751
+  discovery: home
+  body_sha256: 7f8a283be1b105c9b5cb391b94b4664c714d953b51b7aa85df475e58beead482
+- url: https://nextxus.help/index.html
+  http: '200'
+  link_set: 85f84638c73c
+  discovery: repo-page
+  body_sha256: 7f8a283be1b105c9b5cb391b94b4664c714d953b51b7aa85df475e58beead482

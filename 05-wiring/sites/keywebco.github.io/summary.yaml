@@ -1,0 +1,131 @@
+# keywebco.github.io wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: keywebco.github.io
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- keywebco.github.io
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: true
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 26
+  repo_html_pages: 3
+  link_set_count: 26
+  link_instances_deduplicated_by_set: 910
+  http_outcomes_in_link_sets:
+    UNVERIFIED: 92
+    '200': 734
+    MALFORMED: 2
+    '403': 22
+    not-http-testable: 16
+    '000': 7
+    '404': 14
+    '429': 23
+  dead_link_set_entries:
+  - link_set: a971d760484f
+    label: The Ascendence of Synthetic Intelligence — $10
+    target: MALFORMED_URL_REDACTED
+    http: MALFORMED
+  - link_set: 3960ae358815
+    label: nextxus.info — Federation Information
+    target: https://nextxus.info
+    http: '000'
+  - link_set: 3960ae358815
+    label: NextXus Sovereign Token
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 3960ae358815
+    label: Gumroad Store
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 3960ae358815
+    label: ↗ https://nextxus.info
+    target: https://nextxus.info
+    http: '000'
+  - link_set: 3960ae358815
+    label: ↗ https://gumroad.com/keywebco
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 3960ae358815
+    label: nextxus.info — Federation Info
+    target: https://nextxus.info
+    http: '000'
+  - link_set: 3960ae358815
+    label: Gumroad — Products & Tokens
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 3960ae358815
+    label: nextxus.info — Federation Information
+    target: https://nextxus.info
+    http: '000'
+  - link_set: 3960ae358815
+    label: NextXus Sovereign Token
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 3960ae358815
+    label: Gumroad Store
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 3960ae358815
+    label: https://nextxus.info
+    target: https://nextxus.info
+    http: '000'
+  - link_set: 3960ae358815
+    label: https://gumroad.com/keywebco
+    target: https://gumroad.com/keywebco
+    http: '404'
+  - link_set: 739bd1422437
+    label: Pricing
+    target: https://keywebco.github.io/pricing
+    http: '404'
+  - link_set: 739bd1422437
+    label: Privacy
+    target: https://keywebco.github.io/privacy
+    http: '404'
+  - link_set: 739bd1422437
+    label: Terms
+    target: https://keywebco.github.io/terms
+    http: '404'
+  - link_set: 739bd1422437
+    label: Refund
+    target: https://keywebco.github.io/refund
+    http: '404'
+  - link_set: 739bd1422437
+    label: Token Pricelist
+    target: https://keywebco.github.io/pricelist.html
+    http: '404'
+  - link_set: 739bd1422437
+    label: Become an Advocate
+    target: https://keywebco.github.io/advocate.html
+    http: '404'
+  - link_set: 8b5087fbc775
+    label: The Ascendence of Synthetic Intelligence — $10
+    target: MALFORMED_URL_REDACTED
+    http: MALFORMED
+  - link_set: 74b8bac98a2f
+    label: gumroad.com/nextxus
+    target: https://gumroad.com/nextxus
+    http: '404'
+  - link_set: 74b8bac98a2f
+    label: sovereigntools.online
+    target: https://sovereigntools.online
+    http: '000'
+  - link_set: 74b8bac98a2f
+    label: feeds.reuters.com/reuters/topNews
+    target: https://feeds.reuters.com/reuters/topNews
+    http: '000'
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 0
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 0
+  archival_source: null
+hardcoded_canon:
+- source: Keywebco/keywebco.github.io/previous-edition.html
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+data_dependencies: []

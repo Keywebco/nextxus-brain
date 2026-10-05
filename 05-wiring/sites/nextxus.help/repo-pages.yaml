@@ -1,0 +1,10 @@
+# nextxus.help wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Pages found in source repos.
+domain: nextxus.help
+repository_pages:
+- repo: nextxus-ai-course-hub
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-ai-course-hub/main/index.html
+  candidate_live_url: https://nextxus.help/index.html
+  link_set: 28425c2cb221
+  source_sha256: f01105eb7f3627b8913563d0ff6f5152b39a07530b1a6315c080783a6adf0764
+  matches_live_at_candidate: false

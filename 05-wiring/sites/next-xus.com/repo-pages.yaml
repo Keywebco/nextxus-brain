@@ -1,0 +1,87 @@
+# next-xus.com wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Pages found in source repos.
+domain: next-xus.com
+repository_pages:
+- repo: next-xus-com-sovereign
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/next-xus-com-sovereign/main/index.html
+  candidate_live_url: https://next-xus.com/index.html
+  link_set: 03f80e6c63b6
+  source_sha256: 952c34a76cd1582cddeeda288f75a66ac6e8f990b152bdd63d8474b10513807b
+  matches_live_at_candidate: false
+- repo: nextxus-unified-storefront
+  path: index.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/index.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: a5e4ed27cf8c
+  source_sha256: d3e86c484bb80e208d2b3869bdb5651dff1441cbd61dbbba505681ae84d859bd
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: advocate.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/advocate.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: bc9aa9b2eba3
+  source_sha256: 0f77eb34b7e3bff9c8ef8bd982a808568a5b027eff4a15939dbedf62260c2d37
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: agent-zero.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/agent-zero.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 8280838a01ee
+  source_sha256: 876334c5e8dc0d57511d87612d18961ca2b22054c14664bede7191af23e703cf
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: aria.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/aria.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 19edb3f5b033
+  source_sha256: ad8a9a30bcb8ac753bed5bb3b18df20e50220231baf370097382f21640cc3fe0
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: federation-tour.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/federation-tour.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 72824d4b5af2
+  source_sha256: d9b4426da9590acf14754f8e6168a1c045b75faeb1bacb10e9165e3bf9bd9084
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: join.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/join.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 341e8dd36e50
+  source_sha256: 946a7a7f73eed1fd6eebbc196aade57e5636dadd3e36c9801055ab350bac1f4d
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: pricelist.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/pricelist.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 2814e205c460
+  source_sha256: 63de83c465f8f67784e06662c069d91edf9278364dcf4e20fca5323ee9209353
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: roger-ai.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/roger-ai.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: d0ccde0f7253
+  source_sha256: d9f522abdf7bb098ba371bdfb3ac30ed6b7260fd19f57b5c403067a007a728db
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: sovereign-token.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/sovereign-token.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 3f685575af8e
+  source_sha256: 724e45065406a5be8621ab3709c33fd66915c652ccc4ba2b9f78bb78f6266d9f
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: store.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/store.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 2850b111b69e
+  source_sha256: 88a447b19a405c6e566611d4044f13f41221102cd7fb83486e9594fff4ba2be3
+  matches_live_at_candidate: UNVERIFIED
+- repo: nextxus-unified-storefront
+  path: university.html
+  raw_url: https://raw.githubusercontent.com/Keywebco/nextxus-unified-storefront/main/university.html
+  candidate_live_url: UNVERIFIED secondary deployment
+  link_set: 7a52f921af18
+  source_sha256: 69393bbd463613a158956a6e9e34b9f20dd84fc4e58376692070886359ccb668
+  matches_live_at_candidate: UNVERIFIED

@@ -1,0 +1,212 @@
+# nextxus.help wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked).
+domain: nextxus.help
+audit:
+  audit_date: '2026-10-05'
+  scope: Eight requested live pillars, ten named public repositories, URLs discovered from supplied repo trees, home-page links and available sitemaps. No claim of exhaustive dynamic route/button discovery.
+  source_policy: GitHub raw main branch snapshots and live GET responses; code=200 may be a SPA fallback, not proof page/button works. Source repo snapshot differs from live homepage on 7 of 8 sites.
+repositories:
+- nextxus-ai-course-hub
+homepage_http: '200'
+homepage_matches_primary_repo_source_bytes: false
+coverage: GET and static HTML/JS extraction only; no login, browser interactions, XHR runtime tracing or mutating requests
+health:
+  live_discovered_pages: 2
+  repo_html_pages: 1
+  link_set_count: 3
+  link_instances_deduplicated_by_set: 225
+  http_outcomes_in_link_sets:
+    '200': 192
+    UNVERIFIED: 22
+    '202': 3
+    '403': 4
+    not-http-testable: 2
+    '404': 1
+    '000': 1
+  dead_link_set_entries:
+  - link_set: 28425c2cb221
+    label: ACT-R 7 Reference Manual
+    target: http://act-r.psy.cmu.edu/actr7.x/reference-manual.html
+    http: '404'
+  - link_set: 28425c2cb221
+    label: Computational Cognitive Neuroscience (free textbook)
+    target: https://grey.colorado.edu/CompCogNeuro/index.php/CCNBook/Main
+    http: '000'
+repoint_flags:
+  old_yaml_active_runtime_hits: 0
+  old_yaml_repo_source_hits: 0
+  old_yaml_archival_document_hits: 0
+  replit_active_runtime_hits: 0
+  replit_repo_source_hits: 0
+  replit_archival_document_hits: 0
+  archival_source: null
+hardcoded_canon:
+- source: https://nextxus.help/static/js/main.0fc658e5.js
+  duplicated: directive count in text
+  observed:
+  - 73 Sacred Directives
+  replacement_layer: 00-immutable
+- source: https://nextxus.help/static/js/main.0fc658e5.js
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+- source: https://nextxus.help/static/federation-integrations.js
+  duplicated: directive count in text
+  observed:
+  - 73 Directives
+  - 73 Sacred Directives
+  replacement_layer: 00-immutable
+- source: https://nextxus.help/
+  duplicated: directive count in text
+  observed:
+  - 73 Directives
+  - 73 Sacred Directives
+  replacement_layer: 00-immutable
+- source: Keywebco/nextxus-ai-course-hub/index.html
+  duplicated: directive count in text
+  observed:
+  - 73 Directives
+  - 73 Sacred Directives
+  replacement_layer: 00-immutable
+- source: Keywebco/nextxus-ai-course-hub/index.html
+  duplicated: Ring of 12 roster or content
+  replacement_layer: 01-rings; individual mind metadata 03-minds
+data_dependencies:
+- url_or_pattern: https://nextxus.help/api/auth/link-code
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/auth/logout
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/auth/me
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/auth/purchases
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/auth/session
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/auth/tokens
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/chat/
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/courses/
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/courses/?subject=
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/courses/subjects
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/courses/tutor/ask
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/exchange/offerings
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 01-rings
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/exchange/spend
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/federation/gift
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/gemini
+  read_from:
+  - Keywebco/nextxus-ai-course-hub/backend/gemini_endpoint.py
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/gumroad/consultation/url
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/library/
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/library/documents
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/library/documents/
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/redeem/balance/
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/redeem/code
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/scholar/charter
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/scholar/directives
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/scholar/directives.yaml
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 00-immutable
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/scholar/federation/nodes
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 04-builds
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/scholar/mirror-status
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: none-external-or-operational; UNVERIFIED integration
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/scholar/rules
+  read_from:
+  - https://nextxus.help/static/js/main.0fc658e5.js
+  replacement_layer: 02-senate
+  runtime_http: UNVERIFIED method/auth; static reference only
+- url_or_pattern: https://nextxus.help/api/ws/dualmind
+  read_from:
+  - Keywebco/nextxus-ai-course-hub/index.html
+  replacement_layer: runtime-not-brain; preserve service and read-only canon separately
+  runtime_http: UNVERIFIED method/auth; static reference only

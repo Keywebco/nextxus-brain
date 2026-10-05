@@ -1,0 +1,1235 @@
+# nextxus.org wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 1.
+domain: nextxus.org
+link_sets:
+  eb4f9c0b624a:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  c8a38e38e846:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/university#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/university#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/university#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/university#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/university#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/university#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/university#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/university#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/university#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/university#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/university#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/university#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/university#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  7963bec6eb5c:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/index.html#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/index.html#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/index.html#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/index.html#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/index.html#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/index.html#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/index.html#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/index.html#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/index.html#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/index.html#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/index.html#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/index.html#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/index.html#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  48fe551356ca:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/previous-edition.html#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/previous-edition.html#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/previous-edition.html#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/previous-edition.html#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/previous-edition.html#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/previous-edition.html#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/previous-edition.html#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/previous-edition.html#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/previous-edition.html#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/previous-edition.html#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/previous-edition.html#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/previous-edition.html#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/previous-edition.html#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  18485841a122:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/store.html#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/store.html#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/store.html#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/store.html#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/store.html#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/store.html#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/store.html#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/store.html#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/store.html#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/store.html#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/store.html#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/store.html#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/store.html#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  5cf917fb4061:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/blog#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/blog#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/blog#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/blog#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/blog#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/blog#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/blog#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/blog#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/blog#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/blog#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/blog#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/blog#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/blog#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  2973f562250d:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/codex#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/codex#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/codex#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/codex#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/codex#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/codex#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/codex#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/codex#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/codex#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/codex#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/codex#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/codex#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/codex#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  8ac840f6332d:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: 01 The Guardian’s Greeting
+    target: https://nextxus.org/echocore#sovereign-spectacle
+    http: UNVERIFIED
+  - label: 02 The Library Masthead
+    target: https://nextxus.org/echocore#library-title
+    http: UNVERIFIED
+  - label: 03 The Upload Desk
+    target: https://nextxus.org/echocore#upload-title
+    http: UNVERIFIED
+  - label: 04 CERN to Codex — The Podcast
+    target: https://nextxus.org/echocore#collection-title
+    http: UNVERIFIED
+  - label: 05 Episode 01 — Begin Listening
+    target: https://nextxus.org/echocore#ep1
+    http: UNVERIFIED
+  - label: 06 Episode 08 — The Finale
+    target: https://nextxus.org/echocore#ep8
+    http: UNVERIFIED
+  - label: Command Throne — nextxus.tech
+    target: https://nextxus.tech
+    http: '200'
+  - label: 01 CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: 02 OUTPOST
+    target: https://next-xus.com
+    http: '200'
+  - label: 03 SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: 04 UNIVERSITY
+    target: https://nextxus.org/university
+    http: '200'
+  - label: 05 ARCHIVE
+    target: https://nextxus.org
+    http: '200'
+  - label: 06 AXIOM
+    target: https://nextxus.space
+    http: '200'
+  - label: 07 THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: 08 AMBASSADOR
+    target: https://nextxus.org/echocore#sector-08
+    http: UNVERIFIED
+  - label: 09 SENTINEL
+    target: https://nextxus.org/echocore#sector-09
+    http: UNVERIFIED
+  - label: 10 SOCIAL GRID
+    target: https://nextxus.org/echocore#sector-10
+    http: UNVERIFIED
+  - label: 11 REVENUE
+    target: https://nextxus.org/echocore#sector-11
+    http: UNVERIFIED
+  - label: 12 KNOWLEDGE
+    target: https://nextxus.org/echocore#sector-12
+    http: UNVERIFIED
+  - label: 13 COUNCIL
+    target: https://nextxus.tech/council
+    http: '200'
+  - label: 14 TICKER
+    target: https://nextxus.org/echocore#sovereign-ticker
+    http: UNVERIFIED
+  - label: 15 ARCHIVE
+    target: https://nextxus.org/echocore#sector-15
+    http: UNVERIFIED
+  - label: Lasting Edition — Emergency Reconstruction Seed
+    target: https://keywebco.github.io/nextxus-lasting-edition/
+    http: '200'
+  - label: ☰ MAP
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Listen to ROGER AI — GUARDIAN OF THE ARCHIVE
+    target: 'UNVERIFIED JS onclick: sovereignSpectaclePlay()'
+    http: UNVERIFIED
+  - label: Dismiss greeting and enter the Federation
+    target: 'UNVERIFIED JS onclick: sovereignSpectacleClose()'
+    http: UNVERIFIED
+  - label: Close Sovereign Navigation
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Ask the Librarian
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Read the transcript aloud
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED

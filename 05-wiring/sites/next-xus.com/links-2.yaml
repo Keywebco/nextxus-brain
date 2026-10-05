@@ -1,0 +1,1019 @@
+# next-xus.com wiring audit. Part of brain 05-wiring. Source: brain-wiring-a read-only audit, 2026-10-05 (static + GET-only; buttons not clicked). Link sets part 2.
+domain: next-xus.com
+link_sets:
+  a5e4ed27cf8c:
+  - label: ⚡ THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: ⛪ CATHEDRAL
+    target: https://nextxus.online
+    http: '200'
+  - label: 📚 LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: 💜 ARIA
+    target: https://nextxus.studio
+    http: '200'
+  - label: 🎓 UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: 🧬 SIMULATION
+    target: https://nextxus.space
+    http: '200'
+  - label: 🛒 STORE
+    target: https://next-xus.com
+    http: '200'
+  - label: 📺 YouTube
+    target: https://youtube.com/@keyholetoday
+    http: '200'
+  - label: 📝 HumanCodex Blog
+    target: https://humancodexnextxus.blogspot.com
+    http: '200'
+  - label: 📝 eCom Blog
+    target: https://ecomwhazuptoday.blogspot.com
+    http: '200'
+  - label: 📻 Radio
+    target: https://broadcaster.live365.com
+    http: '200'
+  - label: 💼 LinkedIn
+    target: https://linkedin.com/in/roger-keyserling-aab40937a
+    http: '200'
+  - label: 💰 Benable
+    target: https://benable.com/NextXus
+    http: '200'
+  - label: NEXTXUS
+    target: https://next-xus.com/index.html#library
+    http: UNVERIFIED
+  - label: Library
+    target: https://next-xus.com/index.html#library
+    http: UNVERIFIED
+  - label: SIMs
+    target: https://next-xus.com/index.html#sims
+    http: UNVERIFIED
+  - label: Services
+    target: https://next-xus.com/index.html#services
+    http: UNVERIFIED
+  - label: Merch
+    target: https://next-xus.com/index.html#merch
+    http: UNVERIFIED
+  - label: Marrow Merch
+    target: https://next-xus.com/index.html#marrow-merch
+    http: UNVERIFIED
+  - label: API
+    target: https://next-xus.com/index.html#api
+    http: UNVERIFIED
+  - label: Tokens
+    target: https://next-xus.com/index.html#tokens
+    http: UNVERIFIED
+  - label: THRONE
+    target: https://nextxus.tech
+    http: '200'
+  - label: CORE
+    target: https://nextxus.online
+    http: '200'
+  - label: LIBRARY
+    target: https://nextxus.org
+    http: '200'
+  - label: SANCTUARY
+    target: https://nextxus.studio
+    http: '200'
+  - label: UNIVERSITY
+    target: https://nextxus.help
+    http: '200'
+  - label: STOREFRONT
+    target: https://next-xus.com
+    http: '200'
+  - label: SPACE
+    target: https://nextxus.space
+    http: '200'
+  - label: Get The Ascendence of Synthetic Intelligence for 1 token
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Get The Big Gay, Bi and Straight Dating Guide for 1 token
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: Get 112 Sacred Directives for 1 token
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Get The Awakening of the Sovereign Mesh for 1 token
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Get Heart of the Gate for 1 token
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Get AI + The New Human Frontier for 1 token
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Get 5000 AI Prompts for 1 token
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Get Emotion Equations for 1 token
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: 'Get Artificial Intelligence: A Practical Guide for 2 tokens'
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: Get Artificial Intelligence Bible for 2 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: Get Master Generative AI and Deep Learning for 2 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: Get Ultimate Claude AI Handbook for 2 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: Get DeepSeek Architecture and Deployment for 2 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: Get HumanCodex V2 Cathedral for 2 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: Get The Sovereign Mesh Protocol for 2 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: 'Get EchoCore: Memory as Identity for 2 tokens'
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: TALK NOW
+    target: https://nextxus.online
+    http: '200'
+  - label: Own SIM-Roger forever for one hundred forty-nine dollars
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: TALK NOW
+    target: https://nextxus.online
+    http: '200'
+  - label: Own SIM-Madhav forever for one hundred forty-nine dollars
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: TALK NOW
+    target: https://nextxus.studio
+    http: '200'
+  - label: Own Aura forever for one hundred forty-nine dollars
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: Commission a Custom Cathedral Build for 20 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=20
+    http: '429'
+  - label: Commission a Marrow Forensic Extraction for 30 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=30
+    http: '429'
+  - label: Commission Succession Seating for 50 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=50
+    http: '429'
+  - label: View Draco the Keywebco Dragon t-shirt on Redbubble
+    target: https://www.redbubble.com/i/t-shirt/Draco-the-Keywebco-Dragon-by-Keywebco/24420285/rh5j
+    http: '403'
+  - label: View Pink and green Draco of the Dragon mug on Redbubble
+    target: https://www.redbubble.com/i/mug/Pink-and-green-Draco-of-the-Dragon-by-Keywebco/24430122/7yqg
+    http: '403'
+  - label: View Blue dragon star hoodie on Redbubble
+    target: https://www.redbubble.com/i/hoodie/Blue-dragon-star-by-Keywebco/24423204/lgcw
+    http: '403'
+  - label: View Draco the Dragon in black neon sticker on Redbubble
+    target: https://www.redbubble.com/i/sticker/Draco-the-Dragon-in-black-neon-by-Keywebco/24454677/7sgk
+    http: '403'
+  - label: View Auntie Mame quote fitted tee on Redbubble
+    target: https://www.redbubble.com/i/t-shirt/Live-quote-from-movie-Auntie-Mame-by-Keywebco/24534414/my4n
+    http: '403'
+  - label: View Green flying Dragons sticker on Redbubble
+    target: https://www.redbubble.com/i/sticker/Green-flying-Dragons-by-Keywebco/24422162/7sgk
+    http: '403'
+  - label: View Happy Luck Dragon baby one-piece on Redbubble
+    target: https://www.redbubble.com/i/baby-onesie/Happy-Luck-Dragon-by-Keywebco/24421199/hg73
+    http: '403'
+  - label: View Dragon Tat tote bag on Redbubble
+    target: https://www.redbubble.com/i/tote-bag/Dragon-Tat-by-Keywebco/32957751/xd4m
+    http: '403'
+  - label: Keywebco Redbubble Shop
+    target: https://www.redbubble.com/people/keywebco/shop
+    http: '403'
+  - label: Browse the full Marrow Merch collection on Redbubble
+    target: https://www.redbubble.com/people/keywebco/shop
+    http: '403'
+  - label: Read the NextXus Cognitive API documentation
+    target: https://nextxus.online
+    http: '200'
+  - label: Get an API key for 10 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=10
+    http: '429'
+  - label: Read the EchoCore Sync documentation
+    target: https://nextxus.online
+    http: '200'
+  - label: Get an EchoCore Sync license for 5 tokens
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=5
+    http: '429'
+  - label: Open JIM Sovereign Store
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Buy 1 Sovereign Token for five dollars
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: or via Gumroad
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Buy 4 Sovereign Tokens for twenty dollars
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: or via Gumroad
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=4
+    http: '429'
+  - label: Buy 10 Sovereign Tokens for fifty dollars
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: or via Gumroad
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=10
+    http: '429'
+  - label: Buy 20 Sovereign Tokens for one hundred dollars
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: or via Gumroad
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=20
+    http: '429'
+  - label: rogerkey.gumroad.com/l/olhsf
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: Pay with PayPal
+    target: https://paypal.me/nextxus/5.90
+    http: '200'
+  - label: jim.com/a/roger-christopher-keyser
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Fuel the Vision — GoFundMe Campaign
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Pricing
+    target: https://next-xus.com/pricing
+    http: '200'
+  - label: Privacy
+    target: https://next-xus.com/privacy
+    http: '200'
+  - label: Terms
+    target: https://next-xus.com/terms
+    http: '200'
+  - label: Refund
+    target: https://next-xus.com/refund
+    http: '200'
+  - label: Token Pricelist
+    target: https://next-xus.com/pricelist.html
+    http: '200'
+  - label: Become an Advocate
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Sites ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: Channels ▾
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  - label: ACTIVATE
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  bc9aa9b2eba3:
+  - label: GET YOUR TOKEN FIRST — $5.00 via JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  8280838a01ee:
+  - label: Talk to Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  19edb3f5b033:
+  - label: Meet Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  72824d4b5af2:
+  - label: Enter the Federation
+    target: https://nextxus.online
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  341e8dd36e50:
+  - label: Watch the Federation Tour
+    target: https://next-xus.com/federation-tour.html
+    http: '200'
+  - label: Get a Sovereign Token
+    target: https://next-xus.com/sovereign-token.html
+    http: '200'
+  - label: BOOK CONSULTATION — $75.00
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  2814e205c460:
+  - label: BUY — JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: BUY — GUMROAD
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=4
+    http: '429'
+  - label: BUY — JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: BUY — JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: BOOK — JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf
+    http: '429'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=2
+    http: '429'
+  - label: GET BOOK
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: OWN FOREVER
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: OWN FOREVER
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: OWN FOREVER
+    target: https://keywebster.gumroad.com/l/fmref
+    http: '200'
+  - label: COMMISSION
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=20
+    http: '429'
+  - label: COMMISSION
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=30
+    http: '429'
+  - label: COMMISSION
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=50
+    http: '429'
+  - label: GET API KEY
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=10
+    http: '429'
+  - label: GET LICENSE
+    target: https://rogerkey.gumroad.com/l/olhsf?quantity=5
+    http: '429'
+  - label: VIEW ON STORE
+    target: https://www.keyholetodaybooksandservices.com
+    http: '200'
+  - label: VIEW ON STORE
+    target: https://www.keyholetodaybooksandservices.com
+    http: '200'
+  - label: VIEW ON STORE
+    target: https://www.keyholetodaybooksandservices.com
+    http: '200'
+  - label: VIEW ON STORE
+    target: https://www.keyholetodaybooksandservices.com
+    http: '200'
+  - label: BROWSE COLLECTION
+    target: https://www.redbubble.com/people/keywebco/shop
+    http: '403'
+  - label: paypal.me/nextxus
+    target: https://paypal.me/nextxus/5.90
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: TAKE THE KNOWLEDGE TEST
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  - label: Storefront
+    target: https://next-xus.com
+    http: '200'
+  - label: Privacy
+    target: https://next-xus.com/privacy
+    http: '200'
+  - label: Terms
+    target: https://next-xus.com/terms
+    http: '200'
+  - label: Refund
+    target: https://next-xus.com/refund
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: SUBMIT REDEMPTION
+    target: UNVERIFIED client-side handler or inert control
+    http: UNVERIFIED
+  d0ccde0f7253:
+  - label: Meet Roger AI
+    target: https://nextxus.space
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  3f685575af8e:
+  - label: Gumroad
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: catalog
+    target: https://next-xus.com/pricelist.html
+    http: '200'
+  - label: Contact us
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: BUY NOW — $5.00 via JIM
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: 10 TOKENS $50.00 $5.00 each
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: 20 TOKENS $100.00 $5.00 each
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Get Your Token — $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
+  2850b111b69e:
+  - label: Skip to main content
+    target: https://next-xus.com/store.html#main
+    http: UNVERIFIED
+  - label: ◆ NextXus Federation
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: All Products
+    target: https://next-xus.com/store.html#all-products
+    http: UNVERIFIED
+  - label: AI Guides
+    target: https://next-xus.com/store.html#ai
+    http: UNVERIFIED
+  - label: Federation Library
+    target: https://next-xus.com/store.html#doctrine
+    http: UNVERIFIED
+  - label: Stories & Poetry
+    target: https://next-xus.com/store.html#story
+    http: UNVERIFIED
+  - label: Emporium
+    target: https://next-xus.com
+    http: '200'
+  - label: Heart of the Gate
+    target: https://keywebster.gumroad.com/l/bdtad
+    http: '200'
+  - label: Artificial Intelligence Bible (3-in-1)
+    target: https://keywebster.gumroad.com/l/sgtcze
+    http: '200'
+  - label: The Sovereign Mesh Protocol
+    target: https://keywebster.gumroad.com/l/auiqnf
+    http: '200'
+  - label: HumanCodex V2 Cathedral
+    target: https://keywebster.gumroad.com/l/jeeynk
+    http: '200'
+  - label: AI + The New Human Frontier
+    target: https://keywebster.gumroad.com/l/ysbzfe
+    http: '200'
+  - label: DeepSeek Architecture & Deployment
+    target: https://keywebster.gumroad.com/l/nadrc
+    http: '200'
+  - label: Master Generative AI & Deep Learning
+    target: https://keywebster.gumroad.com/l/ovbmcs
+    http: '200'
+  - label: 112 Sacred Directives
+    target: https://keywebster.gumroad.com/l/qrjhdm
+    http: '200'
+  - label: The AI Practical Guide
+    target: https://keywebster.gumroad.com/l/djgvjx
+    http: '200'
+  - label: Science and the Scientific Method – The Codex Edition
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: NexTxuS Federated Middleware
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: The NexTxuS Human Codex
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: The Immutable HumanCodex NextXus
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Understanding Haiku
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Rick And Dee
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: The Gravity of Us
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: The Ascendence of Synthetic Intelligence
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: The Big Gay, Bi & Straight Dating Guide
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: Emotion Equations
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: EchoCore
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: 'The Mirror in the Black Box: What AI Reveals About the Nature of Mind'
+    target: https://keywebster.gumroad.com/l/ahfwii
+    http: '200'
+  - label: Buy Artificial Intelligence Bible (3-in-1) on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/sgtcze
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/sgtcze
+    http: '200'
+  - label: Buy AI + The New Human Frontier on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/ysbzfe
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/ysbzfe
+    http: '200'
+  - label: Buy DeepSeek Architecture & Deployment on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/nadrc
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/nadrc
+    http: '200'
+  - label: Buy Master Generative AI & Deep Learning on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/ovbmcs
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/ovbmcs
+    http: '200'
+  - label: Buy The AI Practical Guide on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/djgvjx
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/djgvjx
+    http: '200'
+  - label: Buy EchoCore on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/echyii
+    http: '200'
+  - label: Buy The Sovereign Mesh Protocol on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/auiqnf
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/auiqnf
+    http: '200'
+  - label: Buy HumanCodex V2 Cathedral on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/jeeynk
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/jeeynk
+    http: '200'
+  - label: Buy Science and the Scientific Method – The Codex Edition on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/veyzvd
+    http: '200'
+  - label: Buy NexTxuS Federated Middleware on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/oihjh
+    http: '200'
+  - label: Buy The NexTxuS Human Codex on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/qzgjhs
+    http: '200'
+  - label: Buy The Immutable HumanCodex NextXus on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/benjxd
+    http: '200'
+  - label: Buy The Ascendence of Synthetic Intelligence on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/kbycd
+    http: '200'
+  - label: Buy Emotion Equations on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/pcbjfk
+    http: '200'
+  - label: Buy The Mirror in the Black Box on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/ahfwii
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/ahfwii
+    http: '200'
+  - label: Buy Heart of the Gate on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/bdtad
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/bdtad
+    http: '200'
+  - label: Buy 112 Sacred Directives on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/qrjhdm
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/qrjhdm
+    http: '200'
+  - label: Buy Understanding Haiku on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/gpowew
+    http: '200'
+  - label: Buy Rick And Dee on Gumroad for $10
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/akvgn
+    http: '200'
+  - label: Buy The Gravity of Us on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/rnhbhi
+    http: '200'
+  - label: Buy The Big Gay, Bi & Straight Dating Guide on Gumroad for $5
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: Open product page
+    target: https://keywebster.gumroad.com/l/wffrtf
+    http: '200'
+  - label: keywebster.gumroad.com
+    target: https://keywebster.gumroad.com
+    http: '200'
+  - label: keywebco@gmail.com
+    target: mailto:keywebco@gmail.com
+    http: not-http-testable
+  - label: Back to the Federation Hub
+    target: https://keywebco.github.io/
+    http: '200'
+  - label: next-xus.com
+    target: https://next-xus.com
+    http: '200'
+  - label: github.com/Keywebco
+    target: https://github.com/Keywebco
+    http: '200'
+  7a52f921af18:
+  - label: Start Learning — Free
+    target: https://nextxus.help
+    http: '200'
+  - label: PATRON OF THE CATHEDRAL
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Throne
+    target: https://nextxus.tech
+    http: '200'
+  - label: Cathedral
+    target: https://nextxus.online
+    http: '200'
+  - label: Library
+    target: https://nextxus.org
+    http: '200'
+  - label: Aria
+    target: https://nextxus.studio
+    http: '200'
+  - label: University
+    target: https://nextxus.help
+    http: '200'
+  - label: Outpost
+    target: https://nextxus.space
+    http: '200'
+  - label: Store
+    target: https://next-xus.com
+    http: '200'
+  - label: Agent Zero
+    target: https://keywebco.github.io/nextxus-agent-zero/
+    http: '200'
+  - label: Support the Federation — Sovereign Token $5.00
+    target: https://keywebster.gumroad.com/l/mimet
+    http: '200'
+  - label: Fuel the Vision — Patron of the Cathedral
+    target: https://www.gofundme.com/f/fund-the-human-codex-for-global-betterment
+    http: '200'
+  - label: Sovereign Store — Tokens & Consultations
+    target: https://jim.com/a/roger-christopher-keyser
+    http: '200'
+  - label: Advocate Program — Earn by Spreading Truth
+    target: https://next-xus.com/advocate.html
+    http: '200'
