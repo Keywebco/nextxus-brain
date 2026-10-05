@@ -1,0 +1,11 @@
+# Source: Roger task instruction 2026-10-05; external council lives in files for now
+kind: external-council
+status: planned file-defined perspectives, future pop-up windows; runtime UNVERIFIED
+entries:
+  - {id: gpt, name: GPT, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
+  - {id: claude, name: Claude, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
+  - {id: gemini, name: Gemini, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
+  - {id: deepseek, name: DeepSeek, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
+  - {id: mimo, name: MiMo, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
+  - {id: perplexity, name: Perplexity, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
+  - {id: grok, name: Grok, role: external perspective, personality: UNVERIFIED, system_prompt_source: UNVERIFIED, memory_pointer: UNVERIFIED, runs_on: external provider UNVERIFIED, target_stack: TO DECIDE, site_or_url: null}
