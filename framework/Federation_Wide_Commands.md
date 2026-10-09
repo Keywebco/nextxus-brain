@@ -82,7 +82,7 @@ A federation-wide command means the same change across many repos. No single cal
 2. `nextxus-humancodex` (the Commons).
 3. The core sites that carry the Commons bar.
 4. The mirrors and sovereign pillars.
-5. Backends (`ring-of-12-api` and the others). **Render does not deploy on push.** A person must trigger the deploy.
+5. Backends (`ring-of-12-api` and the others). Render says it auto-deploys on commit, but a push to `main` did not deploy on 2026-10-09 (cause UNVERIFIED). Trigger the deploy by hand and check the live behavior.
 6. Emergent-hosted sites: **untouched by Roger's ruling.** No federation command reaches them.
 
 PROPOSED rule: one repo at a time, verify each, stop at the first failure. A failure halts the rest. Nothing is half-applied.
@@ -181,4 +181,5 @@ Halt rule (PROPOSED): the first failed check on any repo stops the whole run.
 
 ## Revision
 
+- 2026-10-09: corrected the Render deploy line (setting says auto, observation says it did not; cause unverified).
 - 2026-10-09: first version. Sections 1 (after Roger), 3 (the recommendation) and the key-recovery location are open for Roger's ruling.

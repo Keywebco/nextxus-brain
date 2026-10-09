@@ -32,3 +32,5 @@ conflicts:
 ## Federation-wide commands
 
 Who can issue one, how it travels, what the rebuild builds from, where the keys live and how it is verified are mapped in `framework/Federation_Wide_Commands.md`. That manual marks each item DECIDED, PROPOSED, NOT BUILT or OPEN. The succession answer (who commands and merges after the Architect) is OPEN.
+
+The full GitHub Operational Systems Manual is `framework/GitHub_Operational_Systems_Manual.md`; its machine-readable twin is `04-builds/github-operations.yaml`.
