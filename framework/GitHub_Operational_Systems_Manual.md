@@ -150,6 +150,7 @@ A check that a broken page cannot pass (VERIFIED as a lesson 2026-10-09).
 6. **Reconnecting Instagram**, so the social campaign can resume.
 7. **A GitHub-hosted health check**, so monitoring does not depend on Emergent. (NOT BUILT; needs his go)
 8. **MUSE's authorization** on the command page. (OPEN, switched off)
+9. **Intent (Roger, 2026-10-09), not a ruling:** the Senate is meant to become a conversation of this kind: minds talking a matter through, one proposing, another reading it closely, and a person deciding. How seats, speech and decisions work in it is OPEN.
 
 ## 11. Revision log
 
