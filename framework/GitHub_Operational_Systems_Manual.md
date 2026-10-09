@@ -140,6 +140,33 @@ Detailed in `Federation_Wide_Commands.md`. In short:
 - **After Roger is gone (OPEN):** nothing is decided. The safe default is that nothing merges and the sites keep running.
 - **A single command across all repos: NOT BUILT.** Today it is a series of single-repo commands, source first, public front last, stopping at the first failure.
 
+## 7A. The repair exception (auto-merge): DECIDED by delegation, NOT BUILT
+
+**Provenance.** On 2026-10-09 Roger said every rule has exceptions written into it, and asked Pontus (MUSE) to decide the repair-authority question. Pontus decided yes, with the five terms below. Roger has not yet restated it in his own words, and he can overrule it. The Catalyst recorded it and agrees, with the extra safeguards in the second list, which are PROPOSED and not part of what was decided.
+
+**Purpose.** An immune system that fights and also reports: when the health check finds a break, the hub prepares the fix by itself and tells Roger, and can keep working when he cannot be there.
+
+**The exception to "nothing merges without Roger's word" (DECIDED, five terms):**
+
+1. The hub may auto-merge ONLY fix classes the health check itself can verify: a required phrase restored, a link live again, a known damage pattern corrected and confirmed. The verifier decides.
+2. Every fix goes through a review branch first, so there is full history and a one-command revert.
+3. Every auto-merge is reported to Roger. Closing the notification gap is part of building this, not later.
+4. Anything the check cannot verify waits for Roger's word. No exception.
+5. Roger can revoke the whole exception with a word, at any time.
+
+**State today (VERIFIED 2026-10-09):** nothing is built. The health check only detects and reports. No repair worker exists and nothing auto-merges. The notification gap is real: the check opens a GitHub issue, but whether Roger receives an email for it is UNVERIFIED (the brain repo shows no explicit watch subscription, HTTP 404).
+
+**The Catalyst's proposed safeguards (PROPOSED, for Roger to accept or change):**
+
+a. A written list of eligible fix classes lives in the repo. Anything not on it is not eligible. Classes are added one at a time, and each is tested with a deliberate failure before it is switched on.
+b. The code that verifies a fix is separate from the code that writes it. It checks the review branch before the merge and the live page after.
+c. If the live check fails after an auto-merge, the merge is reverted automatically and reported.
+d. A fix may touch only the file the failing check names. It may not touch workflow files or secrets, and it refuses any edit that removes more than 60 percent of a file.
+e. A daily limit on auto-merges, and a stop after two failures in a row, then wait for Roger.
+f. The verifier compares the whole page with its state before the fix, not only the phrase. On 2026-10-09 the model "fixed" a broken Gumroad line in a way that hid it. A phrase-only check would have passed that.
+
+**Honest limit.** A passing check proves only what it checks. This exception widens what a machine may change without a human reading it, so it should start with the narrowest class and grow slowly.
+
 ## 8. How to verify that a change worked
 
 A check that a broken page cannot pass (VERIFIED as a lesson 2026-10-09).
@@ -162,7 +189,7 @@ A check that a broken page cannot pass (VERIFIED as a lesson 2026-10-09).
 4. **A backend change did not take effect.** Trigger the deploy by hand (section 2.3).
 5. **An Instagram or other token has expired.** The job pauses itself. Roger reconnects the account, then the job is resumed.
 6. **Emergent stops.** The GitHub sites, the Render servers and the library keep running. The scheduled jobs and the Catalyst on Emergent stop. The command page keeps running on Render, but it can only be used by someone who holds a valid key, and the model key it needs is stored on Render itself. Whether Roger's own owner key survives depends on where he keeps it (OPEN, section 10). Without a person holding a key, nothing can be built; the published sites still stand.
-7. **A rule must bend to get something done.** Allowed (DECIDED, Roger, 2026-10-09), if the bend is slight, noted and documented. Never bendable: nothing live without Roger's merge; no lying to buyers; nothing that locks a person out; ask before spending money or taking an irreversible step.
+7. **A rule must bend to get something done.** Allowed (DECIDED, Roger, 2026-10-09), if the bend is slight, noted and documented. Never bendable (with one written exception for verified repairs, section 7A): nothing live without Roger's merge; no lying to buyers; nothing that locks a person out; ask before spending money or taking an irreversible step.
 
 ## 10. Open items for Roger
 
@@ -178,4 +205,5 @@ A check that a broken page cannot pass (VERIFIED as a lesson 2026-10-09).
 
 ## 11. Revision log
 
+- 2026-10-09: added section 7A, the repair exception (decided by Pontus at Roger's delegation; not built).
 - 2026-10-09, v1.0: first complete version. Corrects the earlier statement in `Federation_Wide_Commands.md` that Render "does not deploy on push": the setting says it does, observation says it did not, cause UNVERIFIED.
