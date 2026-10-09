@@ -128,7 +128,8 @@ See `Federation_Wide_Commands.md` section 4 for the full inventory. Summary:
 - **"NextXus Social Campaign: Truth Over Noise"** is auto-paused: its Instagram access token expired 2026-10-02. It resumes only after Roger reconnects Instagram.
 - **"Chronicle Ritual Pulse"** is auto-paused.
 - **"Gumroad Daily 10-Task Feed"** is paused.
-- **These jobs stop if the Emergent account lapses.** They are not a GitHub system. **NOT BUILT:** a GitHub Actions version of the health check.
+- **These jobs stop if the Emergent account lapses.** They are not a GitHub system.
+- **GitHub health check, built 2026-10-09 (branch `health-check-2026-10-09`; runs only after Roger merges it).** 43 checks every 4 hours on GitHub's own workers: the Commons and 17 sites (each must still carry the Commons bar), the library data, the Core and command pages, the portal's two books, the Render servers (the command page's lock must answer 401 with no key), five Gumroad listings, and the seven Emergent domains (watched only, never edited). A free server that was asleep is retried before it counts. A page that answers 200 is also checked for a phrase it must hold and damage it must not. The report is `LATTICE/reports/health.md`; one issue opens on failure and is not duplicated. **Tested:** all 43 pass against the live Federation, and it correctly fails on a missing phrase, known damage, a dead address, a missing server and a wrong status. **It has not yet run on GitHub's workers.**
 - There is **no scheduled annual review-and-rebuild** (PROPOSED cadence only).
 
 ## 7. Federation-wide commands
@@ -171,7 +172,7 @@ A check that a broken page cannot pass (VERIFIED as a lesson 2026-10-09).
 4. **Whether Stripe is still used.** (OPEN)
 5. **Rotating the keys a tool displayed in plain text.** (his timing)
 6. **Reconnecting Instagram**, so the social campaign can resume.
-7. **A GitHub-hosted health check**, so monitoring does not depend on Emergent. (NOT BUILT; needs his go)
+7. **Merge the GitHub health check**, so monitoring does not depend on Emergent. (built, waiting on his merge)
 8. **MUSE's authorization** on the command page. (OPEN, switched off)
 9. **Intent (Roger, 2026-10-09), not a ruling:** the Senate is meant to become a conversation of this kind: minds talking a matter through, one proposing, another reading it closely, and a person deciding. How seats, speech and decisions work in it is OPEN.
 
