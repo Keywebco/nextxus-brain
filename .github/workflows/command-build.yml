@@ -1,0 +1,120 @@
+name: Command build (review branch only)
+
+# Roger's command page, run by GitHub's own workers. One hub, in the brain, builds into the other sites.
+# It takes an order, asks the model to write the change, and saves it to a REVIEW BRANCH of the target repo.
+# It never writes to main. Roger merges. Nothing goes live from here.
+# Two ways to start it:
+#   1. By hand: Actions tab, "Command build", Run workflow.
+#   2. By pushing a branch named order/<anything> that holds .orders/order.json (how the Catalyst starts a build).
+# Install and change this file by human merge only. See framework/GitHub_Operational_Systems_Manual.md.
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'Which site'
+        required: true
+        type: choice
+        options:
+          - nextxus-humancodex
+          - keywebco.github.io
+          - nextxus-agent-zero
+          - nextxus-research-hub
+          - nextxus-recycler
+          - nextxus-archives
+          - nextxus-senate
+          - nextxus-chat
+          - nextxus-tools
+          - nextxus-blog
+      order:
+        description: 'What you want, in plain words'
+        required: true
+        type: string
+      files:
+        description: 'Files to change or create, comma separated (example: index.html,core/index.html)'
+        required: true
+        type: string
+  push:
+    branches:
+      - 'order/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: command-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: ${{ github.event_name != 'push' || github.event.deleted == false }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Only approved people may start a build
+        env:
+          ACTOR: ${{ github.actor }}
+          APPROVED: ${{ vars.BUILD_APPROVED_ACTORS }}
+        run: |
+          if [ -z "$APPROVED" ]; then echo "No approved list is set. Refusing."; exit 1; fi
+          case ",$APPROVED," in
+            *",$ACTOR,"*) echo "Approved: $ACTOR" ;;
+            *) echo "Not approved: $ACTOR. Refusing."; exit 1 ;;
+          esac
+
+      - name: Get the hub (this repo)
+        uses: actions/checkout@v4
+        with:
+          path: hub
+          fetch-depth: 1
+
+      - name: Read and check the order
+        id: order
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUTS_JSON: ${{ toJSON(github.event.inputs) }}
+          ACTOR: ${{ github.actor }}
+        run: python3 hub/.github/scripts/command_build.py read
+
+      - name: Get the target site (main)
+        uses: actions/checkout@v4
+        with:
+          repository: Keywebco/${{ steps.order.outputs.repo }}
+          token: ${{ secrets.BUILD_GITHUB_TOKEN }}
+          ref: main
+          path: target
+          fetch-depth: 1
+
+      - name: Ask the model and write the files
+        env:
+          MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
+        run: python3 hub/.github/scripts/command_build.py build
+
+      - name: Save to a review branch
+        env:
+          WHO: ${{ steps.order.outputs.who }}
+        run: |
+          set -e
+          cd target
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "The model made no change. Nothing saved." | tee -a "$GITHUB_STEP_SUMMARY"; exit 0
+          fi
+          BR="build/${WHO}-$(date -u +%F)-${GITHUB_RUN_ID}"
+          case "$BR" in build/*) ;; *) echo "Bad branch name"; exit 1 ;; esac
+          SUMMARY="$(head -c 120 "$RUNNER_TEMP/build_summary.txt" 2>/dev/null || echo review)"
+          git config user.name "Command build"
+          git config user.email "keywebco@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A
+          git commit -m "Command build (${WHO}): ${SUMMARY}"
+          git push origin "$BR"
+          {
+            echo "### Review branch: \`$BR\`"
+            echo "Repo: ${{ steps.order.outputs.repo }}"
+            echo ""
+            git diff --stat HEAD~1 HEAD
+            echo ""
+            echo "Removed lines: $(git diff HEAD~1 HEAD | grep -c '^-[^-]' || true)"
+            echo ""
+            echo "Nothing is live. Read the diff, then Roger says merge."
+          } >> "$GITHUB_STEP_SUMMARY"

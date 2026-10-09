@@ -91,6 +91,25 @@ Built-in safeguards (VERIFIED in code and by test):
 
 Therefore: **a person or the Catalyst reads the diff before every merge**, and the live result is checked with a strict test (section 8).
 
+
+## 4A. The GitHub command hub (Option B): built, NOT YET INSTALLED
+
+State: the files are on the review branch `hub-command-build-2026-10-09`. They are **NOT BUILT as a running thing** until Roger merges them and two secrets are set. Nothing here has run on GitHub yet. What has been tested: the workflow passes `actionlint`, and the script was tested against a mock model (good order, wrong site, path escape, workflow-file touch, too many files, a model that deletes most of a page, junk output, an empty answer, no key). Every refusal worked. **It has not been run against the real model or the real GitHub.**
+
+What it is: one workflow in the brain (`.github/workflows/command-build.yml`) that builds into the other sites. It is started by hand from the Actions tab, or by pushing a branch named `order/<anything>` that holds `.orders/order.json`. It checks that the starter is on the approved list, asks the model for the change, and saves it to a **review branch** of the target site named `build/<who>-<date>-<run>`. It never writes to `main`. Roger merges. A leftover summary file is no longer written into the site.
+
+Why one hub: GitHub keeps secrets per repo. One hub means two secrets set once, one place to protect and one place to move.
+
+Needs, before it can run:
+1. Roger merges the hub files into the brain.
+2. Secret `MIMO_API_KEY` in the brain's Actions secrets (the model key).
+3. Secret `BUILD_GITHUB_TOKEN` in the brain's Actions secrets: the narrow key, Contents read and write. **It must be allowed to write to each site the hub builds into.** Today that token covers all repositories.
+4. Variable `BUILD_APPROVED_ACTORS` (a plain setting, not a secret) listing who may start a build, comma separated. Start with `Keywebco`.
+
+Sites the hub may build into (the same list as the command page): nextxus-humancodex, keywebco.github.io, nextxus-agent-zero, nextxus-research-hub, nextxus-recycler, nextxus-archives, nextxus-senate, nextxus-chat, nextxus-tools, nextxus-blog.
+
+Known limits: a workflow takes tens of seconds to start; it cannot serve live Ask or council tools (those still need a server); the model has the same weaknesses as on the command page, so **every diff is read before merge**.
+
 ## 5. Keys and secrets
 
 See `Federation_Wide_Commands.md` section 4 for the full inventory. Summary:
