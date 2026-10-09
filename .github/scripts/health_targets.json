@@ -1,0 +1,442 @@
+[
+ {
+  "name": "Commons front door",
+  "url": "https://keywebco.github.io/nextxus-humancodex/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "The Living Library",
+   "The Federation's tools",
+   "Meet <b>Astris"
+  ],
+  "forbid": [
+   "awaiting final",
+   "KEYS Living Library"
+  ]
+ },
+ {
+  "name": "Living Library",
+  "url": "https://keywebco.github.io/nextxus-humancodex/library/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "Ask Astris",
+   "Support the Living Library",
+   "astris-intro.mp4"
+  ],
+  "forbid": [
+   "first draft",
+   "Free inquiries left",
+   "Library code"
+  ]
+ },
+ {
+  "name": "Library data (volume 1)",
+  "url": "https://keywebco.github.io/nextxus-humancodex/library/data/vol-1.yaml",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "status: \"published\""
+  ],
+  "forbid": [
+   "status: \"first draft\""
+  ]
+ },
+ {
+  "name": "Core page",
+  "url": "https://keywebco.github.io/nextxus-humancodex/core/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "74 in all",
+   "15"
+  ],
+  "forbid": [
+   "ACTIVE",
+   "$"
+  ]
+ },
+ {
+  "name": "Command page",
+  "url": "https://keywebco.github.io/nextxus-humancodex/command/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "Command page",
+   "Your key"
+  ]
+ },
+ {
+  "name": "Portal",
+  "url": "https://keywebco.github.io/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "The Gravity of Us: Complete Poetry Collection",
+   "The Ascendence of Synthetic Intelligence"
+  ],
+  "forbid": [
+   "</li>\">"
+  ]
+ },
+ {
+  "name": "Agent Zero",
+  "url": "https://keywebco.github.io/nextxus-agent-zero/universe/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "Nextxus Living Library"
+  ]
+ },
+ {
+  "name": "Research hub",
+  "url": "https://keywebco.github.io/nextxus-research-hub/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Recycler",
+  "url": "https://keywebco.github.io/nextxus-recycler/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Archives",
+  "url": "https://keywebco.github.io/nextxus-archives/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Senate",
+  "url": "https://keywebco.github.io/nextxus-senate/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Chat",
+  "url": "https://keywebco.github.io/nextxus-chat/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Tools",
+  "url": "https://keywebco.github.io/nextxus-tools/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Blog",
+  "url": "https://keywebco.github.io/nextxus-blog/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Process",
+  "url": "https://keywebco.github.io/nextxus-process/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "YAML",
+  "url": "https://keywebco.github.io/nextxus-yaml/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Music",
+  "url": "https://keywebco.github.io/nextxus-music/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Build website",
+  "url": "https://keywebco.github.io/nextxus-build-website/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Build Sim",
+  "url": "https://keywebco.github.io/nextxus-build-sim/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Build Nova",
+  "url": "https://keywebco.github.io/nextxus-build-nova/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Course hub",
+  "url": "https://keywebco.github.io/nextxus-ai-course-hub/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Roger Keyserling",
+  "url": "https://keywebco.github.io/roger-keyserling/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "Sovereign tools",
+  "url": "https://keywebco.github.io/sovereigntools/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20,
+  "must": [
+   "nx-commons-bar"
+  ]
+ },
+ {
+  "name": "God's Eye",
+  "url": "https://keywebco.github.io/federation-gods-eye/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Shared Mind (Sim)",
+  "url": "https://keywebco.github.io/nextxus-sim/",
+  "kind": "site",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Ask and council server",
+  "url": "https://ring-of-12-api.onrender.com/quota",
+  "kind": "server",
+  "timeout": 90,
+  "tries": 3,
+  "wait": 30
+ },
+ {
+  "name": "Command page server (the lock must answer 401 with no key)",
+  "url": "https://ring-of-12-api.onrender.com/build/status",
+  "kind": "server",
+  "timeout": 90,
+  "tries": 3,
+  "wait": 30,
+  "expect": 401
+ },
+ {
+  "name": "Sim server",
+  "url": "https://nextxus-sim-api.onrender.com/docs",
+  "kind": "server",
+  "timeout": 90,
+  "tries": 3,
+  "wait": 30
+ },
+ {
+  "name": "Roger Sim server",
+  "url": "https://roger-sim-api.onrender.com/health",
+  "kind": "server",
+  "timeout": 90,
+  "tries": 3,
+  "wait": 30
+ },
+ {
+  "name": "Relay server",
+  "url": "https://plexus-relay-api.onrender.com/",
+  "kind": "server",
+  "timeout": 90,
+  "tries": 3,
+  "wait": 30
+ },
+ {
+  "name": "Gatekeeper",
+  "url": "https://federation-gatekeeper.onrender.com/",
+  "kind": "server",
+  "timeout": 90,
+  "tries": 3,
+  "wait": 30
+ },
+ {
+  "name": "Gumroad: Support the Living Library",
+  "url": "https://keywebster.gumroad.com/l/decwf",
+  "kind": "money",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 15
+ },
+ {
+  "name": "Gumroad: Scholar's Ledger",
+  "url": "https://keywebster.gumroad.com/l/dqyabh",
+  "kind": "money",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 15
+ },
+ {
+  "name": "Gumroad: Ascendence",
+  "url": "https://keywebster.gumroad.com/l/kbycd",
+  "kind": "money",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 15
+ },
+ {
+  "name": "Gumroad: Gravity of Us",
+  "url": "https://keywebster.gumroad.com/l/rnhbhi",
+  "kind": "money",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 15
+ },
+ {
+  "name": "Gumroad: Sovereign Token",
+  "url": "https://keywebster.gumroad.com/l/olhsf",
+  "kind": "money",
+  "timeout": 30,
+  "tries": 2,
+  "wait": 15
+ },
+ {
+  "name": "Emergent domain: nextxus.online",
+  "url": "https://nextxus.online/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Emergent domain: nextxus.org",
+  "url": "https://nextxus.org/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Emergent domain: nextxus.tech",
+  "url": "https://nextxus.tech/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Emergent domain: nextxus.space",
+  "url": "https://nextxus.space/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Emergent domain: nextxus.studio",
+  "url": "https://nextxus.studio/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Emergent domain: nextxus.help",
+  "url": "https://nextxus.help/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ },
+ {
+  "name": "Emergent domain: next-xus.com",
+  "url": "https://next-xus.com/",
+  "kind": "watch only",
+  "timeout": 60,
+  "tries": 2,
+  "wait": 20
+ }
+]

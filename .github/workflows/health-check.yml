@@ -1,0 +1,61 @@
+name: Federation health check
+
+# Runs on GitHub's own workers, so it keeps working if Emergent or Render lapse.
+# Every 4 hours. Writes LATTICE/reports/health.md. Opens ONE issue when something is wrong
+# (and does not open a second while one is still open). Never edits any site.
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: run
+        run: python3 .github/scripts/health_check.py
+        continue-on-error: true
+
+      - name: Save the report
+        run: |
+          git config user.name "Federation health check"
+          git config user.email "keywebco@users.noreply.github.com"
+          git add LATTICE/reports/health.md
+          if git diff --cached --quiet; then echo "No change in the report."; else
+            git commit -m "Health report $(date -u +%F' '%H:%M) UTC"
+            git pull --rebase -q origin "${GITHUB_REF_NAME}" || true
+            git push || true
+          fi
+
+      - name: Open one issue if something is wrong
+        if: steps.run.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('LATTICE/reports/health.md', 'utf8');
+            const problems = (report.split('## Problems')[1] || '').split('## All checks')[0].trim();
+            const open = await github.rest.issues.listForRepo({owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'health-check'});
+            if (open.data.length > 0) {
+              await github.rest.issues.createComment({owner: context.repo.owner, repo: context.repo.repo, issue_number: open.data[0].number,
+                body: 'Still failing at ' + new Date().toISOString() + '\n\n' + problems});
+            } else {
+              await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title: 'Health check: something is wrong ' + new Date().toISOString().slice(0,10),
+                labels: ['health-check'], body: problems + '\n\nFull report: LATTICE/reports/health.md. A free server that was asleep is retried before it counts. Nothing was changed automatically.'});
+            }
+
+      - name: Fail the run if a check failed
+        if: steps.run.outcome == 'failure'
+        run: exit 1
