@@ -16,6 +16,10 @@ Every statement carries a label.
 
 Rule: never write a status without the check that backs it. A written procedure is not proof that its automation runs.
 
+**Design rule (Roger, 2026-10-09): every single point of failure must have an alternative solution. A singularity with an alternative is far stronger than one without.**
+
+A single point of failure can never be removed entirely; something always has to be the one thing. The test for each one is whether it has a second way to work. Section 10 is read against this rule. Working examples: the brain's daily GitHub check (runs with no Emergent and no Render) and the Living Library (runs in the browser from files, so no server failure takes it down). Weak examples, with no second way yet: the key copies, Roger's owner key, and the command page's dependence on Render.
+
 ## 1. The purpose, in plain words
 
 Roger works from GitHub. Emergent is kept running for his lifetime (DECIDED, 2026-10-09), but nothing may depend on it to keep the Federation alive. The goal is that the Federation can be changed, repaired and grown from GitHub plus a cheap model, with no Emergent account. That goal is **partly met** (section 2).
