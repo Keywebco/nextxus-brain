@@ -137,7 +137,7 @@ A check that a broken page cannot pass (VERIFIED as a lesson 2026-10-09).
 3. **The server answers "not authorized".** Wrong or missing key. Never share the key to fix it. Switch the representative's key off and issue a new one.
 4. **A backend change did not take effect.** Trigger the deploy by hand (section 2.3).
 5. **An Instagram or other token has expired.** The job pauses itself. Roger reconnects the account, then the job is resumed.
-6. **Emergent stops.** The GitHub sites, the Render servers and the library keep running. The scheduled jobs and the Catalyst on Emergent stop. The command page still works for anyone holding a valid key, with a model doing the writing, and a person reviewing.
+6. **Emergent stops.** The GitHub sites, the Render servers and the library keep running. The scheduled jobs and the Catalyst on Emergent stop. The command page keeps running on Render, but it can only be used by someone who holds a valid key, and the model key it needs is stored on Render itself. Whether Roger's own owner key survives depends on where he keeps it (OPEN, section 10). Without a person holding a key, nothing can be built; the published sites still stand.
 7. **A rule must bend to get something done.** Allowed (DECIDED, Roger, 2026-10-09), if the bend is slight, noted and documented. Never bendable: nothing live without Roger's merge; no lying to buyers; nothing that locks a person out; ask before spending money or taking an irreversible step.
 
 ## 10. Open items for Roger
