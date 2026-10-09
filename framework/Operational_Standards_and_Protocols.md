@@ -28,3 +28,7 @@ conflicts:
   - Framework chapters 306 and 313 propose forced or automatic rollback; Cathedral DIR-047 does not specify automatic write authority.
   - Framework chapter 437 treats 95 as a factual ingestion threshold; Cathedral DIR-000 defines internal output scoring for settled truth.
 ```
+
+## Federation-wide commands
+
+Who can issue one, how it travels, what the rebuild builds from, where the keys live and how it is verified are mapped in `framework/Federation_Wide_Commands.md`. That manual marks each item DECIDED, PROPOSED, NOT BUILT or OPEN. The succession answer (who commands and merges after the Architect) is OPEN.
