@@ -50,8 +50,12 @@ def main():
     lines += ["## All checks", "", "| Check | Kind | Result | Seconds |", "|---|---|---|---|"]
     for r in results:
         lines.append("| %s | %s | %s | %s |" % (r["name"], r["kind"], "OK" if not r["problems"] else "PROBLEM", r["secs"]))
-    lines += ["", "A free server that was asleep is retried before it counts as a problem. A page that answers 200 is also checked for a phrase it must contain and for known damage.",
-              "The Emergent-hosted domains are watched only. They are never edited."]
+    lines += ["", "**What the kinds mean:** *site* is a web page that must answer and hold the words it should; *server* is a program that must answer (the command page's lock must answer 401 with no key); *money* is a Gumroad listing that must still be live; *watch only* is a site we monitor but never edit.",
+              "",
+              "A free server that was asleep is retried before it counts as a problem. A page that answers 200 is also checked for a phrase it must contain and for known damage.",
+              "The Emergent-hosted domains are watched only. They are never edited.",
+              "",
+              "**The receipt:** [what this costs, measured and estimated, dated](cost.md). **The seal check:** [the daily check of the sealed rules](latest.md). **The front door:** https://keywebco.github.io/nextxus-humancodex/"]
     open("LATTICE/reports/health.md", "w", encoding="utf-8").write("\n".join(lines) + "\n")
     print("\n".join(lines))
     sys.exit(1 if bad else 0)
