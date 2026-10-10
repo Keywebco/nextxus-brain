@@ -46,4 +46,6 @@ Nothing is merged to a live site without Roger's word, and that is the current r
 - Much of the day-to-day work still runs on a paid account (Emergent) that may lapse. The GitHub robots do not depend on it, but some scheduled jobs and most keys do. The manual lists what, and says which parts are not yet built.
 - Prices and listings on Gumroad are the truth. The sites follow them.
 
+The old `keyhole-creator/nextxus-yaml-database` repository is history only. This is the live one.
+
 Built 2026-10-05. Contact: keywebco@gmail.com.
