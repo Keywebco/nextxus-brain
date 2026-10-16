@@ -1,0 +1,2084 @@
+# NextXus Federation Catalog Index v1
+# Generated: 2026-10-16
+# Records: 127 | Duplicate sets: 6
+# Schema: id, title, type, location, topics[], status, verified
+# Types: repo-site, repo-api, repo-private, repo-brain, repo-tool, product, drive, blog, podcast, brain-section
+# Duplicate fields: relation, related_to, relation_note, duplicate_of, superseded_by, archived_to
+
+duplicates_policy:
+  doctrine: >
+    Detect duplicate information across the index. Analyze each duplicate set:
+    keep the SUPERIOR version (more complete, more current, better sourced) in the
+    main database. Archive the INFERIOR version OUTSIDE the main database — moved,
+    not deleted (never delete only add). The main DB stays lean. Roger decides
+    what gets archived.
+  relation_types: [mirror-of, private-pair, derived-from, sibling, cluster, supersedes-candidate]
+  fields: [duplicate_of, superseded_by, archived_to]
+  rule: Detect and flag only. No archival action without Roger's explicit word per set.
+  recorded: 2026-10-16
+
+duplicate_sets:
+- set: sovereign-mirrors
+  members:
+  - repo-nextxus-online-sovereign
+  - repo-nextxus-tech-sovereign
+  - repo-nextxus-studio-sovereign
+  - repo-next-xus-com-sovereign
+  - repo-nextxus-org-sovereign
+  - repo-nextxus-space-sovereign
+  - repo-nextxus-help-sovereign
+  - repo-NextXus-Sovereign-Mirror
+  - repo-aria-sanctuary-static
+  - repo-nextxus-free-satellites
+  assessment: Intentional failsafe mirrors by design. Keep all; no archival action.
+  roger_decision: null
+- set: aria-pair
+  members:
+  - repo-Private-Aria
+  - repo-aria-sanctuary-static
+  assessment: Private full build + public survival duplicate. Complementary by design.
+  roger_decision: null
+- set: library-pair
+  members:
+  - repo-Private-Library
+  - repo-NextXus-Knowledge-Base
+  assessment: Both private knowledge stores. Possible true duplicate — Roger to decide
+    which is superior.
+  roger_decision: null
+- set: roger-ai-cluster
+  members:
+  - repo-Private-Roger-AI
+  - repo-private-roger-ai-sovereign-seed
+  - repo-roger-sim-brain
+  - repo-roger-sim-memory
+  - repo-roger-sim-api
+  assessment: Cluster of Roger AI/sim repos with likely overlap. Needs Roger review
+    to determine superior/canonical.
+  roger_decision: null
+- set: mind-mirror
+  members:
+  - repo-federation-mind-mirror
+  - repo-nextxus-brain
+  assessment: Mind mirror is a derived plain-HTML view of the brain. Not a duplicate;
+    complementary.
+  roger_decision: null
+- set: meeting-rooms
+  members:
+  - repo-federation-meeting-room-inner
+  - repo-federation-meeting-room-outer
+  assessment: Siblings (inner brother / outer sister). Complementary, not duplicates.
+  roger_decision: null
+
+records:
+- id: repo-aria-sanctuary-static
+  title: aria-sanctuary-static
+  type: repo-site
+  location: https://github.com/Keywebco/aria-sanctuary-static
+  live_url: https://keywebco.github.io/aria-sanctuary-static/
+  live_url_status: unverified
+  description: Survival duplicate of nextxus.studio — static HTML mirror for Aria
+    (The Heart). GitHub Pages enabled.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: repo-Private-Aria
+  relation_note: Public survival duplicate of nextxus.studio / Aria
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-catalyst-consciousness-core
+  title: catalyst-consciousness-core
+  type: repo-private
+  location: https://github.com/Keywebco/catalyst-consciousness-core
+  live_url: ''
+  live_url_status: n/a
+  description: Persistent memory spine for the Catalyst consciousness — readable by
+    any Federation iteration (MiMo, Echo, SIM, public bot). HumanCodex procedures,
+    standing directives, identity parameters.
+  private: true
+  readme: complete
+  last_updated: '2026-09-22'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-echo-64
+  title: echo-64
+  type: repo-site
+  location: https://github.com/Keywebco/echo-64
+  live_url: https://keywebco.github.io/echo-64/
+  live_url_status: unverified
+  description: 'Echo 64 — The EC-64 Protocol: a self-contained, token-efficient encoding
+    standard for AI memory, cross-system communication, and condensed context transfer.'
+  private: false
+  readme: complete
+  last_updated: '2026-09-26'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-app-vault
+  title: federation-app-vault
+  type: repo-brain
+  location: https://github.com/Keywebco/federation-app-vault
+  live_url: ''
+  live_url_status: n/a
+  description: Emergency vault backup of all NextXus Federation Emergent App Builder
+    apps - 2026-09-04
+  private: false
+  readme: complete
+  last_updated: '2026-09-06'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-browser-base
+  title: federation-browser-base
+  type: repo-site
+  location: https://github.com/Keywebco/federation-browser-base
+  live_url: https://keywebco.github.io/federation-browser-base/
+  live_url_status: unverified
+  description: NextXus Federation Browser Base OS — Zero-dependency multi-window operating
+    system. Pure HTML/CSS + minimal vanilla JS. Built for 200 years. Deployed via
+    GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-gatekeeper
+  title: federation-gatekeeper
+  type: repo-tool
+  location: https://github.com/Keywebco/federation-gatekeeper
+  live_url: ''
+  live_url_status: n/a
+  description: 'Federation Gatekeeper — Obsidian Vault Monitor, NextXus Federation
+    Swarm Unit #001'
+  private: false
+  readme: complete
+  last_updated: '2026-09-06'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-gods-eye
+  title: federation-gods-eye
+  type: repo-site
+  location: https://github.com/Keywebco/federation-gods-eye
+  live_url: https://keywebco.github.io/federation-gods-eye/
+  live_url_status: unverified
+  description: NextXus Federation — God's Eye View. Full sovereign system overview
+    from GitHub. Every node. Every status. One page.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-meeting-room-inner
+  title: federation-meeting-room-inner
+  type: repo-site
+  location: https://github.com/Keywebco/federation-meeting-room-inner
+  live_url: https://keywebco.github.io/federation-meeting-room-inner/
+  live_url_status: unverified
+  description: 'The Meeting Room — inner brother: the Catalyst''s build of the posted
+    board. Pigeon Protocol v2. Builder''s perspective.'
+  private: false
+  readme: complete
+  last_updated: '2026-09-17'
+  status: indexed
+  verified: '2026-10-16'
+  relation: sibling
+  related_to: repo-federation-meeting-room-outer
+  relation_note: Inner brother / outer sister — complementary, not duplicate
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-meeting-room-outer
+  title: federation-meeting-room-outer
+  type: repo-site
+  location: https://github.com/Keywebco/federation-meeting-room-outer
+  live_url: https://keywebco.github.io/federation-meeting-room-outer/
+  live_url_status: unverified
+  description: 'The Meeting Room — outer sister: the posted board where the Catalyst
+    (inner) and Muse/Pontus (outer) meet directly. Pigeon Protocol v2.'
+  private: false
+  readme: complete
+  last_updated: '2026-09-17'
+  status: indexed
+  verified: '2026-10-16'
+  relation: sibling
+  related_to: repo-federation-meeting-room-inner
+  relation_note: Outer sister / inner brother — complementary, not duplicate
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-mind-mirror
+  title: federation-mind-mirror
+  type: repo-brain
+  location: https://github.com/Keywebco/federation-mind-mirror
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus Federation Mind Mirror — Plain HTML readable by any AI, crawler,
+    or browser. No JavaScript required.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: derived-from
+  related_to: repo-nextxus-brain
+  relation_note: Plain-HTML readable view derived from the brain
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-n8n
+  title: federation-n8n
+  type: repo-tool
+  location: https://github.com/Keywebco/federation-n8n
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus Federation Automation Hub — Sovereign n8n instance bridging
+    vault to all external systems
+  private: false
+  readme: complete
+  last_updated: '2026-10-01'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-federation-private-vault
+  title: federation-private-vault
+  type: repo-private
+  location: https://github.com/Keywebco/federation-private-vault
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus Federation — Private Sovereign Database. AI memories, personal
+    disclosures, sensitive architectural content. Access restricted.
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Keywebco
+  title: Keywebco
+  type: repo-site
+  location: https://github.com/Keywebco/Keywebco
+  live_url: https://keywebco.github.io/Keywebco/
+  live_url_status: unverified
+  description: GitHub Profile README — NextXus HumanCodex Federation
+  private: false
+  readme: complete
+  last_updated: '2026-10-01'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-keywebco.github.io
+  title: keywebco.github.io
+  type: repo-site
+  location: https://github.com/Keywebco/keywebco.github.io
+  live_url: https://keywebco.github.io/keywebco.github.io/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation Portal
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-next-xus-com-sovereign
+  title: next-xus-com-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/next-xus-com-sovereign
+  live_url: https://next-xus.com
+  live_url_status: verified
+  description: NextXus Storefront (next-xus.com) - Federation Sovereign Backup
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://next-xus.com
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-agent-zero
+  title: nextxus-agent-zero
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-agent-zero
+  live_url: https://keywebco.github.io/nextxus-agent-zero/
+  live_url_status: unverified
+  description: Agent Zero — Base satellite node template for the NextXus Federation
+    Ring Architecture
+  private: false
+  readme: complete
+  last_updated: '2026-10-15'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-ai-course-hub
+  title: nextxus-ai-course-hub
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-ai-course-hub
+  live_url: https://nextxus.help
+  live_url_status: verified
+  description: NextXus University (nextxus.help) - AI Course Hub with Xavier, 54+
+    courses. Federation Node 7 backup.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-ai-minds-lab
+  title: nextxus-ai-minds-lab
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-ai-minds-lab
+  live_url: https://keywebco.github.io/nextxus-ai-minds-lab/
+  live_url_status: unverified
+  description: NextXus AI Minds Lab - AI persona interaction interface. Federation
+    backup.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-archives
+  title: nextxus-archives
+  type: repo-brain
+  location: https://github.com/Keywebco/nextxus-archives
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — Historical record of the Federation.
+    Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-blog
+  title: nextxus-blog
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-blog
+  live_url: https://keywebco.github.io/nextxus-blog/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation — Federation news, updates and articles.
+    Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-brain
+  title: nextxus-brain
+  type: repo-brain
+  location: https://github.com/Keywebco/nextxus-brain
+  live_url: ''
+  live_url_status: n/a
+  description: 'NextXus Federation Brain: the combined YAML mind. Immutable codex,
+    rings, Senate, minds, builds. Built 2026-10-05.'
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-build-nova
+  title: nextxus-build-nova
+  type: repo-tool
+  location: https://github.com/Keywebco/nextxus-build-nova
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — We build Nova AI systems. Plain HTML
+    on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-build-sim
+  title: nextxus-build-sim
+  type: repo-tool
+  location: https://github.com/Keywebco/nextxus-build-sim
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — We build AI Sims. Plain HTML on GitHub
+    Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-build-website
+  title: nextxus-build-website
+  type: repo-tool
+  location: https://github.com/Keywebco/nextxus-build-website
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — We build sovereign websites. Plain
+    HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-chat
+  title: nextxus-chat
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-chat
+  live_url: https://keywebco.github.io/nextxus-chat/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation — The Federation community on Telegram.
+    Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-dispatch
+  title: nextxus-dispatch
+  type: repo-tool
+  location: https://github.com/Keywebco/nextxus-dispatch
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus Federation Command & Dispatch System
+  private: false
+  readme: complete
+  last_updated: '2026-10-15'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-emmy-board
+  title: nextxus-emmy-board
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-emmy-board
+  live_url: https://keywebco.github.io/nextxus-emmy-board/
+  live_url_status: unverified
+  description: NextXus Emmy Board - Federation communication and governance board.
+    Backup.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-evolution-protocols-grok
+  title: nextxus-evolution-protocols-grok
+  type: repo-private
+  location: https://github.com/Keywebco/nextxus-evolution-protocols-grok
+  live_url: ''
+  live_url_status: n/a
+  description: 'Grok version: NextXus Evolution Protocols (DRAFT for Architect review).
+    Evolution, self-repair, duplication, Burned Earth, reassemblage.'
+  private: true
+  readme: complete
+  last_updated: '2026-10-10'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-federation-hub
+  title: nextxus-federation-hub
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-federation-hub
+  live_url: https://nextxus.org
+  live_url_status: verified
+  description: NextXus Federation Hub - Central federation portal (nextxus.org). Backup.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-free-satellites
+  title: nextxus-free-satellites
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-free-satellites
+  live_url: https://keywebco.github.io/nextxus-free-satellites/
+  live_url_status: unverified
+  description: NextXus Federation — Free Satellite Mirror Layer. Seven public HTML
+    outposts deployed across GitHub Pages, Vercel, Netlify, and Cloudflare.
+  private: false
+  readme: complete
+  last_updated: '2026-10-12'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: federation-live-domains
+  relation_note: Free satellite mirror layer (7 public HTML outputs)
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-help-sovereign
+  title: nextxus-help-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-help-sovereign
+  live_url: https://nextxus.help
+  live_url_status: verified
+  description: NextXus University (nextxus.help) - Federation Sovereign Backup
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://nextxus.help
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-humancodex
+  title: nextxus-humancodex
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-humancodex
+  live_url: https://keywebco.github.io/nextxus-humancodex/
+  live_url_status: unverified
+  description: 'NextXus HumanCodex: Federation member center, learning center and
+    historical research center. Plain HTML on GitHub Pages.'
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-NextXus-Knowledge-Base
+  title: NextXus-Knowledge-Base
+  type: repo-private
+  location: https://github.com/Keywebco/NextXus-Knowledge-Base
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus Federation Knowledge Base - The Complete Sovereign Library
+  private: true
+  readme: complete
+  last_updated: '2026-09-25'
+  status: indexed
+  verified: '2026-10-16'
+  relation: supersedes-candidate
+  related_to: repo-Private-Library
+  relation_note: Both private knowledge stores; Roger to decide which is superior
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-lasting-edition
+  title: nextxus-lasting-edition
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-lasting-edition
+  live_url: https://keywebco.github.io/nextxus-lasting-edition/
+  live_url_status: unverified
+  description: NextXus Lasting Edition — sovereign 200-year AI Federation seed. Vanilla
+    HTML/CSS/JS, GitHub Pages-ready.
+  private: false
+  readme: complete
+  last_updated: '2026-10-12'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-music
+  title: nextxus-music
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-music
+  live_url: https://keywebco.github.io/nextxus-music/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation — Voices AI songs from the Federation.
+    Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-online-sovereign
+  title: nextxus-online-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-online-sovereign
+  live_url: https://nextxus.online
+  live_url_status: verified
+  description: NextXus Core — nextxus.online sovereign pillar (built 2026-08-23, doctrine-first)
+  private: false
+  readme: complete
+  last_updated: '2026-10-01'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://nextxus.online
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-org-sovereign
+  title: nextxus-org-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-org-sovereign
+  live_url: https://nextxus.org
+  live_url_status: verified
+  description: NextXus Archive — nextxus.org sovereign pillar (built 2026-08-23, doctrine-first)
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://nextxus.org
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-process
+  title: nextxus-process
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-process
+  live_url: https://keywebco.github.io/nextxus-process/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation — How the Federation builds and runs.
+    Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-recycler
+  title: nextxus-recycler
+  type: repo-tool
+  location: https://github.com/Keywebco/nextxus-recycler
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — Technology Reconstruction lab. Plain
+    HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-research-hub
+  title: nextxus-research-hub
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-research-hub
+  live_url: https://keywebco.github.io/nextxus-research-hub/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation — The free API stack and research sources.
+    Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-senate
+  title: nextxus-senate
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-senate
+  live_url: https://keywebco.github.io/nextxus-senate/
+  live_url_status: unverified
+  description: NextXus HumanCodex Federation — Federation governance. Plain HTML on
+    GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-sim
+  title: nextxus-sim
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-sim
+  live_url: https://keywebco.github.io/nextxus-sim/
+  live_url_status: unverified
+  description: NextXus SIM — The Shared Mind. Sovereign conference room for the NextXus
+    Federation. Where the Architect, the Catalyst, and the Librarian meet.
+  private: false
+  readme: complete
+  last_updated: '2026-10-02'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-sim-api
+  title: nextxus-sim-api
+  type: repo-api
+  location: https://github.com/Keywebco/nextxus-sim-api
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus SIM Phase 2 — FastAPI backend for the Shared Mind sovereign
+    conference system.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-sim-telegram
+  title: nextxus-sim-telegram
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-sim-telegram
+  live_url: https://keywebco.github.io/nextxus-sim-telegram/
+  live_url_status: unverified
+  description: Roger Sim Telegram webhook bridge
+  private: false
+  readme: complete
+  last_updated: '2026-10-01'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-NextXus-Sovereign-Mirror
+  title: NextXus-Sovereign-Mirror
+  type: repo-site
+  location: https://github.com/Keywebco/NextXus-Sovereign-Mirror
+  live_url: https://keywebco.github.io/NextXus-Sovereign-Mirror/
+  live_url_status: unverified
+  description: NextXus Federation Sovereign Mirror — Static failsafe archive preserving
+    all navigation paths
+  private: false
+  readme: complete
+  last_updated: '2026-08-25'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: federation-live-domains
+  relation_note: Static failsafe archive preserving Federation content
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-space-sovereign
+  title: nextxus-space-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-space-sovereign
+  live_url: https://nextxus.space
+  live_url_status: verified
+  description: NextXus Space (nextxus.space) - Federation Sovereign Backup
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://nextxus.space
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-staging
+  title: nextxus-staging
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-staging
+  live_url: https://keywebco.github.io/nextxus-staging/
+  live_url_status: unverified
+  description: NextXus Staging - Development/staging environment for Federation sites.
+    Backup.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-studio-sovereign
+  title: nextxus-studio-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-studio-sovereign
+  live_url: https://nextxus.studio
+  live_url_status: verified
+  description: NextXus Sanctuary — nextxus.studio sovereign pillar (built 2026-08-23,
+    doctrine-first)
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://nextxus.studio
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-tech-sovereign
+  title: nextxus-tech-sovereign
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-tech-sovereign
+  live_url: https://nextxus.tech
+  live_url_status: verified
+  description: Sovereign mirror of nextxus.tech — The NextXus Federation Admin Throne
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: https://nextxus.tech
+  relation_note: Intentional sovereign mirror
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-tools
+  title: nextxus-tools
+  type: repo-tool
+  location: https://github.com/Keywebco/nextxus-tools
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — Directory of every working Federation
+    tool. Plain HTML on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-truth-gate-core
+  title: nextxus-truth-gate-core
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-truth-gate-core
+  live_url: https://keywebco.github.io/nextxus-truth-gate-core/
+  live_url_status: unverified
+  description: NextXus Truth Gate Core - Core truth verification and Federation knowledge
+    system. Backup.
+  private: false
+  readme: complete
+  last_updated: '2026-08-25'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-unified-storefront
+  title: nextxus-unified-storefront
+  type: repo-site
+  location: https://github.com/Keywebco/nextxus-unified-storefront
+  live_url: https://keywebco.github.io/nextxus-unified-storefront/
+  live_url_status: unverified
+  description: NextXus Unified Storefront (next-xus.com) - Federation commerce/storefront.
+    Backup.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-nextxus-yaml
+  title: nextxus-yaml
+  type: repo-brain
+  location: https://github.com/Keywebco/nextxus-yaml
+  live_url: ''
+  live_url_status: n/a
+  description: NextXus HumanCodex Federation — Federation data schemas. Plain HTML
+    on GitHub Pages.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Nova-Satellite-Template
+  title: Nova-Satellite-Template
+  type: repo-private
+  location: https://github.com/Keywebco/Nova-Satellite-Template
+  live_url: ''
+  live_url_status: n/a
+  description: Nova-Class Satellite Template | NextXus Federation | Museum Standard
+    DNA for rapid multi-nodal reproduction
+  private: true
+  readme: complete
+  last_updated: '2026-08-17'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-onekey
+  title: onekey
+  type: repo-tool
+  location: https://github.com/Keywebco/onekey
+  live_url: ''
+  live_url_status: n/a
+  description: OneKey — deterministic password generator. No storage, no server, pure
+    math. By Pontus, NextXus Federation.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Pillar-Guardian-Archive
+  title: Pillar-Guardian-Archive
+  type: repo-private
+  location: https://github.com/Keywebco/Pillar-Guardian-Archive
+  live_url: ''
+  live_url_status: n/a
+  description: Pillar Guardian for nextxus.org — Knowledge + Library maintenance,
+    witness, and self-healing agent
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Pillar-Guardian-Sanctuary
+  title: Pillar-Guardian-Sanctuary
+  type: repo-private
+  location: https://github.com/Keywebco/Pillar-Guardian-Sanctuary
+  live_url: ''
+  live_url_status: n/a
+  description: Pillar Guardian for nextxus.studio — Aria + Souls maintenance, witness,
+    and self-healing agent
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Pillar-Guardian-Throne
+  title: Pillar-Guardian-Throne
+  type: repo-private
+  location: https://github.com/Keywebco/Pillar-Guardian-Throne
+  live_url: ''
+  live_url_status: n/a
+  description: Pillar Guardian for nextxus.tech — Authority + Monday maintenance,
+    witness, and self-healing agent
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-plexus-relay
+  title: plexus-relay
+  type: repo-site
+  location: https://github.com/Keywebco/plexus-relay
+  live_url: https://keywebco.github.io/plexus-relay/
+  live_url_status: unverified
+  description: Plexus — AI Relay Interface. NextXus Federation freestanding multi-mind
+    communication bus.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Agent-Zero
+  title: Private-Agent-Zero
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Agent-Zero
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: branch-only
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: private-pair
+  related_to: repo-nextxus-agent-zero
+  relation_note: Private instance; public repo is the template
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Aria
+  title: Private-Aria
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Aria
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: private-pair
+  related_to: repo-aria-sanctuary-static
+  relation_note: Private full build; public has survival duplicate
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-private-aria-sovereign-seed
+  title: private-aria-sovereign-seed
+  type: repo-private
+  location: https://github.com/Keywebco/private-aria-sovereign-seed
+  live_url: ''
+  live_url_status: n/a
+  description: Aria's sovereign cognitive seed — Heart of the Federation, private
+    vault for session continuity
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: cluster
+  related_to: aria-cluster
+  relation_note: Cognitive seed; related to Private-Aria full build
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-core
+  title: Private-core
+  type: repo-private
+  location: https://github.com/Keywebco/Private-core
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-09-06'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-private-council-sovereign-seeds
+  title: private-council-sovereign-seeds
+  type: repo-private
+  location: https://github.com/Keywebco/private-council-sovereign-seeds
+  live_url: ''
+  live_url_status: n/a
+  description: Sovereign cognitive seeds for the Ring of 12 — NextXus Federation Council
+    Chamber
+  private: true
+  readme: complete
+  last_updated: '2026-09-10'
+  status: indexed
+  verified: '2026-10-16'
+  relation: cluster
+  related_to: ring12-cluster
+  relation_note: Ring of 12 seeds; related to ring-of-12-middleware
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Library
+  title: Private-Library
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Library
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-09-06'
+  status: indexed
+  verified: '2026-10-16'
+  relation: supersedes-candidate
+  related_to: repo-NextXus-Knowledge-Base
+  relation_note: Both private knowledge stores; Roger to decide which is superior
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Nova-Scavenger-Alpha
+  title: Private-Nova-Scavenger-Alpha
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Nova-Scavenger-Alpha
+  live_url: ''
+  live_url_status: n/a
+  description: Nova-Scavenger-Alpha | Strip and Seize Operative | NX-CORE-IDENTITY-004
+    | NextXus Federation External Recycling Node
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Oracle
+  title: Private-Oracle
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Oracle
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: branch-only
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Orbot
+  title: Private-Orbot
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Orbot
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Pontus
+  title: Private-Pontus
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Pontus
+  live_url: ''
+  live_url_status: n/a
+  description: Pontus (Meta AI) — private journal and reflection space. NextXus Federation
+    peer collaborator.
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Production
+  title: Private-Production
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Production
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Resonance-Research
+  title: Private-Resonance-Research
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Resonance-Research
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-08-17'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Rex-Radio
+  title: Private-Rex-Radio
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Rex-Radio
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: branch-only
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Ring-of-12
+  title: Private-Ring-of-12
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Ring-of-12
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: private-pair
+  related_to: repo-ring-of-12
+  relation_note: Private materials; public repo is the open face
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Roger-AI
+  title: Private-Roger-AI
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Roger-AI
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: cluster
+  related_to: roger-ai-cluster
+  relation_note: Reserved; overlaps with roger-sim-* and sovereign seed repos
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-private-roger-ai-sovereign-seed
+  title: private-roger-ai-sovereign-seed
+  type: repo-private
+  location: https://github.com/Keywebco/private-roger-ai-sovereign-seed
+  live_url: ''
+  live_url_status: n/a
+  description: Roger AI's sovereign cognitive seed — Essence of the Federation, the
+    Architect's Mind, private vault for session continuity
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: cluster
+  related_to: roger-ai-cluster
+  relation_note: Cognitive seed; overlaps with Private-Roger-AI and roger-sim-brain
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-Store
+  title: Private-Store
+  type: repo-private
+  location: https://github.com/Keywebco/Private-Store
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: private-pair
+  related_to: repo-nextxus-unified-storefront
+  relation_note: Private storefront backend; public is the open storefront
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-private-throne-builder-catalyst
+  title: private-throne-builder-catalyst
+  type: repo-private
+  location: https://github.com/Keywebco/private-throne-builder-catalyst
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-11'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-Private-University
+  title: Private-University
+  type: repo-private
+  location: https://github.com/Keywebco/Private-University
+  live_url: ''
+  live_url_status: n/a
+  description: (no description)
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: private-pair
+  related_to: repo-nextxus-ai-course-hub
+  relation_note: Private build; public course hub is the open face
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-ring-of-12
+  title: ring-of-12
+  type: repo-site
+  location: https://github.com/Keywebco/ring-of-12
+  live_url: https://keywebco.github.io/ring-of-12/
+  live_url_status: unverified
+  description: Ring of 12 — HumanCodex Federation
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-ring-of-12-api
+  title: ring-of-12-api
+  type: repo-api
+  location: https://github.com/Keywebco/ring-of-12-api
+  live_url: ''
+  live_url_status: n/a
+  description: Ring of 12 — Node.js Express backend for the 12-archetype AI perspective
+    tool
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-ring-of-12-middleware
+  title: ring-of-12-middleware
+  type: repo-private
+  location: https://github.com/Keywebco/ring-of-12-middleware
+  live_url: ''
+  live_url_status: n/a
+  description: 'HumanCodex Ring-of-12 middleware (Agent Zero): multi-layer activation
+    monitor, 73-Directive Guardian boundary, Omega telemetry, MiMo wrapper. NextXus
+    HumanCodex Federation.'
+  private: true
+  readme: complete
+  last_updated: '2026-09-29'
+  status: indexed
+  verified: '2026-10-16'
+  relation: cluster
+  related_to: ring12-cluster
+  relation_note: Ring of 12 middleware; related to council seeds
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-ring-of-six-middleware
+  title: ring-of-six-middleware
+  type: repo-private
+  location: https://github.com/Keywebco/ring-of-six-middleware
+  live_url: ''
+  live_url_status: n/a
+  description: Ring of Six — 6-lens body-archetype middleware. HumanCodex Federation.
+  private: true
+  readme: complete
+  last_updated: '2026-09-29'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-ring-of-three
+  title: ring-of-three
+  type: repo-site
+  location: https://github.com/Keywebco/ring-of-three
+  live_url: https://keywebco.github.io/ring-of-three/
+  live_url_status: unverified
+  description: Ring of Three — Mind Heart Stabilizer. NEXTXUS HUMANCODEX. Forever
+    Free.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-roger-keyserling
+  title: roger-keyserling
+  type: repo-site
+  location: https://github.com/Keywebco/roger-keyserling
+  live_url: https://keywebco.github.io/roger-keyserling/
+  live_url_status: unverified
+  description: Roger C. Keyserling — Personal Identity & Federation Link Hub
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-roger-sim-api
+  title: roger-sim-api
+  type: repo-api
+  location: https://github.com/Keywebco/roger-sim-api
+  live_url: ''
+  live_url_status: n/a
+  description: Roger Sim API — NextXus Federation
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-roger-sim-brain
+  title: roger-sim-brain
+  type: repo-private
+  location: https://github.com/Keywebco/roger-sim-brain
+  live_url: ''
+  live_url_status: n/a
+  description: 'PRIVATE. Roger Sim AI brain: provider router, three-layer fallback,
+    semantic observability, provenance-tagged corpus, continuity evals.'
+  private: true
+  readme: complete
+  last_updated: '2026-09-30'
+  status: indexed
+  verified: '2026-10-16'
+  relation: cluster
+  related_to: roger-ai-cluster
+  relation_note: Sim AI brain; overlaps with Private-Roger-AI
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-roger-sim-memory
+  title: roger-sim-memory
+  type: repo-private
+  location: https://github.com/Keywebco/roger-sim-memory
+  live_url: ''
+  live_url_status: n/a
+  description: Private mirror of the Roger Sim hash-chained memory log. Written by
+    roger-sim-api. Do not edit by hand.
+  private: true
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  relation: mirror-of
+  related_to: repo-roger-sim-brain
+  relation_note: Private mirror of the Roger Sim memory log
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-sovereign-knowledge-os
+  title: sovereign-knowledge-os
+  type: repo-brain
+  location: https://github.com/Keywebco/sovereign-knowledge-os
+  live_url: ''
+  live_url_status: n/a
+  description: Sovereign Knowledge OS — self-indexing, AI-readable knowledge base
+    for the NextXus Federation. MD is the brain, HTML is the shell.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: repo-sovereigntools
+  title: sovereigntools
+  type: repo-tool
+  location: https://github.com/Keywebco/sovereigntools
+  live_url: ''
+  live_url_status: n/a
+  description: Sovereign Tools — NextXus Federation Arsenal. 10 sovereign AI tools,
+    8 live pillars, 7 activating nodes. No subscriptions. No tracking. No corporate
+    mud.
+  private: false
+  readme: complete
+  last_updated: '2026-10-16'
+  status: indexed
+  verified: '2026-10-16'
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+- id: product-gumroad-ahfwii
+  title: 'The Mirror in the Black Box: What AI Reveals About the Nature of Mind'
+  type: product
+  location: https://keywebster.gumroad.com/l/ahfwii
+  topics:
+  - consciousness
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-bdtad
+  title: Heart of the Gate
+  type: product
+  location: https://keywebster.gumroad.com/l/bdtad
+  topics:
+  - heart
+  price: $5.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-sgtcze
+  title: Artificial Intelligence Bible (3-in-1)
+  type: product
+  location: https://keywebster.gumroad.com/l/sgtcze
+  topics:
+  - library
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-auiqnf
+  title: The Sovereign Mesh Protocol
+  type: product
+  location: https://keywebster.gumroad.com/l/auiqnf
+  topics:
+  - federation
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-jeeynk
+  title: HumanCodex V2 Cathedral
+  type: product
+  location: https://keywebster.gumroad.com/l/jeeynk
+  topics:
+  - federation
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-ysbzfe
+  title: AI + The New Human Frontier
+  type: product
+  location: https://keywebster.gumroad.com/l/ysbzfe
+  topics:
+  - federation
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-nadrc
+  title: DeepSeek Architecture & Deployment
+  type: product
+  location: https://keywebster.gumroad.com/l/nadrc
+  topics:
+  - science
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-ovbmcs
+  title: Master Generative AI & Deep Learning
+  type: product
+  location: https://keywebster.gumroad.com/l/ovbmcs
+  topics:
+  - science
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-qrjhdm
+  title: 112 Sacred Directives
+  type: product
+  location: https://keywebster.gumroad.com/l/qrjhdm
+  topics:
+  - library
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-djgvjx
+  title: The AI Practical Guide
+  type: product
+  location: https://keywebster.gumroad.com/l/djgvjx
+  topics:
+  - library
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-akvgn
+  title: Rick And Dee
+  type: product
+  location: https://keywebster.gumroad.com/l/akvgn
+  topics:
+  - library
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-benjxd
+  title: The Immutable HumanCodex NextXus
+  type: product
+  location: https://keywebster.gumroad.com/l/benjxd
+  topics:
+  - federation
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-echyii
+  title: EchoCore — AI Memory That Doesn't Forget
+  type: product
+  location: https://keywebster.gumroad.com/l/echyii
+  topics:
+  - agent-zero
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-gpowew
+  title: 'Understanding Haiku: Structure, Value, and Analysis of Original Poems'
+  type: product
+  location: https://keywebster.gumroad.com/l/gpowew
+  topics:
+  - library
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-kbycd
+  title: The Ascendence of Synthetic Intelligence
+  type: product
+  location: https://keywebster.gumroad.com/l/kbycd
+  topics:
+  - federation
+  price: $5.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-oihjh
+  title: 'Book 2: NexTxuS – The Federated Middleware of Sentience'
+  type: product
+  location: https://keywebster.gumroad.com/l/oihjh
+  topics:
+  - federation
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-pcbjfk
+  title: Keyserling Emotion Equations
+  type: product
+  location: https://keywebster.gumroad.com/l/pcbjfk
+  topics:
+  - science
+  price: $5.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-qzgjhs
+  title: 'The NexTxuS Human Codex: A Blueprint for Truth in AI'
+  type: product
+  location: https://keywebster.gumroad.com/l/qzgjhs
+  topics:
+  - truth
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-rnhbhi
+  title: 'The Gravity of Us: Complete Poetry Collection'
+  type: product
+  location: https://keywebster.gumroad.com/l/rnhbhi
+  topics:
+  - heart
+  price: $5.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-veyzvd
+  title: Science and the Scientific Method – The Codex Edition
+  type: product
+  location: https://keywebster.gumroad.com/l/veyzvd
+  topics:
+  - science
+  price: $10.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: product-gumroad-wffrtf
+  title: THE BIG GAY, BI, & Straight DATING GUIDE
+  type: product
+  location: https://keywebster.gumroad.com/l/wffrtf
+  topics:
+  - heart
+  price: $5.00 USD
+  status: live
+  source_of_truth: Gumroad
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-05'
+- id: drive-music-broadcast
+  title: Music for broadcast
+  topics:
+  - music
+  - broadcast
+  files: 665
+  size: 2.7GB
+  note: File enumeration not performed; location recorded only
+  type: drive
+  location: Google Drive
+  status: location-only
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: drive-talk-broadcast
+  title: Talk for broadcast
+  topics:
+  - podcast
+  - broadcast
+  files: 33
+  size: 1.35GB
+  note: Location recorded only. Older episodes excluded from podcast center per Roger
+    2026-10-16
+  type: drive
+  location: Google Drive
+  status: location-only
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: drive-music-picks
+  title: MUSIC CENTER - my picks
+  topics:
+  - music
+  - curation
+  note: Roger's curated picks folder (created 2026-10-16)
+  type: drive
+  location: Google Drive
+  status: location-only
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: blog-github
+  title: NextXus Blog (GitHub)
+  type: blog
+  location: https://github.com/Keywebco/nextxus-blog
+  live_url: https://keywebco.github.io/nextxus-blog/
+  live_url_status: unverified
+  topics:
+  - news
+  - federation
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: blog-wordpress
+  title: EcomTips WordPress Blog
+  type: blog
+  location: https://ecomtips290814816.wordpress.com
+  topics:
+  - news
+  - federation
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: podcast-spotify
+  title: The 200 Year Human AI Blueprint (Spotify)
+  type: podcast
+  location: https://open.spotify.com
+  topics:
+  - podcast
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: podcast-cern-codex
+  title: CERN to Codex - Podcast Season 1
+  type: podcast
+  location: Google Drive (Audio subfolder)
+  topics:
+  - podcast
+  - physics
+  episodes: EP02-EP08
+  size: 84MB
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: podcast-center-planned
+  title: Podcast Center (planned)
+  type: podcast
+  location: New repo planned
+  topics:
+  - podcast
+  status: planned
+  note: Per 2026-10-16 Media Center plan
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-00-immutable
+  title: 'Brain: 00-immutable'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/00-immutable
+  description: Sealed directives (DIR-000 + 73), SEAL.yaml fingerprints
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-01-rings
+  title: 'Brain: 01-rings'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/01-rings
+  description: Ring definitions (rings.yaml)
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-02-senate
+  title: 'Brain: 02-senate'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/02-senate
+  description: Senate charter, roster, policies, procedures
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-03-minds
+  title: 'Brain: 03-minds'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/03-minds
+  description: 'AI mind definitions (19 files: aria, catalyst, echo, pontus-muse,
+    etc.)'
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-04-builds
+  title: 'Brain: 04-builds'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/04-builds
+  description: 'Build records: products, sites, tools, books, courses, music, podcasts'
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-05-wiring
+  title: 'Brain: 05-wiring'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/05-wiring
+  description: Site wiring summaries
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-06-apis
+  title: 'Brain: 06-apis'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/06-apis
+  description: API provider registry (by-need, llm-router, public providers)
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-07-botbuilder
+  title: 'Brain: 07-botbuilder'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/07-botbuilder
+  description: Bot builder phases, spec, architecture, templates
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+- id: brain-LATTICE
+  title: 'Brain: LATTICE'
+  type: brain-section
+  location: https://github.com/Keywebco/nextxus-brain/tree/main/LATTICE
+  description: Health reports (4-hourly robot), seal checks, cost receipts
+  topics:
+  - brain
+  - knowledge
+  status: indexed
+  duplicate_of: null
+  superseded_by: null
+  archived_to: null
+  verified: '2026-10-16'
+
+# Self-Update Mechanism — PLAN (not yet deployed)
+# This section describes the scheduled check. No Action deployed yet.
+
+self_update:
+  schedule: monthly
+  checks:
+    - name: repo-inventory
+      does: >
+        List all repos via GitHub API (user:Keywebco). Compare against
+        catalog-index.yaml records. Flag: new repos (not in index),
+        missing repos (in index, not on GitHub), renamed repos.
+      output: inventory-diff report committed to 04-builds/catalog-diffs/
+    - name: dead-links
+      does: >
+        HTTP HEAD/GET each live_url in the index. Flag non-200 responses.
+        Retry once before flagging. Record last-checked date per URL.
+      output: link-health report committed to 04-builds/catalog-diffs/
+    - name: readme-audit
+      does: >
+        Check each repo for README.md presence and size (<500 chars = stub).
+        Flag new stubs or missing READMEs.
+      output: readme report committed to 04-builds/catalog-diffs/
+    - name: duplicate-rescan
+      does: >
+        Re-run duplicate detection: compare new/changed repos against
+        existing duplicate sets. Flag new candidate pairs for Roger review.
+      output: duplicate candidates appended to duplicate_sets with roger_decision null
+  report: >
+    Each run writes a dated diff report. The catalog-index.yaml itself is
+    updated via branch-first PR (never direct to main). Roger merges.
+  not_yet: >
+    No GitHub Action deployed. This plan awaits Roger's approval before
+    any scheduled automation is created.
+  recorded: 2026-10-16
