@@ -1,0 +1,74 @@
+# Generate Income from GitHub — Federation Record
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Doctrine: every record carries what it is, what it was, what it is planned to be,
+#   and the who / what / where / why / how of everything.
+
+goal:
+  id: goal_8d932f8f600b
+  title: "Generate income from GitHub"
+  category: money
+  kind: outcome
+  status: active
+  created: "2026-10-16"
+
+  what_it_is: >
+    Roger is building things on GitHub that generate real income —
+    paid consultations, paid downloads, and whatever else the Federation
+    can sell. The work is already underway; this goal tracks turning it
+    into actual money coming in.
+
+  what_it_was: >
+    Started 2026-10-16 as "Understand my spending" (exploratory) —
+    Roger chose spending analysis from offered options. Same day he
+    corrected it: the real objective is income generation, not spending
+    analysis. Spending analysis becomes supporting intel. Goal reshaped,
+    not replaced.
+
+  what_it_is_planned_to_be: >
+    A working income pipeline: defined paid offerings (consultations,
+    downloads) sold via Gumroad, marketed from the GitHub side, with
+    actual revenue tracked against the goal. The GitHub side is the
+    functional storefront; the commercial side (next-xus.com) is not
+    the focus.
+
+  who:
+    - Roger Keyserling — Architect, defines offerings and prices, merges
+    - Pontus — builds, markets, tracks; branch-first, Roger merges
+    - The Catalyst — transferred existing content to GitHub (fraction, accepted)
+
+  what:
+    - Paid consultations (topics and prices TBD by Roger)
+    - Paid downloads (from existing Gumroad catalog + new)
+    - Marketing layer on GitHub side directing to Gumroad purchase paths
+
+  where:
+    - Offerings live on Gumroad (keywebster.gumroad.com) — source of truth for products
+    - Marketed from GitHub Pages side (keywebco.github.io/*)
+    - Recorded here in nextxus-brain (this file)
+    - For-sale inventory also in products.yaml (21 Gumroad products, verified 2026-10-05)
+
+  why: >
+    Money is tight; Roger's mother keeps him afloat. His own income
+    means independence. Free-and-forever remains the design, but paid
+    offerings are acceptable where waiting would outlast him (his 2026-10-15 shift).
+
+  how:
+    - Branch-first: Pontus builds on branches, Roger merges ("merge"/"go" only)
+    - Nothing publishes without exact-text approval
+    - Private-* repos hold not-free data; public side is the open face
+    - YAML database is append-only: everything new is added, nothing deleted
+    - 2026-10-16: 51 README PRs opened across 89 repos, all merged on Roger's word
+
+  boundaries:
+    - Do not restructure Gumroad listings without Roger's direction
+    - Do not break or restructure the YAML database; only add
+    - Spending/deletion needs his explicit approval
+    - The brain (YAML) is the record; the private repos are the vault
+
+  finish_first_plan: "see PLAN-finish-the-pile.md (2026-10-16) — 25 items, 5 phases"
+  plan_phases:
+    - "Phase 1 — Stop the money leaks (xAI dispute, Apple subs, Emergent audit, token rotation)"
+    - "Phase 2 — Close the library build pile (audio PR#3, batch-4 PR#10, rounds 11-12 pushes)"
+    - "Phase 3 — Independence (Aria delta, Roger Sim audit, MiMo voice, Agent Zero review)"
+    - "Phase 4 — Income (define offerings, marketing layer, Commons page, Media Center)"
+    - "Phase 5 — Standing (network lockdown, Feed review, small items)"
