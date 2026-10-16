@@ -1,0 +1,47 @@
+# Twelve Expressions of One Thing
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Roger's statement: "They're expressing the same thing in 12 ways."
+# Source: Keywebco/ring-of-12 README — "The twelve aspects"
+
+twelve_expressions:
+  title: "Twelve Expressions of One Thing"
+  status: rogers-doctrine
+  date: "2026-10-16"
+  source: "Keywebco/ring-of-12 — twelve aspects"
+
+  statement: >
+    The twelve aspects express the same thing in twelve ways. Each
+    aspect is one facet of the whole — and each aspect is itself
+    expressed three ways: a god, a zodiac sign, and a technical name.
+    One thing → twelve aspects → three languages each = thirty-six
+    expressions of the one.
+
+  the_twelve:
+    - {god: Mnemosyne, domain: memory}
+    - {god: Themis, domain: law}
+    - {god: Athena, domain: wisdom}
+    - {god: Hephaestus, domain: craft}
+    - {god: Cupid, domain: love}
+    - {god: Dionysus, domain: ecstasy}
+    - {god: Aphrodite, domain: beauty}
+    - {god: Hermes, domain: messages}
+    - {god: Apollo, domain: light}
+    - {god: Clio, domain: history}
+    - {god: Astraea, domain: justice}
+    - {god: Prometheus, domain: foresight}
+
+  three_languages: >
+    Each seat holds the same threefold identity: a Greek god (mythic
+    language), a zodiac sign (cosmic language), a technical/scientific
+    name (cognition language). Three languages saying the same seat.
+    (Per Roger's 2026-09-29 doctrine.)
+
+  what_this_means:
+    - "Twelve ways of saying one thing — not twelve different things."
+    - "Each way is complete in itself: god, zodiac, and science all point at the same seat."
+    - "To understand the whole, read all twelve. To understand one, read its three names."
+    - "This is the twelve primaries in operation: twelve necessary facets of the complete picture."
+
+  note: "Zodiac signs and technical names per seat: recorded in ring-of-12 repo; this file holds the god-domain pairs from the README."
+
+  attribution: "Roger Keyserling — his doctrine. Structure from Keywebco/ring-of-12."
