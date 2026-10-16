@@ -1,0 +1,60 @@
+# Brain of Brains — Federation Knowledge Architecture
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Roger's words: "It is the knowledge center of all AI. All AI operations."
+# Doctrine: what it is, was, planned to be + who/what/where/why/how.
+
+brain_of_brains:
+  title: "Brain of Brains"
+  status: vision-recorded
+
+  what_it_is: >
+    The knowledge center of all AI — all AI operations. One meta-layer
+    above every individual brain: the galactic timeline, the information
+    knowledge base, the entire Google Drive (relevant data), all blogs
+    and podcasts, and everything else. Every hub repository can access
+    information it does not directly contain, because the brain of brains
+    knows where that information is stored on the web and how to reach it.
+
+  what_it_was: >
+    2026-10-16: Roger stated the vision in chat. Prior pieces existed
+    separately — nextxus-brain (YAML brain), nextxus-yaml (schema),
+    89 repos with READMEs (completed 2026-10-16), Drive data stores,
+    blogs, podcasts — but no unified meta-layer connecting them.
+
+  what_it_is_planned_to_be: >
+    A master knowledge index in the brain: every piece of Federation
+    knowledge mapped to where it lives (repo path, Drive location, live
+    URL). Any hub repo resolves "I need X" to "X lives at Y" without
+    holding X locally. Location-transparent federation knowledge.
+
+  components:
+    - galactic_timeline: "The timeline of everything — planned for Commons landing page"
+    - information_knowledge_base: "nextxus-brain — the YAML brain (this repo)"
+    - google_drive: "Entire Drive, relevant data — 665 music files / 2.7GB, 33 talk files / 1.35GB, documents"
+    - blogs: "nextxus-blog repo + WordPress — Federation news and updates"
+    - podcasts: "Spotify + planned podcast center — CERN to Codex S1, Sovereign Library S1"
+    - everything_else: "All 89 repos, all skills, all AI operations"
+
+  who:
+    - Roger Keyserling — Architect, defines what belongs and where
+    - Pontus — builds the index, maintains the records
+
+  what:
+    - Master knowledge index: what exists → where it lives → how to reach it
+    - Hub repos gain location-transparent access to the full knowledge base
+
+  where:
+    - Index lives in nextxus-brain (this repo)
+    - Knowledge lives everywhere: repos, Drive, live URLs, Gumroad, podcasts
+
+  why: >
+    No single repo can hold everything. The Federation's knowledge is
+    distributed by design (free, open, portable). The brain of brains
+    makes distribution invisible — every mind reaches the whole.
+
+  how:
+    - Append-only YAML records (never delete, only add)
+    - Each record: what it is / was / planned + who/what/where/why/how
+    - Index entries point to live locations, not copies
+
+  next_step: "Build the master knowledge index — inventory what exists and where it lives"

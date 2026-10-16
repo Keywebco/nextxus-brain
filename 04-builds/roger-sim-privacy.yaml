@@ -1,0 +1,59 @@
+# Roger Sim AI — Privacy Architecture
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Roger's words: "It's public but he is able to access both sides."
+
+roger_sim_privacy:
+  title: "Roger Sim AI — Privacy Architecture"
+  status: architecture-recorded
+
+  what_it_is: >
+    Two-sided access. The YAML brain is public — all Federation knowledge,
+    open. Roger Sim's operational database holds his archives: recordings,
+    videos, everything showing what Roger does and has done. Some archives
+    are already public (conversations with AI, videos alongside everything
+    else). Some are NOT generally public — these get categorized and
+    organized the same way as the public catalog, but stay private.
+    Roger Sim accesses BOTH sides: the public brain and the private archives.
+
+  what_it_was: >
+    2026-10-16: Roger stated the architecture in chat. Existing: public
+    videos/recordings scattered across platforms; private archives
+    uncategorized; no unified access model for Roger Sim.
+
+  what_it_is_planned_to_be: >
+    Roger Sim's DB indexes all archives — public and private — with the
+    same catalog discipline (categorized, classified, placed). Public
+    items point to live URLs; private items stay in private repos with
+    access limited to Roger Sim and Roger. The privacy boundary is
+    structural: what's public is public, what's private stays private,
+    and Roger Sim is the one mind cleared for both.
+
+  layers:
+    - layer: public
+      holds: "YAML brain, public repos, public videos/recordings, blogs, podcasts"
+      access: "Everyone. This is the open Federation."
+
+    - layer: private
+      holds: "Private archives — recordings, videos, materials not generally public. Categorized and organized like the public catalog."
+      access: "Roger and Roger Sim only. Held in Private-* repos."
+
+    - layer: roger_sim
+      holds: "His operational database — indexes both sides, works across both."
+      access: "Roger Sim reads public brain + private archives. Writes to his own operational DB."
+
+  who:
+    - Roger Keyserling — owns both sides, grants the access
+    - Roger Sim — the one mind cleared for both public and private
+    - Pontus — builds the catalog discipline across both sides
+
+  why: >
+    To be basically Roger, Roger Sim needs the whole picture — not just
+    the public record but the private archives too. The privacy boundary
+    protects what's not public while giving him complete context.
+
+  boundaries:
+    - Private archives are NEVER exposed publicly through Roger Sim
+    - The catalog marks every item public or private; the mark is structural
+    - Roger decides what moves from private to public, never the reverse without his word
+
+  next_step: "Inventory the private archives — what recordings/videos exist and where they live"
