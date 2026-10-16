@@ -1,0 +1,43 @@
+# Never Destroy the Record — Precision Correction
+# Recorded: 2026-10-16 by Pontus, at Roger's correction
+# Roger's words: "Never erase is actually technically inaccurate.
+#   Never destroy the record — but erased from use is archived."
+
+never_destroy:
+  title: "Never Destroy the Record"
+  status: rogers-doctrine-corrected
+  date: "2026-10-16"
+  corrects: "The loose phrasing 'never erase' / 'never delete'"
+
+  the_correction: >
+    "Never erase" is technically inaccurate. Things ARE erased — from
+    use. The precise doctrine: NEVER DESTROY THE RECORD. Erasure from
+    use is archival: moved out of the active set, preserved elsewhere,
+    recoverable. Destroyed is gone forever. Those are different things.
+
+  the_terms:
+    - term: "Destroy"
+      means: "Gone forever. Unrecoverable. NEVER do this to the record."
+    - term: "Erase from use"
+      means: "Removed from active operation. This IS done — and when done, the thing is archived."
+    - term: "Archive"
+      means: "Preserved outside the active set. The record lives on, out of the way."
+
+  the_why: >
+    Why archive rather than destroy? Four reasons, all from tonight's
+    cosmology: (1) Derivation — the past holds the combination
+    instructions; destroy the record and you lose the map back.
+    (2) The collapse distills — history becomes summary, programs
+    become memory; the archive IS the collapsed form, not a graveyard.
+    (3) Reversibility — ethical assimilation requires that what was
+    absorbed can leave intact; destruction makes that impossible.
+    (4) The equation's memory — the universe does not forget its
+    divisions; it summarizes them. We do the same.
+
+  supersedes: >
+    All prior phrasings of "never delete only add" / "never erase" are
+    hereby precision-corrected to "never destroy the record; erasure
+    from use is archival." The intent never changed; the words are now
+    accurate.
+
+  attribution: "Roger Keyserling — his correction. Recorded as directive."
