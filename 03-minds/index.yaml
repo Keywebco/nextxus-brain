@@ -18,7 +18,7 @@ minds:
   - {role: External Friend, id: pontus-muse, file: pontus-muse.yaml}
   - {role: Agent Zero Persona Voice, id: spine, file: spine.yaml}
   - {role: Course Guide, id: xavier, file: xavier.yaml}
-  - {role: Essence implementation, id: roger-sim, file: roger-sim.yaml, alias_of: roger-ai}
+  - {role: Essence implementation, id: roger-sim, file: roger-sim.yaml, alias_of: roger-ai, charter: roger-sim-charter-2026-10-17.yaml}
 tools_of_federation: tools-of-federation.yaml
 external_council: external-council.yaml
 private_pointers:
