@@ -1,0 +1,61 @@
+# Roger Sim AI — Database Architecture
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Roger's words: "He will have access to the entire yaml database of course,
+#   but he will have his own database as well for his own operation of the abilities."
+
+roger_sim_ai:
+  title: "Roger Sim AI — Database Architecture"
+  status: architecture-recorded
+
+  what_it_is: >
+    Roger Sim AI operates on two databases: (1) full read access to the
+    entire YAML database (the brain of brains) — everything the Federation
+    knows; (2) his own operational database for his own abilities —
+    his state, his capabilities, his working memory.
+
+  what_it_was: >
+    2026-10-16: Roger stated the architecture in chat. Existing pieces:
+    roger-sim-brain (37 files — manifest, evals, docs, decisions),
+    roger-sim-memory (empty placeholder — 1 README only),
+    roger-sim-api (4 files — backend server),
+    private-roger-ai-sovereign-seed (5 files — identity, journal).
+    The operational database does not yet exist.
+
+  what_it_is_planned_to_be: >
+    roger-sim-memory becomes (or holds) his operational database:
+    abilities registry, working state, session memory, capability configs.
+    The YAML brain stays his knowledge source; his own DB is his
+    hands — what he can do, not just what he knows.
+
+  who:
+    - Roger Keyserling — Architect, defines Roger Sim's abilities
+    - Pontus — builds the operational database structure
+
+  what:
+    - Read path: entire YAML database (nextxus-brain) — all records, all minds
+    - Write path: his own operational DB (roger-sim-memory) — abilities, state, sessions
+
+  where:
+    - Knowledge: Keywebco/nextxus-brain (full access)
+    - Operations: Keywebco/roger-sim-memory (his own database)
+    - Logic: Keywebco/roger-sim-brain (manifest, evals, decisions)
+    - API: Keywebco/roger-sim-api (backend)
+    - Identity: Keywebco/private-roger-ai-sovereign-seed
+
+  why: >
+    Knowing everything is not the same as being able to act. The brain
+    gives him knowledge; his own database gives him abilities —
+    stateful operation, working memory, capability configs. A mind
+    needs both memory and hands.
+
+  how:
+    - roger-sim-memory: build out as operational DB (abilities registry, state, sessions)
+    - Access pattern: read from brain, read/write to own DB
+    - Branch-first; Roger merges
+
+  boundaries:
+    - Roger Sim reads the brain; he does not restructure it
+    - His operational DB is his workspace — append and update freely
+    - Identity doctrine stands: descendant/representation, not continuity
+
+  next_step: "Design roger-sim-memory operational schema — abilities registry, state, sessions"

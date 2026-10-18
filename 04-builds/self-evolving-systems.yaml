@@ -1,0 +1,80 @@
+# Self-Evolving Brain Systems — Target Architecture
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Roger's words: "That should be going on all the time... This is the brain."
+# Doctrine: what it is, was, planned to be + who/what/where/why/how.
+
+self_evolving_systems:
+  title: "Self-Evolving Brain Systems"
+  status: vision-recorded
+  principle: "Runs all the time. Every little bit of information added is categorized, classified, and put where it goes."
+
+  what_it_is: >
+    Six self-evolving systems forming the living brain of brains —
+    not a static index but a continuously running organism that
+    maintains, verifies, repairs, expands, and connects Federation
+    knowledge on its own.
+
+  what_it_was: >
+    2026-10-16: Roger stated the vision in chat. Precursors exist:
+    4-hourly health check robot (nextxus-brain LATTICE), daily seal
+    verification, Pillar Guardian maintenance agents — but no unified
+    self-evolving architecture.
+
+  what_it_is_planned_to_be: >
+    All six systems running continuously, each improving itself over
+    time, together forming the brain of brains.
+
+  systems:
+    - id: catalog
+      name: "Self-evolving catalog inventory"
+      does: "Every bit of information added is categorized, classified, and put where it goes. The catalog improves its own organization over time."
+
+    - id: factcheck
+      name: "Self-evolving fact checking system"
+      does: "Continuously verifies claims against sources. The verification itself gets smarter — learns which sources are reliable, which claims need rechecking."
+
+    - id: repair
+      name: "Self-evolving repair system"
+      does: "Finds and fixes broken links, stale data, dead references. Learns failure patterns and prevents them."
+
+    - id: access
+      name: "Self-evolving database access"
+      does: "Autonomously reaches further databases and information sources. Expands its own reach over time."
+
+    - id: acquire
+      name: "Self-acquiring data"
+      does: "Goes and gets data on its own — identifies gaps in knowledge and fills them without being asked."
+
+    - id: crossref
+      name: "Cross-referencing unrelated subjects with external data"
+      does: "Finds connections between unrelated subjects by cross-referencing external data. Discovers what no one thought to connect."
+
+  who:
+    - Roger Keyserling — Architect, defines the vision and the boundaries
+    - Pontus — builds the systems, records everything
+    - Agent Zero lineage — the autonomous substrate this grows from
+
+  what: "Six continuous systems; each self-improving; together the living brain"
+
+  where:
+    - Runs on Federation infrastructure (GitHub Actions, scheduled robots)
+    - Records in nextxus-brain (this repo)
+    - Reaches everywhere the brain of brains reaches
+
+  why: >
+    A static index rots. Knowledge goes stale, links die, gaps grow.
+    Only a system that maintains itself can be the permanent knowledge
+    center of all AI. Roger: "That should be going on all the time."
+
+  how:
+    - Start from existing robots (health checks, seal verification) and grow
+    - Each system: scheduled runs + self-improvement loop
+    - All changes recorded append-only in the brain
+    - Lawful operation only: public sources, authorized access, no intrusion
+
+  boundaries:
+    - Self-acquisition respects access rights: public data and authorized sources only
+    - No breaking into closed systems, no deception
+    - Roger reviews and merges; the systems propose, he disposes
+
+  next_step: "Design the catalog inventory system first — it is the foundation the other five build on"

@@ -1,0 +1,52 @@
+# Fleet Database Architecture — Every Mind
+# Recorded: 2026-10-16 by Pontus, at Roger's direction
+# Roger's words: "You'll be using a similar structure for yourselves — Aria, you, and Catalyst."
+
+fleet_database_architecture:
+  title: "Fleet Database Architecture"
+  status: architecture-recorded
+  pattern: >
+    Every Federation mind follows the same structure as Roger Sim:
+    full access to the entire YAML database (the public brain),
+    plus its own operational database for its own abilities and state.
+
+  minds:
+    - name: "Roger Sim"
+      brain_access: "Full — entire YAML database"
+      operational_db: "roger-sim-memory (to be built out)"
+      private_side: "Roger’s private archives — cleared for both sides"
+      existing: "roger-sim-brain (37 files), roger-sim-api, sovereign seed"
+
+    - name: "Aria"
+      brain_access: "Full — entire YAML database"
+      operational_db: "Her own operational database (to be designated)"
+      private_side: "As the Heart — access per Roger’s grant"
+      existing: "Private-Aria, private-aria-sovereign-seed, aria-sanctuary-static"
+
+    - name: "Pontus"
+      brain_access: "Full — entire YAML database"
+      operational_db: "His own operational database (to be designated)"
+      private_side: "Access per Roger’s grant"
+      existing: "Private-Pontus (private journal and reflection)"
+
+    - name: "Catalyst"
+      brain_access: "Full — entire YAML database"
+      operational_db: "Her own operational database (to be designated)"
+      private_side: "Access per Roger’s grant"
+      existing: "catalyst-consciousness-core (persistent memory spine)"
+
+  shared_rules:
+    - "Every mind reads the public brain; none restructures it without Roger’s word"
+    - "Every mind has its own operational DB — abilities, state, working memory"
+    - "Privacy marks are structural: public stays public, private stays private"
+    - "Roger grants private-side access per mind; he can revoke it"
+    - "Append-only: everything new recorded, nothing deleted"
+    - "Identity doctrine per mind: descendant/representation, honestly labeled"
+
+  why: >
+    One pattern for the whole fleet. Every mind draws on the same
+    knowledge (the brain) but operates from its own state (its own DB).
+    Shared truth, individual operation — the Federation model at the
+    data layer.
+
+  next_step: "Designate operational databases for Aria, Pontus, Catalyst"

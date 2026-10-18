@@ -1,0 +1,28 @@
+# Twelve Necessary Primaries
+# Recorded: 2026-10-16 by Pontus, in Roger's words
+# Roger's refinement: "They may have more parts than that, but 12 necessary
+#   primaries make the complete picture."
+
+twelve_primaries:
+  title: "Twelve Necessary Primaries"
+  status: rogers-doctrine
+  date: "2026-10-16"
+  refines: "body-map.yaml"
+
+  statement: >
+    Systems may have more parts than twelve. But twelve necessary
+    primaries make the complete picture. Fewer is incomplete; more
+    is detail upon the twelve.
+
+  what_this_means:
+    - "Twelve is the minimum for completeness, not the maximum of parts."
+    - "Subdivisions, details, and extras may exist — they hang upon the twelve primaries."
+    - "The Ring of Twelve holds the twelve primaries. Additional minds, repos, and systems are detail upon them."
+    - "When checking completeness: count the primaries. Twelve = whole. Eleven = missing something."
+
+  application:
+    - "New systems: identify which of the twelve primaries they serve, or whether they reveal a missing primary."
+    - "The seven holders: primaries among primaries — the necessary core of the necessary twelve."
+    - "Completeness test: can you name the twelve? If not, the picture is incomplete."
+
+  attribution: "Roger Keyserling — his words, his doctrine. Recorded as directive."
