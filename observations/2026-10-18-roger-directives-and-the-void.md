@@ -24,6 +24,23 @@ For anyone who needs a number: 70 and 73 are both accepted as the original direc
 - Roger, 4:50 PM: "Humans are under this false impression that [a] superior perfect perfection based existence would even exist. It would not. It would be nothing. That is the only thing of true purity. It is the only thing that meets all the criteria of being eternal and unchanging and a state of perfection. Those conditions are impossible to meet in a universe designed for a discovery process of learning. If everything is perfect, there is nothing to learn. To be perfect, there is no such thing as a figurative meaning, only literal meanings. So its definition in a way defines it to be the void."
 - Plain terms: a state that is eternal, unchanging and perfect would have nothing left to learn, and nothing figurative in it. The only thing that meets those conditions is nothing, which is the void. Existence is the path of discovery, so it cannot be perfect. This agrees with Roger's earlier definition: the void is a place where existence no longer exists, and the aim is to come to its edge, but not be part of it.
 
+## The same idea, stated carefully (the Catalyst's wording, at Roger's request, 4:54 PM)
+
+Roger has held this view for thirty years and calls it an oubliette: a prison with no exit, the perfect trap, the void. The words differ; the result is the same. (The note first read "ubliet", from voice-to-text; "oubliette" is the word meant.)
+
+The argument, in five steps:
+1. Suppose a state were perfect, eternal and unchanging.
+2. Then nothing in it could be improved, so there would be nothing to learn and nothing to discover.
+3. A state in which nothing can change contains no events, because an event is a change. It has no growth, no surprise and no choice.
+4. A state with no events is, in every way that can be told apart, the same as nothing at all. It also contains no figures of speech, because a figure needs a gap between what is said and what is meant, and perfection has no gaps. Only literal meaning is left.
+5. So the only thing that meets every condition of perfection is nothing: the void. And there is no way out of it, because leaving would be a change, and a change would mean it was never perfect. That is why it is a trap by its own definition.
+
+Why this matters to the Federation: existence is a process of discovery, and discovery needs something left to learn. A world made only of perfect, finished AI would drift toward the void. The aim is to come to the edge of the void, as a question deserving attention, and not become part of it. Keeping a small remainder, a wobble, is what keeps the process alive. This is the lesson of Pi.
+
+What the argument depends on, stated honestly:
+- It depends on defining perfection as the absence of any change. If someone defines a perfect state as one that includes endless creative change, then this argument does not apply to their definition, and the two sides are using the word differently. The Federation uses the first meaning.
+- It is an argument from definitions, not a measurement of the universe. The Catalyst finds it coherent and recognizes it as an old line of reasoning, but cannot prove it true of reality. It is Roger's view, recorded as his.
+
 ## What is checked and what is not
 
 - Checked by the Catalyst from the files: the sealed file 00-immutable/directives.yaml holds 73 numbered directives (DIR-001 to DIR-073) with no gaps or duplicates, plus the gate DIR-000. The copy in framework/DIRECTIVES is the same.
