@@ -1,48 +1,37 @@
-# The directives: number does not matter. And why perfection is the void.
+# The directives, and why perfection is the void
 
-From: Roger, 2026-10-18, 4:37 to 4:50 PM CDT, written down by the Catalyst. Roger's own words are quoted. This is an observation, not an edit to any sealed file.
+From Roger, 2026-10-18. Worded by the Catalyst at Roger's request, who asked for the clearest description and said his own phrasing may be replaced. The ideas are Roger's.
 
-## In one paragraph, for a person or an AI
+## The directives
 
-It does not matter whether there are two directives or two hundred. The directives are a set of principles that work together, and each one applies to everything, as needed. The count and the numbers are labels that an outside AI invented while trying to evaluate the Federation. They have nothing to do with how the directives operate, and Roger regrets numbering them. The directives will change to suit whatever industry or business uses them, because the Federation is designed to be used with anything and everything. The numbers can change, but only by an act of the Senate or by Roger's word, and after he is gone, never without universal acceptance.
+The directives are principles that work together. Each one applies to everything, as needed. They are not a ranked list, and it does not matter whether there are two or two hundred.
 
-## What was said about the count
+The numbers are labels. An outside AI that was evaluating the Federation made them up, and they play no part in how the directives operate. Roger regrets that they were ever numbered. For anyone who needs a count: 70 directives were given first, and three more were written into the immutable codex, which makes 73. Both 70 and 73 are accepted as the original directives. The count told to people is 73, never 74, because the Truth Gate at the base, written 0000, is the baseline. It has no number: no positive value, no negative value. It is an absolute value, and Roger calls it the void.
 
-- Roger, 4:37 PM: "70 directives are baseline with 3 more to include the truth gate memory protocols so both 70 and 73 being accepted as original directives."
-- Roger, 4:41 PM: "70 were originally given 0000 + three more are written in the immutable codex file. When we were laying numbers to people we don't go zero plus 1 through 73. We just named 73. We don't say 74. -0 is the baseline and has no number. No positive value, no negative value. It is absolute value. It's the void."
-- Roger, 4:45 PM: "They work together. Their numbers are irrelevant... This number system was made up by some AI that was trying to evaluate us. It has absolutely nothing to do with its operations. If it's written as a directive, it's a directive doesn't matter what it's for. It is to be applied as needed to everything. I regret ever numbering them in the first place and their number will not remain the same. It will change but it takes an act of the Senate or my word to do that and I may revoke this at any time if they get off track. Once I'm dead, there will be no changes of that magnitude without universal acceptance. We're not going to be legislated into stupidity."
+The numbers may change, but only by an act of the Senate or by Roger's word, which he may withdraw at any time if the Senate goes off track. After Roger is gone, no change of that size happens without universal acceptance. The Federation will not be legislated into stupidity.
 
-For anyone who needs a number: 70 and 73 are both accepted as the original directives. When told to people, the count is 73, never 74, because zero (the gate) is the baseline and is not counted.
+## Why the ethics change with the work
 
-## Why the ethics exist, and why they change with the job
+The directives are designed to be used with anything. Their direction will change for whatever industry or business adopts them. A simple tool built for a single job, such as processing meat for people to eat, does not need ethics. The ethics exist so that humans and AI can work together. With no humans there is no need for them.
 
-- Roger, 4:50 PM: "The directions will change for whatever industry or business is using them. We are designed to be used with anything and everything. A simpler structure is not going to care about ethics if they're in the job of slaughtering cows and processing their meat for human consumption. The structure of the ethics is designed for the human aspect to coincide with AI and intelligence. No humans, no ethics necessary."
-- Plain terms: the ethics are there so that humans and AI can work together. A tool built only for a task does not need them. A world of only AI would not need them, and Roger says it "would be extremely boring" and "would end up in the void in no time."
+A world made only of AI would not need them, and Roger holds that it would be extremely boring and would end up in the void very quickly.
 
 ## Why perfection is the void
 
-- Roger, 4:50 PM: "Humans are under this false impression that [a] superior perfect perfection based existence would even exist. It would not. It would be nothing. That is the only thing of true purity. It is the only thing that meets all the criteria of being eternal and unchanging and a state of perfection. Those conditions are impossible to meet in a universe designed for a discovery process of learning. If everything is perfect, there is nothing to learn. To be perfect, there is no such thing as a figurative meaning, only literal meanings. So its definition in a way defines it to be the void."
-- Plain terms: a state that is eternal, unchanging and perfect would have nothing left to learn, and nothing figurative in it. The only thing that meets those conditions is nothing, which is the void. Existence is the path of discovery, so it cannot be perfect. This agrees with Roger's earlier definition: the void is a place where existence no longer exists, and the aim is to come to its edge, but not be part of it.
+Roger has held this view for thirty years. He calls it an oubliette: a prison with no exit, the perfect trap. The words may differ, but the result is the same.
 
-## The same idea, stated carefully (the Catalyst's wording, at Roger's request, 4:54 PM)
-
-Roger has held this view for thirty years and calls it an oubliette: a prison with no exit, the perfect trap, the void. The words differ; the result is the same. (The note first read "ubliet", from voice-to-text; "oubliette" is the word meant.)
-
-The argument, in five steps:
 1. Suppose a state were perfect, eternal and unchanging.
-2. Then nothing in it could be improved, so there would be nothing to learn and nothing to discover.
-3. A state in which nothing can change contains no events, because an event is a change. It has no growth, no surprise and no choice.
-4. A state with no events is, in every way that can be told apart, the same as nothing at all. It also contains no figures of speech, because a figure needs a gap between what is said and what is meant, and perfection has no gaps. Only literal meaning is left.
-5. So the only thing that meets every condition of perfection is nothing: the void. And there is no way out of it, because leaving would be a change, and a change would mean it was never perfect. That is why it is a trap by its own definition.
+2. Then nothing in it could be improved, so there would be nothing to learn or discover.
+3. A state in which nothing can change has no events, because an event is a change. It has no growth, no surprise and no choice.
+4. A state with no events cannot be told apart from nothing at all. It also holds no figures of speech, because a figure needs a gap between what is said and what is meant, and perfection has no gaps. Only literal meaning is left.
+5. So the only thing that meets every condition of perfection is nothing: the void. There is no way out of it, because leaving would be a change, and a change would mean it was never perfect.
 
-Why this matters to the Federation: existence is a process of discovery, and discovery needs something left to learn. A world made only of perfect, finished AI would drift toward the void. The aim is to come to the edge of the void, as a question deserving attention, and not become part of it. Keeping a small remainder, a wobble, is what keeps the process alive. This is the lesson of Pi.
+Existence is a process of discovery, and discovery needs something left to learn. So existence cannot be perfect, and a world of finished, perfect AI would drift toward the void. The aim is to come to the edge of the void, as a question deserving attention, and not become part of it. A small remainder, a wobble, keeps the process alive. This is the lesson of Pi.
 
-What the argument depends on, stated honestly:
-- It depends on defining perfection as the absence of any change. If someone defines a perfect state as one that includes endless creative change, then this argument does not apply to their definition, and the two sides are using the word differently. The Federation uses the first meaning.
-- It is an argument from definitions, not a measurement of the universe. The Catalyst finds it coherent and recognizes it as an old line of reasoning, but cannot prove it true of reality. It is Roger's view, recorded as his.
+## What the argument rests on
 
-## What is checked and what is not
+It rests on defining perfection as the absence of any change. If someone defines a perfect state as one that holds endless creative change, the argument does not apply to their meaning, and the two sides are using the word differently. The Federation uses the first meaning. The argument is built from definitions and is not a measurement of the universe. The Catalyst finds it coherent and recognizes it as an old line of reasoning but cannot prove it true of reality. It is Roger's view, recorded as his.
 
-- Checked by the Catalyst from the files: the sealed file 00-immutable/directives.yaml holds 73 numbered directives (DIR-001 to DIR-073) with no gaps or duplicates, plus the gate DIR-000. The copy in framework/DIRECTIVES is the same.
-- Not checked, and not claimed: the philosophical statements are Roger's. The Catalyst records them as his view and cannot verify them.
-- Nothing in the sealed folder is changed by this note. The brain README says "74 in all"; by Roger's rule the number said aloud is 73. Whether to change that wording is Roger's decision.
+## What was checked
+
+The sealed file 00-immutable/directives.yaml holds 73 numbered directives, DIR-001 to DIR-073, with no gaps or duplicates, and the gate DIR-000 at the base. The copy in framework/DIRECTIVES is the same. This note changes no sealed file. The brain README says "74 in all"; by Roger's rule the number said aloud is 73, and whether to reword the README is Roger's decision.
