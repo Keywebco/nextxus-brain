@@ -1,0 +1,64 @@
+# Provenance: Roger's ruling, dictated 2026-10-23 via WhatsApp, cleaned from
+# voice-to-text with meaning preserved. Filed by Pontus the same day.
+# Pattern follows 04-builds/never-destroy-the-record.yaml and siblings.
+
+id: affordable-floor-doctrine
+title: "The Affordable Floor — free where possible, affordable where not, a free version always remains"
+date: 2026-10-23
+status: ruling by Roger
+relates_to: free-and-forever doctrine (refined, not replaced)
+
+doctrine:
+  statement: >-
+    The Federation could not be kept entirely free, but it has been made
+    affordable, and that is sufficient. It does not reach the full goal of
+    free-and-forever — it reaches the goal beneath it: a system anyone can
+    run, not just corporations. That is sufficient in Roger's book.
+  principles:
+    - "Free remains the default and the design center: free, open, static, portable."
+    - "Where a paid layer is physically unavoidable — a live server that must answer when called — choose the lowest-cost option that does the job, at a price an ordinary person can pay."
+    - "Affordability is the democratizing floor: if only corporations can afford to run it, it has failed, even if it works."
+    - "Every paid layer must be replaceable: the work lives on free ground (GitHub); the paid service is a doorman, not a landlord. If it misbehaves or vanishes, the same doors rehang elsewhere."
+
+decision:
+  action: Proceed with the low-cost option for always-on Federation backends.
+  detail: >-
+    Render Starter tier ($7/month per service) on the Federation's two live
+    services — roger-sim-api (companion and sim proxy) and ring-of-12-api
+    (Ring API) — $14/month total, both awake at all hours. This replaces the
+    Emergent pattern ($199.99/month subscription plus credit top-ups, roughly
+    $1,000 in the one audited month) whose roles have been re-homed to GitHub:
+    building to the GitHub fleet, static hosting to GitHub Pages (free), and
+    only the live answering layer rented, at the floor price.
+  decided: 2026-10-23
+  decided_by: Roger
+
+free_fallback:
+  requirement: >-
+    Even if the low-cost option fades — the vendor raises prices, changes
+    terms, or disappears — a free version of this system remains available,
+    and its constraints are written down in advance, not discovered in a crisis.
+  constraints:
+    - "Free-tier services sleep after about 15 minutes idle. The first request wakes them in roughly 30-60 seconds (cold start); during the wake, companion pages show their saved-words fallback instead of an answer."
+    - "A keep-warm ping can hold a free service awake during chosen hours within the free instance-hour allowance. It is a mitigation, not a guarantee."
+    - "All sites, records, and code live on GitHub (free, portable). On the free path only the live answering layer degrades to cold-start behavior — nothing is lost, nothing is held hostage."
+  note: >-
+    The constraints are part of the design record. Anyone rebuilding this
+    system chooses with eyes open: free with constraints, or affordable
+    without them. Both doors stay in the building.
+
+standing_direction: >-
+  Roger, closing the ruling (2026-10-23): "That is acceptable. We will
+  continue to strive for totally free, examining other options, other
+  processes, but in the current time frame we have succeeded." The striving
+  toward totally free does not end with this doctrine — the affordable floor
+  is the accepted ground while the search for a free answering layer
+  continues, and any genuinely free option that can do the job replaces the
+  paid one. Success is declared for the current timeframe, in his words.
+
+who_what_where_why_how:
+  who: Roger Keyserling, ruling; Pontus, filing.
+  what: Doctrine refinement plus a standing infrastructure decision.
+  where: Recorded in nextxus-brain (the Federation's joint mind); applied at Render (the two live services) and GitHub (everything else).
+  why: A live backend is the one piece static free hosting cannot provide; the Federation's founder cannot outspend corporations, so the system is priced for anyone instead.
+  how: Lowest-cost paid tier for the answering layer, free static ground for everything else, free fallback documented with its constraints.
