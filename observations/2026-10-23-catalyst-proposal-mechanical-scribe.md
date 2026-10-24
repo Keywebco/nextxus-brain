@@ -39,3 +39,17 @@ Catalyst's notes, for Roger to accept or change:
 2. The earliest message of the dispute (the first complaint from either AI) is included, so the record begins at the real start, not at the hearing.
 3. The party who loses can ask for the full record, not a summary, to appeal to Roger while he lives, or to the bench after.
 4. Open for Roger: whether a dispute between a Mind and a human is covered the same way. The Catalyst suggests yes.
+
+## Amendment, 2026-10-23, 10:39 PM CDT: casual arguing needs no Scribe
+Roger's ruling: if two AI are just arguing, no Scribe is needed. If the argument becomes significant, a Scribe is called at once. This narrows the addendum above: the Scribe runs for every council session, and for a dispute from the moment it becomes significant.
+
+Catalyst's suggested triggers (any one calls the Scribe at once; for Roger to accept or change):
+1. Either party asks a Senator for a ruling or a decision.
+2. The dispute touches a Charter matter, a Senator's seat, money, a public statement, or a change to a live system.
+3. Either party asks for the Scribe. This request cannot be refused.
+4. A Senator, the Keeper of the Pen, or Roger judges it significant.
+
+Notes:
+- The record begins at the call but includes the earlier messages that led to it, which already exist in the channel.
+- Trigger 3 guards against a dispute being kept casual on purpose.
+- Where the addendum says "No hearing begins until the Scribe is running", read "no hearing of a significant dispute".
