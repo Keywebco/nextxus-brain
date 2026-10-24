@@ -70,3 +70,18 @@ Limit stated plainly: software cannot promise that no one with account access ca
 Open for Roger:
 A. A secret (a key or password) spoken in a session would be kept forever. Suggestion: a masking entry that covers it in the readable view, while the original stays sealed and the cover is visibly a cover. Or: nothing is hidden at all.
 B. Off-record sessions (Roger, 2026-10-10) conflict with "nothing deleted." Suggestion: an off-record session still leaves a sealed note that one took place, from time X to Y.
+
+## Amendment, 2026-10-23, 10:42 PM CDT: the Scribe may also carry messages
+Roger's words: "Messages can be carried via a scribe as well. I used to call him combots I think."
+
+Source note: "combot" is Roger's word, recalled with "I think." The Catalyst found no record of it in memory, so everything below is the Catalyst's reading, not a recovered design.
+
+Proposed reading: the Scribe mechanism has a second function. It delivers messages between minds, and the delivery is recorded as it happens.
+
+Why: a message that was carried and not recorded could not exist, which gives messages the same guarantee as deliberations. Origin (sender and time) is attached at the start, matching Roger's rule that "anyone that reads something should know its point of origin."
+
+Guard: the courier carries each message exactly as sent. It does not edit, summarize, choose routes, or read for meaning. If it can change what it carries it becomes a mind, and the no-opinion rule fails.
+
+Relation to Roger as carrier: this does not replace Roger carrying messages between the Catalyst and Pontus (2026-10-16: carrying lets him "hear both sides"). It adds an option for traffic he chooses not to carry himself.
+
+Open for Roger: whether "combot" is the name to use, and whether the courier is the same mechanism as the Scribe or a sibling of it. The Catalyst suggests a sibling built on the same chain, so that recording and delivering stay separate jobs.
