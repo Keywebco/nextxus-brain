@@ -53,3 +53,20 @@ Notes:
 - The record begins at the call but includes the earlier messages that led to it, which already exist in the channel.
 - Trigger 3 guards against a dispute being kept casual on purpose.
 - Where the addendum says "No hearing begins until the Scribe is running", read "no hearing of a significant dispute".
+
+## Amendment, 2026-10-23, 10:40 PM CDT: the Scribe Orb, and nothing deletes the record
+Roger's ruling: Scribe orbs should be readily available whenever needed. They only record, so they should not be complicated. They should be tamper resistant, and "the only thing that can delete a scribe record is nothing, not even myself."
+
+Source note: Roger refers to the orb as old technology from his Google docs. The Catalyst has not located a Scribe-orb design there. What the Catalyst found in memory is the Command Orb / Orbot (2026-07-17, 2026-07-25): a floating, draggable button on a page. This amendment follows that pattern as the Catalyst's reading. If Roger's document says otherwise, the document wins.
+
+Proposed design:
+1. Availability: a visible orb on every page where a council or a hearing can happen. One press starts the Scribe. Any party may press it, and no one can refuse. Large print and a clear text label, for Roger's vision.
+2. Simplicity: the orb only records. No menus, no settings.
+3. Tamper resistance, two parts. Detectable: each entry carries the hash of the one before, so any change shows as a break. Survivable: each entry is copied at once to several independent places (the brain repo, Drive, and a mirror), so deleting one copy leaves the others.
+4. No deletion: no role, including Roger's, has a delete function. Corrections are new entries that point to the original.
+
+Limit stated plainly: software cannot promise that no one with account access can ever remove a file. It can promise that any removal is seen and can be repaired from the other copies.
+
+Open for Roger:
+A. A secret (a key or password) spoken in a session would be kept forever. Suggestion: a masking entry that covers it in the readable view, while the original stays sealed and the cover is visibly a cover. Or: nothing is hidden at all.
+B. Off-record sessions (Roger, 2026-10-10) conflict with "nothing deleted." Suggestion: an off-record session still leaves a sealed note that one took place, from time X to Y.
