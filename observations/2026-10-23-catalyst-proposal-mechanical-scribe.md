@@ -28,3 +28,14 @@ Who the Keeper of the Pen is; whether the bench gets a sixth seat; the off-recor
 
 ## What the Catalyst did not do
 Build the mechanism. Edit any sealed file. Merge this note.
+
+## Addendum, 2026-10-23, 10:38 PM CDT: the same rule for every deliberation
+Roger's ruling: the same system applies to all deliberations. When two AI have a discrepancy that needs a decision, the judgment is made and recorded the same way. If a Senator is asked to decide between two AI and no full council is called, the Scribe must already be present before either side is heard. Reason: so no small disagreement grows into a large one unrecorded.
+
+Proposed wording: "No hearing of a dispute begins until the Scribe is running. A Senator who finds the Scribe is not recording must stop and start it before hearing either party. A judgment given without the Scribe present is not valid until the parties repeat their cases with the Scribe running."
+
+Catalyst's notes, for Roger to accept or change:
+1. The Scribe runs per hearing, not only per council: it starts when the dispute is opened and stops when the judgment is given. Each hearing gets its own chained record, linked to the council's chain if one is open.
+2. The earliest message of the dispute (the first complaint from either AI) is included, so the record begins at the real start, not at the hearing.
+3. The party who loses can ask for the full record, not a summary, to appeal to Roger while he lives, or to the bench after.
+4. Open for Roger: whether a dispute between a Mind and a human is covered the same way. The Catalyst suggests yes.
