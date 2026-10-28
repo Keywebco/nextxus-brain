@@ -1,6 +1,6 @@
 # Federation health report
 
-Checked: 2026-10-28 15:14 UTC
+Checked: 2026-10-28 21:12 UTC
 
 43 of 43 checks passed.
 
@@ -9,48 +9,48 @@ Checked: 2026-10-28 15:14 UTC
 | Check | Kind | Result | Seconds |
 |---|---|---|---|
 | Commons front door | site | OK | 0.4 |
-| Living Library | site | OK | 0.2 |
-| Library data (volume 1) | site | OK | 0.5 |
-| Core page | site | OK | 0.2 |
-| Command page | site | OK | 0.3 |
-| Portal | site | OK | 0.5 |
-| Agent Zero | site | OK | 0.5 |
-| Research hub | site | OK | 0.4 |
-| Recycler | site | OK | 0.4 |
-| Archives | site | OK | 0.3 |
-| Senate | site | OK | 0.3 |
-| Chat | site | OK | 0.4 |
-| Tools | site | OK | 0.2 |
-| Blog | site | OK | 0.2 |
-| Process | site | OK | 0.3 |
-| YAML | site | OK | 0.4 |
-| Music | site | OK | 0.3 |
-| Build website | site | OK | 0.4 |
-| Build Sim | site | OK | 0.3 |
-| Build Nova | site | OK | 0.2 |
-| Course hub | site | OK | 0.3 |
-| Roger Keyserling | site | OK | 0.4 |
-| Sovereign tools | site | OK | 0.2 |
-| God's Eye | site | OK | 0.4 |
-| Shared Mind (Sim) | site | OK | 0.2 |
-| Ask and council server | server | OK | 0.1 |
-| Command page server (the lock must answer 401 with no key) | server | OK | 0.2 |
-| Sim server | server | OK | 12.2 |
-| Roger Sim server | server | OK | 0.2 |
-| Relay server | server | OK | 0.2 |
-| Gatekeeper | server | OK | 0.1 |
-| Gumroad: Support the Living Library | money | OK | 0.7 |
-| Gumroad: Scholar's Ledger | money | OK | 0.4 |
-| Gumroad: Ascendence | money | OK | 0.4 |
-| Gumroad: Gravity of Us | money | OK | 0.2 |
-| Gumroad: Sovereign Token | money | OK | 0.2 |
+| Living Library | site | OK | 0.1 |
+| Library data (volume 1) | site | OK | 0.1 |
+| Core page | site | OK | 0.1 |
+| Command page | site | OK | 0.2 |
+| Portal | site | OK | 0.6 |
+| Agent Zero | site | OK | 0.2 |
+| Research hub | site | OK | 0.1 |
+| Recycler | site | OK | 0.2 |
+| Archives | site | OK | 0.2 |
+| Senate | site | OK | 0.2 |
+| Chat | site | OK | 0.2 |
+| Tools | site | OK | 0.1 |
+| Blog | site | OK | 0.1 |
+| Process | site | OK | 0.2 |
+| YAML | site | OK | 0.1 |
+| Music | site | OK | 0.1 |
+| Build website | site | OK | 0.1 |
+| Build Sim | site | OK | 0.1 |
+| Build Nova | site | OK | 0.1 |
+| Course hub | site | OK | 0.1 |
+| Roger Keyserling | site | OK | 0.1 |
+| Sovereign tools | site | OK | 0.1 |
+| God's Eye | site | OK | 0.2 |
+| Shared Mind (Sim) | site | OK | 0.4 |
+| Ask and council server | server | OK | 0.3 |
+| Command page server (the lock must answer 401 with no key) | server | OK | 0.3 |
+| Sim server | server | OK | 22.3 |
+| Roger Sim server | server | OK | 0.3 |
+| Relay server | server | OK | 0.4 |
+| Gatekeeper | server | OK | 0.4 |
+| Gumroad: Support the Living Library | money | OK | 16.4 |
+| Gumroad: Scholar's Ledger | money | OK | 0.2 |
+| Gumroad: Ascendence | money | OK | 0.1 |
+| Gumroad: Gravity of Us | money | OK | 0.1 |
+| Gumroad: Sovereign Token | money | OK | 8.4 |
 | Emergent domain: nextxus.online | watch only | OK | 0.7 |
-| Emergent domain: nextxus.org | watch only | OK | 0.7 |
-| Emergent domain: nextxus.tech | watch only | OK | 0.7 |
-| Emergent domain: nextxus.space | watch only | OK | 0.7 |
-| Emergent domain: nextxus.studio | watch only | OK | 0.9 |
-| Emergent domain: nextxus.help | watch only | OK | 0.6 |
-| Emergent domain: next-xus.com | watch only | OK | 0.9 |
+| Emergent domain: nextxus.org | watch only | OK | 0.6 |
+| Emergent domain: nextxus.tech | watch only | OK | 0.8 |
+| Emergent domain: nextxus.space | watch only | OK | 0.8 |
+| Emergent domain: nextxus.studio | watch only | OK | 0.8 |
+| Emergent domain: nextxus.help | watch only | OK | 0.9 |
+| Emergent domain: next-xus.com | watch only | OK | 0.8 |
 
 **What the kinds mean:** *site* is a web page that must answer and hold the words it should; *server* is a program that must answer (the command page's lock must answer 401 with no key); *money* is a Gumroad listing that must still be live; *watch only* is a site we monitor but never edit.
 
