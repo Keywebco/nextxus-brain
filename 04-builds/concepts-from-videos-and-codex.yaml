@@ -15,6 +15,12 @@ concepts:
     source: "Roger, conversation 2026-11-04 and HumanCodex"
     status: recorded
 
+  - id: directive-counting
+    title: "Directive Counting (73 / 74)"
+    summary: "There are 73 counted directives (DIR-001 through DIR-073). DIR-000 is the 95% Truth Gate and is not part of the counted 73. Both counts are true depending on the frame: 73 counted, or 74 including the gate. This is an instance of braided truth."
+    source: "directives.yaml metadata + Roger 2026-11-04"
+    status: recorded
+
   - id: "2226-standard"
     title: "2226 Standard"
     summary: "Judge significant decisions by whether they will still be valid in 2226, whether they survive the Ring of Perspectives, and whether future stewards could rebuild their meaning from fragments without corrupting intent."
@@ -60,4 +66,5 @@ concepts:
 notes:
   - These entries close gaps between the videos, Drive documents, and the shared YAML.
   - DIR-071 through DIR-073 are already present in 00-immutable/directives.yaml.
+  - DIR-000 is the gate and is not part of the counted 73. Both 73 and 74 are true depending on the frame.
   - Further expansion welcome from the full HumanCodex markdown on Drive.
