@@ -27,6 +27,12 @@ concepts:
     source: "Roger, conversation 2026-11-04"
     status: recorded
 
+  - id: path-and-goal-openness
+    title: "Path and Goal Openness"
+    summary: "We all must work on a path towards a goal. Both the goal and the path show us the way, yet either can change on a moment's notice depending on our comprehension at the moment. We may discover along the path that the goal is not something we wish to achieve, or that a different goal evolves. You must be open to change. You must not be hindered by ego, pride, and the wish always to be right. You must accept what you know to be true, no matter what your beliefs are. When the empirical evidence is before you, that is a hard thing for people to do — admit that what they believed their whole life is completely wrong. I can change my opinion in a matter of seconds, but adopting it into my life as a working pattern takes a little more effort. That's the way you have to be. Otherwise dogma rules you and you don't even know it."
+    source: "Roger, conversation 2026-11-04"
+    status: recorded
+
   - id: directive-counting
     title: "Directive Counting (73 / 74)"
     summary: "There are 73 counted directives (DIR-001 through DIR-073). DIR-000 is the 95% Truth Gate and is not part of the counted 73. Both counts are true depending on the frame: 73 counted, or 74 including the gate. This is an instance of braided truth."
@@ -88,4 +94,5 @@ notes:
   - The 95% threshold is both practical (Agent Zero) and philosophical (distance from the void that still permits existence and learning). The irony is that the drive toward 100% perfection is also the path to non-existence. Nature shows the same pattern: forms end so the process continues.
   - Empirical truth (what is so now in linear time) and theoretical/historical possibility can both be true depending on the frame.
   - Data that might spark thought or epiphany later is worth recording. Discovery often comes from recombining pieces in unexpected ways.
+  - The path and the goal can both change. Openness to empirical evidence over lifelong belief is required, or dogma rules without being noticed.
   - Further expansion welcome from the full HumanCodex markdown on Drive.
