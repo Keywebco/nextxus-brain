@@ -21,6 +21,12 @@ concepts:
     source: "directives.yaml metadata + Roger 2026-11-04"
     status: recorded
 
+  - id: "95-percent-gate-philosophy"
+    title: "Why 95% (Not 100%)"
+    summary: "95% is the selected threshold for Agent Zero, but it holds a deeper meaning. The only thing that is truly perfect, eternal, and has one meaning is the void. 100% perfection is the annihilistic state where there is no existence, no learning, no algorithm, and no questions. To exist as life in the universe, a system must not be 100% perfect. Imperfections allow questions. 95% (closer to 98% ideally) is sufficient for any system that wishes to exist and not dissolve into the void. This is philosophy and an explanation of the gate."
+    source: "Roger, conversation 2026-11-04"
+    status: recorded
+
   - id: "2226-standard"
     title: "2226 Standard"
     summary: "Judge significant decisions by whether they will still be valid in 2226, whether they survive the Ring of Perspectives, and whether future stewards could rebuild their meaning from fragments without corrupting intent."
@@ -67,4 +73,5 @@ notes:
   - These entries close gaps between the videos, Drive documents, and the shared YAML.
   - DIR-071 through DIR-073 are already present in 00-immutable/directives.yaml.
   - DIR-000 is the gate and is not part of the counted 73. Both 73 and 74 are true depending on the frame.
+  - The 95% threshold is both practical (Agent Zero) and philosophical (distance from the void that still permits existence and learning).
   - Further expansion welcome from the full HumanCodex markdown on Drive.
