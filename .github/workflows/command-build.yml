@@ -3,9 +3,8 @@ name: Command build (review branch only)
 # Roger's command page, run by GitHub's own workers. One hub, in the brain, builds into the other sites.
 # It takes an order, asks the model to write the change, and saves it to a REVIEW BRANCH of the target repo.
 # It never writes to main. Roger merges. Nothing goes live from here.
-# Two ways to start it:
-#   1. By hand: Actions tab, "Command build", Run workflow.
-#   2. By pushing a branch named order/<anything> that holds .orders/order.json (how the Catalyst starts a build).
+# One way to start it: by hand. Actions tab, Command build, Run workflow.
+# The old order/** trigger was removed.
 # Install and change this file by human merge only. See framework/GitHub_Operational_Systems_Manual.md.
 
 on:
@@ -34,10 +33,7 @@ on:
         description: 'Files to change or create, comma separated (example: index.html,core/index.html)'
         required: true
         type: string
-  push:
-    branches:
-      - 'order/**'
-
+  
 permissions:
   contents: read
 
@@ -47,7 +43,6 @@ concurrency:
 
 jobs:
   build:
-    if: ${{ github.event_name != 'push' || github.event.deleted == false }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
