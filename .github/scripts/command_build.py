@@ -1,7 +1,9 @@
 """Command build hub. Two steps: `read` checks the order; `build` asks the model and writes the files.
 Safe by design: only allowed repos, only the named files, paths checked, an edit that removes more than
 60 percent of an existing file is refused, workflow files are never touched, secrets are never printed.
-The summary goes to RUNNER_TEMP, never into the target repo."""
+The summary goes to RUNNER_TEMP, never into the target repo.
+Sensitive-looking paths (keys, .env, credentials, databases, hidden folders) are refused, and what is sent to
+the model is capped: 100,000 characters per file, 300,000 in total. Over the cap is refused, never cut short."""
 import json, os, re, sys, urllib.request
 
 ALLOWED = ["nextxus-humancodex", "keywebco.github.io", "nextxus-agent-zero", "nextxus-research-hub",
@@ -9,6 +11,11 @@ ALLOWED = ["nextxus-humancodex", "keywebco.github.io", "nextxus-agent-zero", "ne
 TMP = os.environ.get("RUNNER_TEMP", "/tmp")
 ORDER_FILE = os.path.join(TMP, "order.json")
 TARGET = os.environ.get("TARGET_DIR", "target")
+MAX_FILE_CHARS = 100000
+MAX_TOTAL_CHARS = 300000
+SENSITIVE = [re.compile(x, re.I) for x in (
+    r"\.env", r"\.env\..*", r".*\.key", r".*\.pem", r".*\.p12", r".*\.pfx", r"id_rsa.*", r"id_ed25519.*",
+    r"id_ecdsa.*", r"id_dsa.*", r".*\.secret", r"credentials.*", r"secrets?.*", r".*\.sqlite3?", r".*\.db")]
 
 def fail(msg):
     print("REFUSED:", msg); sys.exit(1)
@@ -17,6 +24,11 @@ def safe(p):
     return (bool(re.fullmatch(r"[A-Za-z0-9._\-/]{1,160}", p)) and not p.startswith("/") and ".." not in p
             and not p.startswith(".git") and not p.startswith(".github"))
 
+def sensitive(p):
+    parts = p.split("/")
+    if any(x.startswith(".") for x in parts[:-1]): return True  # anything under a hidden folder
+    return any(rx.fullmatch(parts[-1]) for rx in SENSITIVE)
+
 def out(k, v):
     f = os.environ.get("GITHUB_OUTPUT")
     if f:
@@ -24,13 +36,9 @@ def out(k, v):
 
 def read():
     ev = os.environ.get("EVENT_NAME", "")
-    if ev == "workflow_dispatch":
-        data = json.loads(os.environ.get("INPUTS_JSON") or "{}")
-    elif ev == "push":
-        try: data = json.load(open("hub/.orders/order.json", encoding="utf-8"))
-        except Exception: fail("no readable .orders/order.json on the order branch")
-    else:
-        fail("unsupported trigger: " + ev)
+    if ev != "workflow_dispatch":
+        fail("builds are started by hand only (Actions tab); refused trigger: " + ev)
+    data = json.loads(os.environ.get("INPUTS_JSON") or "{}")
     repo = str(data.get("repo", "")).strip()
     order = str(data.get("order", "")).strip()
     files = data.get("files", [])
@@ -41,6 +49,7 @@ def read():
     if not files or len(files) > 8: fail("name between 1 and 8 files")
     for f in files:
         if not safe(f): fail("unsafe path: " + f)
+        if sensitive(f): fail("that file looks private or secret and is never sent to the model: " + f)
     json.dump({"repo": repo, "order": order, "files": files, "who": who}, open(ORDER_FILE, "w", encoding="utf-8"))
     out("repo", repo); out("who", who)
     print("Order accepted for", repo, "by", who, "files:", ", ".join(files))
@@ -60,7 +69,13 @@ def build():
     current = {}
     for f in files:
         q = full(f)
+        if sensitive(f): fail("that file looks private or secret and is never sent to the model: " + f)
         current[f] = open(q, encoding="utf-8").read() if os.path.exists(q) else None
+        if current[f] is not None and len(current[f]) > MAX_FILE_CHARS:
+            fail("%s is %d characters; the limit per file is %d. Nothing was sent." % (f, len(current[f]), MAX_FILE_CHARS))
+    total = sum(len(c) for c in current.values() if c)
+    if total > MAX_TOTAL_CHARS:
+        fail("the named files total %d characters; the limit is %d. Nothing was sent." % (total, MAX_TOTAL_CHARS))
     system = ('You write website files. Plain HTML, CSS and vanilla JS only, readable without JavaScript. '
               'Make ONLY the change that was ordered; keep everything else exactly as it is. '
               'Reply with ONLY a JSON object: {"files":[{"path":"...","content":"FULL new file content"}],"summary":"one plain sentence"}. '
