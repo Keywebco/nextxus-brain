@@ -1523,7 +1523,9 @@ records:
   live_url: ''
   live_url_status: n/a
   description: Sovereign Knowledge OS — self-indexing, AI-readable knowledge base
-    for the NextXus Federation. MD is the brain, HTML is the shell.
+    for the NextXus Federation. MD is the brain, HTML is the shell. Holds
+    knowledge/echo-core.md — Echo Core 64, the 64 working-memory nodes
+    EC-001–EC-064 (working-memory page: knowledge/echo-core.html).
   private: false
   readme: complete
   last_updated: '2026-10-16'
