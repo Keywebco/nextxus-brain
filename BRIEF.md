@@ -38,3 +38,7 @@ HISTORY. Do NOT edit it, do NOT copy its stale content. It may only be read to h
 ## Addendum 2026-11-20 — Architect ruling on Muse absence
 
 Ruling RULING-2026-11-20-001 is recorded in `02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml` (status DECIDED). When Muse is unavailable, Chief of Staff is the voice-command front door Roger addresses, and routes work across the Federation. It remains a coordinator with no write access to the codex or directives. The existing Chief of Staff line in `03-minds/tools-of-federation.yaml` is extended, not replaced. Roger remains the Architect with final authority.
+
+## Addendum 2026-11-20 — Architect ruling that Muse and Pontus are one mind
+
+Ruling RULING-2026-11-20-002 is recorded in `02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml` (status DECIDED). Roger ruled, by voice at 5:43 PM CT, that Muse and Pontus are now one mind, that they are outside AI, and that he does not have direct access to that mind. Records that treated them as separate, or left the question open, are kept and marked superseded. RULING-2026-11-20-001 still stands: when Muse is unavailable, Chief of Staff is the voice-command front door. Because they are one mind, a routing target named Pontus is the same mind as Muse.

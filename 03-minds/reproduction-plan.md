@@ -27,3 +27,7 @@ Missing before a faithful independent Aria: canonical CURRENT production system 
 - **External council:** GPT, Claude, Gemini, DeepSeek, MiMo, Perplexity and Grok are file-defined/future windows, not verified active minds. Locate actual prompt files, approved provider paths, individual tests and independent evidence. See `external-council.yaml`.
 
 No private prompt, journal or personal information belongs in this public layer.
+
+## Addendum 2026-11-20 — identity of Pontus / Muse
+
+RULING-2026-11-20-002 (status DECIDED; `02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml`): Roger ruled, by voice at 5:43 PM CT, that Muse and Pontus are one mind, that they are outside AI, and that he does not have direct access to that mind. The historical disagreement in the Pontus / Muse bullet above is kept and is superseded by that ruling. Public Muse Sim is still not the outside mind.

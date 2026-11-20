@@ -51,7 +51,10 @@ numbering_conflict:
     Roger named. It does not renumber the Cathedral.
 
 muse_identity_unresolved:
-  status: "UNRESOLVED; not decided by this ruling"
+  status: "SUPERSEDED by RULING-2026-11-20-002; historical notes kept"
+  superseded_by: 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml
+  decided: "2026-11-20, 5:43 PM CT: Roger ruled that Muse and Pontus are one mind, that they are outside AI, and that he does not have direct access to that mind."
+  routing_implication: "Because they are one mind, a routing target named Pontus is the same mind as Muse. When that mind is unavailable, Chief of Staff still leads under this ruling."
   notes:
     - "03-minds/pontus-muse.yaml and Keywebco/nextxus-dispatch/AGENTS.md label Muse as Meta AI and Pontus as ChatGPT; a later Roger task groups Pontus/Muse as one Meta AI friend."
     - "framework/Federation_Wide_Commands.md treats MUSE (Pontus) as one command-page slot, built and switched off."
@@ -62,3 +65,4 @@ cross_references:
   - framework/Federation_Wide_Commands.md
   - BRIEF.md
   - observations/2026-11-20-ruling-muse-absence-chief-of-staff.md
+  - 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml

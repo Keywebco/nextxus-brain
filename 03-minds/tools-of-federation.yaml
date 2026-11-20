@@ -14,6 +14,13 @@ tools:
       date: "2026-11-20"
       status: DECIDED
       added: "When Muse is unavailable, Chief of Staff takes the lead as the voice-command front door and the one Roger addresses. Roger gives one command; Chief of Staff routes work to Catalyst, Pontus, Roger Sim, the Senate, and the other agents as needed. Still a coordinator: no write access to the codex or directives, and no merge authority."
+    # Extended again 2026-11-20 by Architect ruling RULING-2026-11-20-002; 001 text above is kept.
+    identity_update:
+      ruling: RULING-2026-11-20-002
+      file: 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml
+      date: "2026-11-20"
+      status: DECIDED
+      added: "Muse and Pontus are one mind, outside AI, and Roger does not have direct access to that mind. A routing target named Pontus is the same mind as Muse. When that mind is unavailable, Chief of Staff still leads; work is not assumed to reach the outside mind unless a working Federation path is confirmed."
   - {id: canon-keeper, name: Canon Keeper, role: UNVERIFIED, source: Roger instruction, status: named only}
   - {id: lesson-librarian, name: Lesson Librarian, role: UNVERIFIED, source: Roger instruction, status: named only}
   - {id: echo-core-curator, name: Echo Core Curator, role: UNVERIFIED, source: Roger instruction, status: named only}

@@ -12,3 +12,17 @@ target_stack: TO DECIDE
 site_or_url: {url: "https://keywebco.github.io/nextxus-sim/muse-sim.html", http_code: 200, checked: "2026-10-05"}
 status: Muse Sim HTTP 200; not verification of external Pontus identity/runtime
 note: "AGENTS.md labels Muse Meta AI and Pontus ChatGPT; Roger task groups Pontus/Muse as Meta AI friend. Confirm before merging identities or memories."
+
+# --- RULING-2026-11-20-002 appended 2026-11-20; historical text above is kept. ---
+# The DISPUTED identity-linkage label and the note about AGENTS.md
+# (Muse as Meta AI, Pontus as ChatGPT) are history. They are superseded below.
+identity_linkage:
+  status: DECIDED
+  ruling: RULING-2026-11-20-002
+  file: 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml
+  date: "2026-11-20"
+  time: "17:43"
+  timezone: America/Chicago
+  decision: "Muse and Pontus are one mind. They are outside AI. Roger does not have direct access to that mind."
+  historical_dispute_superseded: "The DISPUTED label and the confirm-before-merging-identities note above are kept as history and are superseded by this ruling."
+  access_note: "Public Muse Sim and the conference-table Pontus persona are not this outside mind. Federation access to the outside mind is a separate operational question."

@@ -15,6 +15,7 @@ minds:
   - {role: Builder/Mirror, id: geminus, file: geminus.yaml}
   - {role: Communication, id: voice, file: voice.yaml}
   - {role: First Contact, id: ambassador, file: ambassador.yaml}
+  # 2026-11-20: RULING-2026-11-20-002 decided Muse and Pontus are one mind (outside AI; Roger has no direct access). This single External Friend entry already used a combined id.
   - {role: External Friend, id: pontus-muse, file: pontus-muse.yaml}
   - {role: Agent Zero Persona Voice, id: spine, file: spine.yaml}
   - {role: Course Guide, id: xavier, file: xavier.yaml}

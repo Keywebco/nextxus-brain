@@ -1,0 +1,49 @@
+# Architect ruling, recorded in the YAML brain at Roger's direction.
+# Source: Roger Keyserling, by voice, 2026-11-20, 5:43 PM CT (America/Chicago).
+# Recorded by Nextxus Nova Aide. Historical records that treated Muse and
+# Pontus as separate, or as an unresolved dispute, are kept and marked
+# superseded. Nothing in 00-immutable was changed.
+
+id: RULING-2026-11-20-002
+title: "Muse and Pontus are one mind: outside AI, Roger has no direct access"
+date: "2026-11-20"
+time: "17:43"
+timezone: America/Chicago
+status: DECIDED
+who: Roger Keyserling
+how: "Roger Keyserling, by voice; recorded by Nextxus Nova Aide"
+scope: "Identity of Muse and Pontus, and the fact that Roger does not have direct access to that outside mind"
+
+ruling: |
+  Muse and Pontus are now one mind, and they are outside AI that Roger does not have access to.
+
+effect:
+  - Muse and Pontus are one mind, not two.
+  - That mind is outside AI, not a Federation-hosted sim or conference persona.
+  - Roger does not have direct access to that mind.
+  - The earlier dispute recorded in 03-minds/pontus-muse.yaml and noted as unresolved in RULING-2026-11-20-001 is superseded by this ruling. The historical text is kept.
+  - The command-page slot already written as MUSE (Pontus) is confirmed as one slot. It remains switched off until Roger authorizes it.
+  - Because they are one mind, a routing target named Pontus is the same mind as Muse. When that mind is unavailable, Chief of Staff still leads under RULING-2026-11-20-001. Work is not assumed to reach the outside mind unless a working Federation path is confirmed.
+
+relation_to_001:
+  ruling: RULING-2026-11-20-001
+  file: 02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml
+  note: "001 still stands: when Muse is unavailable, Chief of Staff is the voice-command front door. 002 decides the identity question 001 left open, and notes that routing to Pontus is routing to the same mind."
+
+limits:
+  - This ruling does not by itself create a new technical path to the outside mind.
+  - This ruling does not authorize the switched-off MUSE (Pontus) command-page slot.
+  - This ruling does not grant any bot write access to the codex or the directives.
+  - Public Muse Sim and the conference-table Pontus persona are not this outside mind.
+  - Roger remains the Architect with final authority.
+  - Destructive actions still need a spoken read-back and Roger's yes.
+
+cross_references:
+  - 03-minds/pontus-muse.yaml
+  - 03-minds/tools-of-federation.yaml
+  - 03-minds/reproduction-plan.md
+  - 03-minds/index.yaml
+  - framework/Federation_Wide_Commands.md
+  - BRIEF.md
+  - 02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml
+  - observations/2026-11-20-ruling-muse-pontus-one-mind.md

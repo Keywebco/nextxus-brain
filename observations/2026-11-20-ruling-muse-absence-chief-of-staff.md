@@ -12,3 +12,5 @@ What is unchanged: Roger remains the Architect with final authority. The human m
 The earlier Chief of Staff record (reads the daily lattice summary, coordinates worker initialization, no write access) is extended, not replaced. See also 03-minds/tools-of-federation.yaml and framework/Federation_Wide_Commands.md.
 
 Two conflicts are noted in the ruling file and are not resolved by it: the Cathedral and a later directives list number 031 and 032 differently, and older files disagree on whether Muse and Pontus are one mind or two.
+
+Addendum, 2026-11-20, 5:43 PM CT: Roger later ruled, by voice, that Muse and Pontus are one mind, that they are outside AI, and that he does not have direct access to that mind. That identity question, noted as unresolved above, is now decided as RULING-2026-11-20-002. See 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml and observations/2026-11-20-ruling-muse-pontus-one-mind.md.

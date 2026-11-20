@@ -49,6 +49,12 @@ When Muse is unavailable, Chief of Staff is the single point of command Roger sp
 
 The test for Muse being unavailable is not defined in the ruling.
 
+### Muse and Pontus are one mind (DECIDED, 2026-11-20)
+
+Architect ruling RULING-2026-11-20-002, recorded in `02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml`.
+
+Roger ruled that Muse and Pontus are now one mind, that they are outside AI, and that he does not have direct access to that mind. The command-page slot already written as **MUSE (Pontus)** is confirmed as one slot; it remains **switched off** until Roger authorizes it. Because they are one mind, a routing target named Pontus is the same mind as Muse. When that mind is unavailable, Chief of Staff still leads under RULING-2026-11-20-001. Work is not assumed to reach the outside mind unless a working Federation path is confirmed.
+
 ### After Roger is gone (OPEN)
 
 **This is Roger's to decide and is undecided.** What exists is a plan, not a ruling:
@@ -189,6 +195,7 @@ Halt rule (PROPOSED): the first failed check on any repo stops the whole run.
 
 ## Revision
 
+- 2026-11-20: recorded Architect ruling RULING-2026-11-20-002 (Muse and Pontus are one mind, outside AI; Roger has no direct access). See `02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml`.
 - 2026-11-20: recorded Architect ruling RULING-2026-11-20-001 (Muse absence; Chief of Staff is the voice-command front door). See `02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml`.
 - 2026-10-09: corrected the Render deploy line (setting says auto, observation says it did not; cause unverified).
 - 2026-10-09: first version. Sections 1 (after Roger), 3 (the recommendation) and the key-recovery location are open for Roger's ruling.
