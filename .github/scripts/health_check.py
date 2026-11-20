@@ -1,4 +1,4 @@
-"""Federation health check. Runs on GitHub's own workers, so it keeps working if Emergent or Render lapse.
+"""Federation health check. Runs on GitHub's own workers, so it keeps working if a paid host or Render lapses.
 Two rules so it tells the truth:
   1. A free server asleep is not "down": a slow answer is retried, and only a repeated failure counts.
   2. A page that answers 200 can still be broken, so each page is also checked for a phrase it must contain
@@ -53,7 +53,7 @@ def main():
     lines += ["", "**What the kinds mean:** *site* is a web page that must answer and hold the words it should; *server* is a program that must answer (the command page's lock must answer 401 with no key); *money* is a Gumroad listing that must still be live; *watch only* is a site we monitor but never edit.",
               "",
               "A free server that was asleep is retried before it counts as a problem. A page that answers 200 is also checked for a phrase it must contain and for known damage.",
-              "The Emergent-hosted domains are watched only. They are never edited.",
+              "The legacy hosted sites (including nextxus.studio, next-xus.com, and nextxus.online) are watched only. They still appear to be served from Emergent infrastructure, are not part of the Federation stack, and need a move to GitHub Pages. They are never edited from this check.",
               "",
               "**The receipt:** [what this costs, measured and estimated, dated](cost.md). **The seal check:** [the daily check of the sealed rules](latest.md). **The front door:** https://keywebco.github.io/nextxus-humancodex/"]
     open("LATTICE/reports/health.md", "w", encoding="utf-8").write("\n".join(lines) + "\n")
