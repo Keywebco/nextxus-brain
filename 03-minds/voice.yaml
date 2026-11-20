@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 # Source: Keywebco/nextxus-staging/voice/dispatch_endpoint.py VOICE_SYSTEM_PROMPT
 id: voice
 name: The Voice
@@ -10,7 +11,7 @@ personality:
 system_prompt_source: Keywebco/nextxus-staging/voice/dispatch_endpoint.py
 internal_ring: null
 memory_pointer: UNVERIFIED
-runs_on: Emergent staging FastAPI source; runtime UNVERIFIED
+runs_on: "Historical origin was Emergent staging FastAPI (legacy; Emergent is not part of the Federation stack as of 2026-11-20). Current runtime UNVERIFIED."
 target_stack: TO DECIDE
 site_or_url: {url: "https://keywebco.github.io/nextxus-staging/voice/", http_code: 200, checked: "2026-10-05"}
 status: static page HTTP 200; dispatch runtime UNVERIFIED

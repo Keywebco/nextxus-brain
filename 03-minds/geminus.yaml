@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 # Source: Keywebco/nextxus-staging/geminus/dispatch_endpoint.py GEMINUS_SYSTEM_PROMPT
 id: geminus
 name: Geminus
@@ -10,7 +11,7 @@ personality:
 system_prompt_source: Keywebco/nextxus-staging/geminus/dispatch_endpoint.py
 internal_ring: null
 memory_pointer: UNVERIFIED; prompt claim is not durable storage proof
-runs_on: Emergent staging FastAPI source; runtime UNVERIFIED
+runs_on: "Historical origin was Emergent staging FastAPI (legacy; Emergent is not part of the Federation stack as of 2026-11-20). Current runtime UNVERIFIED."
 target_stack: TO DECIDE
 site_or_url: {url: "https://keywebco.github.io/nextxus-staging/geminus/", http_code: 200, checked: "2026-10-05"}
 status: static page HTTP 200; dispatch and builder runtime UNVERIFIED

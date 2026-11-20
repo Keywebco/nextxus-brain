@@ -1,3 +1,5 @@
+> Note added 2026-11-20. Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. The body below is an earlier investigation record and was not rewritten. Mentions of Emergent jobs or an Emergent Wingman identity are legacy origin notes.
+
 # 03-minds reproduction plan, 2026-10-05
 
 This is an evidence inventory, not a claim of migrated consciousness, continuity, production readiness, or authorization. HTTP 200 on a static page proves only that the page responded. Named minds require their own documented internal ring of three or six; do not use the public Ring of Six or Twelve as their private mind. None of the per-mind internal rings was specified in the sources inspected. Private repositories below are pointers only.
