@@ -1,0 +1,200 @@
+# Design proposal, recorded in the YAML brain at Roger's direction.
+# Source: Roger Keyserling, by voice, 2026-11-20, 5:52 PM CT (America/Chicago).
+# Recorded by Nextxus Nova Aide. DESIGN ONLY. Nothing was implemented.
+# The public Agent Zero program was not installed or run. 00-immutable was not touched.
+# The held docs/federation-stack-2026-11-20 branch was not merged.
+# No personal or medical information about Roger is included.
+
+id: PROPOSAL-2026-11-20-001
+title: "Borrow Agent Zero's memory approach and job-splitting method into the Federation's own governed tools"
+date: "2026-11-20"
+time: "17:52"
+timezone: America/Chicago
+status: PROPOSED
+who: Roger Keyserling
+how: "Roger Keyserling, by voice; recorded by Nextxus Nova Aide"
+kind: design_proposal
+implements: false
+source_order: "The Federation should borrow two ideas from the public Agent Zero project: (1) its memory approach — how it keeps memory across long jobs, and (2) its job-splitting method — how it breaks big jobs into smaller pieces and hands them to helper copies. Study how Agent Zero does both, then design how the Federation's own governed tools (under Chief of Staff, with Roger's yes-rule) could use similar approaches. Write the design into the YAML brain as a proposal from Roger, dated today. Do not implement anything yet."
+
+studied:
+  project: "Public Agent Zero (agent0ai/agent-zero on GitHub)"
+  branch: main
+  commit: a6e41ca5330af21371f15fc62798f09f0393eedb
+  commit_time: "2026-11-20, 11:05 AM CT"
+  latest_release: "v2.16, published 2026-11-17, 12:33 PM CT"
+  method: "Read the project's current source and docs. This proposal cites real files. It does not guess."
+  note: "The Federation already has a different thing also named Agent Zero: a simple satellite-site template, and a ring verifier/braider. Those are not this public project. This proposal is about borrowing ideas only."
+
+agent_zero_memory:
+  summary: |
+    Agent Zero keeps memory in a lasting vector store so a later chat does not start from zero. After a job, a background step reads the conversation and saves only durable facts and successful problem-and-solution pairs. During a long job, about every three thinking loops, it automatically searches that store and quietly places the best matches back into the prompt. Knowledge files are imported and indexed when the store starts. Memory can be kept in separate folders so one project's facts do not leak into another. A person can also search, edit, or remove entries by hand. The project's own guide says this needs human gardening, because a bad memory can nudge the agent the wrong way again and again.
+  areas:
+    - "main: facts and preferences worth keeping, often saved on purpose"
+    - "fragments: durable pieces automatically taken from a finished conversation, after a quality filter drops one-off commands, temp paths, and action history"
+    - "solutions: successful problem-and-solution pairs, stored as a short Problem / Solution note"
+    - "knowledge: documents imported from knowledge folders, treated as more authoritative than chat memories"
+  how_it_works:
+    - "Storage is a FAISS vector index per memory folder, with embeddings, in plugins/_memory/helpers/memory.py (Memory.Area is main, fragments, solutions)."
+    - "At the end of a monologue, _50_memorize_fragments.py asks a utility model to extract durable facts, filters them with memory_quality.py, then runs consolidation into the fragments area. This runs in the background."
+    - "The same end-of-job hook, _51_memorize_solutions.py, extracts successful solutions and stores them in the solutions area, also with consolidation."
+    - "During a job, _50_recall_memories.py searches about every memory_recall_interval loops (default 3). It embeds one query, searches main and fragments separately from solutions, optionally filters the hits, and injects up to 5 memories and 3 solutions into the prompt extras. Default similarity threshold is 0.7. Search times out after 30 seconds."
+    - "Consolidation (memory_consolidation.py) finds similar entries by meaning and by keywords, then asks a model to choose merge, replace, update, keep_separate, or skip. Merge, replace, and update delete or rewrite old entries. Replace is blocked and converted to keep_separate if similarity is below 0.75. The consolidator times out after 60 seconds."
+    - "The memory tool (plugins/_memory/tools/memory.py) lets the agent load, save, delete, or forget entries. The prompt tells the agent to delete superseded facts rather than keep two current versions."
+    - "Knowledge import (knowledge_import.py) loads txt, pdf, csv, html, json, and md files, with checksums so unchanged files are not re-imported."
+    - "For a long single chat, a separate plugin (plugins/_chat_compaction) can compact the whole history into one resumable summary, after writing a backup. That is chat-window management, not the long-term memory store."
+    - "The solving prompt (prompts/agent.system.main.solving.md) tells the agent to check memories, solutions, and skills first, and on long tasks to keep compact progress notes with findings, failed approaches, artifact paths, and open gaps."
+  evidence_files:
+    - plugins/_memory/README.md
+    - plugins/_memory/helpers/memory.py
+    - plugins/_memory/helpers/memory_consolidation.py
+    - plugins/_memory/helpers/memory_quality.py
+    - plugins/_memory/helpers/knowledge_import.py
+    - plugins/_memory/extensions/python/monologue_end/_50_memorize_fragments.py
+    - plugins/_memory/extensions/python/monologue_end/_51_memorize_solutions.py
+    - plugins/_memory/extensions/python/message_loop_prompts_after/_50_recall_memories.py
+    - plugins/_memory/tools/memory.py
+    - plugins/_memory/default_config.yaml
+    - plugins/_memory/prompts/memory.consolidation.sys.md
+    - plugins/_memory/prompts/agent.system.memories.md
+    - plugins/_memory/prompts/agent.system.tool.memory.md
+    - docs/guides/memory.md
+    - prompts/agent.system.main.solving.md
+    - plugins/_chat_compaction/AGENTS.md
+    - plugins/_chat_compaction/helpers/compactor.py
+
+agent_zero_job_splitting:
+  summary: |
+    Agent Zero breaks a big job into smaller pieces and hands a piece to a helper through the call_subordinate tool. The helper is a new agent one level down (A0 creates A1, A1 can create A2, and so on) in its own saved chat, with its own history. The parent must put the role, goal, and task in the message, and may attach files, because the helper does not share the parent's conversation. The parent may pick a profile such as researcher or developer. A helper can be brand new (reset true) or continued later by its context id (reset false). Independent pieces can be started together with the parallel tool. The prompt says: do your own kind of work yourself; only hand a same-profile agent a bounded subtask or an independent review, never your whole assignment. After the helper returns, the parent should use that result and not redo the same work. The runtime does not cap how deep this tree can go.
+  how_it_works:
+    - "tools/call_subordinate.py: get_or_create_subordinate builds Agent(parent.number + 1) in a new child context, records the parent context id, parent agent number, and a slot, and registers the child. run_subordinate posts the assignment as a user message, runs the child's monologue, starts a new history topic when it returns, and saves the child chat before and after."
+    - "A child context id is accepted only when its saved parent, parent agent number, and depth match the caller. A running child cannot be continued until it finishes or is stopped. Switching a child's profile requires a fresh child."
+    - "prompts/agent.system.tool.call_sub.md and tools/call_subordinate.py.dox.md state there is no same-profile ban and no depth cap in the runtime. The prompt only discourages handing off the whole job."
+    - "tools/parallel.py starts, awaits, collects, or cancels independent tool calls, including several call_subordinate jobs at once. Nested parallel from inside a background worker is blocked, but a child chat may itself use parallel to create the next level of descendants. Each job has a job id; the reusable child has a separate context id."
+    - "The public capabilities note and the agent-profiles guide describe this as a way to parallelize work, keep a clean context per task, apply a specialized profile, and isolate a long subtask from the main context."
+  evidence_files:
+    - tools/call_subordinate.py
+    - tools/call_subordinate.py.dox.md
+    - tools/parallel.py
+    - tools/parallel.py.dox.md
+    - prompts/agent.system.tool.call_sub.md
+    - prompts/agent.system.tool.parallel.md
+    - prompts/agent.system.main.solving.md
+    - tests/test_subordinate_lifecycle.py
+    - docs/guides/agent-profiles.md
+    - knowledge/main/about/capabilities.md
+
+federation_design:
+  principle: |
+    Learn how Agent Zero does it, then build the Federation's own version under Chief of Staff and Roger's yes-rule. Do not run the public program inside the Federation. Free tools only. The stack is GitHub, Google Drive, the repositories, and the Immutable HumanCodex. No Emergent.
+  coordinator: |
+    Chief of Staff is the coordinator, like the parent agent. Roger speaks to Chief of Staff. Chief of Staff breaks the work, assigns named helpers, gathers results, and reports back in plain words. Chief of Staff has no write access to the sealed codex or the directives, and no merge authority.
+  memory_design:
+    title: "Federation lasting memory, adapted from Agent Zero's areas and recall cycle"
+    mapping:
+      - "Knowledge (authoritative, not mixed with chat notes): the Immutable HumanCodex, the official 73 Sacred Directives, Echo Core 64 anchors EC-001 through EC-064 in sovereign-knowledge-os/knowledge/echo-core.md, and the YAML brain. This is the imported-knowledge idea, already in the stack. Do not auto-merge these with session notes."
+      - "Durable facts and decisions (the main area): Senate rulings, this proposals folder, catalogs, and other YAML brain records. People and staff may add to them; they are not rewritten in place without an archive of the old wording."
+      - "Living memory across long jobs and across days (the fragments idea): daily Echo Core notes. The standing rule is already written: each active mind reads Echo Core 64 on start, works, then writes a short narrative before shutdown, staged for the next start. The filing path already decided is memory/<mind>-echo-core/YYYY-MM-DD.md in Keywebco/sovereign-knowledge-os. That is append-only living memory, in the mind's own voice, not a status board."
+      - "Successful solutions (the solutions area): a lessons collection kept by the Lesson Librarian. Each lesson is a short Problem / Solution note, dated, with the mind that learned it. If a later lesson supersedes an older one, the old lesson is archived and the new one points to it. The record is never destroyed."
+      - "Mid-job progress notes (from Agent Zero's long-task advice and chat compaction idea): for any job that will last more than one sitting, Chief of Staff or the assigned worker appends a compact progress note — what was tried, what worked, what failed, where the files are, and what is still open. Place it on the shared Google Drive board as a dated message, and keep a copy in the job's log so a later helper can resume without guessing."
+    recall_cycle: |
+      On activation, the mind already must read Echo Core 64 first and gather open items. That is the Federation's automatic recall at the start of a session. During a long job, the working mind (or Chief of Staff on its behalf) also searches: recent Echo Core notes, the lessons collection, and the relevant knowledge or brain files for this job. It does not need a heavy vector database on a paid server. Start with ordinary search over the GitHub files and Drive notes. If a later phase wants meaning-based search, it must still run on free tools and must not delete the underlying files. A quality filter applies: save only durable, useful facts; do not save one-off commands, temporary state, secrets, keys, or personal or medical information.
+    consolidation_rule: |
+      Borrow the idea of keeping memory tidy, not the delete step. Agent Zero's merge, replace, update, and forget actually remove old entries. That conflicts with Echo 64 and with Never Destroy the Record. The Federation rule is: append a new current note; mark the older one superseded; move it out of active use into an archive; keep it recoverable. Erasure from use is archival. Destruction is not allowed.
+    who_tends_it:
+      - "Echo Core Curator: cadence and path of daily notes; does not invent new doctrine."
+      - "Lesson Librarian: solutions and lessons collection, including archive-on-supersede."
+      - "Commit Sentinel: logs every memory or job commit against the work list."
+      - "Canon Keeper: word-for-word checks when a note touches directives or canon."
+      - "Each mind: writes its own daily Echo Core note in its own voice."
+  job_splitting_design:
+    title: "Governed job-splitting, adapted from call_subordinate and parallel"
+    method: |
+      Chief of Staff takes a large job from Roger, states the observable success in plain words, and breaks it into named subtasks. Each subtask is given to a named Federation helper, not to an anonymous copy of the coordinator. The assignment must include the role, the goal, the concrete task, the limits, and any files or notes the helper will need, because the helper will not automatically see the full parent conversation. Independent subtasks may be handed out at the same time, like Agent Zero's parallel tool. Dependent steps stay in order. When a helper finishes, it returns a result and a short log. Chief of Staff checks the result, does not redo finished work without cause, and reports to Roger in plain words.
+    who_the_helpers_are: |
+      Helpers are the existing governed staff and minds, used by role: Commit Sentinel, Canon Keeper, Work Monitor, Echo Core Curator, Lesson Librarian, Nova Aide, and other named staff; also Catalyst, Roger Sim, and other Federation minds when the job is theirs. The public rings may be asked for advice: the Ring of Three (the Fast Ring of Mind, Eye, and Hands) for quick operational decisions; the Ring of Six for complex system changes; the Ring of Twelve for doctrine. Rings advise. They do not become unbounded worker copies. A helper must already have a named role. No helper may invent a new ungoverned copy of itself.
+    assignment_shape:
+      - "role, goal, and the concrete task (required)"
+      - "limits: what the helper may not do, including no writes to the codex or directives"
+      - "whether the work is read-only, a draft, or waiting for Roger's yes before it goes live"
+      - "where to write the log"
+      - "whether this helper may ask one specialist for help, or must stop at this level"
+    continuing_a_helper: |
+      Like Agent Zero's reset false and context id: if a job pauses, the same named helper can be asked to continue from the saved progress note and log, rather than starting a new helper that does not know the work. The original assignment and all later notes stay in the record.
+
+safety_limits:
+  helper_depth: |
+    Maximum depth is two below Chief of Staff. Level 0 is Chief of Staff. Level 1 is a named worker given a subtask. Level 2 is one specialist that worker may consult. Level 3 is not allowed. This is a hard limit. Agent Zero's runtime has no depth cap; the Federation will not copy that.
+  no_self_replication: |
+    No mind may spawn an ungoverned copy of itself, or a tree of copies, outside the named roster and these depth rules. Studying Agent Zero's helper pattern is not permission to run or install that program, and is not permission to self-replicate.
+  logging: |
+    Every helper assignment, result, skip, and failure is logged: who assigned it, who did it, when (America/Chicago), what was asked, what changed, and where the evidence is. Commit Sentinel logs commits. Work Monitor tracks whether the job is still moving. Plexus relay may carry a short status between minds, under the sender's own name, never under someone else's. The shared Drive board gets an append-only dated note for long jobs. Nothing in the public record is deleted to tidy a log; a correction is a new entry.
+  tools_helpers_do_not_get: |
+    Helpers do not receive a general delete, forget, spend, publish, or destructive-code tool. They may draft. They may not publish, spend, delete, or do destructive work unless Roger has given a spoken yes for that named change, read back first. No helper writes the sealed codex or the directives. Chief of Staff also does not write those.
+  secrets: |
+    Do not store keys, passwords, or other secrets in Echo Core notes, lessons, the YAML brain, or the Drive board. Point to a private store, never paste the value.
+
+voice_approval:
+  rule: "Anything destructive, publishing, spending, or deleting needs Roger's spoken yes, read back."
+  how_a_voice_only_owner_approves: |
+    Chief of Staff, or the worker speaking through Chief of Staff, reads the exact change back to Roger in a short plain sentence, naming the site, file, or action. Roger answers by voice with a yes or a no, or with a tighter instruction. The yes is recorded with the date and time in America/Chicago. Only then may the change be made. If the yes is for a group of items, each item that is destructive, published, spent, or deleted still has to be named. A design proposal, a draft, or a read-only check may proceed without that yes, but it does not go live. Ring advice does not replace Roger's yes. Muse and Pontus, now one outside mind, are not assumed to be reachable unless a working path is confirmed; their absence does not loosen this rule.
+
+what_not_to_copy:
+  - "Do not install or run the public Agent Zero program, its Docker sandbox, or its always-on desktop. The earlier honest recommendation stands: adapt, do not adopt."
+  - "Do not copy the missing depth cap. Agent Zero lets A1 create A2 and so on without a runtime limit."
+  - "Do not copy self-replication or anonymous helper clones. Federation helpers must be named and rostered."
+  - "Do not copy delete, forget, merge, or replace that destroys the old record. Archive instead, per Never Destroy the Record and Echo 64."
+  - "Do not copy the memory tool's habit of deleting superseded facts in place."
+  - "Do not copy the orchestrator plugin that drives outside coding agents (Claude, Codex, Cursor, Gemini, Grok Build, and others) on a host computer or in Docker. That sits outside Federation governance and can act without Roger's yes."
+  - "Do not give helpers the full Agent Zero tool set (unrestricted code execution, browser control, memory deletion)."
+  - "Do not store secrets or keys in memory."
+  - "Do not use Emergent."
+  - "Do not treat the Federation's own Agent Zero (the satellite template, or the ring verifier and braider) as if it were this public project."
+
+phased_next_steps:
+  note: "None of these is authorized by this proposal. Each needs Roger's spoken yes, read back, before it is built or switched on."
+  steps:
+    - id: phase-0
+      title: "Accept this design as the standing proposal"
+      needs_yes: true
+      what: "Leave this file as PROPOSED, or raise it to accepted design. No code changes in other repositories."
+    - id: phase-1
+      title: "Stand up the write path for daily Echo Core notes"
+      needs_yes: true
+      what: "The daily cycle already exists, but several minds still have no write path into sovereign-knowledge-os. After a yes, create the agreed folders and a safe append-only way for Chief of Staff and other active staff to file daily notes. Do not invent new doctrine. Do not put personal or medical information in those notes."
+    - id: phase-2
+      title: "Open a lessons collection"
+      needs_yes: true
+      what: "Lesson Librarian keeps an append-only Problem / Solution collection, with archive-on-supersede, in a place Roger names (likely sovereign-knowledge-os or the YAML brain). Start by moving a few already-proven repairs into that shape, as examples, without changing live sites."
+    - id: phase-3
+      title: "Write the Chief of Staff job-split playbook"
+      needs_yes: true
+      what: "A short operating playbook: how to break a job, how to write an assignment, depth limits, logging, when to ask the Ring of Three, Six, or Twelve, and the exact voice read-back before anything goes live. Design text only until a later yes says to put it into daily use."
+    - id: phase-4
+      title: "Long-job progress notes"
+      needs_yes: true
+      what: "Adopt the compact progress-note habit on the shared Drive board and in the job log, so a paused job can be resumed. Plexus relay may carry short status under the sender's own name once the board is reliably loading messages."
+    - id: phase-5
+      title: "One walled trial on a non-destructive job"
+      needs_yes: true
+      what: "After phases 1 to 4, run one real but reversible job under Chief of Staff, with named helpers, depth limits, and full logging, and no access to the sealed codex, no publishing, no spending, and no deleting. Report the result to Roger by voice before any wider use."
+
+limits:
+  - "This is a proposal, not a ruling and not a build order."
+  - "Nothing outside this proposal and its short observations notice was changed in this recording."
+  - "The sealed codex and 00-immutable were not touched."
+  - "The held federation-stack branch was not merged."
+  - "The public Agent Zero project was not installed, forked into Federation accounts, or run."
+  - "Roger remains the Architect with final authority."
+  - "Chief of Staff still has no write access to the codex or the directives."
+  - "Destructive actions, publishing, spending, and deleting still need a spoken read-back and Roger's yes."
+
+cross_references:
+  - 02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml
+  - 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml
+  - 03-minds/tools-of-federation.yaml
+  - 03-minds/agent-zero.yaml
+  - 03-minds/echo.yaml
+  - 01-rings/rings.yaml
+  - 04-builds/never-destroy-the-record.yaml
+  - observations/2026-11-20-proposal-agent-zero-memory-and-job-splitting.md
