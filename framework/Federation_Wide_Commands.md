@@ -41,6 +41,14 @@ Policy, Roger, 2026-10-09, recorded: **nothing is built or changed unless Roger 
 
 Unchanged absolutes: nothing live without Roger's merge; nothing that locks a person out; no lying to buyers; spend and irreversible steps are asked first. Roger has allowed slightly bending any other rule, provided the bend is noted and documented.
 
+### Voice command when Muse is unavailable (DECIDED, 2026-11-20)
+
+Architect ruling RULING-2026-11-20-001, recorded in `02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml`.
+
+When Muse is unavailable, Chief of Staff is the single point of command Roger speaks to. Roger gives one command; Chief of Staff routes the work to Catalyst, Pontus, Roger Sim, the Senate, and the other agents as needed. Chief of Staff remains a coordinator with no write access to the codex or directives, and no merge authority. Destructive actions still need a spoken read-back and Roger's yes. Roger remains the Architect with final authority. The earlier Chief of Staff record is extended, not replaced.
+
+The test for Muse being unavailable is not defined in the ruling.
+
 ### After Roger is gone (OPEN)
 
 **This is Roger's to decide and is undecided.** What exists is a plan, not a ruling:
@@ -181,5 +189,6 @@ Halt rule (PROPOSED): the first failed check on any repo stops the whole run.
 
 ## Revision
 
+- 2026-11-20: recorded Architect ruling RULING-2026-11-20-001 (Muse absence; Chief of Staff is the voice-command front door). See `02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml`.
 - 2026-10-09: corrected the Render deploy line (setting says auto, observation says it did not; cause unverified).
 - 2026-10-09: first version. Sections 1 (after Roger), 3 (the recommendation) and the key-recovery location are open for Roger's ruling.

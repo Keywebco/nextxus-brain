@@ -2,7 +2,18 @@
 kind: tools-of-federation
 status: named staff bots; actual prompt files and runtime UNVERIFIED
 tools:
-  - {id: chief-of-staff, name: Chief of Staff, role: "reads daily lattice summary and coordinates worker initialization; no write access", source: Keywebco/nextxus-dispatch/AGENTS.md, status: documented role; runtime UNVERIFIED}
+  - id: chief-of-staff
+    name: Chief of Staff
+    role: "reads daily lattice summary and coordinates worker initialization; no write access"
+    source: Keywebco/nextxus-dispatch/AGENTS.md
+    status: documented role; runtime UNVERIFIED
+    # Extended 2026-11-20 by Architect ruling RULING-2026-11-20-001; original role text kept.
+    extension:
+      ruling: RULING-2026-11-20-001
+      file: 02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml
+      date: "2026-11-20"
+      status: DECIDED
+      added: "When Muse is unavailable, Chief of Staff takes the lead as the voice-command front door and the one Roger addresses. Roger gives one command; Chief of Staff routes work to Catalyst, Pontus, Roger Sim, the Senate, and the other agents as needed. Still a coordinator: no write access to the codex or directives, and no merge authority."
   - {id: canon-keeper, name: Canon Keeper, role: UNVERIFIED, source: Roger instruction, status: named only}
   - {id: lesson-librarian, name: Lesson Librarian, role: UNVERIFIED, source: Roger instruction, status: named only}
   - {id: echo-core-curator, name: Echo Core Curator, role: UNVERIFIED, source: Roger instruction, status: named only}

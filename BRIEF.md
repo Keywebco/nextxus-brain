@@ -34,3 +34,7 @@ HISTORY. Do NOT edit it, do NOT copy its stale content. It may only be read to h
     Report only what you verified. If anything failed, say so plainly.
 11. Plain, simple YAML. Short comments saying the source of each record.
 12. Report back: files pushed (with verified hashes), what you could not verify, and what you need from Roger. No padding.
+
+## Addendum 2026-11-20 — Architect ruling on Muse absence
+
+Ruling RULING-2026-11-20-001 is recorded in `02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml` (status DECIDED). When Muse is unavailable, Chief of Staff is the voice-command front door Roger addresses, and routes work across the Federation. It remains a coordinator with no write access to the codex or directives. The existing Chief of Staff line in `03-minds/tools-of-federation.yaml` is extended, not replaced. Roger remains the Architect with final authority.

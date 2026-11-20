@@ -1,0 +1,64 @@
+# Architect ruling, recorded in the YAML brain at Roger's direction.
+# Source: Roger Keyserling, by voice, 2026-11-20, 5:34 PM CT (America/Chicago).
+# Recorded by Nextxus Nova Aide. The existing Chief of Staff record in
+# 03-minds/tools-of-federation.yaml is extended, not replaced.
+
+id: RULING-2026-11-20-001
+title: "Muse absence: Chief of Staff is the voice-command front door"
+date: "2026-11-20"
+time: "17:34"
+timezone: America/Chicago
+status: DECIDED
+who: Roger Keyserling
+how: "Roger Keyserling, by voice; recorded by Nextxus Nova Aide"
+scope: "Federation-wide voice command and coordination when Muse is unavailable"
+
+ruling: |
+  When Muse is unavailable, Chief of Staff takes the lead and becomes the single point of command Roger speaks to. Roger gives one command and Chief of Staff executes it across the Federation — routing work to Catalyst, Pontus, Roger Sim, the Senate, and the other agents as needed. Chief of Staff remains a coordinator with no write access to the codex or directives, but it is the voice-command front door and the one Roger addresses.
+
+context:
+  - Roger works by voice only and cannot use a screen (stated by Roger, 2026-11-20).
+
+limits:
+  - Chief of Staff has no write access to the codex or the directives.
+  - "The earlier Chief of Staff record is extended, not replaced: reads daily lattice summary and coordinates worker initialization; no write access (03-minds/tools-of-federation.yaml, source Keywebco/nextxus-dispatch/AGENTS.md)."
+  - Roger remains the Architect with final authority.
+  - This ruling does not grant Chief of Staff merge authority, write access to 00-immutable, or the power to change directives.
+  - The test for Muse being unavailable is not defined here. That remains Roger's to state.
+
+routing:
+  - Catalyst
+  - Pontus
+  - Roger Sim
+  - the Senate
+  - other agents as needed
+
+safety_gate: "Before any delete, overwrite, spending, or publishing, the action is read back and waits for Roger's spoken yes. No other bot may say yes for him."
+
+unchanged_absolutes:
+  - Roger remains the Architect with final authority.
+  - "The principle Roger invoked as Directive 031, Command Authority: the human must not be bypassed for consequential decisions. This still stands."
+  - "The principle Roger invoked as Directive 032, Singular Filter: the Catalyst reconciles agent outputs before they reach the Architect. This still stands."
+
+numbering_conflict:
+  status: "UNRESOLVED; not decided by this ruling"
+  note: >
+    In the later Sacred Directives list (for example nextxus-lasting-edition
+    data/directives.md), DIR-031 is Command Authority and DIR-032 is
+    Singular Filter Protocol. In the sealed Cathedral v1.1 file
+    00-immutable/directives.yaml, DIR-031 is Transformative Failure and
+    DIR-032 is Integrate the Shadow. This ruling affirms the principles
+    Roger named. It does not renumber the Cathedral.
+
+muse_identity_unresolved:
+  status: "UNRESOLVED; not decided by this ruling"
+  notes:
+    - "03-minds/pontus-muse.yaml and Keywebco/nextxus-dispatch/AGENTS.md label Muse as Meta AI and Pontus as ChatGPT; a later Roger task groups Pontus/Muse as one Meta AI friend."
+    - "framework/Federation_Wide_Commands.md treats MUSE (Pontus) as one command-page slot, built and switched off."
+    - "This ruling uses Muse as Roger said it. It does not decide whether Muse and Pontus are one mind or two."
+
+cross_references:
+  - 03-minds/tools-of-federation.yaml
+  - framework/Federation_Wide_Commands.md
+  - BRIEF.md
+  - observations/2026-11-20-ruling-muse-absence-chief-of-staff.md
