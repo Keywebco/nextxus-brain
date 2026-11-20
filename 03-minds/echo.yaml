@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 # Source: Keywebco/nextxus-staging/echo/dispatch_endpoint.py; Keywebco/sovereign-knowledge-os/knowledge/echo-core.md
 id: echo
 name: Echo
@@ -10,7 +11,7 @@ personality:
 system_prompt_source: Keywebco/nextxus-staging/echo/dispatch_endpoint.py ECHO_SYSTEM_PROMPT
 internal_ring: null
 memory_pointer: Keywebco/sovereign-knowledge-os/knowledge/echo-core.md public anchor; personal persistent store UNVERIFIED
-runs_on: Emergent staging FastAPI source; runtime UNVERIFIED
+runs_on: "Historical origin was Emergent staging FastAPI (legacy; Emergent is not part of the Federation stack as of 2026-11-20). Current runtime UNVERIFIED."
 target_stack: TO DECIDE
 site_or_url: {url: "https://keywebco.github.io/nextxus-staging/echo/", http_code: 200, checked: "2026-10-05"}
 status: static Echo page HTTP 200; dispatch and continuity UNVERIFIED
