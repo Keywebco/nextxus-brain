@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. Historical Emergent mentions below are legacy wording.
 # Federation Bot Builder: architecture. SPEC ONLY, nothing here is deployed. Drafted 2026-10-05 by the Catalyst.
 # Free-tier limits were read on 2026-10-05 from the provider pages named in each "source". They change; re-check before build.
 # Placeholders <pages-host> and <relay> stay placeholders until SPEC.md decisions 1 and 2.

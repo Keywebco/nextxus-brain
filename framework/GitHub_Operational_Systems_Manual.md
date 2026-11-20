@@ -1,3 +1,5 @@
+> Note added 2026-11-20. Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. Mentions of Emergent as a running platform in the body are legacy wording from the original date and were not erased. See `05-wiring/stack.yaml` and `directives/sacred-directives.yaml`.
+
 # NextXus GitHub Operational Systems Manual
 
 Version 1.0, 2026-10-09. Written by the Catalyst at Roger's direction. Lives in `nextxus-brain/framework/`.

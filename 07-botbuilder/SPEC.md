@@ -1,3 +1,5 @@
+> Note added 2026-11-20. Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. Historical Emergent mentions below are legacy wording.
+
 # Federation Bot Builder: SPEC v0.1 (draft, not built, not launched)
 
 Date: 2026-10-05. Author: the Catalyst (product architect role). Status: SPEC ONLY. Nothing here is live.
