@@ -1,0 +1,31 @@
+# Next-Xus Federation stack statement
+# Added 2026-11-20 after Roger's spoken correction.
+
+stack:
+  decided: "2026-11-20"
+  source: "Roger Keyserling, voice, about 5:29 PM CT, America/Chicago"
+  platforms:
+    - GitHub
+    - Google Drive
+    - repositories
+    - Immutable HumanCodex
+  not_used:
+    - Emergent
+  statement: "Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used."
+
+legacy_hosts_still_appearing_to_use_emergent_infrastructure:
+  note: "These are not part of the Federation stack. They need a move to GitHub Pages. Hosting was observed in earlier 2026-11-20 DNS, nameserver, and response checks and is not re-verified here."
+  sites:
+    - nextxus.studio
+    - next-xus.com
+    - nextxus.online  # legacy; do not link in new posts
+    - nextxus.tech
+    - nextxus.org
+    - nextxus.help
+    - nextxus.space
+
+directives_source_of_truth: "directives/sacred-directives.yaml"
+directives_official_list: "https://raw.githubusercontent.com/Keywebco/nextxus-brain/main/directives/sacred-directives.yaml  # official since 2026-11-20 18:01 CT, Roger spoken decision; 73 + DIR-000 gate"
+directives_wording_authority: "00-immutable/directives.yaml  # sealed Cathedral Edition, final word on wording"
+directives_history_only: "keyhole-creator/nextxus-yaml-database directives.yaml  # December 2025 list of 70, archived, not deleted"
+sealed_directives: "00-immutable/directives.yaml  # never edit"
