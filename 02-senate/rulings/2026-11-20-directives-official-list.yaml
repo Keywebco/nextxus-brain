@@ -1,0 +1,41 @@
+# Architect ruling, recorded in the YAML brain at Roger's direction.
+# Source: Roger Keyserling, by voice, 2026-11-20, 6:01 PM CT (America/Chicago).
+# Recorded by Nextxus Nova Aide. Nothing in 00-immutable was changed.
+# Nothing was deleted. The old list of 70 is kept as history.
+
+id: RULING-2026-11-20-003
+title: "The YAML brain copy is the official list of the Sacred Directives"
+date: "2026-11-20"
+time: "18:01"
+timezone: America/Chicago
+status: DECIDED
+who: Roger Keyserling
+how: "Roger Keyserling, by voice; recorded by Nextxus Nova Aide"
+scope: "Which copy of the Sacred Directives is the official Federation list"
+
+ruling: |
+  The YAML brain copy of the directives is the official list. The sealed Cathedral file is the final word on wording. The old YAML database is history, archived and not deleted, so there are not two official lists.
+
+effect:
+  - "Official list: Keywebco/nextxus-brain directives/sacred-directives.yaml (Markdown twin directives/sacred-directives.md). 73 Sacred Directives plus DIR-000, the 95% Truth Gate, which is not counted. 74 items in all."
+  - "Raw link for sites and agents: https://raw.githubusercontent.com/Keywebco/nextxus-brain/main/directives/sacred-directives.yaml"
+  - "Wording authority: 00-immutable/directives.yaml (sealed Cathedral Edition v1.1). If the official list and the sealed file ever differ, the sealed file wins. The sealed file is never edited."
+  - "History only: keyhole-creator/nextxus-yaml-database directives.yaml (December 2025, 70 items) and its six-item data/directives.json. Marked as history, archived, not deleted. The repository itself is not archived on GitHub, because satellite pages still load files from it."
+  - "History only: Keywebco/nextxus-yaml source/directives.yaml (a copy of the same December 2025 list of 70)."
+  - "The canon filing package prepared after decision log L-007 (3 October 2026) for the old database was never published. Its wording matches this official list; it stays an unpublished record."
+  - "Frees the held go-live items: the single list every mind uses (item 7), pointing next-xus.org/core at it (item 11), and the merge of docs/federation-stack-2026-11-20 into nextxus-brain main."
+
+limits:
+  - This ruling does not change any directive wording.
+  - This ruling does not grant any bot write access to the codex or the directives.
+  - "Legacy Emergent-era lists (nextxus.studio 70, old nextxus.online 84) are not official. Their content is not changed by this ruling."
+  - Roger remains the Architect with final authority.
+
+cross_references:
+  - directives/README.md
+  - directives/sacred-directives.yaml
+  - directives/sacred-directives.md
+  - 00-immutable/directives.yaml
+  - 05-wiring/stack.yaml
+  - README.md
+  - BRIEF.md
