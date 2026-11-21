@@ -6,8 +6,16 @@ nextxus-brain is the NEW combined YAML mind of the NextXus Federation, in the Ke
 https://github.com/Keywebco/nextxus-brain). The old repo keyhole-creator/nextxus-yaml-database (Dec 2025, Replit-era) is
 HISTORY. Do NOT edit it, do NOT copy its stale content. It may only be read to harvest still-true items, each verified.
 
+
+## Federation stack (added 2026-11-20)
+
+Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
+
+Do not list Emergent as a Federation platform or backend. Historical mentions in this brief or in older YAML records are legacy wording. Some live sites still appear to be served from Emergent infrastructure (`nextxus.studio`, `next-xus.com`, legacy `nextxus.online`) and need a move to GitHub Pages. The official directives list (Roger, 2026-11-20) is `directives/sacred-directives.yaml`: the 73 plus the Truth Gate, 74 in all. The sealed `00-immutable/directives.yaml` is the final word on wording. The old YAML database list of 70 is history only. Never edit `00-immutable/`.
+
 ## Layers (folders)
 00-immutable  Cathedral v1.1: DIR-000 gate + DIR-001..073, sealed with SHA-256. DONE by Catalyst. Never edit.
+directives/   Official Federation list of the 73 Sacred Directives plus the Truth Gate (copy of the sealed text; sealed file wins on wording). Added 2026-11-20. Replaces Emergent-hosted lists.
 01-rings      Ring of Six (DIR-072) + Ring of 12 (Greek/zodiac, live in Keywebco/ring-of-12-api). DONE by Catalyst.
 02-senate     Governance = the policies and procedures. Charter, rules, 12-seat roster, rulings.
 03-minds      Each AI/Sim/Nova: personality + pointer to memory. Own internal ring of 3 or 6, NOT the public rings.

@@ -1,3 +1,5 @@
+> Note added 2026-11-20. Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. The Emergent LLM gateway row below is a 2026-10-05 record and is left in place.
+
 # Excluded from automatic zero-cash routing, checked 2026-10-05
 
 An HTTP response from a keyless endpoint proves only reachability, not a free usable account. Entries below are excluded from the active router; some remain in the provider catalog for future review.

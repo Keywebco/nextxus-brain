@@ -1,3 +1,5 @@
+> Note added 2026-11-20. Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. The name `EMERGENT_LLM_KEY` in the list below is a leftover secret name, not a Federation platform.
+
 # 06-apis: AI provider inventory and zero-cash route proposal
 
 Checked 2026-10-05 against provider-owned docs and **one unauthenticated GET per tested API endpoint**, plus a keyless OPTIONS request with Origin `https://nextxus.online` for CORS. Provider links, results and qualifiers are in `llm-providers.yaml`. CORS yes means that specific preflight advertised an allowed origin, **not** that a browser may safely use a secret key. All inference using secret keys must go through a trusted server or GitHub Actions, never frontend JavaScript.

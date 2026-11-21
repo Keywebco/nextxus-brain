@@ -2,6 +2,14 @@
 
 **What this is, in one paragraph.** The NextXus Federation is a free library and a set of AI tools built to show where every answer came from, so a person can check it and not just trust it. This repository is its memory: the sealed rules, the records of what exists, and the robots that watch it. Everything here is public. If you cannot verify a claim in ten minutes without asking us, that is our failing, and we want to hear it: keywebco@gmail.com.
 
+## Federation stack
+
+Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
+
+Catalyst, Pontus, Roger Sim, Chief of Staff, and this YAML mind should treat that as the active stack. Some live sites still appear to be served from Emergent infrastructure (`nextxus.studio`, `next-xus.com`, and legacy `nextxus.online`). Those sites are not part of the stack. They need a move to GitHub Pages. This note does not re-verify that hosting.
+
+The official Federation list of the 73 Sacred Directives plus the Truth Gate (DIR-000, not counted; 74 in all) is [`directives/sacred-directives.yaml`](directives/sacred-directives.yaml), by Roger's spoken decision on 2026-11-20. The sealed Cathedral file in `00-immutable/` is the final word on wording. The old `keyhole-creator/nextxus-yaml-database` list of 70 is history only. It replaces the Emergent-hosted lists. The sealed original in `00-immutable/` was not changed.
+
 **Start here: is it working right now?** Read the latest health report. A robot on GitHub is scheduled to rewrite it every four hours (it started on 2026-10-09, so the history is short) and opens an issue if something is wrong:
 
 - Health report: [`LATTICE/reports/health.md`](LATTICE/reports/health.md)
@@ -31,6 +39,7 @@ Nothing is merged to a live site without Roger's word, and that is the current r
 | Folder | What it holds |
 |---|---|
 | `00-immutable` | The sealed directives (DIR-000 and DIR-001 to DIR-073), never edited |
+| `directives/` | Official Federation list: the 73 Sacred Directives plus the Truth Gate (copy of the sealed text, for sites and agents; the sealed file wins on wording) |
 | `01-rings` | The rings of perspective |
 | `02-senate` | Governance: policies and procedures |
 | `03-minds` | The minds |
@@ -43,7 +52,7 @@ Nothing is merged to a live site without Roger's word, and that is the current r
 ## Honest limits
 
 - A passing check proves only what it checks. The health report confirms pages answer and hold certain phrases. It cannot tell whether a page looks right.
-- Much of the day-to-day work still runs on a paid account (Emergent) that may lapse. The GitHub robots do not depend on it, but some scheduled jobs and most keys do. The manual lists what, and says which parts are not yet built.
+- Some live sites still appear to be served from Emergent infrastructure and need a move to GitHub Pages. Emergent is not part of the Federation stack. The GitHub robots do not depend on it. Leftover keys or code that still name that host are legacy and should be retired, not treated as the platform list.
 - Prices and listings on Gumroad are the truth. The sites follow them.
 
 The old `keyhole-creator/nextxus-yaml-database` repository is history only. This is the live one.
