@@ -37,7 +37,7 @@ STALE = {
   'retired .one': r'nextxus\.one\b',
   'retired .rip': r'nextxus\.rip\b',
 }
-SITES = ['https://nextxus.online/','https://nextxus.tech/','https://nextxus.studio/','https://nextxus.org/',
+SITES = ['https://nextxus.tech/','https://nextxus.studio/','https://nextxus.org/',
          'https://nextxus.space/','https://nextxus.help/','https://next-xus.com/','https://keywebco.github.io/']
 scan = []
 for u in SITES:

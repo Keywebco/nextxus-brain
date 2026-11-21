@@ -384,14 +384,6 @@
   "wait": 15
  },
  {
-  "name": "Legacy hosted site: nextxus.online",
-  "url": "https://nextxus.online/",
-  "kind": "watch only",
-  "timeout": 60,
-  "tries": 2,
-  "wait": 20
- },
- {
   "name": "Legacy hosted site: nextxus.org",
   "url": "https://nextxus.org/",
   "kind": "watch only",
