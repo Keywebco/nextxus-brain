@@ -1,3 +1,5 @@
+> Note added 2026-11-20. Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used. The census body below is a 2026-10-05 record and was not rewritten. Mentions of the Emergent LLM gateway describe leftover wiring, not the current stack. nextxus-sim-api has used MiMo first with a DeepSeek fallback since 2026-11-05.
+
 # GitHub hub and tool wiring, first-pass audit (2026-10-05)
 
 **Scope:** 38 requested repos. GitHub Pages homes: 31 HTTP 200, 7 HTTP 404. One requested repo, `Keywebco/ring-of-six`, was not found via GitHub integration. The other six 404s are existing non-Pages backend/workflow repos, not necessarily dead services. This is **PARTIAL**, not an every-button acceptance test. Buttons and POST routes were read from source, not clicked or executed.

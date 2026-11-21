@@ -384,7 +384,7 @@
   "wait": 15
  },
  {
-  "name": "Emergent domain: nextxus.online",
+  "name": "Legacy hosted site: nextxus.online",
   "url": "https://nextxus.online/",
   "kind": "watch only",
   "timeout": 60,
@@ -392,7 +392,7 @@
   "wait": 20
  },
  {
-  "name": "Emergent domain: nextxus.org",
+  "name": "Legacy hosted site: nextxus.org",
   "url": "https://nextxus.org/",
   "kind": "watch only",
   "timeout": 60,
@@ -400,7 +400,7 @@
   "wait": 20
  },
  {
-  "name": "Emergent domain: nextxus.tech",
+  "name": "Legacy hosted site: nextxus.tech",
   "url": "https://nextxus.tech/",
   "kind": "watch only",
   "timeout": 60,
@@ -408,7 +408,7 @@
   "wait": 20
  },
  {
-  "name": "Emergent domain: nextxus.space",
+  "name": "Legacy hosted site: nextxus.space",
   "url": "https://nextxus.space/",
   "kind": "watch only",
   "timeout": 60,
@@ -416,7 +416,7 @@
   "wait": 20
  },
  {
-  "name": "Emergent domain: nextxus.studio",
+  "name": "Legacy hosted site: nextxus.studio",
   "url": "https://nextxus.studio/",
   "kind": "watch only",
   "timeout": 60,
@@ -424,7 +424,7 @@
   "wait": 20
  },
  {
-  "name": "Emergent domain: nextxus.help",
+  "name": "Legacy hosted site: nextxus.help",
   "url": "https://nextxus.help/",
   "kind": "watch only",
   "timeout": 60,
@@ -432,7 +432,7 @@
   "wait": 20
  },
  {
-  "name": "Emergent domain: next-xus.com",
+  "name": "Legacy hosted site: next-xus.com",
   "url": "https://next-xus.com/",
   "kind": "watch only",
   "timeout": 60,
