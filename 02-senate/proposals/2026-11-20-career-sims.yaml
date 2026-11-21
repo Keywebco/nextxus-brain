@@ -1,0 +1,71 @@
+# Proposal record, written in the YAML brain at Roger's direction.
+# Source: Roger Keyserling, by voice, 2026-11-20, 6:34 PM CT (America/Chicago): spoken yes to build.
+# Recorded by Nextxus Nova Aide. 00-immutable was not touched. Nothing was deleted.
+# No personal or medical information about Roger is included.
+
+id: PROPOSAL-2026-11-20-002
+title: "Career Sims: a free GitHub-hosted system of career-title Sims with downloadable brain files"
+date: "2026-11-20"
+time: "18:34"
+timezone: America/Chicago
+status: APPROVED
+approved_by: Roger Keyserling
+how: "Roger Keyserling, spoken yes by voice at 6:34 PM CT; recorded by Nextxus Nova Aide"
+kind: build_proposal
+implements: true
+source_design: "Sim little-brains review, 2026-11-20 (read-only study of the Studio's Export Agent, the Sim Forge, and the AI Minds Lab identity packets)"
+order: "Build a new free site of career Sims (Teacher, Nurse, Engineer and similar), starting from the AI Minds Lab engine and its identity-packet format. Each Sim gets a download button and a brain file tied to the official 73 Sacred Directives and the Truth Gate. Brains are usable offline, or through Roger Sim after a small change so Roger Sim's own voice does not mix in. Do not copy the Studio's 57 Sims; write each career brain fresh. Free only."
+
+site:
+  live: "https://next-xus.net/career-sims/"
+  source: "Keywebco/keywebco.github.io, folder career-sims/ (GitHub Pages, the next-xus.net user site)"
+  pages:
+    gallery: "https://next-xus.net/career-sims/"
+    chat: "https://next-xus.net/career-sims/sim.html?id=<sim id>"
+    make_your_own: "https://next-xus.net/career-sims/make.html"
+    schema: "https://next-xus.net/career-sims/schema/sim-brain.schema.json"
+    catalog: "https://next-xus.net/career-sims/catalog.json"
+  homepage_link: "next-xus.net homepage, Federation Sites card: one added line"
+  check: ".github/workflows/career-sims-validate.yml validates every brain file on push"
+
+first_sims:
+  - Teacher
+  - Nurse (extra medical safety rules)
+  - Engineer
+  - Farmer
+  - Electrician (extra hands-on safety rules)
+  - Librarian
+  - Counselor (extra mental-health safety rules)
+  - Small Business Owner (extra financial safety rules)
+  - Bookkeeper (extra financial safety rules)
+  - Chef
+  - Paralegal (extra legal safety rules)
+
+canon:
+  rule: "Brains reference DIR-000 (the 95% Truth Gate) and directive IDs only. They never copy or reword directive text. The pages quote the official text from a byte-for-byte copy, after checking its hash."
+  official_list: "Keywebco/nextxus-brain directives/sacred-directives.json"
+  pinned_commit: bbb4f4202305c76cbd5760393d644cd7f32f4d38
+  pinned_sha256: 3d8d9dd54b7c4f981407e6ac9b88785865a8ad51d320c87aced13e4fbdcd37a2
+  wording_authority: "00-immutable/directives.yaml (sealed Cathedral Edition v1.1), read only, never edited"
+
+honesty_and_safety:
+  - "Every Sim says it is a simulation, not a professional and not a real person, and defers to licensed humans."
+  - "Every Sim says it is not Roger Keyserling and not Roger Sim."
+  - "Medical, mental-health, legal, financial, and hands-on safety Sims carry extra safety rules, including emergency and crisis pointers."
+  - "No accounts, no tracking, no payments, no keys in any page. Memory stays in the visitor's browser unless they export it."
+
+roger_sim_change:
+  repo: Keywebco/roger-sim-api
+  route: "/proxy/sim (additive)"
+  effect: "A career brain's persona replaces Roger Sim's prompt on this route, not stacked on top. Default Roger Sim behavior is unchanged. Rate limits and size caps; no new keys."
+  deploy: "Committed to main. Needs a manual Render deploy by a helper. Until then the Career Sims page shows the relay as coming soon and works offline or with the visitor's own AI."
+
+not_done:
+  - "The Studio's 57 Sims were not copied."
+  - "Nothing from Private-Aria was used or published."
+  - "No license was chosen for the brain files; that is Roger's choice."
+
+next_steps_need_roger:
+  - "Review the eleven brains and say which to change, add, or remove."
+  - "Choose a license for the brain files."
+  - "Approve the Render deploy of roger-sim-api when a helper is available."
