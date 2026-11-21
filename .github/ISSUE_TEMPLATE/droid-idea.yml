@@ -1,0 +1,26 @@
+name: Droid idea or evolution
+description: A new idea or evolution for the Federation, from the droid or anyone. Suggestion only.
+title: "Idea: "
+labels: ["droid", "droid-idea"]
+body:
+  - type: markdown
+    attributes:
+      value: Ideas are suggestions. Roger or the Senate chooses; nothing is built without a yes. Free tools only.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea in plain words
+    validations: {required: true}
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps, and which directive or need it serves
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: House rules
+      options:
+        - label: Free tools and hosting only, no tracking
+          required: true
+        - label: Deletes nothing (Echo 64) and leaves 00-immutable and the sealed Cathedral file alone
+          required: true

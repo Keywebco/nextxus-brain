@@ -1,0 +1,27 @@
+name: Droid finding
+description: Something the Maintenance Droid (or a person) found that needs fixing. A finding, not a change.
+title: "Droid finding: "
+labels: ["droid", "droid-finding"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Findings never change anything by themselves. Fixes come as a draft pull request for Roger or the Senate.
+        Never paste a password, key or token here. Never link the legacy Emergent hosts.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Dead link, Legacy Emergent link, Quality or lint, Health or timer, Maintenance, Guardrail (Echo 64, 00-immutable, secrets)]
+    validations: {required: true}
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: Site page, or repo and file and line.
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and the suggested fix
+    validations: {required: true}
