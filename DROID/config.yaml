@@ -1,0 +1,95 @@
+# Next-Xus Maintenance Droid v0 configuration.
+# Edit by pull request only. The droid reads this file; it never edits it.
+
+owner: Keywebco
+brain_repo: nextxus-brain
+
+# Live sites. kind: site (Federation, GitHub Pages) or watch_only (legacy, never edited, still scanned).
+sites:
+  - {name: "next-xus.net (homepage)", url: "https://next-xus.net/", kind: site, max_pages: 60}
+  - {name: "next-xus.org", url: "https://next-xus.org/", kind: site, max_pages: 40}
+  - {name: "next-xus.info", url: "https://next-xus.info/", kind: site, max_pages: 30}
+  - {name: "next-xus.biz", url: "https://next-xus.biz/", kind: site, max_pages: 40}
+  - {name: "next-xus.com (still served by Emergent)", url: "https://next-xus.com/", kind: watch_only, max_pages: 5}
+
+# Repositories whose text files are scanned for links.
+# all_public_repos: true means every public, non-archived repo owned by `owner`, minus `exclude_repos`.
+repos:
+  all_public_repos: true
+  # nextxus-archives holds old imports kept as history (Echo 64); their dead links are records, not breakage.
+  exclude_repos: ["nextxus-archives"]
+  file_types: [".html", ".htm", ".md", ".yaml", ".yml", ".json", ".js", ".txt", ".xml"]
+  max_file_bytes: 400000
+
+link_check:
+  timeout_seconds: 20
+  tries: 2
+  workers: 12
+  # Big sites often refuse robots. A refusal from these hosts is "could not verify", not "dead".
+  soft_hosts: ["x.com", "twitter.com", "linkedin.com", "www.linkedin.com", "facebook.com", "www.facebook.com",
+               "instagram.com", "www.instagram.com", "tiktok.com", "www.tiktok.com", "medium.com",
+               "open.spotify.com", "podcasts.apple.com", "www.youtube.com", "youtube.com", "youtu.be",
+               "gumroad.com", "www.reddit.com", "reddit.com", "notebooklm.google.com", "drive.google.com",
+               "docs.google.com", "patreon.com", "www.patreon.com", "cdn.jsdelivr.net", "fonts.googleapis.com", "fonts.gstatic.com"]
+  # Example hosts, placeholders and template links that are never real targets.
+  ignore_hosts: ["localhost", "127.0.0.1", "0.0.0.0", "example.com", "www.example.com", "your-domain.com", "api.example.com"]
+
+# Legacy Emergent hosts. Never link them. Every hit is flagged for replacement.
+# replacement is a suggestion; the droid only drafts a replacement PR when confirmed is true.
+legacy_hosts:
+  nextxus.online: {replacement: "https://next-xus.net/", confirmed: false}
+  nextxus.org:    {replacement: "https://next-xus.org/", confirmed: false}
+  nextxus.tech:   {replacement: "https://next-xus.net/", confirmed: false}
+  nextxus.space:  {replacement: "https://next-xus.net/", confirmed: false}
+  nextxus.studio: {replacement: "https://next-xus.net/", confirmed: false}
+  nextxus.help:   {replacement: "https://next-xus.net/", confirmed: false}
+
+# Emergent infrastructure. The Federation does not use Emergent; any page still loading from these is flagged.
+emergent_hosts: ["emergent.sh", "emergentagent.com", "emergent.app", "emergent.host"]
+
+# Program servers. A GET that answers 404 on these is an API route that may only take POST; the droid never sends a POST.
+api_host_suffixes: [".onrender.com"]
+
+current_domains: ["next-xus.net", "next-xus.org", "next-xus.info", "next-xus.com", "next-xus.biz"]
+emergent_still_serving: ["next-xus.com"]
+
+# Paths the droid must never write to, archive over, or propose changes in.
+protected_paths:
+  - "00-immutable/"            # sealed Cathedral Edition, SEAL.yaml
+  - "framework/DIRECTIVES/"    # mirror of the sealed canon; Nova-Canon requires it byte-identical
+  - ".github/workflows/"       # workflows change by human merge only
+  - "DROID/config.yaml"        # the droid never edits its own rules
+
+# History folders: legacy-host mentions there are records, reported but never proposed for change.
+history_paths: ["observations/", "LATTICE/records/", "LATTICE/reports/", "status/", "ARCHIVE/", "02-senate/rulings/", "05-wiring/sites/", "DROID/"]
+
+# Files allowed to name legacy hosts because they only WATCH them (read-only monitoring).
+legacy_watch_files: [".github/scripts/health_targets.json", ".github/scripts/health_check.py", "nova-canon/canon_check.py", "DROID/config.yaml", "directives/README.md"]
+
+# Existing machinery the droid reads instead of duplicating.
+existing_reports:
+  health:  {path: "LATTICE/reports/health.md",  max_age_hours: 6,  made_by: "Federation health check (every 4 hours)"}
+  seal:    {path: "LATTICE/reports/latest.md",  max_age_hours: 26, made_by: "Nova-Canon daily seal check"}
+  uptime:  {path: "status/uptime-latest.md",    max_age_hours: 6,  made_by: "Federation uptime timer"}
+
+directives:
+  official: "directives/sacred-directives.yaml"    # the official list
+  sealed:   "00-immutable/directives.yaml"         # the wording authority (Cathedral Edition)
+  counted: 73
+  gate: "DIR-000"
+
+yearly:
+  stale_days: 365
+  scan_folders: ["01-rings", "02-senate", "03-minds", "04-builds", "05-wiring", "06-apis", "07-botbuilder", "framework"]
+  github_search_per_item: 3
+  max_items_searched: 25
+
+maintenance:
+  stale_issue_days: 30
+  quiet_repo_days: 180
+  auto_propose: true
+  # Folders whose README is meant to list every file (none yet; observations/ and proposals/ are free-form).
+  index_folders: []
+  # Byte-identical pairs that are meant to be identical (Nova-Canon checks this one daily).
+  intentional_mirrors:
+    - ["00-immutable/directives.yaml", "framework/DIRECTIVES/directives.yaml"]    # drafts PRs for safe mechanical fixes (always draft, never merged by the droid)
