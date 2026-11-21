@@ -32,6 +32,7 @@ directives/   Official Federation list of the 73 Sacred Directives plus the Trut
    Record only a pointer (repo name + purpose). Strip personal/medical info about Roger (e.g. never "Roger is going blind").
 6. Retired domains: nextxus.one and nextxus.rip are RECYCLED (omit). nextxus.digital is a spare, unassigned domain.
    Identity root is did:web:nextxus.online. Dead email keyhole@nextxus.net is never used; contact is keywebco@gmail.com.
+   keywebco.net (including www.keywebco.net and all subpaths) is RETIRED (omit, never link): keywebco.net retired from Federation 2026-11-20 by Roger: domain showing unrelated gambling content; not a Federation address.
 7. Old numbers/names are wrong: never write "70 directives", "84", Replit URLs (*.replit.app), or the Dec-2025 Ring of 12
    (Adam, Eve, Prometheus, Sophia...). Directives are exactly DIR-000 gate + 73.
 8. Role matters more than name (Roger). Keep roles as the key; names are labels.
