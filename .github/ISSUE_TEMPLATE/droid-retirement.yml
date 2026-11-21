@@ -1,0 +1,26 @@
+name: Retire or upgrade an item (yearly cross-reference)
+description: Propose retiring a stale brain item (archived, never deleted) or upgrading it with new information.
+title: "Retire or upgrade: "
+labels: ["droid", "droid-yearly"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Retiring means: the original stays, a copy goes to ARCHIVE/retired/<year>/, and a human marks it retired after Roger or the Senate says yes.
+        Directives are never retired here. The official list is directives/sacred-directives.yaml and the sealed Cathedral file is the wording authority.
+  - type: input
+    id: item
+    attributes:
+      label: Item (path in the brain)
+    validations: {required: true}
+  - type: dropdown
+    id: action
+    attributes:
+      label: Proposed action
+      options: [Retire (archive copy, keep original), Upgrade (combine old and new), Keep as is]
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence (dead links, archived repos, newer sources)
+    validations: {required: true}

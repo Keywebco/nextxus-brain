@@ -1,0 +1,116 @@
+name: Maintenance Droid
+
+# Next-Xus Maintenance Droid v0. Free: GitHub's own workers, Python, no paid service, built-in GITHUB_TOKEN only.
+# Scheduled runs only happen once this file is on the default branch (main), which needs Roger's yes to merge.
+# It files issues and opens DRAFT pull requests. It never merges, never deletes, never touches 00-immutable.
+# Install and change this file by human merge only. Design: DROID/README.md.
+
+on:
+  schedule:
+    - cron: '37 12 * * *'    # daily 6:37 AM Central: health sweep, quality check, maintenance sweep
+    - cron: '7 13 * * 1'     # Mondays 7:07 AM Central: dead-link check across all sites and repos
+    - cron: '27 14 1 * *'    # 1st of each month 8:27 AM Central: ideas and evolutions
+    - cron: '47 15 15 1 *'   # every January 15, 9:47 AM Central: yearly cross-reference
+  workflow_dispatch:
+    inputs:
+      module:
+        description: 'Which part to run'
+        required: true
+        default: daily
+        type: choice
+        options: [daily, links, ideas, yearly, all]
+      dry_run:
+        description: 'Dry run: report only, file nothing'
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write        # only to push droid/* proposal branches; never main
+  issues: write
+  pull-requests: write
+  actions: read
+  pages: read
+
+concurrency:
+  group: maintenance-droid
+  cancel-in-progress: false
+
+jobs:
+  droid:
+    # Off switch: set the repository variable DROID_PAUSED to true and scheduled runs stop.
+    if: vars.DROID_PAUSED != 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DROID_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # the yearly cross-reference reads file history
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r DROID/requirements.txt
+
+      - name: Pick the module
+        id: pick
+        env:
+          SCHED: ${{ github.event.schedule }}
+          MODULE: ${{ inputs.module }}
+        run: |
+          case "$SCHED" in
+            '37 12 * * *') M=daily ;;
+            '7 13 * * 1')  M=links ;;
+            '27 14 1 * *') M=ideas ;;
+            '47 15 15 1 *') M=yearly ;;
+            *) M="${MODULE:-daily}" ;;
+          esac
+          echo "module=$M" >> "$GITHUB_OUTPUT"
+          echo "Running module: $M (dry run: $DROID_DRY_RUN)" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Health sweep (reads the existing health, seal and uptime reports)
+        if: steps.pick.outputs.module == 'daily' || steps.pick.outputs.module == 'all'
+        run: python3 DROID/droid/health_sweep.py
+        continue-on-error: true
+
+      - name: Quality check
+        if: steps.pick.outputs.module == 'daily' || steps.pick.outputs.module == 'all'
+        run: python3 DROID/droid/quality_check.py
+        continue-on-error: true
+
+      - name: Maintenance sweep
+        if: steps.pick.outputs.module == 'daily' || steps.pick.outputs.module == 'all'
+        run: python3 DROID/droid/maintenance_sweep.py
+        continue-on-error: true
+
+      - name: Dead-link check
+        if: steps.pick.outputs.module == 'links' || steps.pick.outputs.module == 'all'
+        run: python3 DROID/droid/link_check.py
+        continue-on-error: true
+
+      - name: Ideas and evolutions
+        if: steps.pick.outputs.module == 'ideas' || steps.pick.outputs.module == 'all'
+        run: |
+          python3 DROID/droid/link_check.py --sites-only --no-issue || true
+          python3 DROID/droid/health_sweep.py --no-issue || true
+          python3 DROID/droid/quality_check.py --no-issue || true
+          python3 DROID/droid/evolve.py
+        continue-on-error: true
+
+      - name: Yearly cross-reference
+        if: steps.pick.outputs.module == 'yearly' || steps.pick.outputs.module == 'all'
+        run: python3 DROID/droid/yearly_crossref.py
+        continue-on-error: true
+
+      - name: Keep the run's reports (not committed)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: droid-reports-${{ steps.pick.outputs.module }}-${{ github.run_id }}
+          path: DROID/out/
+          retention-days: 30
+          if-no-files-found: ignore

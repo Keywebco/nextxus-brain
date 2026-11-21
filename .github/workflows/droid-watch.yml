@@ -1,0 +1,54 @@
+name: Droid Sentinel (always watching)
+
+# The always-watching part of the Next-Xus Maintenance Droid, inside our own system.
+# Reads every push to main and every pull request, and checks only what changed against the guardrails:
+# 00-immutable and the sealed Cathedral file untouched, nothing deleted (Echo 64), no legacy Emergent links,
+# no secrets, YAML and JSON still parse, official directives still match the sealed wording.
+# It comments or files an issue. It never reverts, edits or merges. Install and change by human merge only.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: droid-watch-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  watch:
+    # Skip the bots' own report commits so the Sentinel does not wake for every health report.
+    # Off switch: set the repository variable DROID_PAUSED to true. The draft PR that installs the droid is skipped.
+    if: >-
+      vars.DROID_PAUSED != 'true' && github.head_ref != 'droid-draft' && (
+      github.event_name == 'pull_request' ||
+      (github.actor != 'github-actions[bot]' && !startsWith(github.event.head_commit.message, 'Health report') &&
+       !startsWith(github.event.head_commit.message, 'Uptime status') && !startsWith(github.event.head_commit.message, 'Nova-Canon report')))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DROID_DRY_RUN: '0'
+      DROID_BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+      DROID_HEAD: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+      DROID_PR: ${{ github.event.pull_request.number }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r DROID/requirements.txt
+      - name: Watch what changed
+        run: |
+          if [ -z "$DROID_BASE" ] || [ "$DROID_BASE" = "0000000000000000000000000000000000000000" ]; then DROID_BASE="$(git rev-parse HEAD~1)"; fi
+          export DROID_BASE
+          python3 DROID/droid/watch.py
