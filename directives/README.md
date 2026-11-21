@@ -14,6 +14,7 @@ This folder is the published source of truth for the 73 Sacred Directives of the
 
 - `sacred-directives.yaml` — number, title, and text for DIR-000 (the gate) and DIR-001 through DIR-073.
 - `sacred-directives.md` — the same list in readable form.
+- `sacred-directives.json` — the same list as JSON for web pages and agents (generated from the YAML, text identical). Raw: `https://raw.githubusercontent.com/Keywebco/nextxus-brain/main/directives/sacred-directives.json`
 
 ## What this replaces
 
