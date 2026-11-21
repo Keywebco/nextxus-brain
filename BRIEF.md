@@ -11,7 +11,7 @@ HISTORY. Do NOT edit it, do NOT copy its stale content. It may only be read to h
 
 Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 
-Do not list Emergent as a Federation platform or backend. Historical mentions in this brief or in older YAML records are legacy wording. Some live sites still appear to be served from Emergent infrastructure (`nextxus.studio`, `next-xus.com`, legacy `nextxus.online`) and need a move to GitHub Pages. The official directives list (Roger, 2026-11-20) is `directives/sacred-directives.yaml`: the 73 plus the Truth Gate, 74 in all. The sealed `00-immutable/directives.yaml` is the final word on wording. The old YAML database list of 70 is history only. Never edit `00-immutable/`.
+Do not list Emergent as a Federation platform or backend. Historical mentions in this brief or in older YAML records are legacy wording. Some live sites still appear to be served from Emergent infrastructure (`nextxus.studio`, `next-xus.com`) and need a move to GitHub Pages. `nextxus.online` is retired (see hard rule 6). The official directives list (Roger, 2026-11-20) is `directives/sacred-directives.yaml`: the 73 plus the Truth Gate, 74 in all. The sealed `00-immutable/directives.yaml` is the final word on wording. The old YAML database list of 70 is history only. Never edit `00-immutable/`.
 
 ## Layers (folders)
 00-immutable  Cathedral v1.1: DIR-000 gate + DIR-001..073, sealed with SHA-256. DONE by Catalyst. Never edit.
@@ -32,6 +32,7 @@ directives/   Official Federation list of the 73 Sacred Directives plus the Trut
    Record only a pointer (repo name + purpose). Strip personal/medical info about Roger (e.g. never "Roger is going blind").
 6. Retired domains: nextxus.one and nextxus.rip are RECYCLED (omit). nextxus.digital is a spare, unassigned domain.
    Identity root is did:web:nextxus.online. Dead email keyhole@nextxus.net is never used; contact is keywebco@gmail.com.
+   nextxus.online (including www.nextxus.online and all subpaths) is RETIRED (omit, never link in new work): Retired 2026-11-20 by Roger Keyserling: legacy Emergent site, content folded into next-xus.net, next-xus.biz and the GitHub copies. Current homes: https://next-xus.net/ (hub), https://next-xus.org/core/ (the Core and Truth Gate), https://next-xus.biz/. The hyphenated next-xus.online is not registered. Open question for Roger: the identity root did:web:nextxus.online sits on the retired domain and needs a new root before the domain lapses.
    keywebco.net (including www.keywebco.net and all subpaths) is RETIRED (omit, never link): keywebco.net retired from Federation 2026-11-20 by Roger: domain showing unrelated gambling content; not a Federation address.
 7. Old numbers/names are wrong: never write "70 directives", "84", Replit URLs (*.replit.app), or the Dec-2025 Ring of 12
    (Adam, Eve, Prometheus, Sophia...). Directives are exactly DIR-000 gate + 73.

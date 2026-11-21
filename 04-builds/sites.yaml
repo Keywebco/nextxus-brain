@@ -1,5 +1,5 @@
 # Source: live domain roster; curl checked 2026-10-05.
-- {id: site-nextxus-online, type: site, title: NextXus Core, url: 'https://nextxus.online', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
+- {id: site-nextxus-online, type: site, title: NextXus Core, url: 'https://nextxus.online', topic: federation, status: retired, retired: '2026-11-20', note: 'Retired 2026-11-20 by Roger Keyserling: legacy Emergent site, content folded into next-xus.net, next-xus.biz and the GitHub copies.', verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
 - {id: site-nextxus-tech, type: site, title: NextXus Command Throne, url: 'https://nextxus.tech', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
 - {id: site-nextxus-studio, type: site, title: NextXus Studio, url: 'https://nextxus.studio', topic: federation, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}
 - {id: site-nextxus-org, type: site, title: NextXus Library, url: 'https://nextxus.org', topic: library, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'live domain roster'}

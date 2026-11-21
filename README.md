@@ -6,7 +6,7 @@
 
 Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 
-Catalyst, Pontus, Roger Sim, Chief of Staff, and this YAML mind should treat that as the active stack. Some live sites still appear to be served from Emergent infrastructure (`nextxus.studio`, `next-xus.com`, and legacy `nextxus.online`). Those sites are not part of the stack. They need a move to GitHub Pages. This note does not re-verify that hosting.
+Catalyst, Pontus, Roger Sim, Chief of Staff, and this YAML mind should treat that as the active stack. Some live sites still appear to be served from Emergent infrastructure (`nextxus.studio`, `next-xus.com`, and `nextxus.online`, retired 2026-11-20). Those sites are not part of the stack. They need a move to GitHub Pages. This note does not re-verify that hosting.
 
 The official Federation list of the 73 Sacred Directives plus the Truth Gate (DIR-000, not counted; 74 in all) is [`directives/sacred-directives.yaml`](directives/sacred-directives.yaml), by Roger's spoken decision on 2026-11-20. The sealed Cathedral file in `00-immutable/` is the final word on wording. The old `keyhole-creator/nextxus-yaml-database` list of 70 is history only. It replaces the Emergent-hosted lists. The sealed original in `00-immutable/` was not changed.
 

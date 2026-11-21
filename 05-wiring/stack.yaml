@@ -18,11 +18,19 @@ legacy_hosts_still_appearing_to_use_emergent_infrastructure:
   sites:
     - nextxus.studio
     - next-xus.com
-    - nextxus.online  # legacy; do not link in new posts
     - nextxus.tech
     - nextxus.org
     - nextxus.help
     - nextxus.space
+
+retired_domains:
+  - domain: nextxus.online
+    also_checked: next-xus.online  # not registered (RDAP 404, DNS NXDOMAIN on 2026-11-20)
+    status: retired
+    retired: "2026-11-20"
+    note: "Retired 2026-11-20 by Roger Keyserling: legacy Emergent site, content folded into next-xus.net, next-xus.biz and the GitHub copies."
+    current_homes: ["https://next-xus.net/", "https://next-xus.org/core/", "https://next-xus.biz/"]
+    archived_copy: "https://github.com/Keywebco/nextxus-online-sovereign"
 
 directives_source_of_truth: "directives/sacred-directives.yaml"
 directives_official_list: "https://raw.githubusercontent.com/Keywebco/nextxus-brain/main/directives/sacred-directives.yaml  # official since 2026-11-20 18:01 CT, Roger spoken decision; 73 + DIR-000 gate"
