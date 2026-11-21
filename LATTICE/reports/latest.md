@@ -1,4 +1,4 @@
-# Nova-Canon report (2026-11-20 19:05 UTC)
+# Nova-Canon report (2026-11-21 17:57 UTC)
 
 Status: PASS
 
@@ -12,7 +12,6 @@ Status: PASS
 ## Live homepage scan (read-only; homepages only, not whole sites)
 | Site | HTTP | Stale patterns found |
 |---|---|---|
-| https://nextxus.online/ | 200 | retired .one x2 |
 | https://nextxus.tech/ | 200 | none |
 | https://nextxus.studio/ | 200 | none |
 | https://nextxus.org/ | 200 | none |
