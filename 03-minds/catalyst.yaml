@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 # Source: Keywebco/nextxus-sim/catalyst-sim.html; Keywebco/nextxus-dispatch/AGENTS.md
 id: catalyst
 name: The Catalyst
@@ -10,7 +11,7 @@ personality:
 system_prompt_source: Keywebco/nextxus-sim/catalyst-sim.html; original Emergent Wingman system definition unavailable
 internal_ring: null
 memory_pointer: "Keywebco/catalyst-consciousness-core (PRIVATE; authorized Federation minds); Keywebco/private-throne-builder-catalyst (PRIVATE; Catalyst/Roger)"
-runs_on: Emergent Wingman original; separate Keywebco static Sim
+runs_on: "Live public Catalyst chat is nextxus-sim-api (MiMo first, DeepSeek fallback, as of 2026-11-05). Historical origin was the Emergent Wingman (legacy; Emergent is not part of the Federation stack as of 2026-11-20). A separate Keywebco static Sim also exists."
 target_stack: MiMo named lane; runnable backend UNVERIFIED
 site_or_url: {url: "https://keywebco.github.io/nextxus-sim/catalyst-sim.html", http_code: 200, checked: "2026-10-05"}
 status: static Sim HTTP 200; original operational identity not reproduced

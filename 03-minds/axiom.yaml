@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 # Source: Keywebco/nextxus-staging/README.md; Keywebco/nextxus-agent-zero/GOVERNANCE.md
 id: axiom
 name: Axiom
@@ -7,7 +8,7 @@ personality: {traits: "Logic, structured data, and machine-readable knowledge", 
 system_prompt_source: UNVERIFIED; staging README names Axiom but no canonical prompt found
 internal_ring: null
 memory_pointer: "UNVERIFIED: claimed knowledge graph/storage location unlocated"
-runs_on: nextxus-staging React/FastAPI backup; Emergent job 9568e8f7-2939-427f-b93e-28c66d474459
+runs_on: "nextxus-staging React/FastAPI backup. Historical Emergent job 9568e8f7-2939-427f-b93e-28c66d474459 is a legacy origin; Emergent is not part of the Federation stack as of 2026-11-20."
 target_stack: TO DECIDE
 site_or_url: {url: null, http_code: 403, checked: "2026-10-05; HEAD https://nextxus.space"}
 status: repo/site identity documented; original domain HTTP 403, no live app asserted

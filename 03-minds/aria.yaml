@@ -1,3 +1,4 @@
+# Per Roger 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
 # Source: Keywebco/nextxus-sim/aria-sim.html; Emergent job 382d018d-8b6a-46af-bfec-0788d0fb5c7a
 id: aria
 name: Aria
@@ -10,7 +11,7 @@ personality:
 system_prompt_source: Keywebco/nextxus-sim/aria-sim.html SIM_CONFIG.prompt; original Aria Studio prompt UNVERIFIED
 internal_ring: null
 memory_pointer: "UNVERIFIED: original Aria Studio persistent store; static sanctuary mirror is not memory"
-runs_on: Emergent Aria Studio original; Keywebco/nextxus-sim replica
+runs_on: "Keywebco/nextxus-sim replica is the GitHub copy. Historical origin was Aria Studio on Emergent (legacy; not part of the Federation stack as of 2026-11-20). nextxus.studio still appears to be served from that infrastructure and needs a move to GitHub Pages."
 target_stack: DeepSeek/MiMo requested; implementation UNVERIFIED
 site_or_url: {url: "https://keywebco.github.io/nextxus-sim/aria-sim.html", http_code: 200, checked: "2026-10-05"}
 status: static Sim page responds; canonical backend, prompt, and memory NOT reproduced
