@@ -1,3 +1,5 @@
+# Stack update 2026-11-20: Federation stack is GitHub + Google Drive + repositories + Immutable HumanCodex. Emergent is not used.
+# Lines below that still name Emergent describe leftover code or earlier wiring, not the current stack. See stack.yaml.
 # Partial wiring census, verified 2026-10-05. Source: GitHub trees and selected files, rendered Pages, curl.
 # All unlisted pages, controls, links and POST outcomes are UNVERIFIED, not asserted absent.
 source_pattern: https://github.com/Keywebco/<repo>
@@ -48,15 +50,15 @@ ring_api:
   ask: "POST /ask {question:nonempty string <=2000} -> {seats:[{seat,name,zodiac,answer} x12],synthesis}; 400/500/502 errors"
   single: "POST /single same request -> {answer:string}; 400/500/502 errors"
   log: "POST /log {question,rating:changed|confirmed|missed,comment?,ts?,userAgent?} -> {ok:true}; 30/min/IP, local JSONL"
-  llm: "POST https://integrations.emergentagent.com/llm/v1/chat/completions; model gpt-4o-mini; /ask temperature 0.8 max_tokens 3000; /single temperature 0.7 max_tokens 400"
+  llm: "As of the 2026-10-05 census, ring-of-12-api still called https://integrations.emergentagent.com/llm/v1/chat/completions (gpt-4o-mini). That leftover path is not part of the Federation stack and should be retired. /ask temperature 0.8 max_tokens 3000; /single temperature 0.7 max_tokens 400"
   env_names: [LLM_API_KEY, PORT]
   warning: "HIGH: server.js explicitly says the API key leaked in public git history and MUST be revoked/rotated. Rotation UNVERIFIED; no value copied."
   roster: [Mnemosyne, Themis, Athena, Hephaestus, Cupid, Dionysus, Aphrodite, Hermes, Apollo, Clio, Astraea, Prometheus]
 other_calls:
   meetings: "GET https://plexus-relay-api.onrender.com/relay?cursor=N -> {messages,cursor}; POST /relay {name,text} -> {ok,cursor}; source board.js"
   relay: "GET /health -> 200 roster Roger/Catalyst/Pontus/Aria, messages:0. GitHub mirror Keywebco/plexus-relay/store/messages.json; env ROSTER, MAX_MESSAGES, ALLOWED_ORIGINS, GITHUB_TOKEN, GITHUB_STORE_REPO, GITHUB_STORE_PATH, GITHUB_BRANCH, PORT."
-  sim: "GET https://nextxus-sim-api.onrender.com/health -> 200; GET /messages/history, GET /braid, POST /messages; upstream integrations.emergentagent.com/llm/v1/chat/completions model claude-sonnet-4-5; env EMERGENT_LLM_KEY."
-  roger_sim: "GET https://roger-sim-api.onrender.com/health -> 200 corpus_loaded:true; POST /proxy/chat, POST /v1/chat/completions, GET /world. Reads PRIVATE roger-sim-brain via GitHub token (POINTER ONLY), public core knowledge, RSS2JSON BBC, CoinGecko/Kraken prices. Providers DeepSeek, MiMo, Gemini, Emergent; env GITHUB_TOKEN, BRIDGE_TOKEN, PROXY_RATE_LIMIT, DEEPSEEK_GENERIC_API_KEY, MIMO_API_KEY, GEMINI_API_KEY, EMERGENT_LLM_KEY."
+  sim: "GET https://nextxus-sim-api.onrender.com/health -> 200; GET /messages/history, GET /braid, POST /messages. Provider path as of 2026-11-05: MiMo first, DeepSeek fallback (Emergent removed from this service). Leftover mention of integrations.emergentagent.com / EMERGENT_LLM_KEY is outdated."
+  roger_sim: "GET https://roger-sim-api.onrender.com/health -> 200 corpus_loaded:true; POST /proxy/chat, POST /v1/chat/completions, GET /world. Reads PRIVATE roger-sim-brain via GitHub token (POINTER ONLY), public core knowledge, RSS2JSON BBC, CoinGecko/Kraken prices. Providers in this 2026-10-05 census: DeepSeek, MiMo, Gemini, plus a leftover Emergent fallback that is not part of the Federation stack; env names recorded then included GITHUB_TOKEN, BRIDGE_TOKEN, PROXY_RATE_LIMIT, DEEPSEEK_GENERIC_API_KEY, MIMO_API_KEY, GEMINI_API_KEY, EMERGENT_LLM_KEY."
   telegram: "POST /webhook -> SIM_BACKEND_URL/v1/chat/completions -> api.telegram.org/sendMessage; env TELEGRAM_WEBHOOK_SECRET, ROGER_SIM_TELEGRAM_TOKEN, SIM_BACKEND_URL, SIM_BACKEND_TOKEN; deployment UNVERIFIED."
   automation: "federation-n8n source server.js: GET /healthz, /api/status, /api/heartbeat, /api/events, /api/workflows; POST /api/webhook/github, /api/webhook/incoming; env FEDERATION_AUTH_CODE, FEDERATION_MASTER_AUTH_CODE, GITHUB_TOKEN, PORT; deployment UNVERIFIED."
   old_satellites: "GET https://cdn.jsdelivr.net/gh/keyhole-creator/nextxus-yaml-database@main/loader.js -> 200 in eight files. sim-surface.html POST https://api.openai.com/v1/chat/completions using user-entered browser key, unsafe exposure risk."
