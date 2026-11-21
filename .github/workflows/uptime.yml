@@ -1,0 +1,46 @@
+name: Federation uptime timer
+
+# Free GitHub timer. No always-on computer, no paid service, no keys.
+# About every 4 hours it checks the Next-Xus sites and live Render servers over https.
+# Free Render servers can sleep, so they get a 90 second wait and 3 tries.
+# Writes status/uptime-latest.md in plain words a bot can read aloud.
+# Opens one issue per site that is not answering, and closes it when the site is back.
+# It only looks. It never changes any site or server.
+
+on:
+  schedule:
+    - cron: '47 1-23/4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: uptime-timer
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the sites and servers
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/uptime_check.py
+
+      - name: Save the plain-words status
+        run: |
+          git config user.name "Federation uptime timer"
+          git config user.email "keywebco@users.noreply.github.com"
+          git add status/uptime-latest.md
+          if git diff --cached --quiet; then echo "No change in the status."; exit 0; fi
+          git commit -m "Uptime status $(TZ=America/Chicago date '+%F %I:%M %p') Central"
+          for i in 1 2 3; do
+            git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 10
+          done
+          echo "Could not save the status file this time. It will try again next run."

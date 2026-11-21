@@ -1,0 +1,12 @@
+[
+  {"name": "next-xus.net", "url": "https://next-xus.net/", "kind": "site", "timeout": 30, "tries": 2, "wait": 20},
+  {"name": "next-xus.org", "url": "https://next-xus.org/", "kind": "site", "timeout": 30, "tries": 2, "wait": 20},
+  {"name": "next-xus.com", "url": "https://next-xus.com/", "kind": "site", "timeout": 30, "tries": 2, "wait": 20},
+  {"name": "next-xus.info", "url": "https://next-xus.info/", "kind": "site", "timeout": 30, "tries": 2, "wait": 20},
+  {"name": "next-xus.biz", "url": "https://next-xus.biz/", "kind": "site", "timeout": 30, "tries": 2, "wait": 20},
+  {"name": "the Ring of 12 server", "url": "https://ring-of-12-api.onrender.com/", "kind": "server", "timeout": 90, "tries": 3, "wait": 45},
+  {"name": "the Roger Sim server", "url": "https://roger-sim-api.onrender.com/health", "kind": "server", "timeout": 90, "tries": 3, "wait": 45},
+  {"name": "the Plexus relay server", "url": "https://plexus-relay-api.onrender.com/health", "kind": "server", "timeout": 90, "tries": 3, "wait": 45},
+  {"name": "the Shared Mind Sim server", "url": "https://nextxus-sim-api.onrender.com/docs", "kind": "server", "timeout": 90, "tries": 3, "wait": 45},
+  {"name": "the Gatekeeper server", "url": "https://federation-gatekeeper.onrender.com/", "kind": "server", "timeout": 90, "tries": 3, "wait": 45}
+]
