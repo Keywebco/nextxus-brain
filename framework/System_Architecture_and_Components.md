@@ -1,6 +1,6 @@
 # System Architecture and Components
 
-The Framework's conceptual triad is the Living Library (knowledge), Rings (independent perspectives) and United Hub (coordination). Deployment follows Cathedral/Core plus independent specialized satellites. `nextxus.online` is the intended content authority; this brain repository is a portable map, not proof that every site already consumes it.
+The Framework's conceptual triad is the Living Library (knowledge), Rings (independent perspectives) and United Hub (coordination). Deployment follows Cathedral/Core plus independent specialized satellites. `nextxus.online` was the intended content authority (retired 2026-11-20 by Roger Keyserling: legacy Emergent site, content folded into next-xus.net, next-xus.biz and the GitHub copies; the official lists now live in this brain); this brain repository is a portable map, not proof that every site already consumes it.
 
 ## Boundaries
 

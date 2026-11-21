@@ -654,7 +654,8 @@ records:
   type: repo-site
   location: https://github.com/Keywebco/nextxus-online-sovereign
   live_url: https://nextxus.online
-  live_url_status: verified
+  live_url_status: retired
+  retired_note: 'Retired 2026-11-20 by Roger Keyserling: legacy Emergent site, content folded into next-xus.net, next-xus.biz and the GitHub copies.'
   description: NextXus Core — nextxus.online sovereign pillar (built 2026-08-23, doctrine-first)
   private: false
   readme: complete
