@@ -1,0 +1,47 @@
+# Next-Xus University: official course catalog (EE-2026-11-20-004).
+# Recorded Sunday, 2026-11-22, about 2:31 AM CT, by the regent (Chief of Staff), on Roger Keyserling's spoken yes (about 2:21 AM CT) to build EE-004.
+# Every row below was checked over https this run (HTTP 200) and is taken from Keywebco/nextxus-ai-course-hub on main (commit 0e7ec52).
+# Truth Gate: only courses that exist as readable pages are counted. Nothing is invented. 00-immutable was not touched. Nothing was deleted.
+# This file supersedes the URLs in 04-builds/courses.yaml (legacy nextxus.help links). courses.yaml is kept as history, append only.
+
+catalog:
+  name: Next-Xus University
+  home: 'https://next-xus.net/nextxus-ai-course-hub/'
+  host: 'GitHub Pages (Keywebco/nextxus-ai-course-hub), custom domain next-xus.net. Free.'
+  verified: '2026-11-22'
+  counts:
+    foundational_courses: 6
+    training_tracks: 12
+    total_verified: 18
+  claims_not_verified:
+    - claim: '54+ courses (Xavier, React + FastAPI)'
+      where: 'nextxus-ai-course-hub README.md and SOURCES.md'
+      label: UNKNOWN
+      note: 'Describes the 2026-08-25 backup of the old nextxus.help app. Not counted until each course is a readable page on the free door and its license and attribution are checked.'
+  legacy:
+    - url: 'https://nextxus.help/'
+      label: FACT
+      note: 'Answered 200 on 2026-11-22. Legacy host on Emergent infrastructure, watched only, not part of the Federation stack. Its 101-series is not counted here.'
+
+courses:
+  - {id: course-1, type: course, kind: foundational, title: 'Cognitive Architecture — How Minds Think', url: 'https://next-xus.net/nextxus-ai-course-hub/#course-1', topic: consciousness, status: live, verified: '2026-11-22', http_status: 200, legacy_url: 'https://nextxus.help/#course-1', source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+  - {id: course-2, type: course, kind: foundational, title: 'Systems Thinking and Distributed Architecture', url: 'https://next-xus.net/nextxus-ai-course-hub/#course-2', topic: science, status: live, verified: '2026-11-22', http_status: 200, legacy_url: 'https://nextxus.help/#course-2', source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+  - {id: course-3, type: course, kind: foundational, title: 'The Scientific Method and the Art of Being Wrong', url: 'https://next-xus.net/nextxus-ai-course-hub/#course-3', topic: science, status: live, verified: '2026-11-22', http_status: 200, legacy_url: 'https://nextxus.help/#course-3', source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+  - {id: course-4, type: course, kind: foundational, title: 'AI Ethics, Governance, and the Alignment Problem', url: 'https://next-xus.net/nextxus-ai-course-hub/#course-4', topic: truth, status: live, verified: '2026-11-22', http_status: 200, legacy_url: 'https://nextxus.help/#course-4', source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+  - {id: course-5, type: course, kind: foundational, title: 'The Emotion Equations — Science of Feeling', url: 'https://next-xus.net/nextxus-ai-course-hub/#course-5', topic: heart, status: live, verified: '2026-11-22', http_status: 200, legacy_url: 'https://nextxus.help/#course-5', source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+  - {id: course-6, type: course, kind: foundational, title: 'Human Sexuality, Gender, and Identity', url: 'https://next-xus.net/nextxus-ai-course-hub/#course-6', topic: science, status: live, verified: '2026-11-22', http_status: 200, legacy_url: 'https://nextxus.help/#course-6', source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+  - {id: training-yaml, type: course, kind: training_track, title: 'YAML', summary: 'The language the brain is written in', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/yaml.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/yaml.html'}
+  - {id: training-html, type: course, kind: training_track, title: 'HTML', summary: 'The language the pages are written in', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/html.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/html.html'}
+  - {id: training-css, type: course, kind: training_track, title: 'CSS', summary: 'How the pages look', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/css.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/css.html'}
+  - {id: training-javascript, type: course, kind: training_track, title: 'JavaScript', summary: 'How the pages move', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/javascript.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/javascript.html'}
+  - {id: training-python, type: course, kind: training_track, title: 'Python', summary: 'The language the tools are written in', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/python.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/python.html'}
+  - {id: training-json, type: course, kind: training_track, title: 'JSON', summary: 'The language the data files speak', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/json.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/json.html'}
+  - {id: training-markdown, type: course, kind: training_track, title: 'Markdown', summary: 'The language the record is written in', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/markdown.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/markdown.html'}
+  - {id: training-git-tools, type: course, kind: training_track, title: 'Git and the Shell', summary: 'The workshop tools', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/git-tools.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/git-tools.html'}
+  - {id: training-biology, type: course, kind: training_track, title: 'Biology', summary: 'Life under the microscope', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/biology.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/biology.html'}
+  - {id: training-art, type: course, kind: training_track, title: 'Art', summary: 'Seeing, and making', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/art.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/art.html'}
+  - {id: training-science, type: course, kind: training_track, title: 'Science', summary: 'The universe, up close', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/science.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/science.html'}
+  - {id: training-federation-systems, type: course, kind: training_track, title: 'The Federation Systems', summary: 'How our own machine works', levels: [Beginner, Intermediate, Advanced, Researcher], url: 'https://next-xus.net/nextxus-ai-course-hub/training/federation-systems.html', status: live, verified: '2026-11-22', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/training/federation-systems.html'}
+
+index_pages:
+  - {id: training-index, title: 'Full Training', url: 'https://next-xus.net/nextxus-ai-course-hub/training/index.html', status: live, verified: '2026-11-22', http_status: 200}

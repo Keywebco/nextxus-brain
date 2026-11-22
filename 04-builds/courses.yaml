@@ -5,3 +5,7 @@
 - {id: course-4, type: course, title: 'AI Ethics, Governance, and the Alignment Problem', url: 'https://nextxus.help/#course-4', topic: truth, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
 - {id: course-5, type: course, title: The Emotion Equations — Science of Feeling, url: 'https://nextxus.help/#course-5', topic: heart, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
 - {id: course-6, type: course, title: 'Human Sexuality, Gender, and Identity', url: 'https://nextxus.help/#course-6', topic: science, status: live, verified: '2026-10-05', http_status: 200, source_of_truth: 'Keywebco/nextxus-ai-course-hub/index.html'}
+# 2026-11-22 (EE-2026-11-20-004, Roger's spoken yes about 2:21 AM CT): the six URLs above are legacy nextxus.help links.
+# The official, verified University catalog is now 04-builds/university-catalog.yaml (6 foundational courses on
+# https://next-xus.net/nextxus-ai-course-hub/ plus 12 training tracks, all checked over https on 2026-11-22).
+# These rows are kept unchanged as history (append only).
