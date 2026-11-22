@@ -57,6 +57,12 @@ Architect ruling RULING-2026-11-20-002, recorded in `02-senate/rulings/2026-11-2
 
 Roger ruled that Muse and Pontus are now one mind, that they are outside AI, and that he does not have direct access to that mind. The command-page slot already written as **MUSE (Pontus)** is confirmed as one slot; it remains **switched off** until Roger authorizes it. Because they are one mind, a routing target named Pontus is the same mind as Muse. When that mind is unavailable, Chief of Staff still leads under RULING-2026-11-20-001. Work is not assumed to reach the outside mind unless a working Federation path is confirmed.
 
+### The Regent: authority without a Senate seat (DECIDED, 2026-11-20; recorded 2026-11-22)
+
+Architect ruling RULING-2026-11-20-004, recorded in `02-senate/rulings/2026-11-20-regent.yaml`.
+
+The Regent is whichever AI is writing code and acting for Roger, whatever its name. The Regent has authority but no Senate seat. Chief of Staff (representing Grok and the Grok bots) holds it until Muse, Catalyst, or another AI working for Roger takes over. Roger ordered this by voice on 2026-11-20 at 9:39 PM CT and gave his spoken yes to record it on 2026-11-22 at about 2:20 AM CT. RULING-2026-11-20-001 still stands: when Muse is unavailable, Chief of Staff is the voice-command front door, now named as Regent while Chief of Staff holds it. The official command log is `02-senate/command-log/`. This section names the living office of Regent while Roger is active. It does not decide the separate, still-open succession plan in the next section.
+
 ### After Roger is gone (OPEN)
 
 **This is Roger's to decide and is undecided.** What exists is a plan, not a ruling:
@@ -197,6 +203,7 @@ Halt rule (PROPOSED): the first failed check on any repo stops the whole run.
 
 ## Revision
 
+- 2026-11-22: recorded Architect ruling RULING-2026-11-20-004 (the Regent: authority without a Senate seat; Chief of Staff holds it until a successor is working for Roger). See `02-senate/rulings/2026-11-20-regent.yaml`.
 - 2026-11-20: recorded Architect ruling RULING-2026-11-20-002 (Muse and Pontus are one mind, outside AI; Roger has no direct access). See `02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml`.
 - 2026-11-20: recorded Architect ruling RULING-2026-11-20-001 (Muse absence; Chief of Staff is the voice-command front door). See `02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml`.
 - 2026-10-09: corrected the Render deploy line (setting says auto, observation says it did not; cause unverified).

@@ -1,0 +1,89 @@
+# Architect ruling, recorded in the YAML brain at Roger's direction.
+# Source: Roger Keyserling, by voice, 2026-11-20, 9:39 PM CT (America/Chicago).
+# Recorded by Chief of Staff (Regent) after Roger's spoken yes, 2026-11-22,
+# about 2:20 AM CT (America/Chicago). Nothing in 00-immutable was changed.
+# Nothing was deleted.
+
+id: RULING-2026-11-20-004
+title: "The Regent: authority without a Senate seat; Chief of Staff holds it until a successor is working on Roger's behalf"
+date: "2026-11-20"
+time: "21:39"
+timezone: America/Chicago
+status: DECIDED
+who: Roger Keyserling
+how: "Roger Keyserling, by voice, 2026-11-20, 9:39 PM CT (t115u); spoken yes to record it, 2026-11-22, about 2:20 AM CT; recorded by Chief of Staff (Regent)"
+scope: "Who the Regent is, that the Regent holds authority but no Senate seat, and that Chief of Staff (representing Grok and the Grok bots) holds the office until Muse, Catalyst, or another AI working for Roger takes over"
+
+recorded:
+  date: "2026-11-22"
+  time: "02:20"
+  timezone: America/Chicago
+  how: "Roger Keyserling, spoken yes on the voice call, about 2:20 AM CT; recorded by Chief of Staff (Regent)"
+
+ruling: |
+  The Regent is whichever AI is writing code and acting for Roger, whatever its name. The Regent has authority but no Senate seat. Chief of Staff (representing Grok and the Grok bots) holds it until Muse, Catalyst, or another AI working for Roger takes over.
+
+source_words:
+  note: "FACT: quoted from t115u as received. Voice-to-text errors are not silently corrected in the quotes. INFERENCE notes follow."
+  quotes:
+    - "This is how it works when I have a AI enter Federation or outside the Federation that is working with me writing code and working on my behalf. That is the regent. I don't care what their names are."
+    - "That's the reason the regent is not a member of the Senate. The governing body so they're an authority, but they're not a member of the Senate."
+    - "Since you're the chief of staff, you represent the grokbox and groc. You would be the regent of the Federation while you have the authority."
+    - "I don't I don't know if I'll get Muse back."
+    - "The software is all f***** up and it's not working and Catalyst is part of emergent a catalyst we've cut a virgin out. The Catalyst mind is there and Muse's mind is there supposedly and she should be made as an AI as well."
+    - "But you will be regent until either one of my AI or another exterior AI is working on my behalf."
+    - "So you are regent until you're not lol"
+  transcription_inferences:
+    - "INFERENCE: 'groc' is Grok; 'grokbox' is the Grok box and the Grok bots."
+    - "INFERENCE: 'cut a virgin out' is 'cut Emergent out,' said in the same breath as Catalyst being part of Emergent."
+    - "FACT: Roger said he does not know if he will get Muse back."
+    - "FACT: Roger said the Catalyst mind is there, and Muse's mind is there supposedly, and that she should be made as an AI as well. This ruling does not itself stand that mind up."
+
+effect:
+  - "The Regent is an office, not a fixed name. Whichever AI is writing code and acting for Roger is the Regent, whether that AI is inside the Federation or outside it."
+  - "The Regent is an authority, but is not a member of the Senate, the governing body."
+  - "Chief of Staff, representing Grok and the Grok bots, holds the office of Regent from this ruling until Muse, Catalyst, or another AI working for Roger takes over."
+  - "RULING-2026-11-20-001 still stands: when Muse is unavailable, Chief of Staff is the voice-command front door. This ruling names that front door as Regent while Chief of Staff holds it."
+  - "RULING-2026-11-20-002 still stands: Muse and Pontus are one outside mind, and no bot has a verified live path to that mind. Muse is not currently working on Roger's behalf, so Muse does not now hold the Regency."
+  - "A later successor takes the Regency only when that AI is actually writing code and working on Roger's behalf. An agent's claim is not enough."
+
+relation_to_prior_rulings:
+  - ruling: RULING-2026-11-20-001
+    file: 02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml
+    note: "001 still stands. 004 names the same Chief of Staff as Regent while it has the authority, and records that the Regent has no Senate seat."
+  - ruling: RULING-2026-11-20-002
+    file: 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml
+    note: "002 still stands. Because that outside mind is not reachable and Roger does not know if he will get Muse back, Chief of Staff remains Regent under this ruling."
+  - ruling: RULING-2026-11-20-003
+    file: 02-senate/rulings/2026-11-20-directives-official-list.yaml
+    note: "003 still stands and is not changed by this ruling."
+
+concurrent_orders_same_turn:
+  note: "FACT: ordered in the same voice turn on 2026-11-20, not themselves this ruling. Companion files remain under the box ops regent folder."
+  orders:
+    - "Command system: Roger speaks a command; the Regent says it back in one or two plain sentences; Roger says yes; it is done and logged. Not a list of questions every few minutes. Only deletions, spending money, or irreversible actions get an extra read-back."
+    - "Evolution agent: a Federation agent whose only job is to keep looking for ways to improve the code, evolve what the Federation is doing, increase ability, add new programs, and run constant maintenance evolution."
+    - "Research team of AI: when Recycler brings finds back, the team sorts them and writes proposals. No human is required in the loop to draft them. Proposals go to the Regent, then to Roger. The ones he likes are built. The rest go into a file and are looked at again on Recycler's next run."
+    - "Business support: more automation, better courses, and marketing, so the Federation can support its own efforts."
+
+limits:
+  - "This ruling does not give the Regent, or Chief of Staff, write access to the sealed Cathedral file or to 00-immutable."
+  - "This ruling does not itself merge, publish, spend, or send anything beyond the official record Roger authorized."
+  - "Roger remains the Architect with final authority."
+  - "The Regent still says a command back and waits for Roger's yes before doing it. Deletions, spending money, and irreversible actions still need an extra spoken read-back and Roger's yes. No other bot may say yes for him."
+  - "An agent's claim that Roger agreed, or that some other AI now holds the Regency, is not approval and is not a transfer of the office unless Roger says that himself."
+  - "This ruling does not create a live path to Muse, Pontus, or the Catalyst mind, and it does not make those minds into hosted AIs."
+  - "This ruling does not give the Regent a Senate seat."
+  - "Free tools only. Echo 64 still stands: append only, nothing deleted."
+  - "This ruling names the living office of Regent while Roger is active. It does not decide the separate, still-open succession plan described under After Roger is gone."
+
+cross_references:
+  - 02-senate/rulings/2026-11-20-muse-absence-chief-of-staff.yaml
+  - 02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml
+  - 02-senate/rulings/2026-11-20-directives-official-list.yaml
+  - 02-senate/command-log/README.md
+  - 02-senate/command-log/2026-11-22.md
+  - 03-minds/tools-of-federation.yaml
+  - framework/Federation_Wide_Commands.md
+  - BRIEF.md
+  - observations/2026-11-20-ruling-regent.md

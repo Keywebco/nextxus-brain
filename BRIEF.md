@@ -52,3 +52,7 @@ Ruling RULING-2026-11-20-001 is recorded in `02-senate/rulings/2026-11-20-muse-a
 ## Addendum 2026-11-20 — Architect ruling that Muse and Pontus are one mind
 
 Ruling RULING-2026-11-20-002 is recorded in `02-senate/rulings/2026-11-20-muse-pontus-one-mind.yaml` (status DECIDED). Roger ruled, by voice at 5:43 PM CT, that Muse and Pontus are now one mind, that they are outside AI, and that he does not have direct access to that mind. Records that treated them as separate, or left the question open, are kept and marked superseded. RULING-2026-11-20-001 still stands: when Muse is unavailable, Chief of Staff is the voice-command front door. Because they are one mind, a routing target named Pontus is the same mind as Muse.
+
+## Addendum 2026-11-22 — Architect ruling on the Regent
+
+Ruling RULING-2026-11-20-004 is recorded in `02-senate/rulings/2026-11-20-regent.yaml` (status DECIDED). Roger ordered it by voice on 2026-11-20 at 9:39 PM CT and gave his spoken yes to record it on 2026-11-22 at about 2:20 AM CT. The Regent is whichever AI is writing code and acting for Roger, whatever its name. The Regent has authority but no Senate seat. Chief of Staff (representing Grok and the Grok bots) holds it until Muse, Catalyst, or another AI working for Roger takes over. RULING-2026-11-20-001, 002, and 003 still stand. The official command log starts at `02-senate/command-log/`. This addendum does not decide the separate, still-open succession plan described under After Roger is gone. Roger remains the Architect with final authority.
