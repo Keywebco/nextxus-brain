@@ -1,0 +1,105 @@
+name: Health check draft fix (review branch only)
+
+# EE-2026-11-20-002. Builds the review-branch half of the recorded health-check exception.
+# When the Federation health check fails, this reads its report. If the only trouble is an exact
+# live Gumroad book title missing from an allowed site (today: the Portal), it adds that title and
+# its Gumroad link inside one marked block, on a REVIEW BRANCH of that site. It never writes to main,
+# never merges, never deletes, and uses no AI model. It then comments on the open health-check issue.
+# Roger says the merge word. Revoke at his word by disabling or deleting this workflow by human merge.
+# Needs the existing secret BUILD_GITHUB_TOKEN (already used by Command build). If it is not set,
+# the run stops and says so.
+
+on:
+  workflow_run:
+    workflows: ["Federation health check"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: health-draft-fix
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get the hub (this repo, latest report)
+        uses: actions/checkout@v4
+        with:
+          path: hub
+          ref: main
+          fetch-depth: 1
+
+      - name: Install the YAML reader
+        run: python3 -m pip install --quiet pyyaml
+
+      - name: Plan (only exact live book titles on allowed sites)
+        id: plan
+        working-directory: hub
+        run: python3 .github/scripts/health_draft_fix.py plan
+
+      - name: Stop if the token is missing
+        if: steps.plan.outputs.repo != ''
+        env:
+          HAS_TOKEN: ${{ secrets.BUILD_GITHUB_TOKEN != '' }}
+        run: |
+          if [ "$HAS_TOKEN" != "true" ]; then
+            echo "BUILD_GITHUB_TOKEN is not set. A person must add it before this robot can draft a fix." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: Get the target site (main)
+        if: steps.plan.outputs.repo != ''
+        uses: actions/checkout@v4
+        with:
+          repository: Keywebco/${{ steps.plan.outputs.repo }}
+          token: ${{ secrets.BUILD_GITHUB_TOKEN }}
+          ref: main
+          path: target
+          fetch-depth: 1
+
+      - name: Draft the fix (insert only)
+        if: steps.plan.outputs.repo != ''
+        run: python3 hub/.github/scripts/health_draft_fix.py apply target
+
+      - name: Save to a review branch
+        id: save
+        if: steps.plan.outputs.repo != ''
+        run: |
+          set -e
+          cd target
+          if git diff --quiet; then echo "Nothing new to draft." | tee -a "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          BR="health-fix/$(date -u +%F)-${GITHUB_RUN_ID}"
+          git config user.name "Health check draft fix"
+          git config user.email "keywebco@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A
+          git commit -m "Health draft fix: $(head -c 150 "$RUNNER_TEMP/draft_fix_summary.txt")"
+          git push origin "$BR"
+          echo "branch=$BR" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Review branch: \`$BR\` in Keywebco/${{ steps.plan.outputs.repo }}"
+            git diff --stat HEAD~1 HEAD
+            echo "Removed lines: $(git diff HEAD~1 HEAD | grep -c '^-[^-]' || true)"
+            echo "Nothing is live. Read the diff, then Roger says the merge word."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Tell the open health-check issue
+        if: steps.save.outputs.branch != ''
+        uses: actions/github-script@v7
+        env:
+          BR: ${{ steps.save.outputs.branch }}
+          REPO: ${{ steps.plan.outputs.repo }}
+        with:
+          script: |
+            const open = await github.rest.issues.listForRepo({owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'health-check'});
+            if (open.data.length === 0) return;
+            await github.rest.issues.createComment({owner: context.repo.owner, repo: context.repo.repo, issue_number: open.data[0].number,
+              body: 'Draft fix saved to review branch `' + process.env.BR + '` in Keywebco/' + process.env.REPO +
+                    '. Insert only, no AI model, nothing merged, nothing live. Waiting for Roger\'s merge word.'});
