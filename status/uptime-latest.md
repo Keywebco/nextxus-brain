@@ -1,6 +1,6 @@
 # Federation uptime, latest check
 
-Checked at 4:29 AM Central on Wednesday, November 25.
+Checked at 4:46 PM Central on Wednesday, November 25.
 
 All 10 Federation sites and servers answered.
 
