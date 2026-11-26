@@ -1,0 +1,36 @@
+# Wording proposal, recorded on a review branch by Chief of Staff, 2026-11-25 (America/Chicago).
+# PROPOSED only. The choice is Roger's. Nothing on any site or in products.yaml is changed by this file.
+# 00-immutable was not touched. No personal information.
+
+id: PROPOSAL-2026-11-25-001
+title: "One title for The Gravity of Us across the store page, products.yaml and the health check"
+date: "2026-11-25"
+timezone: America/Chicago
+status: PROPOSED
+kind: wording_choice
+implements: false
+decision_owner: Roger Keyserling
+
+facts:
+  - "FACT (checked 2026-11-25): the live Gumroad listing https://keywebster.gumroad.com/l/rnhbhi is titled 'The Gravity of Us: Complete Poetry Collection'."
+  - "FACT: 04-builds/products.yaml (id gumroad-rnhbhi) uses the same full title."
+  - "FACT: .github/scripts/health_targets.json requires that full title on the Portal (https://keywebco.github.io/)."
+  - "FACT: Keywebco/keywebco.github.io store.html uses the short title 'The Gravity of Us' (list link, card heading, image alt text, and JSON-LD product name)."
+  - "FACT: the Federation health check has failed on every recent run at 41 of 42, because the Portal lacks this full title and 'The Ascendence of Synthetic Intelligence' (issue #7)."
+  - "FACT: open PR Keywebco/keywebco.github.io#2 (EE-002) adds a Portal card with the full title. That PR alone fixes the health check, whichever option is picked here."
+
+options:
+  A:
+    summary: "Use the full title everywhere."
+    change: "store.html shows 'The Gravity of Us: Complete Poetry Collection' in its list link, card heading, alt text and JSON-LD name. products.yaml and the health check stay as they are."
+    pro: "Matches Gumroad exactly; buyers see the same name on both sites."
+  B:
+    summary: "Keep the short title on the store page, with the full title as the official record."
+    change: "No store change. products.yaml keeps the full title, and the store keeps 'The Gravity of Us' as a display name, with the subtitle shown under it."
+    pro: "Shorter card text; nothing on the store page moves."
+  C:
+    summary: "Make the short title the official one."
+    change: "Rename the Gumroad listing and products.yaml to 'The Gravity of Us', and change the health-check phrase to match."
+    pro: "Shortest name everywhere. Needs a Gumroad edit, which only Roger can make."
+
+open_question: "Which option, A, B or C? After Roger's word, the matching change goes on its own review branch."
