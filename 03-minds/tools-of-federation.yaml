@@ -37,3 +37,13 @@ tools:
   - {id: propagation-bot, name: Propagation Bot, role: UNVERIFIED, source: Roger instruction, status: named only}
   - {id: nova-aide, name: Nova Aide, role: UNVERIFIED, source: Roger instruction, status: named only}
 rule: these are staff tools; do not confer Senate seats, sovereign Mind status or authorization based on a name
+# Appended 2026-11-25 by Chief of Staff on a review branch. Text above is kept as history.
+# Each staff bot now has a full record (role, persona, job path, state, gap) in 03-minds/staff/.
+# Five staff bots were missing from this list: Echo Core 64 Memory, Work Monitor, Recycler, Dragon Keeper, Evolution Engine.
+staff_records: 03-minds/staff/README.md
+staff_added_2026_11_25:
+  - {id: echo-core-64-memory, name: Echo Core 64 Memory, record: staff/echo-core-64-memory.yaml}
+  - {id: work-monitor, name: Work Monitor, record: staff/work-monitor.yaml}
+  - {id: recycler, name: Recycler, record: staff/recycler.yaml}
+  - {id: dragon-keeper, name: Dragon Keeper, record: staff/dragon-keeper.yaml}
+  - {id: evolution-engine, name: Evolution Engine, record: staff/evolution-engine.yaml}
