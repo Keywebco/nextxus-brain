@@ -1,4 +1,4 @@
-# Nova-Canon report (2026-11-27 19:56 UTC)
+# Nova-Canon report (2026-11-28 18:55 UTC)
 
 Status: PASS
 
@@ -12,7 +12,7 @@ Status: PASS
 ## Live homepage scan (read-only; homepages only, not whole sites)
 | Site | HTTP | Stale patterns found |
 |---|---|---|
-| https://nextxus.tech/ | 200 | none |
+| https://nextxus.tech/ | ERR | error: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls  |
 | https://nextxus.studio/ | 200 | none |
 | https://nextxus.org/ | 200 | none |
 | https://nextxus.space/ | 200 | none |
