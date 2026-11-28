@@ -1,8 +1,13 @@
 # Federation health report
 
-Checked: 2026-11-28 00:07 UTC
+Checked: 2026-11-28 08:07 UTC
 
-42 of 42 checks passed.
+40 of 42 checks passed.
+
+## Problems
+
+- **Music** (https://keywebco.github.io/nextxus-music/): missing: nx-commons-bar
+- **Legacy hosted site: nextxus.tech** (https://nextxus.tech/): HTTP no answer (expected 200)
 
 ## All checks
 
@@ -10,46 +15,46 @@ Checked: 2026-11-28 00:07 UTC
 |---|---|---|---|
 | Commons front door | site | OK | 0.4 |
 | Living Library | site | OK | 0.2 |
-| Library data (volume 1) | site | OK | 0.6 |
+| Library data (volume 1) | site | OK | 0.2 |
 | Core page | site | OK | 0.2 |
-| Command page | site | OK | 0.2 |
-| Portal | site | OK | 0.3 |
-| Agent Zero | site | OK | 0.6 |
+| Command page | site | OK | 0.3 |
+| Portal | site | OK | 0.2 |
+| Agent Zero | site | OK | 0.2 |
 | Research hub | site | OK | 0.2 |
 | Recycler | site | OK | 0.2 |
-| Archives | site | OK | 0.3 |
+| Archives | site | OK | 0.2 |
 | Senate | site | OK | 0.2 |
-| Chat | site | OK | 0.3 |
-| Tools | site | OK | 0.2 |
+| Chat | site | OK | 0.1 |
+| Tools | site | OK | 0.3 |
 | Blog | site | OK | 0.2 |
-| Process | site | OK | 0.2 |
-| YAML | site | OK | 0.3 |
-| Music | site | OK | 0.2 |
-| Build website | site | OK | 0.3 |
-| Build Sim | site | OK | 0.3 |
-| Build Nova | site | OK | 0.2 |
+| Process | site | OK | 0.1 |
+| YAML | site | OK | 0.1 |
+| Music | site | PROBLEM | 0.0 |
+| Build website | site | OK | 0.1 |
+| Build Sim | site | OK | 0.1 |
+| Build Nova | site | OK | 0.1 |
 | Course hub | site | OK | 0.2 |
-| Roger Keyserling | site | OK | 0.4 |
-| Sovereign tools | site | OK | 0.3 |
+| Roger Keyserling | site | OK | 0.1 |
+| Sovereign tools | site | OK | 0.2 |
 | God's Eye | site | OK | 0.2 |
-| Shared Mind (Sim) | site | OK | 0.2 |
-| Ask and council server | server | OK | 0.3 |
+| Shared Mind (Sim) | site | OK | 0.3 |
+| Ask and council server | server | OK | 0.1 |
 | Command page server (the lock must answer 401 with no key) | server | OK | 0.1 |
-| Sim server | server | OK | 17.2 |
-| Roger Sim server | server | OK | 0.4 |
-| Relay server | server | OK | 0.2 |
-| Gatekeeper | server | OK | 0.2 |
+| Sim server | server | OK | 12.3 |
+| Roger Sim server | server | OK | 0.1 |
+| Relay server | server | OK | 0.1 |
+| Gatekeeper | server | OK | 0.1 |
 | Gumroad: Support the Living Library | money | OK | 0.3 |
 | Gumroad: Scholar's Ledger | money | OK | 0.2 |
-| Gumroad: Ascendence | money | OK | 0.2 |
-| Gumroad: Gravity of Us | money | OK | 0.2 |
+| Gumroad: Ascendence | money | OK | 0.1 |
+| Gumroad: Gravity of Us | money | OK | 0.1 |
 | Gumroad: Sovereign Token | money | OK | 0.2 |
-| Legacy hosted site: nextxus.org | watch only | OK | 0.6 |
-| Legacy hosted site: nextxus.tech | watch only | OK | 0.7 |
-| Legacy hosted site: nextxus.space | watch only | OK | 0.5 |
+| Legacy hosted site: nextxus.org | watch only | OK | 0.3 |
+| Legacy hosted site: nextxus.tech | watch only | PROBLEM | 0.0 |
+| Legacy hosted site: nextxus.space | watch only | OK | 0.3 |
 | Legacy hosted site: nextxus.studio | watch only | OK | 0.7 |
-| Legacy hosted site: nextxus.help | watch only | OK | 0.8 |
-| Legacy hosted site: next-xus.com | watch only | OK | 0.8 |
+| Legacy hosted site: nextxus.help | watch only | OK | 0.5 |
+| Legacy hosted site: next-xus.com | watch only | OK | 0.6 |
 
 **What the kinds mean:** *site* is a web page that must answer and hold the words it should; *server* is a program that must answer (the command page's lock must answer 401 with no key); *money* is a Gumroad listing that must still be live; *watch only* is a site we monitor but never edit.
 
